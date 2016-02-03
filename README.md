@@ -83,7 +83,8 @@ Scripting Languages
 | Python/ppgplot       | |
 | **Python/biggles**   | Available in Debian  |
 | **Python/pygame**    | Available in Debian  |
-| Python/cStringIO & cPickle | |
+| **Python/cStringIO** | Available as part of Python |
+| **Python/cPickle**   | Available as part of Python |
 | **Python/wx**        | wxPython. Available in Debian. |
 | *Python/PyRAF*       | Python replacement for IRAF cl from STScI. See IRAF.
 | **Python/PyFITS**    | Python FITS package from STScI. Available in Debian.
@@ -99,7 +100,7 @@ Scientific Libraries
 | Package              | Description |
 | -------------------- | ----------- |
 | **GSL**              | The GNU Scientific Library. Available in Debian. |
-| *DISLIN*             | Scientific Data Plotting software. Not DFGS-free |
+| *DISLIN*             | Scientific Data Plotting software. Not DFSG-free |
 | **CFITSIO**          | FITS File Subroutine Library. Available in Debian. |
 | **LAPACK**           | Linear Algebra Subroutine Library. Available in Debian. |
 | **Atlas**            | Another Linear Algebra Library. Available in Debian. |
@@ -125,7 +126,7 @@ Miscellaneous Utilities
 | **Astromatic/WeightWatcher** | Available in Debian |
 | Tiny Tim             | HST point-spread function simulation software |
 | *Xephem*             | Planetarium and ephemeris software. Not DFSG-Free. |
-| dss/dss2             | Digitized Sky Survey image extraction software |
+| *dss/dss2*           | Digitized Sky Survey image extraction software. Probably not DFSG-Free |
 | *DAOPhot*            | Stellar Photometry and related packages from Peter Stetson at DAO/HIA. Not DFSG-Free. |
 | **fitsverify**       | FITS format checker. Available in Debian. |
 | **fitscut**          | Image cutout and conversion utility. Available in Debian. |
