@@ -1,7 +1,12 @@
 Scisoft programs for potential inclusion in Debian
 ===================================================
 
-[Scisoft-8.0](http://www.eso.org/sci/software/scisoft/Scisoft-contents.html)
+
+The list is taken from the [Scisoft-8.0](http://www.eso.org/sci/software/scisoft/Scisoft-contents.html)
+package list. Packages that are already in Debian are in **bold**, packages
+that will (for various reasons) not go into Debian are in *italic*. The other
+may be packaging candidates.
+
 
 Data Analysis Systems
 ---------------------
