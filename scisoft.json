@@ -527,7 +527,7 @@
   }, 
   {
     "debian": "wcstools", 
-    "description": "World Coordinate System software tools and library from Doug Mink at SAO. Available in Debian.", 
+    "description": "World Coordinate System software tools and library from Doug Mink at SAO", 
     "name": "wcstools", 
     "section": "Miscellaneous Utilities", 
     "url": "http://tdc-www.harvard.edu/software/wcstools/"

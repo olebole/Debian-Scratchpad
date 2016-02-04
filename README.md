@@ -92,7 +92,7 @@ may be packaging candidates.
 | [**JPype**](https://packages.debian.org/sid/python-jpype) | Java to Python integration |
 | [**Funtools**](https://packages.debian.org/sid/funtools) | 'Minimal buy-in' FITS library and utility package |
 | | **Miscellaneous Utilities** |
-| [**wcstools**](https://packages.debian.org/sid/wcstools) | World Coordinate System software tools and library from Doug Mink at SAO. Available in Debian. |
+| [**wcstools**](https://packages.debian.org/sid/wcstools) | World Coordinate System software tools and library from Doug Mink at SAO |
 | [**Astromatic**](https://packages.debian.org/sid/astromatic) | Astronomical pipeline software collection |
 | [**Astromatic/SExtractor**](https://packages.debian.org/sid/sextractor) | Source extractor for astronomical images |
 | [**Astromatic/SWarp**](https://packages.debian.org/sid/swarp) | Resample and co-add together FITS images |
