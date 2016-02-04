@@ -1,7 +1,6 @@
 [
   {
-      "comment": "IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.",
-      "description": "Image Reduction and Analysis Facility",
+    "comment": "IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.", 
     "name": "IRAF", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -114,8 +113,7 @@
     "url": "http://www.eso.org/midas"
   }, 
   {
-      "comment": "PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.",
-      "description": "Python interface for ESO-MIDAS",
+    "comment": "PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.", 
     "name": "PyMidas", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -198,8 +196,7 @@
     "url": "http://www.cv.nrao.edu/adass/adassVI/shepherdm.html"
   }, 
   {
-      "comment": "Depends in IRAF",
-      "description": "Graphical tools to work with IRAF",
+    "comment": "Depends in IRAF", 
     "name": "x11iraf", 
     "packageable": false, 
     "section": "Image Display Servers", 
@@ -262,8 +259,7 @@
     "url": "http://www.astro.princeton.edu/~rhl/sm/"
   }, 
   {
-      "debian": "pgplot5",
-      "description": "large subroutine library for plotting scientific data",
+    "debian": "pgplot", 
     "name": "PGPLOT", 
     "section": "Graphics Software", 
     "url": "http://astro.caltech.edu/~tjp/pgplot/index.html"
@@ -317,8 +313,7 @@
     "section": "Scripting Languages"
   }, 
   {
-    "debian": "python-scientific",
-    "description": "Python modules useful for scientific computing",
+    "debian": "python-scientific", 
     "name": "Python/Scientific", 
     "section": "Scripting Languages"
   }, 
@@ -373,8 +368,7 @@
     "section": "Scripting Languages"
   }, 
   {
-    "debian": "python-pyggles",
-    "description": "Scientific plotting package for Python",
+    "debian": "python-biggles", 
     "name": "Python/biggles", 
     "section": "Scripting Languages"
   }, 
@@ -561,10 +555,8 @@
     "url": "http://www.astromatic.net/software/scamp"
   }, 
   {
-      "name": "Astromatic/EyE",
-      "description": "Enhance Your Extraction",
-      "section": "Miscellaneous Utilities",
-    "url": "http://www.astromatic.net/software/eye"
+    "name": "Astromatic/EyE", 
+    "section": "Miscellaneous Utilities"
   }, 
   {
     "debian": "missfits", 
@@ -581,10 +573,8 @@
     "url": "http://www.astromatic.net/software/stiff"
   }, 
   {
-      "name": "Astromatic/Stuff",
-      "description": "Simulate 'perfect' astronomical catalogues",
-      "section": "Miscellaneous Utilities",
-    "url": "http://www.astromatic.net/software/stuff"
+    "name": "Astromatic/Stuff", 
+    "section": "Miscellaneous Utilities"
   }, 
   {
     "debian": "weightwatcher", 
@@ -688,8 +678,7 @@
     "url": "http://plastic.sourceforge.net/"
   }, 
   {
-      "name": "Specview",
-      "description": "1-D spectral visualization and analysis of astronomical spectrograms",
+    "name": "Specview", 
     "section": "Virtual Observatory Tools", 
     "url": "http://www.stsci.edu/resources/software_hardware/specview"
   }, 
