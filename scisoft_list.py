@@ -35,7 +35,10 @@ for pkg in l:
             s += '{name}'
         if 'url' in pkg:
             s += ']({url})'
-    s += ' | {description} |\n'
+    s += ' | {description} '
+    if not pkg.get('packageable', True) and 'comment' in pkg:
+        s += '({comment}) '
+    s += '|\n'
     fp.write(s.format(**pkg))
 
 fp.close
