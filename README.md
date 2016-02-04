@@ -11,22 +11,22 @@ may be packaging candidates.
 | Package              | Description |
 | -------------------- | ----------- |
 | | **Data Analysis Systems** |
-| [*IRAF*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility |
-| [*IRAF/ctio*](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO |
-| [*IRAF/mxtools*](http://www.noao.edu/noao/staff/mighell/mxtools/) | Utilities from NOAO including QDPHOT |
-| [*IRAF/guiapps*](http://www.stecf.org/iraf/web/projects/guiapps/) | Graphical applications for IRAF |
-| *IRAF/xdimsum* | Enhanced IR data reduction and mosaicing software |
-| [*IRAF/color*](http://www.stecf.org/scripts/irafhelp?color) | Utilities for creating colour images |
-| [*IRAF/fitsutil*](http://www.stecf.org/scripts/irafhelp?fitsutil) | FITS utilities |
-| [*IRAF/mscred*](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO |
-| *IRAF/esowfi* |  |
-| [*IRAF/rvsao*](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi |
-| [*IRAF/stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages |
-| [*IRAF/STSDAS/TABLES*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems |
-| [*IRAF/ECL*](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL |
+| [*IRAF*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility (IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.) |
+| [*IRAF/ctio*](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO (Depends in IRAF) |
+| [*IRAF/mxtools*](http://www.noao.edu/noao/staff/mighell/mxtools/) | Utilities from NOAO including QDPHOT (Depends in IRAF) |
+| [*IRAF/guiapps*](http://www.stecf.org/iraf/web/projects/guiapps/) | Graphical applications for IRAF (Depends in IRAF) |
+| *IRAF/xdimsum* | Enhanced IR data reduction and mosaicing software (Depends in IRAF) |
+| [*IRAF/color*](http://www.stecf.org/scripts/irafhelp?color) | Utilities for creating colour images (Depends in IRAF) |
+| [*IRAF/fitsutil*](http://www.stecf.org/scripts/irafhelp?fitsutil) | FITS utilities (Depends in IRAF) |
+| [*IRAF/mscred*](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO (Depends in IRAF) |
+| *IRAF/esowfi* |  (Depends in IRAF) |
+| [*IRAF/rvsao*](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi (Depends in IRAF) |
+| [*IRAF/stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages (Depends in IRAF) |
+| [*IRAF/STSDAS/TABLES*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (Depends in IRAF) |
+| [*IRAF/ECL*](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL (Depends in IRAF) |
 | [Eclipse](http://www.eso.org/sci/software/eclipse/) | Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons |
 | [**ESO-MIDAS**](https://packages.debian.org/sid/eso-midas) | European Southern Observatory Munich Image Data Analysis System |
-| [*PyMidas*](http://www.eso.org/sampo/pymidas) | Python interface for ESO-MIDAS |
+| [*PyMidas*](http://www.eso.org/sampo/pymidas) | Python interface for ESO-MIDAS (PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.) |
 | [**IDL**](https://packages.debian.org/sid/gnudatalanguage) | Interactive Data Language from RSI. |
 | [**IDL/Astron**](https://packages.debian.org/sid/gdl-astrolib) | Goddard Astron IDL astronomical procedure library. |
 | [IDL/StarFinder](http://www.bo.astro.it/StarFinder/) | IDL adaptive optics photometry software. |
@@ -40,8 +40,8 @@ may be packaging candidates.
 | [THELI](http://www.astro.uni-bonn.de/~theli/) | A pipeline for astronomical image data reduction |
 | [Difmap](http://www.cv.nrao.edu/adass/adassVI/shepherdm.html) | Interactive program for radio synthesis imaging from Caltech |
 | | **Image Display Servers** |
-| [*x11iraf*](http://www.openastro.com/osx/x11iraf-info.html) | Graphical tools to work with IRAF |
-| [*SAOImage*](http://tdc-www.harvard.edu/software/saoimage.html) | The original, needs 8bit Xserver |
+| [*x11iraf*](http://www.openastro.com/osx/x11iraf-info.html) | Graphical tools to work with IRAF (Depends in IRAF) |
+| [*SAOImage*](http://tdc-www.harvard.edu/software/saoimage.html) | The original, needs 8bit Xserver (Outdated; use saods9) |
 | [**DS9**](https://packages.debian.org/sid/saods9) | Latest display server from SAO |
 | [**XPA**](https://packages.debian.org/sid/xpa-tools) | Messaging system from SAO. Used by DS9. |
 | [**Skycat**](https://packages.debian.org/sid/skycat) | ESO image display tool with catalogue and image server access. |
@@ -49,7 +49,7 @@ may be packaging candidates.
 | [QFitsView](http://www.mpe.mpg.de/~ott/QFitsView/index.html) | FITS file viewer |
 | [Gaia](http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html) | Graphical Astronomy and Image Analysis Tool |
 | | **Graphics Software** |
-| [*SM*](http://www.astro.princeton.edu/~rhl/sm/) | SuperMongo. |
+| [*SM*](http://www.astro.princeton.edu/~rhl/sm/) | SuperMongo. (Not free.) |
 | [**PGPLOT**](https://packages.debian.org/sid/pgplot5) | large subroutine library for plotting scientific data |
 | [**gnuplot**](https://packages.debian.org/sid/gnuplot) | Command-line driven interactive function plotting utility |
 | [**Grace**](https://packages.debian.org/sid/grace) | 2D WYSIWYG plotting tool |
@@ -58,7 +58,7 @@ may be packaging candidates.
 | [**PLplot**](https://packages.debian.org/sid/libplplot-dev) | Cross-platform software package for creating scientific plots |
 | | **Scripting Languages** |
 | [**Python**](https://packages.debian.org/sid/python) | General purpose, object orientated, extensible scripting language. |
-| *Python/Numeric* |  |
+| *Python/Numeric* |  (Not maintained anymore, outdated by numpy) |
 | [**Python/Scientific**](https://packages.debian.org/sid/python-scientific) | Python modules useful for scientific computing |
 | [**Python/Imaging (PIL)**](https://packages.debian.org/sid/python-pil) | Python Imaging Library (Pillow fork) |
 | [**Python/Pmw**](https://packages.debian.org/sid/python-pmw) | Pmw -- Python MegaWidgets |
@@ -74,7 +74,7 @@ may be packaging candidates.
 | [**Python/cPickle**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |
 | [**Python/wx**](https://packages.debian.org/sid/python-wxgtk3.0) | Python interface to the wxWidgets Cross-platform C++ GUI toolkit |
 | [STScI_Python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python) | STScI Python packages |
-| [*Python/PyRAF*](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI |
+| [*Python/PyRAF*](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI (Depends in IRAF) |
 | [**Python/PyFITS**](https://packages.debian.org/sid/python-pyfits) | Python FITS package from STScI |
 | [Python/PyDrizzle](http://www.stsci.edu/resources/software_hardware/pydrizzle) | Drizzling software |
 | [Python/MultiDrizzle](http://stsdas.stsci.edu/pydrizzle/multidrizzle/) | Automatic image combination drizzling software |
@@ -83,7 +83,7 @@ may be packaging candidates.
 | [DPUser](http://www.mpe.mpg.de/~ott/dpuser/index.html) | Interactive language for handling numbers, strings, and matrices |
 | | **Scientific Libraries** |
 | [**GSL**](https://packages.debian.org/sid/libgsl-dev) | The GNU Scientific Library |
-| [*DISLIN*](http://www.linmpi.mpg.de/dislin/) | Scientific Data Plotting software. |
+| [*DISLIN*](http://www.linmpi.mpg.de/dislin/) | Scientific Data Plotting software. (Not DFSG-free) |
 | [**CFITSIO**](https://packages.debian.org/sid/libcfitsio-dev) | FITS File Subroutine Library |
 | [**LAPACK**](https://packages.debian.org/sid/liblapack-dev) | Linear Algebra Subroutine Library |
 | [**Atlas**](https://packages.debian.org/sid/libatlas-dev) | Another Linear Algebra Library |
@@ -103,9 +103,9 @@ may be packaging candidates.
 | [Astromatic/Stuff](http://www.astromatic.net/software/stuff) | Simulate 'perfect' astronomical catalogues |
 | [**Astromatic/WeightWatcher**](https://packages.debian.org/sid/weightwatcher) | Combine maps and polygon data for astronomical image processing |
 | [Tiny Tim](http://www.stsci.edu/software/tinytim/tinytim.html) | HST point-spread function simulation software |
-| [*Xephem*](http://www.clearskyinstitute.com/xephem/) | Planetarium and ephemeris software |
-| [*dss/dss2*](http://archive.eso.org/dss/eso-dss.html) | Digitized Sky Survey image extraction software |
-| [*DAOPhot*](http://www.star.bris.ac.uk/~mbt/daophot/) | Stellar Photometry and related packages from Peter Stetson at DAO/HIA |
+| [*Xephem*](http://www.clearskyinstitute.com/xephem/) | Planetarium and ephemeris software (Not DFSG-Free.) |
+| [*dss/dss2*](http://archive.eso.org/dss/eso-dss.html) | Digitized Sky Survey image extraction software (Probably not DFSG-Free) |
+| [*DAOPhot*](http://www.star.bris.ac.uk/~mbt/daophot/) | Stellar Photometry and related packages from Peter Stetson at DAO/HIA (Not DFSG-Free.) |
 | [**fitsverify**](https://packages.debian.org/sid/fitsverify) | FITS format checker |
 | [**fitscut**](https://packages.debian.org/sid/fitscut) | Image cutout and conversion utility |
 | [**fpack/funpack**](https://packages.debian.org/sid/libcfitsio-bin) | FITS file compression utilities |
