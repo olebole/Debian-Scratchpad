@@ -8,7 +8,7 @@
     "url": "http://iraf.noao.edu/"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Utilities from CTIO", 
     "name": "IRAF/ctio", 
     "packageable": false, 
@@ -16,7 +16,7 @@
     "url": "http://www.stecf.org/scripts/irafhelp?ctio"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Utilities from NOAO including QDPHOT", 
     "name": "IRAF/mxtools", 
     "packageable": false, 
@@ -24,7 +24,7 @@
     "url": "http://www.noao.edu/noao/staff/mighell/mxtools/"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Graphical applications for IRAF", 
     "name": "IRAF/guiapps", 
     "packageable": false, 
@@ -32,14 +32,14 @@
     "url": "http://www.stecf.org/iraf/web/projects/guiapps/"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Enhanced IR data reduction and mosaicing software", 
     "name": "IRAF/xdimsum", 
     "packageable": false, 
     "section": "Data Analysis Systems"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Utilities for creating colour images", 
     "name": "IRAF/color", 
     "packageable": false, 
@@ -47,7 +47,7 @@
     "url": "http://www.stecf.org/scripts/irafhelp?color"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "FITS utilities", 
     "name": "IRAF/fitsutil", 
     "packageable": false, 
@@ -55,7 +55,7 @@
     "url": "http://www.stecf.org/scripts/irafhelp?fitsutil"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Mosaic camera CCD reduction tasks from NOAO", 
     "name": "IRAF/mscred", 
     "packageable": false, 
@@ -63,13 +63,13 @@
     "url": "http://www.stecf.org/scripts/irafref?mscred"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "name": "IRAF/esowfi", 
     "packageable": false, 
     "section": "Data Analysis Systems"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Spectral Radial Velocity package from CfAi", 
     "name": "IRAF/rvsao", 
     "packageable": false, 
@@ -77,7 +77,7 @@
     "url": "http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages", 
     "name": "IRAF/stecf", 
     "packageable": false, 
@@ -85,7 +85,7 @@
     "url": "http://www.stecf.org/software/stecf-iraf/"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "HST data analysis and tables systems", 
     "name": "IRAF/STSDAS/TABLES", 
     "packageable": false, 
@@ -93,7 +93,7 @@
     "url": "http://www.stsci.edu/resources/software_hardware/stsdas"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Enhanced CL", 
     "name": "IRAF/ECL", 
     "packageable": false, 
@@ -198,7 +198,7 @@
     "url": "http://www.cv.nrao.edu/adass/adassVI/shepherdm.html"
   }, 
   {
-      "comment": "Depends in IRAF",
+      "comment": "Depends on IRAF",
       "description": "Graphical tools to work with IRAF",
     "name": "x11iraf", 
     "packageable": false, 
@@ -415,7 +415,7 @@
     "url": "http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python"
   }, 
   {
-    "comment": "Depends in IRAF", 
+    "comment": "Depends on IRAF", 
     "description": "Python replacement for IRAF cl from STScI", 
     "name": "Python/PyRAF", 
     "packageable": false, 
