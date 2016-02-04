@@ -17,8 +17,12 @@ may be packaging candidates.
 ''')
 
 l = json.load(open('scisoft.json'))
+section = None
 for pkg in l:
     pkg.setdefault('description', '')
+    if pkg['section'] != section:
+        fp.write('| | **{section}** |\n'.format(**pkg))
+        section = pkg['section']
     s = '| '
     if 'debian' in pkg:
         s += '[**{name}**](https://packages.debian.org/sid/{debian})'
