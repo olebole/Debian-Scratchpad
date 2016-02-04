@@ -25,7 +25,7 @@ for pkg in l:
     else:
         if 'url' in pkg:
             s += '['
-        if not pkg.get('packageable', False):
+        if not pkg.get('packageable', True):
             s += '*{name}*'
         else:
             s += '{name}'
