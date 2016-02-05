@@ -62,12 +62,12 @@ may be packaging candidates.
 | [**Python/Scientific**](https://packages.debian.org/sid/python-scientific) | Python modules useful for scientific computing |
 | [**Python/Imaging (PIL)**](https://packages.debian.org/sid/python-pil) | Python Imaging Library (Pillow fork) |
 | [**Python/Pmw**](https://packages.debian.org/sid/python-pmw) | Pmw -- Python MegaWidgets |
-| Python/asciidat |  |
+| [Python/asciidata](http://www.stecf.org/software/PYTHONtools/astroasciidata/) | Python module to handle ASCII tables |
 | [**Python/binascii**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |
 | [**Python/ipython**](https://packages.debian.org/sid/ipython) | enhanced interactive Python shell |
 | [**Python/scipy**](https://packages.debian.org/sid/python-scipy) | scientific tools for Python |
 | [**Python/Gnuplot**](https://packages.debian.org/sid/python-gnuplot) | Python interface to the gnuplot plotting program |
-| Python/ppgplot |  |
+| [Python/ppgplot](https://github.com/npat-efault/ppgplot) |  |
 | [**Python/biggles**](https://packages.debian.org/sid/python-pyggles) | Scientific plotting package for Python |
 | [**Python/pygame**](https://packages.debian.org/sid/python-pygame) | SDL bindings for games development in Python |
 | [**Python/cStringIO**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |

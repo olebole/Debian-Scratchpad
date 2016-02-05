@@ -242,6 +242,7 @@
     "url": "http://heasarc.gsfc.nasa.gov/docs/software/ftools/fv/"
   }, 
   {
+    "comment": "Must go to contrib since it on pgplot (non-free) via dpuser",
     "description": "FITS file viewer", 
     "name": "QFitsView", 
     "section": "Image Display Servers", 
@@ -336,8 +337,10 @@
     "section": "Scripting Languages"
   }, 
   {
-    "name": "Python/asciidat", 
-    "section": "Scripting Languages"
+    "description": "Python module to handle ASCII tables", 
+    "name": "Python/asciidata", 
+    "section": "Scripting Languages",
+    "url": "http://www.stecf.org/software/PYTHONtools/astroasciidata/"
   }, 
   {
     "comment": "Part of Python", 
@@ -369,8 +372,10 @@
     "url": "http://gnuplot-py.sourceforge.net/"
   }, 
   {
+    "comment": "Must go to contrib since it depends on pgplot (non-free)",
     "name": "Python/ppgplot", 
-    "section": "Scripting Languages"
+    "section": "Scripting Languages",
+    "url": "https://github.com/npat-efault/ppgplot"
   }, 
   {
     "debian": "python-pyggles",
@@ -456,6 +461,7 @@
     "url": "http://java.sun.com/"
   }, 
   {
+    "comment": "Must go to contrib since it depends on pgplot (non-free)",
     "description": "Interactive language for handling numbers, strings, and matrices", 
     "name": "DPUser", 
     "section": "Scripting Languages", 
