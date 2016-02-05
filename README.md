@@ -24,7 +24,7 @@ may be packaging candidates.
 | [*IRAF/stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages (*Depends on IRAF*) |
 | [*IRAF/STSDAS/TABLES*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Depends on IRAF*) |
 | [*IRAF/ECL*](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL (*Depends on IRAF*) |
-| [Eclipse](http://www.eso.org/sci/software/eclipse/) | Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons |
+| [Eclipse](http://www.eso.org/sci/software/eclipse/) | C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons |
 | [**ESO-MIDAS**](https://packages.debian.org/sid/eso-midas) | European Southern Observatory Munich Image Data Analysis System |
 | [*PyMidas*](http://www.eso.org/sampo/pymidas) | Python interface for ESO-MIDAS (*PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.*) |
 | [**IDL**](https://packages.debian.org/sid/gnudatalanguage) | Interactive Data Language from RSI. |
