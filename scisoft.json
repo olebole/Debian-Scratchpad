@@ -347,7 +347,7 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "interactive high-level object-oriented language (default version)", 
+    "description": "Conversion between binary data and ASCII", 
     "name": "Python/binascii", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
@@ -381,7 +381,7 @@
     "url": "https://github.com/npat-efault/ppgplot"
   }, 
   {
-    "debian": "python-pyggles",
+    "debian": "python-pybiggles",
     "description": "Scientific plotting package for Python",
     "name": "Python/biggles", 
     "section": "Scripting Languages"
