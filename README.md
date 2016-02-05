@@ -58,7 +58,7 @@ may be packaging candidates.
 | [**PLplot**](https://packages.debian.org/sid/libplplot-dev) | Cross-platform software package for creating scientific plots |
 | | **Scripting Languages** |
 | [**Python**](https://packages.debian.org/sid/python) | General purpose, object orientated, extensible scripting language. |
-| *Python/Numeric* |  (*Not maintained anymore, outdated by numpy*) |
+| [*Python/Numeric*](http://sourceforge.net/projects/numpy/files/Old%20Numeric/) | Python module for high-performance, numeric computing (*Not maintained anymore, outdated by numpy*) |
 | [**Python/Scientific**](https://packages.debian.org/sid/python-scientific) | Python modules useful for scientific computing |
 | [**Python/Imaging (PIL)**](https://packages.debian.org/sid/python-pil) | Python Imaging Library (Pillow fork) |
 | [**Python/Pmw**](https://packages.debian.org/sid/python-pmw) | Pmw -- Python MegaWidgets |
@@ -67,7 +67,7 @@ may be packaging candidates.
 | [**Python/ipython**](https://packages.debian.org/sid/ipython) | enhanced interactive Python shell |
 | [**Python/scipy**](https://packages.debian.org/sid/python-scipy) | scientific tools for Python |
 | [**Python/Gnuplot**](https://packages.debian.org/sid/python-gnuplot) | Python interface to the gnuplot plotting program |
-| [Python/ppgplot](https://github.com/npat-efault/ppgplot) |  |
+| [Python/ppgplot](https://github.com/npat-efault/ppgplot) | Pythonic Interface to PGPLOT |
 | [**Python/biggles**](https://packages.debian.org/sid/python-pyggles) | Scientific plotting package for Python |
 | [**Python/pygame**](https://packages.debian.org/sid/python-pygame) | SDL bindings for games development in Python |
 | [**Python/cStringIO**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |

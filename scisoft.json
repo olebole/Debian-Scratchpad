@@ -312,10 +312,12 @@
     "url": "http://www.python.org/"
   }, 
   {
-    "comment": "Not maintained anymore, outdated by numpy", 
+    "comment": "Not maintained anymore, outdated by numpy",
+    "description": "Python module for high-performance, numeric computing",
     "name": "Python/Numeric", 
     "packageable": false, 
-    "section": "Scripting Languages"
+    "section": "Scripting Languages",
+    "url": "http://sourceforge.net/projects/numpy/files/Old%20Numeric/"
   }, 
   {
     "debian": "python-scientific",
@@ -373,6 +375,7 @@
   }, 
   {
     "comment": "Must go to contrib since it depends on pgplot (non-free)",
+    "description": "Pythonic Interface to PGPLOT",
     "name": "Python/ppgplot", 
     "section": "Scripting Languages",
     "url": "https://github.com/npat-efault/ppgplot"
