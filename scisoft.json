@@ -396,7 +396,7 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "interactive high-level object-oriented language (default version)", 
+    "description": "A simple fast partial StringIO replacement", 
     "name": "Python/cStringIO", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
@@ -404,7 +404,7 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "interactive high-level object-oriented language (default version)", 
+    "description": "C implementation and optimization of the Python pickle module", 
     "name": "Python/cPickle", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"

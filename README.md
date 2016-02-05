@@ -70,8 +70,8 @@ may be packaging candidates.
 | [Python/ppgplot](https://github.com/npat-efault/ppgplot) | Pythonic Interface to PGPLOT |
 | [**Python/biggles**](https://packages.debian.org/sid/python-pybiggles) | Scientific plotting package for Python |
 | [**Python/pygame**](https://packages.debian.org/sid/python-pygame) | SDL bindings for games development in Python |
-| [**Python/cStringIO**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |
-| [**Python/cPickle**](https://packages.debian.org/sid/python) | interactive high-level object-oriented language (default version) |
+| [**Python/cStringIO**](https://packages.debian.org/sid/python) | A simple fast partial StringIO replacement |
+| [**Python/cPickle**](https://packages.debian.org/sid/python) | C implementation and optimization of the Python pickle module |
 | [**Python/wx**](https://packages.debian.org/sid/python-wxgtk3.0) | Python interface to the wxWidgets Cross-platform C++ GUI toolkit |
 | [STScI_Python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python) | STScI Python packages |
 | [*Python/PyRAF*](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI (*Depends on IRAF*) |
