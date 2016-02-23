@@ -10,6 +10,7 @@ may be packaging candidates.
 
 | Package              | Description |
 | -------------------- | ----------- |
+| | |
 | | **Data Analysis Systems** |
 | [*IRAF*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility (*IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.*) |
 | [*IRAF/ctio*](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO (*Depends on IRAF*) |
@@ -39,6 +40,7 @@ may be packaging candidates.
 | [CASA](http://casa.nrao.edu/) | Common Astronomy Software Application |
 | [THELI](http://www.astro.uni-bonn.de/theli/) | A pipeline for astronomical image data reduction |
 | [Difmap](http://www.cv.nrao.edu/adass/adassVI/shepherdm.html) | Interactive program for radio synthesis imaging from Caltech |
+| | |
 | | **Image Display Servers** |
 | [*x11iraf*](http://www.openastro.com/osx/x11iraf-info.html) | Graphical tools to work with IRAF (*Depends on IRAF*) |
 | [*SAOImage*](http://tdc-www.harvard.edu/software/saoimage.html) | The original, needs 8bit Xserver (*Outdated; use saods9*) |
@@ -48,6 +50,7 @@ may be packaging candidates.
 | [**fv**](https://packages.debian.org/sid/ftools-fv) | Tool for viewing and editing FITS format files |
 | [QFitsView](http://www.mpe.mpg.de/~ott/QFitsView/index.html) | FITS file viewer |
 | [Gaia](http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html) | Graphical Astronomy and Image Analysis Tool |
+| | |
 | | **Graphics Software** |
 | [*SM*](http://www.astro.princeton.edu/~rhl/sm/) | SuperMongo. (*Not free.*) |
 | [**PGPLOT**](https://packages.debian.org/sid/pgplot5) | large subroutine library for plotting scientific data |
@@ -56,6 +59,7 @@ may be packaging candidates.
 | [**ggobi**](https://packages.debian.org/sid/ggobi) | Data visualisation in 3D. |
 | [**Matplotlib**](https://packages.debian.org/sid/ggobi) | Python 2D plotting library. |
 | [**PLplot**](https://packages.debian.org/sid/libplplot-dev) | Cross-platform software package for creating scientific plots |
+| | |
 | | **Scripting Languages** |
 | [**Python**](https://packages.debian.org/sid/python) | General purpose, object orientated, extensible scripting language. |
 | [*Python/Numeric*](http://sourceforge.net/projects/numpy/files/Old%20Numeric/) | Python module for high-performance, numeric computing (*Not maintained anymore, outdated by numpy*) |
@@ -81,6 +85,7 @@ may be packaging candidates.
 | [**Python/NumPy**](https://packages.debian.org/sid/python-numpy) | Python package for scientific computing |
 | [**Java**](https://packages.debian.org/sid/openjdk-9-jdk) | Java runtime environment and JDK |
 | [DPUser](http://www.mpe.mpg.de/~ott/dpuser/index.html) | Interactive language for handling numbers, strings, and matrices |
+| | |
 | | **Scientific Libraries** |
 | [**GSL**](https://packages.debian.org/sid/libgsl-dev) | The GNU Scientific Library |
 | [*DISLIN*](http://www.linmpi.mpg.de/dislin/) | Scientific Data Plotting software. (*Not DFSG-free*) |
@@ -91,6 +96,7 @@ may be packaging candidates.
 | [**plotutils**](https://packages.debian.org/sid/plotutils) | GNU plotting utilities |
 | [**JPype**](https://packages.debian.org/sid/python-jpype) | Java to Python integration |
 | [**Funtools**](https://packages.debian.org/sid/funtools) | 'Minimal buy-in' FITS library and utility package |
+| | |
 | | **Miscellaneous Utilities** |
 | [**wcstools**](https://packages.debian.org/sid/wcstools) | World Coordinate System software tools and library from Doug Mink at SAO |
 | [**Astromatic**](https://packages.debian.org/sid/astromatic) | Astronomical pipeline software collection |
@@ -112,6 +118,7 @@ may be packaging candidates.
 | [Cloudy](http://www.nublado.org/) | Plasma simulation and spectral synthesis code |
 | [HyperZ](http://webast.ast.obs-mip.fr/hyperz/) | Photometric Redshift Code |
 | [**graphviz**](https://packages.debian.org/sid/graphviz) | Graphical Visualisation Software |
+| | |
 | | **Virtual Observatory Tools** |
 | [Aladin](http://aladin.u-strasbg.fr/) | Aladin Sky Atlas |
 | [VOspec](http://esavo.esa.int/vospec/) | tool for handling Virtual Observatory compliant Spectra |

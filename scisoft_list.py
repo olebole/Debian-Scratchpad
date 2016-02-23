@@ -21,7 +21,7 @@ section = None
 for pkg in l:
     pkg.setdefault('description', '')
     if pkg['section'] != section:
-        fp.write('| | **{section}** |\n'.format(**pkg))
+        fp.write('| | |\n| | **{section}** |\n'.format(**pkg))
         section = pkg['section']
     s = '| '
     if 'debian' in pkg:
