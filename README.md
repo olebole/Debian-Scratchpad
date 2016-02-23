@@ -37,7 +37,7 @@ may be packaging candidates.
 | [Karma](http://www.atnf.csiro.au/computing/software/karma/) | Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure. |
 | [CRUSH](http://www.submm.caltech.edu/~sharc/crush/) | Data Reduction and Imaging for Bolometer Array |
 | [CASA](http://casa.nrao.edu/) | Common Astronomy Software Application |
-| [THELI](http://www.astro.uni-bonn.de/~theli/) | A pipeline for astronomical image data reduction |
+| [THELI](http://www.astro.uni-bonn.de/theli/) | A pipeline for astronomical image data reduction |
 | [Difmap](http://www.cv.nrao.edu/adass/adassVI/shepherdm.html) | Interactive program for radio synthesis imaging from Caltech |
 | | **Image Display Servers** |
 | [*x11iraf*](http://www.openastro.com/osx/x11iraf-info.html) | Graphical tools to work with IRAF (*Depends on IRAF*) |
@@ -102,7 +102,7 @@ may be packaging candidates.
 | [**Astromatic/STIFF**](https://packages.debian.org/sid/stiff) | convert scientific FITS images to the TIFF format |
 | [Astromatic/Stuff](http://www.astromatic.net/software/stuff) | Simulate 'perfect' astronomical catalogues |
 | [**Astromatic/WeightWatcher**](https://packages.debian.org/sid/weightwatcher) | Combine maps and polygon data for astronomical image processing |
-| [Tiny Tim](http://www.stsci.edu/software/tinytim/tinytim.html) | HST point-spread function simulation software |
+| [*Tiny Tim*](http://www.stsci.edu/software/tinytim/tinytim.html) | HST point-spread function simulation software (*Unknown, unspecified license*) |
 | [*Xephem*](http://www.clearskyinstitute.com/xephem/) | Planetarium and ephemeris software (*Not DFSG-Free.*) |
 | [*dss/dss2*](http://archive.eso.org/dss/eso-dss.html) | Digitized Sky Survey image extraction software (*Probably not DFSG-Free*) |
 | [*DAOPhot*](http://www.star.bris.ac.uk/~mbt/daophot/) | Stellar Photometry and related packages from Peter Stetson at DAO/HIA (*Not DFSG-Free.*) |

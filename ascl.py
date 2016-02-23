@@ -14,7 +14,7 @@ def get_ascl(name):
 for pkg in scisoft:
     a = get_ascl(pkg.get('name', ''))
     if a is not None:
-        print a['name'], a['ascl_id'][6:-1]
+        print a['ascl_id'][6:-1], a['name']
         pkg['ascl_id'] = a['ascl_id'][6:-1]
 
 with open('scisoft.json', 'w') as fp:

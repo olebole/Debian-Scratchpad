@@ -202,7 +202,7 @@
     "description": "A pipeline for astronomical image data reduction", 
     "name": "THELI", 
     "section": "Data Analysis Systems", 
-    "url": "http://www.astro.uni-bonn.de/~theli/"
+    "url": "http://www.astro.uni-bonn.de/theli/"
   }, 
   {
     "ascl_id": "1103.001", 
@@ -642,8 +642,10 @@
   }, 
   {
     "ascl_id": "1010.057", 
+    "comment": "Unknown, unspecified license", 
     "description": "HST point-spread function simulation software", 
     "name": "Tiny Tim", 
+    "packageable": false, 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.stsci.edu/software/tinytim/tinytim.html"
   }, 
@@ -704,6 +706,7 @@
   }, 
   {
     "ascl_id": "1108.010", 
+    "comment": "Last update: 2000-12-11", 
     "description": "Photometric Redshift Code", 
     "name": "HyperZ", 
     "section": "Miscellaneous Utilities", 
