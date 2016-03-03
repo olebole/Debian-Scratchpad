@@ -1,8 +1,8 @@
-To: debian-devel-announce@lists.debian.org
-Cc: debian-blends@lists.debian.org,
- debian-astro@lists.debian.org
-Mail-followup-to: debian-astro@lists.debian.org
-Subject: Announcing a Debian Astro Pure Blend
+ To: debian-devel-announce@lists.debian.org
+ Cc: debian-blends@lists.debian.org,
+  debian-astro@lists.debian.org
+ Mail-followup-to: debian-astro@lists.debian.org
+ Subject: Announcing a Debian Astro Pure Blend
 
 Hi,
 
