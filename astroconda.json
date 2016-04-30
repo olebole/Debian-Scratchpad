@@ -1,0 +1,573 @@
+[
+  {
+    "name": "acstools",
+    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python",
+    "section": "HST/JWST specific packages", 
+    "description": "Python Tools for ACS (Advanced Camera for Surveys) Data"
+  },
+  {
+    "name": "wfpc2tools",
+    "url": "http://www.stsci.edu/resources/software_hardware/stsci_python",
+    "section": "HST/JWST specific packages", 
+    "description": "Tools for use with the Wide Field and Planetary Camera 2"
+  },
+  {
+    "name": "calcos",
+    "url": "https://github.com/spacetelescope/calcos",
+    "section": "HST/JWST specific packages", 
+    "description": "Calibration for HST/COS"
+  },
+  {
+    "name": "hstcal",
+    "url": "https://github.com/spacetelescope/hstcal",
+    "section": "HST/JWST specific packages", 
+    "description": "Calibration for HST/WFC3, HST/ACS, and HST/STIS"
+  },
+  {
+    "name": "nictools",
+    "url": "https://github.com/spacetelescope/nictools",
+    "section": "HST/JWST specific packages", 
+    "description": "Tools for HST/NICMOS"
+  },
+  {
+    "name": "jwst_lib",
+    "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git",
+    "section": "HST/JWST specific packages", 
+    "description": "jwst_lib"
+  },
+  {
+    "name": "jwst_pipeline",
+    "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git",
+    "section": "HST/JWST specific packages", 
+    "description": "jwst_pipeline"
+  },
+  {
+    "name": "jwst_tools",
+    "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git",
+    "section": "HST/JWST specific packages", 
+    "description": "jwst_tools"
+  },
+  {
+    "name": "pandeia-engine",
+    "url": "https://github.com:stsci-ssb/pandeia",
+    "section": "HST/JWST specific packages", 
+    "description": "Exposure time calculator (ETC) for the JWST"
+  },
+  {
+    "name": "pandeia-thirdparty",
+    "url": "http://stsci.edu",
+    "section": "HST/JWST specific packages", 
+    "description": "pandeia-thirdparty meta-package"
+  },
+  {
+    "name": "pandeia_data",
+    "url": "https://github.com:stsci-ssb/pandeia_data",
+    "section": "HST/JWST specific packages", 
+    "description": "pandeia_data"
+  },
+  {
+    "name": "pandokia",
+    "url": "http://ssb.stsci.edu/testing/pandokia",
+    "section": "HST/JWST specific packages", 
+    "description": "pandokia"
+  },
+  {
+    "name": "wfc3tools",
+    "url": "http://ssb.stsci.edu/doc/stsci_python_2.15.1/wfc3tools.doc/html/index.html",
+    "section": "HST/JWST specific packages", 
+    "description": "Tools for the Hubble Space Telescope Wide Field Camera 3 "
+  },
+  {
+    "name": "reftools",
+    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python",
+    "section": "HST/JWST specific packages", 
+    "description": "Tools for HST reference files"
+  },
+  {
+    "name": "stistools",
+    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python",
+    "section": "HST/JWST specific packages", 
+    "description": "Tools for working with STIS data"
+  },
+  {
+    "name": "costools",
+    "url": "http://www.stsci.edu/institute/software_hardware",
+    "section": "HST/JWST specific packages", 
+    "description": " Tools for working with COS data"
+  },
+  {
+    "name": "crds",
+    "url": "http://www.stsci.edu/hst/observatory/crds/",
+    "section": "HST/JWST specific packages", 
+    "description": "Calibration Reference Data System"
+  },
+  {
+    "name": "webbpsf",
+    "url": "https://github.com/mperrin/webbpsf",
+    "section": "HST/JWST specific packages", 
+    "description": "WebbPSF: Simulated PSF for the James Webb Space Telescope"
+  },
+  {
+    "name": "ext_shmht",
+    "url": "https://github.com/stsci-ssb/ext_shmht",
+    "section": "STSci specific packages", 
+    "description": "hash table in shared memory, with locking"
+  },
+  {
+    "name": "stsci",
+    "url": "http://stsci.edu",
+    "section": "STSci specific packages", 
+    "description": "stsci meta-package"
+  },
+  {
+    "name": "stsci-hst",
+    "url": "http://www.stsci.edu",
+    "section": "STSci specific packages", 
+    "description": "stsci-hst meta-package"
+  },
+  {
+    "name": "stsci-data-analysis",
+    "url": "http://stsci.edu",
+    "section": "STSci specific packages", 
+    "description": "stsci-data-analysis meta-package"
+  },
+  {
+    "name": "stsci.sphere",
+    "url": "http://www.stsci.edu/institute/software_hardware",
+    "section": "STSci specific packages", 
+    "description": "Python package for handling spherical polygons that represent arbitrary regions of the sky.sphere"
+  },
+  {
+    "name": "stsci.skypac",
+    "url": "https://github.com/spacetelescope/stsci.skypac",
+    "section": "STSci specific packages", 
+    "description": "Sky matching for image mosaic"
+  },
+  {
+    "name": "stsci.sphinxext",
+    "url": "https://github.com/spacetelescope/stsci.sphinxext",
+    "section": "STSci specific packages", 
+    "description": "Sphinx extension for STScI."
+  },
+  {
+    "name": "stsci.convolve",
+    "url": "https://github.com/embray/stsci.convolve",
+    "section": "STSci specific packages", 
+    "description": "stsci.convolve"
+  },
+  {
+    "name": "stsci.distutils",
+    "debian": "stsci.distutils",
+    "url": "https://github.com/embray/stsci.distutils",
+    "section": "STSci specific packages", 
+    "description": "Python packaging utilities for STScI's packages"
+  },
+  {
+    "name": "stsci.image",
+    "url": "https://github.com/embray/stsci.image",
+    "section": "STSci specific packages", 
+    "description": "stsci.image"
+  },
+  {
+    "name": "stsci.imagemanip",
+    "url": "https://github.com/embray/stsci.imagemanip",
+    "section": "STSci specific packages", 
+    "description": "stsci.imagemanip"
+  },
+  {
+    "name": "stsci.imagestats",
+    "url": "https://github.com/embray/stsci.imagestats",
+    "section": "STSci specific packages", 
+    "description": "stsci.imagestats"
+  },
+  {
+    "name": "stsci.ndimage",
+    "url": "https://github.com/embray/stsci.ndimage",
+    "section": "STSci specific packages", 
+    "description": "Subset of SciPy functionality"
+  },
+  {
+    "name": "stsci.numdisplay",
+    "url": "https://github.com/embray/stsci.numdisplay",
+    "section": "STSci specific packages", 
+    "description": "stsci.numdisplay"
+  },
+  {
+    "name": "stsci.stimage",
+    "url": "https://github.com/embray/stsci.stimage",
+    "section": "STSci specific packages", 
+    "description": "various functions for performing processing of images"
+  },
+  {
+    "name": "stsci.tools",
+    "url": "https://github.com/embray/stsci.tools",
+    "section": "STSci specific packages", 
+    "description": "stsci.tools"
+  },
+  {
+    "name": "asv",
+    "url": "https://github.com/spacetelescope/asv",
+    "section": "STSci specific packages", 
+    "description": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting"
+  },
+  {
+    "name": "cube-tools",
+    "url": "https://github.com/spacetelescope/cube-tools",
+    "section": "STSci specific packages", 
+    "description": "Data analysis package for cubes."
+  },
+  {
+    "name": "fitsblender",
+    "url": "http://github.com/spacetelescope/fitsblender",
+    "section": "STSci specific packages", 
+    "description": "FITS header merging from multiple images. "
+  },
+  {
+    "name": "stwcs",
+    "url": "https://github.com/spacetelescope/stwcs",
+    "section": "STSci specific packages", 
+    "description": "WCS based distortion models and coordinate transformation"
+  },
+  {
+    "name": "specview",
+    "url": "https://github.com/spacetelescope/specview",
+    "section": "STSci specific packages", 
+    "description": "Spectrum visualization, manipulation, and fitting"
+  },
+  {
+    "name": "stginga",
+    "url": "https://github.com/spacetelescope/stginga",
+    "section": "STSci specific packages", 
+    "description": "Ginga products specific to STScI data analysis"
+  },
+  {
+    "name": "pyregion",
+    "debian": "pyregion",
+    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python",
+    "section": "Astronomy packages", 
+    "description": "Python module to parse ds9 region files"
+  },
+  {
+    "name": "asdf",
+    "debian": "python-asdf",
+    "url": "https://github.com/spacetelescope/pyasdf",
+    "section": "Astronomy packages", 
+    "description": "Python library for the Advanced Scientific Data Formatasdf"
+  },
+  {
+    "name": "asdf-standard",
+    "url": "https://github.com/spacetelescope/asdf-standard",
+    "section": "Astronomy packages", 
+    "description": "Advanced Scientific Data Format description"
+  },
+  {
+    "name": "astrolib.coords",
+    "url": "https://github.com/spacetelescope/astrolib.coords.git",
+    "section": "Astronomy packages", 
+    "description": "astrolib.coords"
+  },
+  {
+    "name": "photutils",
+    "debian": "photutils",
+    "url": "https://github.com/astropy/photutils",
+    "section": "Astronomy packages", 
+    "description": "Astropy affiliated package for image photometry"
+  },
+  {
+    "name": "pyds9",
+    "debian": "python-pyds9",
+    "url": "https://github.com/ericmandel/pyds9",
+    "section": "Astronomy packages", 
+    "description": "Python connection to SAOimage DS9 via XPA"
+  },
+  {
+    "name": "xpa",
+    "debian": "ypa",
+    "url": "https://github.com/ericmandel/xpa",
+    "section": "Astronomy packages", 
+    "description": "Provides seamless communication between many kinds of Unix programs"
+  },
+  {
+    "name": "cfitsio",
+    "debian": "cfitsio",
+    "url": "http://heasarc.gsfc.nasa.gov/fitsio/fitsio.html",
+    "section": "Astronomy packages", 
+    "description": "Library for I/O with FITS format data files"
+  },
+  {
+    "name": "ds9",
+    "debian": "saods9",
+    "url": "http://ds9.si.edu/download/source/",
+    "section": "Astronomy packages", 
+    "description": "Image display tool for astronomy"
+  },
+  {
+    "name": "sextractor",
+    "debian": "sextractor",
+    "url": "http://www.astromatic.net/download/sextractor",
+    "section": "Astronomy packages", 
+    "description": "Source extractor for astronomical images"
+  },
+  {
+    "name": "wcstools",
+    "debian": "wcstools",
+    "url": "http://tdc-www.harvard.edu/wcstools",
+    "section": "Astronomy packages", 
+    "description": "For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats"
+  },
+  {
+    "name": "pysynphot",
+    "debian": "pysynphot",
+    "url": "https://github.com/spacetelescope/pysynphot",
+    "section": "Astronomy packages", 
+    "description": "Python Synthetic Photometry Utilities"
+  },
+  {
+    "name": "pywcs",
+    "debian": "python-pywcs",
+    "url": "https://github.com/spacetelescope/pywcs",
+    "section": "Astronomy packages", 
+    "description": "Set of routines for handling the FITS WCS standard"
+  },
+  {
+    "name": "pyraf",
+    "url": "https://github.com/spacetelescope/pyraf",
+    "section": "Astronomy packages", 
+    "description": "pyraf"
+  },
+  {
+    "name": "iraf",
+    "url": "http://iraf.noao.edu",
+    "section": "Astronomy packages", 
+    "description": "NOAO Image Reduction and Analysis Facility"
+  },
+  {
+    "name": "ginga",
+    "url": "https://github.com/ejeschke/ginga",
+    "section": "Astronomy packages", 
+    "description": "ginga"
+  },
+  {
+    "name": "imexam",
+    "url": "https://github.com/spacetelescope/imexam",
+    "section": "Astronomy packages", 
+    "description": "imexam"
+  },
+  {
+    "name": "gwcs",
+    "url": "https://github.com/spacetelescope/gwcs",
+    "section": "Astronomy packages", 
+    "description": "gwcs"
+  },
+  {
+    "name": "pyneb",
+    "url": "http://www.iac.es/proyecto/PyNeb/",
+    "section": "Astronomy packages", 
+    "description": "A modern python tool to compute emission line emissivities"
+  },
+  {
+    "name": "astroimtools",
+    "url": "https://github.com/spacetelescope/astroimtools",
+    "section": "Astronomy packages", 
+    "description": "Astronomical Image Convenience Tools"
+  },
+  {
+    "name": "drizzlepac",
+    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python",
+    "section": "Astronomy packages", 
+    "description": "drizzlepac"
+  },
+  {
+    "name": "pyfftw",
+    "debian": "pyfftw",
+    "url": "http://hgomersall.github.com/pyFFTW",
+    "section": "Science packages", 
+    "description": "Pythonic wrapper around FFTW"
+  },
+  {
+    "name": "poppy",
+    "url": "https://github.com/mperrin/poppy",
+    "section": "Science packages", 
+    "description": "Physical Optics Propagation in Python"
+  },
+  {
+    "name": "webbpsf-data",
+    "url": "http://www.stsci.edu/~mperrin/software/webbpsf",
+    "section": "Science packages", 
+    "description": "webbpsf-data data files"
+  },
+  {
+    "name": "atlas-generic",
+    "debian": "atlas",
+    "url": "http://sourceforge.net/projects/math-atlas/files/Stable",
+    "section": "Science packages", 
+    "description": "Automatically Tuned Linear Algebra Software"
+  },
+  {
+    "name": "fftw",
+    "debian": "fftw3",
+    "url": "http://www.fftw.org",
+    "section": "Science packages", 
+    "description": "Library for computing Fast Fourier Transforms"
+  },
+  {
+    "name": "htc_utils",
+    "url": "http://bitbucket.org/jhunkeler/htc_utils",
+    "section": "Science packages", 
+    "description": "Homebrew set of HTCondor wrappers"
+  },
+  {
+    "name": "lapack",
+    "debian": "lapack",
+    "url": "http://www.netlib.org",
+    "section": "Science packages", 
+    "description": "Library of linear algebra routines"
+  },
+  {
+    "name": "pyqtgraph",
+    "debian": "python-pyqtgraph",
+    "url": "http://www.pyqtgraph.org/",
+    "section": "Science packages", 
+    "description": "Scientific Graphics and GUI Library for Python"
+  },
+  {
+    "name": "appdirs",
+    "debian": "appdirs",
+    "url": "http://github.com/ActiveState/appdirs",
+    "section": "Other packages", 
+    "description": "Determining appropriate platform-specific dirs"
+  },
+  {
+    "name": "d2to1",
+    "debian": "d2to2",
+    "url": "https://github.com/embray/d2to1",
+    "section": "Other packages", 
+    "description": "Python support for distutils2-like setup.cfg files as package metadata"
+  },
+  {
+    "name": "decorators",
+    "url": "https://github.com/micheles/decorator",
+    "section": "Other packages", 
+    "description": "Better living through Python with decorators"
+  },
+  {
+    "name": "recon",
+    "url": "http://github.com/jhunkeler/recon",
+    "section": "Other packages", 
+    "description": "Release control for git"
+  },
+  {
+    "name": "linecache2",
+    "debian": "python-linecache2",
+    "url": "https://pypi.python.org/packages/source/l/linecache2",
+    "section": "Other packages", 
+    "description": "Backport of linecache to older supported Pythons"
+  },
+  {
+    "name": "mechanize",
+    "debian": "python-mechanize",
+    "url": "https://pypi.python.org/packages/source/m/mechanize",
+    "section": "Other packages", 
+    "description": "Stateful programmatic web browsing "
+  },
+  {
+    "name": "parsley",
+    "debian": "parsley",
+    "url": "https://pypi.python.org/packages/source/P/Parsley",
+    "section": "Other packages", 
+    "description": "Pattern-matching language based on OMeta and Python"
+  },
+  {
+    "name": "yolk",
+    "url": "https://pypi.python.org/packages/source/y/yolk",
+    "section": "Other packages", 
+    "description": "Command-line tool for querying PyPI and Python packages installed on your system."
+  },
+  {
+    "name": "pytools",
+    "debian": "pytools",
+    "url": "https://pypi.python.org/pytools",
+    "section": "Other packages", 
+    "description": "A collection of tools for Python"
+  },
+  {
+    "name": "selenium",
+    "debian": "python-selenium",
+    "url": "https://pypi.python.org/packages/source/s/selenium",
+    "section": "Other packages", 
+    "description": "Python3 bindings for Selenium RC integration"
+  },
+  {
+    "name": "sphinx_rtd_theme",
+    "debian": "sphinx-rtd-theme",
+    "url": "https://pypi.python.org/packages/source/s/sphinx_rtd_theme",
+    "section": "Other packages", 
+    "description": "Sphinx theme from readthedocs.org"
+  },
+  {
+    "name": "sphinxcontrib-programoutput",
+    "debian": "sphinxcontrib-programoutput",
+    "url": "https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput",
+    "section": "Other packages", 
+    "description": "Insert the output of arbitrary commands into documents"
+  },
+  {
+    "name": "threading2",
+    "url": "https://pypi.python.org/packages/source/t/threading2",
+    "section": "Other packages", 
+    "description": "threading2"
+  },
+  {
+    "name": "traceback2",
+    "debian": "python-traceback2",
+    "url": "https://pypi.python.org/packages/source/t/traceback2",
+    "section": "Other packages", 
+    "description": "Backports of the traceback module"
+  },
+  {
+    "name": "ws4py",
+    "debian": "python-ws4py",
+    "url": "https://pypi.python.org/packages/source/w/ws4py",
+    "section": "Other packages", 
+    "description": "WebSocket library for Python"
+  },
+  {
+    "name": "aprio",
+    "url": "http://bitbucket.org/jhunkeler/aprio",
+    "section": "Other packages", 
+    "description": "aprio is an automatic renice daemon."
+  },
+  {
+    "name": "gcc",
+    "debian": "gcc-defaults",
+    "url": "http://www.netgull.com/gcc/releases/gcc-4.6.4",
+    "section": "Other packages", 
+    "description": "GNU C Compiler"
+  },
+  {
+    "name": "purge_path",
+    "url": "http://bitbucket.org/jhunkeler/purge_path",
+    "section": "Other packages", 
+    "description": "purge_path a small PATH manipulator"
+  },
+  {
+    "name": "pyobjc-core",
+    "url": "http://pyobjc.sourceforge.net/",
+    "section": "Other packages", 
+    "description": "Python<->ObjC Interoperability Module"
+  },
+  {
+    "name": "python-daemon",
+    "debian": "python-daemon",
+    "url": "http://bitbucket.org/jhunkeler/python-daemon",
+    "section": "Other packages", 
+    "description": "Library to implement a well-behaved Unix daemon process."
+  },
+  {
+    "name": "shunit2",
+    "debian": "shunit2",
+    "url": "http://sourceforge.net/projects/shunit2",
+    "section": "Other packages", 
+    "description": "Unit test framework for Bourne based shell scripts"
+  }
+]

@@ -1,11 +1,19 @@
-Astroconda packages
-===================
+AstroConda programs for potential inclusion in Debian
+===================================================
 
-| Name | Description |
-|------|-------------|
-| | **HST specific** |
+
+The list is taken from the [AstroConda](https://github.com/astroconda/astroconda-contrib)
+package list. Packages that are already in Debian are in **bold**, packages
+that will (for various reasons) not go into Debian are in *italic*. The other
+may be packaging candidates.
+
+
+| Package              | Description |
+| -------------------- | ----------- |
+| | |
+| | **HST/JWST specific packages** |
 | [acstools](http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python) | Python Tools for ACS (Advanced Camera for Surveys) Data |
-| [wfpc2tools](http://www.stsci.edu/resources/software_hardware/stsci_python) |Tools for use with the Wide Field and Planetary Camera 2 |
+| [wfpc2tools](http://www.stsci.edu/resources/software_hardware/stsci_python) | Tools for use with the Wide Field and Planetary Camera 2 |
 | [calcos](https://github.com/spacetelescope/calcos) | Calibration for HST/COS |
 | [hstcal](https://github.com/spacetelescope/hstcal) | Calibration for HST/WFC3, HST/ACS, and HST/STIS |
 | [nictools](https://github.com/spacetelescope/nictools) | Tools for HST/NICMOS |
@@ -23,7 +31,7 @@ Astroconda packages
 | [crds](http://www.stsci.edu/hst/observatory/crds/) | Calibration Reference Data System |
 | [webbpsf](https://github.com/mperrin/webbpsf) | WebbPSF: Simulated PSF for the James Webb Space Telescope |
 | | |
-| | **STSCI/Spacetelescope** |
+| | **STSci specific packages** |
 | [ext_shmht](https://github.com/stsci-ssb/ext_shmht) | hash table in shared memory, with locking |
 | [stsci](http://stsci.edu) | stsci meta-package |
 | [stsci-hst](http://www.stsci.edu) | stsci-hst meta-package |
@@ -32,7 +40,7 @@ Astroconda packages
 | [stsci.skypac](https://github.com/spacetelescope/stsci.skypac) | Sky matching for image mosaic |
 | [stsci.sphinxext](https://github.com/spacetelescope/stsci.sphinxext) | Sphinx extension for STScI. |
 | [stsci.convolve](https://github.com/embray/stsci.convolve) | stsci.convolve |
-| [**stsci.distutils**](https://github.com/embray/stsci.distutils) | stsci.distutils |
+| [**stsci.distutils**](https://packages.debian.org/sid/stsci.distutils) | Python packaging utilities for STScI's packages |
 | [stsci.image](https://github.com/embray/stsci.image) | stsci.image |
 | [stsci.imagemanip](https://github.com/embray/stsci.imagemanip) | stsci.imagemanip |
 | [stsci.imagestats](https://github.com/embray/stsci.imagestats) | stsci.imagestats |
@@ -47,21 +55,20 @@ Astroconda packages
 | [specview](https://github.com/spacetelescope/specview) | Spectrum visualization, manipulation, and fitting |
 | [stginga](https://github.com/spacetelescope/stginga) | Ginga products specific to STScI data analysis |
 | | |
-| | **Astronomy** |
-| [**pyregion**](http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python) | pyregion |
-| [**asdf**](https://github.com/spacetelescope/pyasdf) | asdf |
-| [asdf-standard](https://github.com/spacetelescope/asdf-standard) | asdf-standard |
+| | **Astronomy packages** |
+| [**pyregion**](https://packages.debian.org/sid/pyregion) | Python module to parse ds9 region files |
+| [**asdf**](https://packages.debian.org/sid/python-asdf) | Python library for the Advanced Scientific Data Formatasdf |
+| [asdf-standard](https://github.com/spacetelescope/asdf-standard) | Advanced Scientific Data Format description |
 | [astrolib.coords](https://github.com/spacetelescope/astrolib.coords.git) | astrolib.coords |
-| [**photutils**](https://github.com/astropy/photutils) | photutils |
-| [**pyds9**](https://github.com/ericmandel/pyds9) | Python connection to SAOimage DS9 via XPA |
-| [**xpa**](https://github.com/ericmandel/xpa) | Provides seamless communication between many kinds of Unix programs |
-| [**cfitsio**](http://heasarc.gsfc.nasa.gov/fitsio/fitsio.html) | cfitsio |
-| [**ds9**](http://ds9.si.edu/download/source/) | ds9 |
-| [**sextractor**](http://www.astromatic.net/download/sextractor) | sextractor |
-| [sextractor-generic](http://www.astromatic.net/download/sextractor) | sextractor-generic |
-| [**wcstools**](http://tdc-www.harvard.edu/wcstools) | For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats |
-| [**pysynphot**](https://github.com/spacetelescope/pysynphot) | pysynphot |
-| [**pywcs**](https://github.com/spacetelescope/pywcs) | pywcs |
+| [**photutils**](https://packages.debian.org/sid/photutils) | Astropy affiliated package for image photometry |
+| [**pyds9**](https://packages.debian.org/sid/python-pyds9) | Python connection to SAOimage DS9 via XPA |
+| [**xpa**](https://packages.debian.org/sid/ypa) | Provides seamless communication between many kinds of Unix programs |
+| [**cfitsio**](https://packages.debian.org/sid/cfitsio) | Library for I/O with FITS format data files |
+| [**ds9**](https://packages.debian.org/sid/saods9) | Image display tool for astronomy |
+| [**sextractor**](https://packages.debian.org/sid/sextractor) | Source extractor for astronomical images |
+| [**wcstools**](https://packages.debian.org/sid/wcstools) | For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats |
+| [**pysynphot**](https://packages.debian.org/sid/pysynphot) | Python Synthetic Photometry Utilities |
+| [**pywcs**](https://packages.debian.org/sid/python-pywcs) | Set of routines for handling the FITS WCS standard |
 | [pyraf](https://github.com/spacetelescope/pyraf) | pyraf |
 | [iraf](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
 | [ginga](https://github.com/ejeschke/ginga) | ginga |
@@ -71,35 +78,35 @@ Astroconda packages
 | [astroimtools](https://github.com/spacetelescope/astroimtools) | Astronomical Image Convenience Tools |
 | [drizzlepac](http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python) | drizzlepac |
 | | |
-| | **Science** |
-| [**pyfftw**](http://hgomersall.github.com/pyFFTW) | pyfftw |
+| | **Science packages** |
+| [**pyfftw**](https://packages.debian.org/sid/pyfftw) | Pythonic wrapper around FFTW |
 | [poppy](https://github.com/mperrin/poppy) | Physical Optics Propagation in Python |
 | [webbpsf-data](http://www.stsci.edu/~mperrin/software/webbpsf) | webbpsf-data data files |
-| [**atlas-generic**](http://sourceforge.net/projects/math-atlas/files/Stable) | atlas-generic |
-| [**fftw**](http://www.fftw.org) | fftw |
-| [htc_utils](http://bitbucket.org/jhunkeler/htc_utils) | htc_utils is a homebrew set of HTCondor wrappers |
-| [**lapack**](http://www.netlib.org) | lapack |
-| [**pyqtgraph**](http://www.pyqtgraph.org/) | pyqtgraph |
+| [**atlas-generic**](https://packages.debian.org/sid/atlas) | Automatically Tuned Linear Algebra Software |
+| [**fftw**](https://packages.debian.org/sid/fftw3) | Library for computing Fast Fourier Transforms |
+| [htc_utils](http://bitbucket.org/jhunkeler/htc_utils) | Homebrew set of HTCondor wrappers |
+| [**lapack**](https://packages.debian.org/sid/lapack) | Library of linear algebra routines |
+| [**pyqtgraph**](https://packages.debian.org/sid/python-pyqtgraph) | Scientific Graphics and GUI Library for Python |
 | | |
-| | **Other** |
-| [**appdirs**](http://github.com/ActiveState/appdirs) | A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir". |
-| [**d2to1**](https://github.com/embray/d2to1) | d2to1 |
+| | **Other packages** |
+| [**appdirs**](https://packages.debian.org/sid/appdirs) | Determining appropriate platform-specific dirs |
+| [**d2to1**](https://packages.debian.org/sid/d2to2) | Python support for distutils2-like setup.cfg files as package metadata |
 | [decorators](https://github.com/micheles/decorator) | Better living through Python with decorators |
 | [recon](http://github.com/jhunkeler/recon) | Release control for git |
-| [**linecache2**](https://pypi.python.org/packages/source/l/linecache2) | linecache2 |
-| [**mechanize**](https://pypi.python.org/packages/source/m/mechanize) | mechanize |
-| [**parsley**](https://pypi.python.org/packages/source/P/Parsley) | parsley |
+| [**linecache2**](https://packages.debian.org/sid/python-linecache2) | Backport of linecache to older supported Pythons |
+| [**mechanize**](https://packages.debian.org/sid/python-mechanize) | Stateful programmatic web browsing  |
+| [**parsley**](https://packages.debian.org/sid/parsley) | Pattern-matching language based on OMeta and Python |
 | [yolk](https://pypi.python.org/packages/source/y/yolk) | Command-line tool for querying PyPI and Python packages installed on your system. |
-| [**pytools**](https://pypi.python.org/pytools) | A collection of tools for Python |
-| [**selenium**](https://pypi.python.org/packages/source/s/selenium) | selenium |
-| [**sphinx_rtd_theme**](https://pypi.python.org/packages/source/s/sphinx_rtd_theme) | sphinx_rtd_theme |
-| [**sphinxcontrib-programoutput**](https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput) | sphinxcontrib-programoutput |
+| [**pytools**](https://packages.debian.org/sid/pytools) | A collection of tools for Python |
+| [**selenium**](https://packages.debian.org/sid/python-selenium) | Python3 bindings for Selenium RC integration |
+| [**sphinx_rtd_theme**](https://packages.debian.org/sid/sphinx-rtd-theme) | Sphinx theme from readthedocs.org |
+| [**sphinxcontrib-programoutput**](https://packages.debian.org/sid/sphinxcontrib-programoutput) | Insert the output of arbitrary commands into documents |
 | [threading2](https://pypi.python.org/packages/source/t/threading2) | threading2 |
-| [**traceback2**](https://pypi.python.org/packages/source/t/traceback2) | traceback2 |
-| [**ws4py**](https://pypi.python.org/packages/source/w/ws4py) | ws4py |
+| [**traceback2**](https://packages.debian.org/sid/python-traceback2) | Backports of the traceback module |
+| [**ws4py**](https://packages.debian.org/sid/python-ws4py) | WebSocket library for Python |
 | [aprio](http://bitbucket.org/jhunkeler/aprio) | aprio is an automatic renice daemon. |
-| [**gcc**](http://www.netgull.com/gcc/releases/gcc-4.6.4) | gcc |
+| [**gcc**](https://packages.debian.org/sid/gcc-defaults) | GNU C Compiler |
 | [purge_path](http://bitbucket.org/jhunkeler/purge_path) | purge_path a small PATH manipulator |
 | [pyobjc-core](http://pyobjc.sourceforge.net/) | Python<->ObjC Interoperability Module |
-| [**python-daemon**](http://bitbucket.org/jhunkeler/python-daemon) | Library to implement a well-behaved Unix daemon process. |
-| [**shunit2**](http://sourceforge.net/projects/shunit2) | shunit2 |
+| [**python-daemon**](https://packages.debian.org/sid/python-daemon) | Library to implement a well-behaved Unix daemon process. |
+| [**shunit2**](https://packages.debian.org/sid/shunit2) | Unit test framework for Bourne based shell scripts |
