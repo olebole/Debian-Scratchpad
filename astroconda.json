@@ -324,6 +324,7 @@
     "ascl_id": "1207.011", 
     "summary": "Python replacement for IRAF cl from STScI", 
     "name": "pyraf", 
+    "packageable": false, 
     "section": "Astronomy packages", 
     "url": "https://github.com/spacetelescope/pyraf",
     "git": "http://www.stsci.edu/institute/software_hardware/pyraf"
@@ -332,6 +333,7 @@
     "ascl_id": "9911.002", 
     "summary": "NOAO Image Reduction and Analysis Facility", 
     "name": "iraf", 
+    "packageable": false, 
     "section": "Astronomy packages", 
     "url": "http://iraf.noao.edu"
   }, 

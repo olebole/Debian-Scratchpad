@@ -67,8 +67,8 @@ may be packaging candidates.
 | [**wcstools**](https://packages.debian.org/sid/wcstools) | For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats |
 | [**pysynphot**](https://packages.debian.org/sid/python-pysynphot) | Python Synthetic Photometry Utilities |
 | [**pywcs**](https://packages.debian.org/sid/python-pywcs) | Set of routines for handling the FITS WCS standard |
-| [pyraf](https://github.com/spacetelescope/pyraf) | Python replacement for IRAF cl from STScI |
-| [iraf](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
+| [*pyraf*](https://github.com/spacetelescope/pyraf) | Python replacement for IRAF cl from STScI |
+| [*iraf*](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
 | [ginga](https://github.com/ejeschke/ginga) | The Ginga astronomical FITS file viewer |
 | [imexam](https://github.com/spacetelescope/imexam) | Simple image examination, and plotting, with similar functionality to IRAF's imexamine |
 | [gwcs](https://github.com/spacetelescope/gwcs) | Tools for managing the WCS in a general way |
