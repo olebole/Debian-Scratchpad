@@ -39,11 +39,11 @@ may be packaging candidates.
 | [stsci.sphinxext](https://github.com/spacetelescope/stsci.sphinxext) | Sphinx extension for STScI |
 | [stsci.convolve](https://github.com/spacetelescope/stsci.convolve) | Subset of SciPy functionality for convolving |
 | [**stsci.distutils**](https://packages.debian.org/sid/python-stsci.distutils) | Python packaging utilities for STScI's packages |
-| [stsci.image](https://github.com/spacetelescope/stsci.image) | STScI image processing |
-| [stsci.imagemanip](https://github.com/spacetelescope/stsci.imagemanip) | STScI image manipulation |
-| [stsci.imagestats](https://github.com/spacetelescope/stsci.imagestats) | STScI image statistics |
-| [stsci.ndimage](https://github.com/spacetelescope/stsci.ndimage) | Subset of SciPy functionality |
-| [stsci.numdisplay](https://github.com/spacetelescope/stsci.numdisplay) | Numerical data display |
+| [stsci.image](https://github.com/spacetelescope/stsci.image) | Image array manipulation functions |
+| [stsci.imagemanip](https://github.com/spacetelescope/stsci.imagemanip) | STScI general image manipulation tools |
+| [stsci.imagestats](https://github.com/spacetelescope/stsci.imagestats) | Compute various useful statistical values for array objects |
+| [stsci.ndimage](https://github.com/spacetelescope/stsci.ndimage) | Fork of scipy.ndimage |
+| [stsci.numdisplay](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects using image display tools like ds9 and ximtool |
 | [stsci.stimage](https://github.com/spacetelescope/stsci.stimage) | Various functions for performing processing of images |
 | [stsci.tools](https://github.com/spacetelescope/stsci.tools) | STScI utility functions |
 | [asv](https://github.com/spacetelescope/asv) | Airspeed Velocity: A simple Python benchmarking tool with web-based reporting |

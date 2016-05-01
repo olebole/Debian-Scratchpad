@@ -103,23 +103,25 @@ Depends: python-stsci.distutils
 
 Depends: stsci.image
 Homepage: https://github.com/spacetelescope/stsci.image
-Pkg-Description: STScI image processing
+Pkg-Description: Image array manipulation functions
 
 Depends: stsci.imagemanip
 Homepage: https://github.com/spacetelescope/stsci.imagemanip
-Pkg-Description: STScI image manipulation
+Pkg-Description: STScI general image manipulation tools
 
 Depends: stsci.imagestats
 Homepage: https://github.com/spacetelescope/stsci.imagestats
-Pkg-Description: STScI image statistics
+Pkg-Description: Compute various useful statistical values for array objects
 
 Depends: stsci.ndimage
 Homepage: https://github.com/spacetelescope/stsci.ndimage
-Pkg-Description: Subset of SciPy functionality
+Pkg-Description: Fork of scipy.ndimage
 
 Depends: stsci.numdisplay
-Homepage: https://github.com/spacetelescope/stsci.numdisplay
-Pkg-Description: Numerical data display
+Homepage: http://stsdas.stsci.edu/numdisplay
+Pkg-Description: Visualize numpy array objects using image display tools like ds9 and ximtool
+Remark:
+ Latest Release from Dec 2009
 
 Depends: stsci.stimage
 Homepage: https://github.com/spacetelescope/stsci.stimage

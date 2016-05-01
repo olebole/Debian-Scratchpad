@@ -146,34 +146,36 @@
     "url": "https://github.com/spacetelescope/stsci.distutils"
   }, 
   {
-    "summary": "STScI image processing", 
+    "summary": "Image array manipulation functions", 
     "name": "stsci.image", 
     "section": "STSci specific packages", 
     "url": "https://github.com/spacetelescope/stsci.image"
   }, 
   {
-    "summary": "STScI image manipulation", 
+    "summary": "STScI general image manipulation tools", 
     "name": "stsci.imagemanip", 
     "section": "STSci specific packages", 
     "url": "https://github.com/spacetelescope/stsci.imagemanip"
   }, 
   {
-    "summary": "STScI image statistics", 
+    "summary": "Compute various useful statistical values for array objects", 
     "name": "stsci.imagestats", 
     "section": "STSci specific packages", 
     "url": "https://github.com/spacetelescope/stsci.imagestats"
   }, 
   {
-    "summary": "Subset of SciPy functionality", 
+    "summary": "Fork of scipy.ndimage", 
     "name": "stsci.ndimage", 
     "section": "STSci specific packages", 
     "url": "https://github.com/spacetelescope/stsci.ndimage"
   }, 
   {
-    "summary": "Numerical data display", 
+    "comment": "Latest Release from Dec 2009",
+    "summary": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
     "name": "stsci.numdisplay", 
-    "section": "STSci specific packages", 
-    "url": "https://github.com/spacetelescope/stsci.numdisplay"
+    "section": "STSci specific packages",
+    "url": "http://stsdas.stsci.edu/numdisplay",
+    "git": "https://github.com/spacetelescope/stsci.numdisplay"
   }, 
   {
     "summary": "Various functions for performing processing of images", 
@@ -308,7 +310,8 @@
     "summary": "Python Synthetic Photometry Utilities", 
     "name": "pysynphot", 
     "section": "Astronomy packages", 
-    "url": "https://github.com/spacetelescope/pysynphot"
+    "url": "http://stsdas.stsci.edu/pysynphot/",
+    "git": "https://github.com/spacetelescope/pysynphot"
   }, 
   {
     "debian": "python-pywcs", 
@@ -322,7 +325,8 @@
     "summary": "Python replacement for IRAF cl from STScI", 
     "name": "pyraf", 
     "section": "Astronomy packages", 
-    "url": "https://github.com/spacetelescope/pyraf"
+    "url": "https://github.com/spacetelescope/pyraf",
+    "git": "http://www.stsci.edu/institute/software_hardware/pyraf"
   }, 
   {
     "ascl_id": "9911.002", 
