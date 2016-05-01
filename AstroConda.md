@@ -24,13 +24,11 @@ may be packaging candidates.
 | [pandeia-engine](https://github.com:stsci-ssb/pandeia) | Exposure time calculator (ETC) for the JWST |
 | [pandeia-thirdparty](http://stsci.edu) | Pandeia third party tools |
 | [pandeia_data](https://github.com:stsci-ssb/pandeia_data) | Pandeia data |
-| [pandokia](http://ssb.stsci.edu/testing/pandokia) | Lightweight test management and reporting system |
 | [wfc3tools](http://ssb.stsci.edu/doc/stsci_python_2.15.1/wfc3tools.doc/html/index.html) | Tools for the Hubble Space Telescope Wide Field Camera 3  |
 | [reftools](http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python) | Tools for HST reference files |
 | [stistools](http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python) | Tools for working with STIS data |
 | [costools](http://www.stsci.edu/institute/software_hardware) | Tools for working with COS data |
 | [crds](http://www.stsci.edu/hst/observatory/crds/) | Calibration Reference Data System |
-| [webbpsf](http://www.stsci.edu/jwst/software/webbpsf/) | WebbPSF: Simulated PSF for the James Webb Space Telescope |
 | | |
 | | **STSci specific packages** |
 | [ext_shmht](https://github.com/stsci-ssb/ext_shmht) | Hash table in shared memory, with locking |
@@ -79,6 +77,7 @@ may be packaging candidates.
 | | **Science packages** |
 | [**python-pyfftw**](https://packages.debian.org/sid/python-pyfftw) | Pythonic wrapper around FFTW |
 | [poppy](https://github.com/mperrin/poppy) | Physical Optics Propagation in Python |
+| [webbpsf](http://www.stsci.edu/jwst/software/webbpsf/) | WebbPSF: Simulated PSF for the James Webb Space Telescope |
 | [webbpsf-data](http://www.stsci.edu/~mperrin/software/webbpsf) | webbpsf-data data files |
 | [**atlas-generic**](https://packages.debian.org/sid/libatlas-dev) | Automatically Tuned Linear Algebra Software |
 | [**fftw**](https://packages.debian.org/sid/fftw3) | Library for computing Fast Fourier Transforms |
@@ -87,6 +86,7 @@ may be packaging candidates.
 | [**pyqtgraph**](https://packages.debian.org/sid/python-pyqtgraph) | Scientific Graphics and GUI Library for Python |
 | | |
 | | **Other packages** |
+| [pandokia](http://ssb.stsci.edu/testing/pandokia) | Lightweight test management and reporting system |
 | [**appdirs**](https://packages.debian.org/sid/python-appdirs) | Determining appropriate platform-specific dirs |
 | [**d2to1**](https://packages.debian.org/sid/python-d2to1) | Python support for distutils2-like setup.cfg files as package metadata |
 | [decorators](https://github.com/micheles/decorator) | Better living through Python with decorators |

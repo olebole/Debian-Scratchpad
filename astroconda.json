@@ -66,12 +66,6 @@
     "url": "https://github.com:stsci-ssb/pandeia_data"
   }, 
   {
-    "summary": "Lightweight test management and reporting system", 
-    "name": "pandokia", 
-    "section": "HST/JWST specific packages", 
-    "url": "http://ssb.stsci.edu/testing/pandokia"
-  }, 
-  {
     "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3 ", 
     "name": "wfc3tools", 
     "section": "HST/JWST specific packages", 
@@ -100,13 +94,6 @@
     "name": "crds", 
     "section": "HST/JWST specific packages", 
     "url": "http://www.stsci.edu/hst/observatory/crds/"
-  }, 
-  {
-    "ascl_id": "1504.007", 
-    "summary": "WebbPSF: Simulated PSF for the James Webb Space Telescope", 
-    "name": "webbpsf", 
-    "section": "HST/JWST specific packages", 
-    "url": "http://www.stsci.edu/jwst/software/webbpsf/"
   }, 
   {
     "summary": "Hash table in shared memory, with locking", 
@@ -391,6 +378,13 @@
     "url": "https://github.com/mperrin/poppy"
   }, 
   {
+    "ascl_id": "1504.007", 
+    "summary": "WebbPSF: Simulated PSF for the James Webb Space Telescope", 
+    "name": "webbpsf", 
+    "section": "Science packages", 
+    "url": "http://www.stsci.edu/jwst/software/webbpsf/"
+  }, 
+  {
     "summary": "webbpsf-data data files", 
     "name": "webbpsf-data", 
     "section": "Science packages", 
@@ -430,6 +424,12 @@
     "name": "pyqtgraph", 
     "section": "Science packages", 
     "url": "http://www.pyqtgraph.org/"
+  }, 
+  {
+    "summary": "Lightweight test management and reporting system", 
+    "name": "pandokia", 
+    "section": "Other packages", 
+    "url": "http://ssb.stsci.edu/testing/pandokia"
   }, 
   {
     "debian": "python-appdirs", 
