@@ -2,7 +2,7 @@
   {
     "ascl_id": "9911.002", 
     "comment": "IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.", 
-    "description": "Image Reduction and Analysis Facility", 
+    "summary": "Image Reduction and Analysis Facility", 
     "name": "IRAF", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -10,7 +10,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Utilities from CTIO", 
+    "summary": "Utilities from CTIO", 
     "name": "IRAF/ctio", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -18,7 +18,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Utilities from NOAO including QDPHOT", 
+    "summary": "Utilities from NOAO including QDPHOT", 
     "name": "IRAF/mxtools", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -26,7 +26,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Graphical applications for IRAF", 
+    "summary": "Graphical applications for IRAF", 
     "name": "IRAF/guiapps", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -34,14 +34,14 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Enhanced IR data reduction and mosaicing software", 
+    "summary": "Enhanced IR data reduction and mosaicing software", 
     "name": "IRAF/xdimsum", 
     "packageable": false, 
     "section": "Data Analysis Systems"
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Utilities for creating colour images", 
+    "summary": "Utilities for creating colour images", 
     "name": "IRAF/color", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -49,7 +49,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "FITS utilities", 
+    "summary": "FITS utilities", 
     "name": "IRAF/fitsutil", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -57,7 +57,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Mosaic camera CCD reduction tasks from NOAO", 
+    "summary": "Mosaic camera CCD reduction tasks from NOAO", 
     "name": "IRAF/mscred", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -72,7 +72,7 @@
   {
     "ascl_id": "9912.003", 
     "comment": "Depends on IRAF", 
-    "description": "Spectral Radial Velocity package from CfAi", 
+    "summary": "Spectral Radial Velocity package from CfAi", 
     "name": "IRAF/rvsao", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -80,7 +80,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages", 
+    "summary": "Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages", 
     "name": "IRAF/stecf", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -88,7 +88,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "HST data analysis and tables systems", 
+    "summary": "HST data analysis and tables systems", 
     "name": "IRAF/STSDAS/TABLES", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -96,7 +96,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Enhanced CL", 
+    "summary": "Enhanced CL", 
     "name": "IRAF/ECL", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -104,7 +104,7 @@
   }, 
   {
     "ascl_id": "1112.001", 
-    "description": "C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons", 
+    "summary": "C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons", 
     "name": "Eclipse", 
     "section": "Data Analysis Systems", 
     "url": "http://www.eso.org/sci/software/eclipse/"
@@ -112,7 +112,7 @@
   {
     "ascl_id": "1302.017", 
     "debian": "eso-midas", 
-    "description": "European Southern Observatory Munich Image Data Analysis System", 
+    "summary": "European Southern Observatory Munich Image Data Analysis System", 
     "name": "ESO-MIDAS", 
     "section": "Data Analysis Systems", 
     "url": "http://www.eso.org/midas"
@@ -120,7 +120,7 @@
   {
     "ascl_id": "1401.003", 
     "comment": "PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.", 
-    "description": "Python interface for ESO-MIDAS", 
+    "summary": "Python interface for ESO-MIDAS", 
     "name": "PyMidas", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -129,48 +129,48 @@
   {
     "comment": "In Debian, we use GDL", 
     "debian": "gnudatalanguage", 
-    "description": "Interactive Data Language from RSI.", 
+    "summary": "Interactive Data Language from RSI.", 
     "name": "IDL", 
     "section": "Data Analysis Systems", 
     "url": "http://www.rsinc.com/idl/"
   }, 
   {
     "debian": "gdl-astrolib", 
-    "description": "Goddard Astron IDL astronomical procedure library.", 
+    "summary": "Goddard Astron IDL astronomical procedure library.", 
     "name": "IDL/Astron", 
     "section": "Data Analysis Systems", 
     "url": "http://idlastro.gsfc.nasa.gov/homepage.html"
   }, 
   {
     "ascl_id": "0011.001", 
-    "description": "IDL adaptive optics photometry software.", 
+    "summary": "IDL adaptive optics photometry software.", 
     "name": "IDL/StarFinder", 
     "section": "Data Analysis Systems", 
     "url": "http://www.bo.astro.it/StarFinder/"
   }, 
   {
-    "description": "IDL procedure collection from Johns Hopkins", 
+    "summary": "IDL procedure collection from Johns Hopkins", 
     "name": "IDL/JHUAPL", 
     "section": "Data Analysis Systems", 
     "url": "http://fermi.jhuapl.edu/s1r/idl/s1rlib/local_idl.html"
   }, 
   {
     "ascl_id": "1405.009", 
-    "description": "interactive display tool for IDL", 
+    "summary": "interactive display tool for IDL", 
     "name": "IDL/ATV", 
     "section": "Data Analysis Systems", 
     "url": "http://www.astro.caltech.edu/~barth/atv/"
   }, 
   {
     "ascl_id": "1305.010", 
-    "description": "Radio astronomy applications from IRAM", 
+    "summary": "Radio astronomy applications from IRAM", 
     "name": "Gildas", 
     "section": "Data Analysis Systems", 
     "url": "http://iram.fr/IRAMFR/GILDAS/"
   }, 
   {
     "ascl_id": "1106.007", 
-    "description": "Calibration, mapping, deconvolution and image analysis of interferometric data", 
+    "summary": "Calibration, mapping, deconvolution and image analysis of interferometric data", 
     "name": "Miriad", 
     "section": "Data Analysis Systems", 
     "url": "http://bima.astro.umd.edu/miriad/"
@@ -178,42 +178,42 @@
   {
     "ascl_id": "1102.018", 
     "comment": "Not maintained any longer.", 
-    "description": "Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure.", 
+    "summary": "Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure.", 
     "name": "Karma", 
     "section": "Data Analysis Systems", 
     "url": "http://www.atnf.csiro.au/computing/software/karma/"
   }, 
   {
     "ascl_id": "1308.011", 
-    "description": "Data Reduction and Imaging for Bolometer Array", 
+    "summary": "Data Reduction and Imaging for Bolometer Array", 
     "name": "CRUSH", 
     "section": "Data Analysis Systems", 
     "url": "http://www.submm.caltech.edu/~sharc/crush/"
   }, 
   {
     "ascl_id": "1107.013", 
-    "description": "Common Astronomy Software Application", 
+    "summary": "Common Astronomy Software Application", 
     "name": "CASA", 
     "section": "Data Analysis Systems", 
     "url": "http://casa.nrao.edu/"
   }, 
   {
     "ascl_id": "1308.013", 
-    "description": "A pipeline for astronomical image data reduction", 
+    "summary": "A pipeline for astronomical image data reduction", 
     "name": "THELI", 
     "section": "Data Analysis Systems", 
     "url": "http://www.astro.uni-bonn.de/theli/"
   }, 
   {
     "ascl_id": "1103.001", 
-    "description": "Interactive program for radio synthesis imaging from Caltech", 
+    "summary": "Interactive program for radio synthesis imaging from Caltech", 
     "name": "Difmap", 
     "section": "Data Analysis Systems", 
     "url": "http://www.cv.nrao.edu/adass/adassVI/shepherdm.html"
   }, 
   {
     "comment": "Depends on IRAF", 
-    "description": "Graphical tools to work with IRAF", 
+    "summary": "Graphical tools to work with IRAF", 
     "name": "x11iraf", 
     "packageable": false, 
     "section": "Image Display Servers", 
@@ -221,7 +221,7 @@
   }, 
   {
     "comment": "Outdated; use saods9", 
-    "description": "The original, needs 8bit Xserver", 
+    "summary": "The original, needs 8bit Xserver", 
     "name": "SAOImage", 
     "packageable": false, 
     "section": "Image Display Servers", 
@@ -230,14 +230,14 @@
   {
     "ascl_id": "0003.002", 
     "debian": "saods9", 
-    "description": "Latest display server from SAO", 
+    "summary": "Latest display server from SAO", 
     "name": "DS9", 
     "section": "Image Display Servers", 
     "url": "http://hea-www.harvard.edu/RD/ds9/"
   }, 
   {
     "debian": "xpa-tools", 
-    "description": "Messaging system from SAO. Used by DS9.", 
+    "summary": "Messaging system from SAO. Used by DS9.", 
     "name": "XPA", 
     "section": "Image Display Servers", 
     "url": "http://hea-www.harvard.edu/saord/xpa/"
@@ -245,7 +245,7 @@
   {
     "ascl_id": "1109.019", 
     "debian": "skycat", 
-    "description": "ESO image display tool with catalogue and image server access.", 
+    "summary": "ESO image display tool with catalogue and image server access.", 
     "name": "Skycat", 
     "section": "Image Display Servers", 
     "url": "http://www.eso.org/skycat"
@@ -253,7 +253,7 @@
   {
     "ascl_id": "1205.005", 
     "debian": "ftools-fv", 
-    "description": "Tool for viewing and editing FITS format files", 
+    "summary": "Tool for viewing and editing FITS format files", 
     "name": "fv", 
     "section": "Image Display Servers", 
     "url": "http://heasarc.gsfc.nasa.gov/docs/software/ftools/fv/"
@@ -261,21 +261,21 @@
   {
     "ascl_id": "1210.019", 
     "comment": "Must go to contrib since it on pgplot (non-free) via dpuser", 
-    "description": "FITS file viewer", 
+    "summary": "FITS file viewer", 
     "name": "QFitsView", 
     "section": "Image Display Servers", 
     "url": "http://www.mpe.mpg.de/~ott/QFitsView/index.html"
   }, 
   {
     "ascl_id": "1403.024", 
-    "description": "Graphical Astronomy and Image Analysis Tool", 
+    "summary": "Graphical Astronomy and Image Analysis Tool", 
     "name": "Gaia", 
     "section": "Image Display Servers", 
     "url": "http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html"
   }, 
   {
     "comment": "Not free.", 
-    "description": "SuperMongo.", 
+    "summary": "SuperMongo.", 
     "name": "SM", 
     "packageable": false, 
     "section": "Graphics Software", 
@@ -284,21 +284,21 @@
   {
     "ascl_id": "1103.002", 
     "debian": "pgplot5", 
-    "description": "large subroutine library for plotting scientific data", 
+    "summary": "large subroutine library for plotting scientific data", 
     "name": "PGPLOT", 
     "section": "Graphics Software", 
     "url": "http://astro.caltech.edu/~tjp/pgplot/index.html"
   }, 
   {
     "debian": "gnuplot", 
-    "description": "Command-line driven interactive function plotting utility", 
+    "summary": "Command-line driven interactive function plotting utility", 
     "name": "gnuplot", 
     "section": "Graphics Software", 
     "url": "http://www.gnuplot.info/"
   }, 
   {
     "debian": "grace", 
-    "description": "2D WYSIWYG plotting tool", 
+    "summary": "2D WYSIWYG plotting tool", 
     "name": "Grace", 
     "section": "Graphics Software", 
     "url": "http://plasma-gate.weizmann.ac.il/Grace/"
@@ -306,14 +306,14 @@
   {
     "ascl_id": "1112.008", 
     "debian": "ggobi", 
-    "description": "Data visualisation in 3D.", 
+    "summary": "Data visualisation in 3D.", 
     "name": "ggobi", 
     "section": "Graphics Software", 
     "url": "http://www.ggobi.org/"
   }, 
   {
     "debian": "ggobi", 
-    "description": "Python 2D plotting library.", 
+    "summary": "Python 2D plotting library.", 
     "name": "Matplotlib", 
     "section": "Graphics Software", 
     "url": "http://matplotlib.sourceforge.net/"
@@ -321,21 +321,21 @@
   {
     "ascl_id": "1106.003", 
     "debian": "libplplot-dev", 
-    "description": "Cross-platform software package for creating scientific plots", 
+    "summary": "Cross-platform software package for creating scientific plots", 
     "name": "PLplot", 
     "section": "Graphics Software", 
     "url": "http://plplot.sourceforge.net/"
   }, 
   {
     "debian": "python", 
-    "description": "General purpose, object orientated, extensible scripting language.", 
+    "summary": "General purpose, object orientated, extensible scripting language.", 
     "name": "Python", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
   }, 
   {
     "comment": "Not maintained anymore, outdated by numpy", 
-    "description": "Python module for high-performance, numeric computing", 
+    "summary": "Python module for high-performance, numeric computing", 
     "name": "Python/Numeric", 
     "packageable": false, 
     "section": "Scripting Languages", 
@@ -343,25 +343,25 @@
   }, 
   {
     "debian": "python-scientific", 
-    "description": "Python modules useful for scientific computing", 
+    "summary": "Python modules useful for scientific computing", 
     "name": "Python/Scientific", 
     "section": "Scripting Languages"
   }, 
   {
     "debian": "python-pil", 
-    "description": "Python Imaging Library (Pillow fork)", 
+    "summary": "Python Imaging Library (Pillow fork)", 
     "name": "Python/Imaging (PIL)", 
     "section": "Scripting Languages", 
     "url": "http://python-pillow.github.io/"
   }, 
   {
     "debian": "python-pmw", 
-    "description": "Pmw -- Python MegaWidgets", 
+    "summary": "Pmw -- Python MegaWidgets", 
     "name": "Python/Pmw", 
     "section": "Scripting Languages"
   }, 
   {
-    "description": "Python module to handle ASCII tables", 
+    "summary": "Python module to handle ASCII tables", 
     "name": "Python/asciidata", 
     "section": "Scripting Languages", 
     "url": "http://www.stecf.org/software/PYTHONtools/astroasciidata/"
@@ -369,48 +369,48 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "Conversion between binary data and ASCII", 
+    "summary": "Conversion between binary data and ASCII", 
     "name": "Python/binascii", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
   }, 
   {
     "debian": "ipython", 
-    "description": "enhanced interactive Python shell", 
+    "summary": "enhanced interactive Python shell", 
     "name": "Python/ipython", 
     "section": "Scripting Languages", 
     "url": "http://ipython.org/"
   }, 
   {
     "debian": "python-scipy", 
-    "description": "scientific tools for Python", 
+    "summary": "scientific tools for Python", 
     "name": "Python/scipy", 
     "section": "Scripting Languages", 
     "url": "http://www.scipy.org/"
   }, 
   {
     "debian": "python-gnuplot", 
-    "description": "Python interface to the gnuplot plotting program", 
+    "summary": "Python interface to the gnuplot plotting program", 
     "name": "Python/Gnuplot", 
     "section": "Scripting Languages", 
     "url": "http://gnuplot-py.sourceforge.net/"
   }, 
   {
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
-    "description": "Pythonic Interface to PGPLOT", 
+    "summary": "Pythonic Interface to PGPLOT", 
     "name": "Python/ppgplot", 
     "section": "Scripting Languages", 
     "url": "https://github.com/npat-efault/ppgplot"
   }, 
   {
     "debian": "python-pybiggles", 
-    "description": "Scientific plotting package for Python", 
+    "summary": "Scientific plotting package for Python", 
     "name": "Python/biggles", 
     "section": "Scripting Languages"
   }, 
   {
     "debian": "python-pygame", 
-    "description": "SDL bindings for games development in Python", 
+    "summary": "SDL bindings for games development in Python", 
     "name": "Python/pygame", 
     "section": "Scripting Languages", 
     "url": "http://www.pygame.org/"
@@ -418,7 +418,7 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "A simple fast partial StringIO replacement", 
+    "summary": "A simple fast partial StringIO replacement", 
     "name": "Python/cStringIO", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
@@ -426,20 +426,20 @@
   {
     "comment": "Part of Python", 
     "debian": "python", 
-    "description": "C implementation and optimization of the Python pickle module", 
+    "summary": "C implementation and optimization of the Python pickle module", 
     "name": "Python/cPickle", 
     "section": "Scripting Languages", 
     "url": "http://www.python.org/"
   }, 
   {
     "debian": "python-wxgtk3.0", 
-    "description": "Python interface to the wxWidgets Cross-platform C++ GUI toolkit", 
+    "summary": "Python interface to the wxWidgets Cross-platform C++ GUI toolkit", 
     "name": "Python/wx", 
     "section": "Scripting Languages", 
     "url": "http://wxpython.org/"
   }, 
   {
-    "description": "STScI Python packages", 
+    "summary": "STScI Python packages", 
     "name": "STScI_Python", 
     "section": "Scripting Languages", 
     "url": "http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python"
@@ -447,7 +447,7 @@
   {
     "ascl_id": "1207.011", 
     "comment": "Depends on IRAF", 
-    "description": "Python replacement for IRAF cl from STScI", 
+    "summary": "Python replacement for IRAF cl from STScI", 
     "name": "Python/PyRAF", 
     "packageable": false, 
     "section": "Scripting Languages", 
@@ -456,34 +456,34 @@
   {
     "ascl_id": "1207.009", 
     "debian": "python-pyfits", 
-    "description": "Python FITS package from STScI", 
+    "summary": "Python FITS package from STScI", 
     "name": "Python/PyFITS", 
     "section": "Scripting Languages", 
     "url": "http://www.stsci.edu/resources/software_hardware/pyfits"
   }, 
   {
     "ascl_id": "1401.005", 
-    "description": "Drizzling software", 
+    "summary": "Drizzling software", 
     "name": "Python/PyDrizzle", 
     "section": "Scripting Languages", 
     "url": "http://www.stsci.edu/resources/software_hardware/pydrizzle"
   }, 
   {
-    "description": "Automatic image combination drizzling software", 
+    "summary": "Automatic image combination drizzling software", 
     "name": "Python/MultiDrizzle", 
     "section": "Scripting Languages", 
     "url": "http://stsdas.stsci.edu/pydrizzle/multidrizzle/"
   }, 
   {
     "debian": "python-numpy", 
-    "description": "Python package for scientific computing", 
+    "summary": "Python package for scientific computing", 
     "name": "Python/NumPy", 
     "section": "Scripting Languages", 
     "url": "http://numpy.scipy.org/"
   }, 
   {
     "debian": "openjdk-9-jdk", 
-    "description": "Java runtime environment and JDK", 
+    "summary": "Java runtime environment and JDK", 
     "name": "Java", 
     "section": "Scripting Languages", 
     "url": "http://java.sun.com/"
@@ -491,21 +491,21 @@
   {
     "ascl_id": "1303.025", 
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
-    "description": "Interactive language for handling numbers, strings, and matrices", 
+    "summary": "Interactive language for handling numbers, strings, and matrices", 
     "name": "DPUser", 
     "section": "Scripting Languages", 
     "url": "http://www.mpe.mpg.de/~ott/dpuser/index.html"
   }, 
   {
     "debian": "libgsl-dev", 
-    "description": "The GNU Scientific Library", 
+    "summary": "The GNU Scientific Library", 
     "name": "GSL", 
     "section": "Scientific Libraries", 
     "url": "http://www.gnu.org/software/gsl/"
   }, 
   {
     "comment": "Not DFSG-free", 
-    "description": "Scientific Data Plotting software.", 
+    "summary": "Scientific Data Plotting software.", 
     "name": "DISLIN", 
     "packageable": false, 
     "section": "Scientific Libraries", 
@@ -514,21 +514,21 @@
   {
     "ascl_id": "1010.001", 
     "debian": "libcfitsio-dev", 
-    "description": "FITS File Subroutine Library", 
+    "summary": "FITS File Subroutine Library", 
     "name": "CFITSIO", 
     "section": "Scientific Libraries", 
     "url": "http://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html"
   }, 
   {
     "debian": "liblapack-dev", 
-    "description": "Linear Algebra Subroutine Library", 
+    "summary": "Linear Algebra Subroutine Library", 
     "name": "LAPACK", 
     "section": "Scientific Libraries", 
     "url": "http://netlib2.cs.utk.edu/lapack/"
   }, 
   {
     "debian": "libatlas-dev", 
-    "description": "Another Linear Algebra Library", 
+    "summary": "Another Linear Algebra Library", 
     "name": "Atlas", 
     "section": "Scientific Libraries", 
     "url": "http://www.netlib.org/atlas/"
@@ -536,21 +536,21 @@
   {
     "ascl_id": "1201.015", 
     "debian": "libfftw3-dev", 
-    "description": "Fast Fourier Transform library", 
+    "summary": "Fast Fourier Transform library", 
     "name": "FFTW", 
     "section": "Scientific Libraries", 
     "url": "http://www.fftw.org/"
   }, 
   {
     "debian": "plotutils", 
-    "description": "GNU plotting utilities", 
+    "summary": "GNU plotting utilities", 
     "name": "plotutils", 
     "section": "Scientific Libraries", 
     "url": "http://www.gnu.org/software/plotutils/"
   }, 
   {
     "debian": "python-jpype", 
-    "description": "Java to Python integration", 
+    "summary": "Java to Python integration", 
     "name": "JPype", 
     "section": "Scientific Libraries", 
     "url": "http://jpype.sourceforge.net/"
@@ -558,7 +558,7 @@
   {
     "ascl_id": "1112.002", 
     "debian": "funtools", 
-    "description": "'Minimal buy-in' FITS library and utility package", 
+    "summary": "'Minimal buy-in' FITS library and utility package", 
     "name": "Funtools", 
     "section": "Scientific Libraries", 
     "url": "http://www.cfa.harvard.edu/~john/funtools/"
@@ -566,14 +566,14 @@
   {
     "ascl_id": "1109.015", 
     "debian": "wcstools", 
-    "description": "World Coordinate System software tools and library from Doug Mink at SAO", 
+    "summary": "World Coordinate System software tools and library from Doug Mink at SAO", 
     "name": "wcstools", 
     "section": "Miscellaneous Utilities", 
     "url": "http://tdc-www.harvard.edu/software/wcstools/"
   }, 
   {
     "debian": "astromatic", 
-    "description": "Astronomical pipeline software collection", 
+    "summary": "Astronomical pipeline software collection", 
     "name": "Astromatic", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software"
@@ -581,7 +581,7 @@
   {
     "ascl_id": "1010.064", 
     "debian": "sextractor", 
-    "description": "Source extractor for astronomical images", 
+    "summary": "Source extractor for astronomical images", 
     "name": "Astromatic/SExtractor", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/sextractor"
@@ -589,7 +589,7 @@
   {
     "ascl_id": "1010.068", 
     "debian": "swarp", 
-    "description": "Resample and co-add together FITS images", 
+    "summary": "Resample and co-add together FITS images", 
     "name": "Astromatic/SWarp", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/swarp"
@@ -597,14 +597,14 @@
   {
     "ascl_id": "1010.063", 
     "debian": "scamp", 
-    "description": "Compute astrometric and photometric solutions", 
+    "summary": "Compute astrometric and photometric solutions", 
     "name": "Astromatic/SCAMP", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/scamp"
   }, 
   {
     "ascl_id": "1010.061", 
-    "description": "Enhance Your Extraction", 
+    "summary": "Enhance Your Extraction", 
     "name": "Astromatic/EyE", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/eye"
@@ -612,7 +612,7 @@
   {
     "ascl_id": "1010.062", 
     "debian": "missfits", 
-    "description": "Basic maintenance and packaging tasks on FITS files", 
+    "summary": "Basic maintenance and packaging tasks on FITS files", 
     "name": "Astromatic/MissFits", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/missfits"
@@ -620,14 +620,14 @@
   {
     "ascl_id": "1110.006", 
     "debian": "stiff", 
-    "description": "convert scientific FITS images to the TIFF format", 
+    "summary": "convert scientific FITS images to the TIFF format", 
     "name": "Astromatic/STIFF", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/stiff"
   }, 
   {
     "ascl_id": "1010.067", 
-    "description": "Simulate 'perfect' astronomical catalogues", 
+    "summary": "Simulate 'perfect' astronomical catalogues", 
     "name": "Astromatic/Stuff", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/stuff"
@@ -635,7 +635,7 @@
   {
     "ascl_id": "1010.069", 
     "debian": "weightwatcher", 
-    "description": "Combine maps and polygon data for astronomical image processing", 
+    "summary": "Combine maps and polygon data for astronomical image processing", 
     "name": "Astromatic/WeightWatcher", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.astromatic.net/software/weightwatcher"
@@ -643,7 +643,7 @@
   {
     "ascl_id": "1010.057", 
     "comment": "Unknown, unspecified license", 
-    "description": "HST point-spread function simulation software", 
+    "summary": "HST point-spread function simulation software", 
     "name": "Tiny Tim", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -652,7 +652,7 @@
   {
     "ascl_id": "1112.013", 
     "comment": "Not DFSG-Free.", 
-    "description": "Planetarium and ephemeris software", 
+    "summary": "Planetarium and ephemeris software", 
     "name": "Xephem", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -660,7 +660,7 @@
   }, 
   {
     "comment": "Probably not DFSG-Free", 
-    "description": "Digitized Sky Survey image extraction software", 
+    "summary": "Digitized Sky Survey image extraction software", 
     "name": "dss/dss2", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -669,7 +669,7 @@
   {
     "ascl_id": "1104.011", 
     "comment": "Not DFSG-Free.", 
-    "description": "Stellar Photometry and related packages from Peter Stetson at DAO/HIA", 
+    "summary": "Stellar Photometry and related packages from Peter Stetson at DAO/HIA", 
     "name": "DAOPhot", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -677,14 +677,14 @@
   }, 
   {
     "debian": "fitsverify", 
-    "description": "FITS format checker", 
+    "summary": "FITS format checker", 
     "name": "fitsverify", 
     "section": "Miscellaneous Utilities", 
     "url": "http://heasarc.gsfc.nasa.gov/docs/software/ftools/fitsverify/"
   }, 
   {
     "debian": "fitscut", 
-    "description": "Image cutout and conversion utility", 
+    "summary": "Image cutout and conversion utility", 
     "name": "fitscut", 
     "section": "Miscellaneous Utilities", 
     "url": "http://acs.pha.jhu.edu/general/software/fitscut/"
@@ -692,14 +692,14 @@
   {
     "ascl_id": "1010.002", 
     "debian": "libcfitsio-bin", 
-    "description": "FITS file compression utilities", 
+    "summary": "FITS file compression utilities", 
     "name": "fpack/funpack", 
     "section": "Miscellaneous Utilities", 
     "url": "http://heasarc.nasa.gov/lheasoft/fitsio/fpack/"
   }, 
   {
     "ascl_id": "9910.001", 
-    "description": "Plasma simulation and spectral synthesis code", 
+    "summary": "Plasma simulation and spectral synthesis code", 
     "name": "Cloudy", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.nublado.org/"
@@ -707,76 +707,76 @@
   {
     "ascl_id": "1108.010", 
     "comment": "Last update: 2000-12-11", 
-    "description": "Photometric Redshift Code", 
+    "summary": "Photometric Redshift Code", 
     "name": "HyperZ", 
     "section": "Miscellaneous Utilities", 
     "url": "http://webast.ast.obs-mip.fr/hyperz/"
   }, 
   {
     "debian": "graphviz", 
-    "description": "Graphical Visualisation Software", 
+    "summary": "Graphical Visualisation Software", 
     "name": "graphviz", 
     "section": "Miscellaneous Utilities", 
     "url": "http://www.graphviz.org/"
   }, 
   {
     "ascl_id": "1112.019", 
-    "description": "Aladin Sky Atlas", 
+    "summary": "Aladin Sky Atlas", 
     "name": "Aladin", 
     "section": "Virtual Observatory Tools", 
     "url": "http://aladin.u-strasbg.fr/"
   }, 
   {
     "ascl_id": "1205.011", 
-    "description": "tool for handling Virtual Observatory compliant Spectra", 
+    "summary": "tool for handling Virtual Observatory compliant Spectra", 
     "name": "VOspec", 
     "section": "Virtual Observatory Tools", 
     "url": "http://esavo.esa.int/vospec/"
   }, 
   {
     "ascl_id": "1309.006", 
-    "description": "VOTable plotting tool", 
+    "summary": "VOTable plotting tool", 
     "name": "VOplot", 
     "section": "Virtual Observatory Tools", 
     "url": "http://vo.iucaa.ernet.in/~voi/voplot.htm"
   }, 
   {
-    "description": "PLatform for AStronomical Tool InterConnection", 
+    "summary": "PLatform for AStronomical Tool InterConnection", 
     "name": "Plastic", 
     "section": "Virtual Observatory Tools", 
     "url": "http://plastic.sourceforge.net/"
   }, 
   {
     "ascl_id": "1210.016", 
-    "description": "1-D spectral visualization and analysis of astronomical spectrograms", 
+    "summary": "1-D spectral visualization and analysis of astronomical spectrograms", 
     "name": "Specview", 
     "section": "Virtual Observatory Tools", 
     "url": "http://www.stsci.edu/resources/software_hardware/specview"
   }, 
   {
     "ascl_id": "1402.007", 
-    "description": "Spectral Analysis Tool", 
+    "summary": "Spectral Analysis Tool", 
     "name": "Splat", 
     "section": "Virtual Observatory Tools", 
     "url": "http://star-www.dur.ac.uk/~pdraper/splat/splat-vo/"
   }, 
   {
     "ascl_id": "1105.001", 
-    "description": "Starlink Tables Infrastructure Library Tool Set", 
+    "summary": "Starlink Tables Infrastructure Library Tool Set", 
     "name": "Stilts", 
     "section": "Virtual Observatory Tools", 
     "url": "http://www.star.bris.ac.uk/~mbt/stilts/"
   }, 
   {
     "ascl_id": "1101.010", 
-    "description": "Tool for OPerations on Catalogues And Tables", 
+    "summary": "Tool for OPerations on Catalogues And Tables", 
     "name": "TOPCAT", 
     "section": "Virtual Observatory Tools", 
     "url": "http://www.star.bristol.ac.uk/~mbt/topcat/"
   }, 
   {
     "ascl_id": "1204.012", 
-    "description": "Visual Browser for the ESO Science Archive Facility", 
+    "summary": "Visual Browser for the ESO Science Archive Facility", 
     "name": "VirGO", 
     "section": "Virtual Observatory Tools", 
     "url": "http://archive.eso.org/cms/tools-documentation/visual-archive-browser"

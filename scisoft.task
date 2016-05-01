@@ -1,0 +1,385 @@
+Task: {name}
+    Install: false
+    Index: false
+    Metapackage: false
+    Description: [name} packages
+     Here we list the packages that belong to the 
+        [{name}]({url})
+     distribution.
+    
+Depends: iraf
+Homepage: http://iraf.noao.edu/
+Pkg-Description: Image Reduction and Analysis Facility
+Remark:
+ IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.
+
+Depends: iraf-ctio
+Homepage: http://www.stecf.org/scripts/irafhelp?ctio
+Pkg-Description: Utilities from CTIO
+Remark:
+ Depends on IRAF
+
+Depends: iraf-mxtools
+Homepage: http://www.noao.edu/noao/staff/mighell/mxtools/
+Pkg-Description: Utilities from NOAO including QDPHOT
+Remark:
+ Depends on IRAF
+
+Depends: iraf-guiapps
+Homepage: http://www.stecf.org/iraf/web/projects/guiapps/
+Pkg-Description: Graphical applications for IRAF
+Remark:
+ Depends on IRAF
+
+Depends: iraf-xdimsum
+Pkg-Description: Enhanced IR data reduction and mosaicing software
+Remark:
+ Depends on IRAF
+
+Depends: iraf-color
+Homepage: http://www.stecf.org/scripts/irafhelp?color
+Pkg-Description: Utilities for creating colour images
+Remark:
+ Depends on IRAF
+
+Depends: iraf-fitsutil
+Homepage: http://www.stecf.org/scripts/irafhelp?fitsutil
+Pkg-Description: FITS utilities
+Remark:
+ Depends on IRAF
+
+Depends: iraf-mscred
+Homepage: http://www.stecf.org/scripts/irafref?mscred
+Pkg-Description: Mosaic camera CCD reduction tasks from NOAO
+Remark:
+ Depends on IRAF
+
+Depends: iraf-esowfi
+Remark:
+ Depends on IRAF
+
+Depends: iraf-rvsao
+Homepage: http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html
+Pkg-Description: Spectral Radial Velocity package from CfAi
+Remark:
+ Depends on IRAF
+
+Depends: iraf-stecf
+Homepage: http://www.stecf.org/software/stecf-iraf/
+Pkg-Description: Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages
+Remark:
+ Depends on IRAF
+
+Depends: iraf-stsdas-tables
+Homepage: http://www.stsci.edu/resources/software_hardware/stsdas
+Pkg-Description: HST data analysis and tables systems
+Remark:
+ Depends on IRAF
+
+Depends: iraf-ecl
+Homepage: http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html
+Pkg-Description: Enhanced CL
+Remark:
+ Depends on IRAF
+
+Depends: eclipse
+Homepage: http://www.eso.org/sci/software/eclipse/
+Pkg-Description: C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons
+
+Depends: eso-midas
+
+Depends: pymidas
+Homepage: http://www.eso.org/sampo/pymidas
+Pkg-Description: Python interface for ESO-MIDAS
+Remark:
+ PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.
+
+Depends: gnudatalanguage
+
+Depends: gdl-astrolib
+
+Depends: idl-starfinder
+Homepage: http://www.bo.astro.it/StarFinder/
+Pkg-Description: IDL adaptive optics photometry software.
+
+Depends: idl-jhuapl
+Homepage: http://fermi.jhuapl.edu/s1r/idl/s1rlib/local_idl.html
+Pkg-Description: IDL procedure collection from Johns Hopkins
+
+Depends: idl-atv
+Homepage: http://www.astro.caltech.edu/~barth/atv/
+Pkg-Description: interactive display tool for IDL
+
+Depends: gildas
+Homepage: http://iram.fr/IRAMFR/GILDAS/
+Pkg-Description: Radio astronomy applications from IRAM
+
+Depends: miriad
+Homepage: http://bima.astro.umd.edu/miriad/
+Pkg-Description: Calibration, mapping, deconvolution and image analysis of interferometric data
+
+Depends: karma
+Homepage: http://www.atnf.csiro.au/computing/software/karma/
+Pkg-Description: Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure.
+Remark:
+ Not maintained any longer.
+
+Depends: crush
+Homepage: http://www.submm.caltech.edu/~sharc/crush/
+Pkg-Description: Data Reduction and Imaging for Bolometer Array
+
+Depends: casa
+Homepage: http://casa.nrao.edu/
+Pkg-Description: Common Astronomy Software Application
+
+Depends: theli
+Homepage: http://www.astro.uni-bonn.de/theli/
+Pkg-Description: A pipeline for astronomical image data reduction
+
+Depends: difmap
+Homepage: http://www.cv.nrao.edu/adass/adassVI/shepherdm.html
+Pkg-Description: Interactive program for radio synthesis imaging from Caltech
+
+Depends: x11iraf
+Homepage: http://www.openastro.com/osx/x11iraf-info.html
+Pkg-Description: Graphical tools to work with IRAF
+Remark:
+ Depends on IRAF
+
+Depends: saoimage
+Homepage: http://tdc-www.harvard.edu/software/saoimage.html
+Pkg-Description: The original, needs 8bit Xserver
+Remark:
+ Outdated; use saods9
+
+Depends: saods9
+
+Depends: xpa-tools
+
+Depends: skycat
+
+Depends: ftools-fv
+
+Depends: qfitsview
+Homepage: http://www.mpe.mpg.de/~ott/QFitsView/index.html
+Pkg-Description: FITS file viewer
+Remark:
+ Must go to contrib since it on pgplot (non-free) via dpuser
+
+Depends: gaia
+Homepage: http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html
+Pkg-Description: Graphical Astronomy and Image Analysis Tool
+
+Depends: sm
+Homepage: http://www.astro.princeton.edu/~rhl/sm/
+Pkg-Description: SuperMongo.
+Remark:
+ Not free.
+
+Depends: pgplot5
+
+Depends: gnuplot
+
+Depends: grace
+
+Depends: ggobi
+
+Depends: ggobi
+
+Depends: libplplot-dev
+
+Depends: python
+
+Depends: python-numeric
+Homepage: http://sourceforge.net/projects/numpy/files/Old%20Numeric/
+Pkg-Description: Python module for high-performance, numeric computing
+Remark:
+ Not maintained anymore, outdated by numpy
+
+Depends: python-scientific
+
+Depends: python-pil
+
+Depends: python-pmw
+
+Depends: python-asciidata
+Homepage: http://www.stecf.org/software/PYTHONtools/astroasciidata/
+Pkg-Description: Python module to handle ASCII tables
+
+Depends: python
+
+Depends: ipython
+
+Depends: python-scipy
+
+Depends: python-gnuplot
+
+Depends: python-ppgplot
+Homepage: https://github.com/npat-efault/ppgplot
+Pkg-Description: Pythonic Interface to PGPLOT
+Remark:
+ Must go to contrib since it depends on pgplot (non-free)
+
+Depends: python-pybiggles
+
+Depends: python-pygame
+
+Depends: python
+
+Depends: python
+
+Depends: python-wxgtk3.0
+
+Depends: stsci-python
+Homepage: http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python
+Pkg-Description: STScI Python packages
+
+Depends: python-pyraf
+Homepage: http://www.stsci.edu/resources/software_hardware/pyraf
+Pkg-Description: Python replacement for IRAF cl from STScI
+Remark:
+ Depends on IRAF
+
+Depends: python-pyfits
+
+Depends: python-pydrizzle
+Homepage: http://www.stsci.edu/resources/software_hardware/pydrizzle
+Pkg-Description: Drizzling software
+
+Depends: python-multidrizzle
+Homepage: http://stsdas.stsci.edu/pydrizzle/multidrizzle/
+Pkg-Description: Automatic image combination drizzling software
+
+Depends: python-numpy
+
+Depends: openjdk-9-jdk
+
+Depends: dpuser
+Homepage: http://www.mpe.mpg.de/~ott/dpuser/index.html
+Pkg-Description: Interactive language for handling numbers, strings, and matrices
+Remark:
+ Must go to contrib since it depends on pgplot (non-free)
+
+Depends: libgsl-dev
+
+Depends: dislin
+Homepage: http://www.linmpi.mpg.de/dislin/
+Pkg-Description: Scientific Data Plotting software.
+Remark:
+ Not DFSG-free
+
+Depends: libcfitsio-dev
+
+Depends: liblapack-dev
+
+Depends: libatlas-dev
+
+Depends: libfftw3-dev
+
+Depends: plotutils
+
+Depends: python-jpype
+
+Depends: funtools
+
+Depends: wcstools
+
+Depends: astromatic
+
+Depends: sextractor
+
+Depends: swarp
+
+Depends: scamp
+
+Depends: astromatic-eye
+Homepage: http://www.astromatic.net/software/eye
+Pkg-Description: Enhance Your Extraction
+
+Depends: missfits
+
+Depends: stiff
+
+Depends: astromatic-stuff
+Homepage: http://www.astromatic.net/software/stuff
+Pkg-Description: Simulate 'perfect' astronomical catalogues
+
+Depends: weightwatcher
+
+Depends: tiny tim
+Homepage: http://www.stsci.edu/software/tinytim/tinytim.html
+Pkg-Description: HST point-spread function simulation software
+Remark:
+ Unknown, unspecified license
+
+Depends: xephem
+Homepage: http://www.clearskyinstitute.com/xephem/
+Pkg-Description: Planetarium and ephemeris software
+Remark:
+ Not DFSG-Free.
+
+Depends: dss-dss2
+Homepage: http://archive.eso.org/dss/eso-dss.html
+Pkg-Description: Digitized Sky Survey image extraction software
+Remark:
+ Probably not DFSG-Free
+
+Depends: daophot
+Homepage: http://www.star.bris.ac.uk/~mbt/daophot/
+Pkg-Description: Stellar Photometry and related packages from Peter Stetson at DAO/HIA
+Remark:
+ Not DFSG-Free.
+
+Depends: fitsverify
+
+Depends: fitscut
+
+Depends: libcfitsio-bin
+
+Depends: cloudy
+Homepage: http://www.nublado.org/
+Pkg-Description: Plasma simulation and spectral synthesis code
+
+Depends: hyperz
+Homepage: http://webast.ast.obs-mip.fr/hyperz/
+Pkg-Description: Photometric Redshift Code
+Remark:
+ Last update: 2000-12-11
+
+Depends: graphviz
+
+Depends: aladin
+Homepage: http://aladin.u-strasbg.fr/
+Pkg-Description: Aladin Sky Atlas
+
+Depends: vospec
+Homepage: http://esavo.esa.int/vospec/
+Pkg-Description: tool for handling Virtual Observatory compliant Spectra
+
+Depends: voplot
+Homepage: http://vo.iucaa.ernet.in/~voi/voplot.htm
+Pkg-Description: VOTable plotting tool
+
+Depends: plastic
+Homepage: http://plastic.sourceforge.net/
+Pkg-Description: PLatform for AStronomical Tool InterConnection
+
+Depends: specview
+Homepage: http://www.stsci.edu/resources/software_hardware/specview
+Pkg-Description: 1-D spectral visualization and analysis of astronomical spectrograms
+
+Depends: splat
+Homepage: http://star-www.dur.ac.uk/~pdraper/splat/splat-vo/
+Pkg-Description: Spectral Analysis Tool
+
+Depends: stilts
+Homepage: http://www.star.bris.ac.uk/~mbt/stilts/
+Pkg-Description: Starlink Tables Infrastructure Library Tool Set
+
+Depends: topcat
+Homepage: http://www.star.bristol.ac.uk/~mbt/topcat/
+Pkg-Description: Tool for OPerations on Catalogues And Tables
+
+Depends: virgo
+Homepage: http://archive.eso.org/cms/tools-documentation/visual-archive-browser
+Pkg-Description: Visual Browser for the ESO Science Archive Facility
