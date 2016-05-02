@@ -28,13 +28,14 @@ for project in projects:
     Install: false
     Index: false
     Metapackage: false
-    Description: [name} packages
+    Description: {name} packages
      Here we list the packages that belong to the 
         [{name}]({url})
      distribution.
-    ''')
+        '''.format(**project)) 
         for pkg in l:
             pkg['name'] = pkg['name'].replace('/', '-').replace('_','-').lower()
+            pkg['description'] = '\n '.join(pkg.get('description', '.').splitlines())
             s = '\n'
             if 'debian' in pkg:
                 if pkg['debian'] in apt_cache:
@@ -49,7 +50,7 @@ for project in projects:
                 if 'url' in pkg:
                     s += "Homepage: {url}\n"
                 if 'summary' in pkg:
-                    s += 'Pkg-Description: {summary}\n'
+                    s += 'Pkg-Description: {summary}\n {description}\n'
                 if 'comment' in pkg:
                     s += 'Remark:\n {comment}\n'
             fp.write(s.format(**pkg))
