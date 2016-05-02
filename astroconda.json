@@ -473,7 +473,8 @@
     "url": "https://github.com/spacetelescope/d2to1"
   }, 
   {
-    "name": "decorators", 
+    "debian": "python-decorator",
+    "name": "decorator", 
     "section": "Other packages", 
     "summary": "Better living through Python with decorators", 
     "url": "https://github.com/micheles/decorator"
