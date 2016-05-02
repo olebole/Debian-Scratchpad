@@ -28,18 +28,18 @@ may be packaging candidates.
 | [crds](http://www.stsci.edu/hst/observatory/crds/) | Calibration Reference Data System |
 | | |
 | | **STSci specific packages** |
-| [stsci.sphere](http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html) | STScI's spherical geometry astropy package |
-| [stsci.skypac](https://github.com/spacetelescope/stsci.skypac) | Sky matching for image mosaic |
+| [*stsci.sphere*](http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html) | STScI's spherical geometry astropy package (*Package is outdated and replaced by Scipy*) |
+| [*stsci.skypac*](https://github.com/spacetelescope/stsci.skypac) | Sky matching for image mosaic (*Package is outdated and replaced by Scipy*) |
 | [stsci.sphinxext](https://github.com/spacetelescope/stsci.sphinxext) | Sphinx extension for STScI |
-| [stsci.convolve](https://github.com/spacetelescope/stsci.convolve) | Subset of SciPy functionality for convolving |
+| [*stsci.convolve*](https://github.com/spacetelescope/stsci.convolve) | Subset of SciPy functionality for convolving (*Package is outdated and replaced by Scipy*) |
 | [**stsci.distutils**](https://packages.debian.org/sid/python-stsci.distutils) | Python packaging utilities for STScI's packages |
-| [stsci.image](https://github.com/spacetelescope/stsci.image) | Image array manipulation functions |
-| [stsci.imagemanip](https://github.com/spacetelescope/stsci.imagemanip) | STScI general image manipulation tools |
-| [stsci.imagestats](https://github.com/spacetelescope/stsci.imagestats) | Compute various useful statistical values for array objects |
-| [stsci.ndimage](https://github.com/spacetelescope/stsci.ndimage) | Fork of scipy.ndimage |
-| [stsci.numdisplay](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects |
-| [stsci.stimage](https://github.com/spacetelescope/stsci.stimage) | Various functions for performing processing of images |
-| [stsci.tools](https://github.com/spacetelescope/stsci.tools) | STScI utility functions |
+| [*stsci.image*](https://github.com/spacetelescope/stsci.image) | Image array manipulation functions (*Package is outdated and replaced by Scipy*) |
+| [*stsci.imagemanip*](https://github.com/spacetelescope/stsci.imagemanip) | STScI general image manipulation tools (*Package is outdated and replaced by Scipy*) |
+| [*stsci.imagestats*](https://github.com/spacetelescope/stsci.imagestats) | Compute various useful statistical values for array objects (*Package is outdated and replaced by Scipy*) |
+| [*stsci.ndimage*](https://github.com/spacetelescope/stsci.ndimage) | Fork of scipy.ndimage (*Package is outdated and replaced by Scipy*) |
+| [*stsci.numdisplay*](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects (*Package is outdated and replaced by Scipy*) |
+| [*stsci.stimage*](https://github.com/spacetelescope/stsci.stimage) | Various functions for performing processing of images (*Package is outdated and replaced by Scipy*) |
+| [*stsci.tools*](https://github.com/spacetelescope/stsci.tools) | STScI utility functions (*Package is outdated and replaced by Scipy*) |
 | [asv](http://asv.readthedocs.io/) | Simple Python benchmarking tool with web-based reporting |
 | [cube-tools](https://github.com/spacetelescope/cube-tools) | Data analysis package for cubes |
 | [fitsblender](http://ssb.stsci.edu/doc/stsci_python_dev/fitsblender.doc/html/index.html) | FITS header merging from multiple images. |

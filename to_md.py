@@ -38,7 +38,7 @@ may be packaging candidates.
             fp.write('| | |\n| | **{section}** |\n'.format(**pkg))
             section = pkg['section']
         s = '| '
-        if 'debian' in pkg:
+        if 'debian' in pkg and not pkg['debian'].isdigit():
             s += '[**{name}**](https://packages.debian.org/sid/{debian})'
         else:
             if 'url' in pkg:

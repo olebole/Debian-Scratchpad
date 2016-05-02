@@ -78,6 +78,8 @@
     "url": "http://www.stsci.edu/hst/observatory/crds/"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "description": "Python package for handling spherical polygons that represent arbitrary\nregions of the sky.sphere", 
     "name": "stsci.sphere", 
     "section": "STSci specific packages", 
@@ -85,6 +87,8 @@
     "url": "http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.skypac", 
     "section": "STSci specific packages", 
     "summary": "Sky matching for image mosaic", 
@@ -98,6 +102,8 @@
     "url": "https://github.com/spacetelescope/stsci.sphinxext"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "description": "Formerly included in SciPy as scipy.stsci.convolve.", 
     "name": "stsci.convolve", 
     "section": "STSci specific packages", 
@@ -113,31 +119,40 @@
     "url": "https://github.com/spacetelescope/stsci.distutils"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.image", 
     "section": "STSci specific packages", 
     "summary": "Image array manipulation functions", 
     "url": "https://github.com/spacetelescope/stsci.image"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.imagemanip", 
     "section": "STSci specific packages", 
     "summary": "STScI general image manipulation tools", 
     "url": "https://github.com/spacetelescope/stsci.imagemanip"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.imagestats", 
     "section": "STSci specific packages", 
     "summary": "Compute various useful statistical values for array objects", 
     "url": "https://github.com/spacetelescope/stsci.imagestats"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.ndimage", 
     "section": "STSci specific packages", 
     "summary": "Fork of scipy.ndimage", 
     "url": "https://github.com/spacetelescope/stsci.ndimage"
   }, 
   {
-    "comment": "Latest Release from Dec 2009", 
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "description": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
     "git": "https://github.com/spacetelescope/stsci.numdisplay", 
     "name": "stsci.numdisplay", 
@@ -146,12 +161,16 @@
     "url": "http://stsdas.stsci.edu/numdisplay"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.stimage", 
     "section": "STSci specific packages", 
     "summary": "Various functions for performing processing of images", 
     "url": "https://github.com/spacetelescope/stsci.stimage"
   }, 
   {
+    "comment": "Package is outdated and replaced by Scipy",
+    "packageable": false,
     "name": "stsci.tools", 
     "section": "STSci specific packages", 
     "summary": "STScI utility functions", 

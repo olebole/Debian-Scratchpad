@@ -64,10 +64,14 @@ Homepage: http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.htm
 Pkg-Description: STScI's spherical geometry astropy package
  Python package for handling spherical polygons that represent arbitrary
  regions of the sky.sphere
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.skypac
 Homepage: https://github.com/spacetelescope/stsci.skypac
 Pkg-Description: Sky matching for image mosaic
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.sphinxext
 Homepage: https://github.com/spacetelescope/stsci.sphinxext
@@ -79,39 +83,53 @@ Depends: stsci.convolve
 Homepage: https://github.com/spacetelescope/stsci.convolve
 Pkg-Description: Subset of SciPy functionality for convolving
  Formerly included in SciPy as scipy.stsci.convolve.
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: python-stsci.distutils
 
 Depends: stsci.image
 Homepage: https://github.com/spacetelescope/stsci.image
 Pkg-Description: Image array manipulation functions
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.imagemanip
 Homepage: https://github.com/spacetelescope/stsci.imagemanip
 Pkg-Description: STScI general image manipulation tools
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.imagestats
 Homepage: https://github.com/spacetelescope/stsci.imagestats
 Pkg-Description: Compute various useful statistical values for array objects
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.ndimage
 Homepage: https://github.com/spacetelescope/stsci.ndimage
 Pkg-Description: Fork of scipy.ndimage
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.numdisplay
 Homepage: http://stsdas.stsci.edu/numdisplay
 Pkg-Description: Visualize numpy array objects
  Visualize numpy array objects using image display tools like ds9 and ximtool
 Remark:
- Latest Release from Dec 2009
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.stimage
 Homepage: https://github.com/spacetelescope/stsci.stimage
 Pkg-Description: Various functions for performing processing of images
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: stsci.tools
 Homepage: https://github.com/spacetelescope/stsci.tools
 Pkg-Description: STScI utility functions
+Remark:
+ Package is outdated and replaced by Scipy
 
 Depends: asv
 Homepage: http://asv.readthedocs.io/
