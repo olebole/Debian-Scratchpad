@@ -2,6 +2,7 @@
   {
     "ascl_id": "9911.002", 
     "comment": "IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.", 
+    "description": "IRAF includes a broad selection of programs for general image processing and graphics, plus a large number of programs for the reduction and analysis of optical and IR astronomy data. Other external or layered packages are available for applications such as data acquisition or handling data from other observatories and wavelength regimes such as the Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or ROSAT and AXAF (X-ray). These external packages are distributed separately from the main IRAF distribution but can be easily installed. The IRAF system also includes a complete programming environment for scientific applications, which includes a programmable Command Language scripting facility, the IMFORT Fortran/C programming interface, and the full SPP/VOS programming environment in which the portable IRAF system and all applications are written.", 
     "name": "iraf", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -72,6 +73,7 @@
   {
     "ascl_id": "9912.003", 
     "comment": "Depends on IRAF", 
+    "description": "RVSAO is a set of programs to obtain redshifts and radial velocities from digital spectra. RVSAO operates in the IRAF (Tody 1986, 1993) environment. The heart of the system is xcsao, which implements the cross-correlation method, and is a direct descendant of the system built by Tonry and Davis (1979). emsao uses intelligent heuristics to search for emission lines in spectra, then fits them to obtain a redshift. sumspec shifts and sums spectra to build templates for cross-correlation. linespec builds synthetic spectra given a list of spectral lines. bcvcorr corrects velocities for the motion of the earth. We discuss in detail the parameters necessary to run xcsao and emsao properly. We discuss the reliability and error associated with xcsao derived redshifts. We develop an internal error estimator, and we show how large, stable surveys can be used to develop more accurate error estimators. We develop a new methodology for building spectral templates for galaxy redshifts. We show how to obtain correlation velocities using emission line templates. Emission line correlations are substantially more efficient than the previous standard technique, automated emission line fitting. We compare the use of RVSAO with new methods, which use Singular Value Decomposition and $chi^2$ fitting techniques.", 
     "name": "iraf-rvsao", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -104,6 +106,7 @@
   }, 
   {
     "ascl_id": "1112.001", 
+    "description": "Written in ANSI C, eclipse is a library offering numerous services related to astronomical image processing: FITS data access, various image and cube loading methods, binary image handling and filtering (including convolution and morphological filters), 2-D cross-correlation, connected components, cube and image arithmetic, dead pixel detection and correction, object detection, data extraction, flat-fielding with robust fit, image generation, statistics, photometry, image-space resampling, image combination, and cube stacking. It also contains support for mathematical tools like random number generation, FFT, curve fitting, matrices, fast median computation, and point-pattern matching. The main feature of this library is its ability to handle large amounts of input data (up to 2GB in the current version) regardless of the amount of memory and swap available on the local machine. Another feature is the very high speed allowed by optimized C, making it an ideal base tool for programming efficient number-crunching applications, e.g., on parallel (Beowulf) systems.", 
     "name": "eclipse", 
     "section": "Data Analysis Systems", 
     "summary": "C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons", 
@@ -121,6 +124,7 @@
   {
     "ascl_id": "1401.003", 
     "comment": "PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.", 
+    "description": "PyMidas is an interface between Python and MIDAS, the major ESO legacy general purpose data processing system. PyMidas allows a user to exploit both the rich legacy of MIDAS software and the power of Python scripting in a unified interactive environment. PyMidas also allows the usage of other Python-based astronomical analysis systems such asPyRAF.", 
     "name": "pymidas", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -146,6 +150,7 @@
   }, 
   {
     "ascl_id": "0011.001", 
+    "description": "StarFinder is an IDL code for the deep analysis of stellar fields, designed for Adaptive Optics well-sampled images with high and low Strehl ratio. The Point Spread Function is extracted directly from the frame, to take into account the actual structure of the instrumental response and the atmospheric effects. The code is written in IDL language and organized in the form of a self-contained widget-based application, provided with a series of tools for data visualization and analysis. A description of the method and some applications to Adaptive Optics data are presented.", 
     "name": "idl-starfinder", 
     "section": "Data Analysis Systems", 
     "summary": "IDL adaptive optics photometry software.", 
@@ -159,6 +164,7 @@
   }, 
   {
     "ascl_id": "1405.009", 
+    "description": "ATV displays and analyses astronomical images using the IDL image-processing language. It allows interactive control of the image scaling, color table, color stretch, and zoom, with support for world coordinate systems. It also does point-and-click aperture photometry, simple spectral extractions, and can produce publication-quality postscript output images.", 
     "name": "idl-atv", 
     "section": "Data Analysis Systems", 
     "summary": "interactive display tool for IDL", 
@@ -166,6 +172,7 @@
   }, 
   {
     "ascl_id": "1305.010", 
+    "description": "GILDAS is a collection of software oriented toward (sub-)millimeter radioastronomical applications (either single-dish or interferometer). It has been adopted as the IRAM standard data reduction package and is jointly maintained by IRAM & CNRS. GILDAS contains many facilities, most of which are oriented towards spectral line mapping and many kinds of 3-dimensional data. The code, written in Fortran-90 with a few parts in C/C++ (mainly keyboard interaction, plotting, widgets), is easily extensible.", 
     "name": "gildas", 
     "section": "Data Analysis Systems", 
     "summary": "Radio astronomy applications from IRAM", 
@@ -173,6 +180,7 @@
   }, 
   {
     "ascl_id": "1106.007", 
+    "description": "MIRIAD is a radio interferometry data-reduction package, designed for taking raw visibility data through calibration to the image analysis stage. It has been designed to handle any interferometric array, with working examples for BIMA, CARMA, SMA, WSRT, and ATCA. A separate version for ATCA is available, which differs in a few minor ways from the CARMA version.", 
     "name": "miriad", 
     "section": "Data Analysis Systems", 
     "summary": "Calibration, mapping, deconvolution and image analysis of interferometric data", 
@@ -181,6 +189,7 @@
   {
     "ascl_id": "1102.018", 
     "comment": "Not maintained any longer.", 
+    "description": "Karma is a toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure. It contains KarmaLib (the structured libraries and API) and a large number of modules (applications) to perform many standard tasks. A suite of visualisation tools are distributed with the library.", 
     "name": "karma", 
     "section": "Data Analysis Systems", 
     "summary": "Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure.", 
@@ -188,6 +197,7 @@
   }, 
   {
     "ascl_id": "1308.011", 
+    "description": "CRUSH is an astronomical data reduction/imaging tool for certain imaging cameras, especially at the millimeter, sub-millimeter, and far-infrared wavelengths. It supports the SHARC-2, LABOCA, SABOCA, ASZCA, p-ArTeMiS, PolKa, GISMO, MAKO and SCUBA-2 instruments. The code is written entirely in Java, allowing it to run on virtually any platform. It is normally run from the command-line with several arguments.", 
     "name": "crush", 
     "section": "Data Analysis Systems", 
     "summary": "Data Reduction and Imaging for Bolometer Array", 
@@ -195,6 +205,7 @@
   }, 
   {
     "ascl_id": "1107.013", 
+    "description": "CASA, the Common Astronomy Software Applications package, is being developed with the primary goal of supporting the data post-processing needs of the next generation of radio astronomical telescopes such as ALMA and EVLA. The package can process both interferometric and single dish data. The CASA infrastructure consists of a set of C++ tools bundled together under an iPython interface as a set of data reduction tasks. This structure provides flexibility to process the data via task interface or as a python script. In addition to the data reduction tasks, many post-processing tools are available for even more flexibility and special purpose reduction needs.", 
     "name": "casa", 
     "section": "Data Analysis Systems", 
     "summary": "Common Astronomy Software Application", 
@@ -202,6 +213,7 @@
   }, 
   {
     "ascl_id": "1308.013", 
+    "description": "THELI is an easy-to-use, end-to-end pipeline for the reduction of any optical, near-IR and mid-IR imaging data. It combines a variety of processing algorithms and third party software into a single, homogeneous tool. Over 90 optical and infrared instruments at observatories world-wide are pre-configured; more can be added by the user. The code's online appendix contains three walk-through examples using public data (optical, near-IR and mid-IR) and additional online documentation is available for training and troubleshooting.", 
     "name": "theli", 
     "section": "Data Analysis Systems", 
     "summary": "A pipeline for astronomical image data reduction", 
@@ -209,6 +221,7 @@
   }, 
   {
     "ascl_id": "1103.001", 
+    "description": "Difmap is a program developed for synthesis imaging of visibility data from interferometer arrays of radio telescopes world-wide. Its prime advantages over traditional packages are its emphasis on interactive processing, speed, and the use of Difference mapping techniques.", 
     "name": "difmap", 
     "section": "Data Analysis Systems", 
     "summary": "Interactive program for radio synthesis imaging from Caltech", 
@@ -268,6 +281,7 @@
   {
     "ascl_id": "1210.019", 
     "comment": "Must go to contrib since it on pgplot (non-free) via dpuser", 
+    "description": "QFitsView is a FITS file viewer that can display one, two, and three-dimensional FITS files. It has three modes of operation, depending of what kind of data is being displayed. One-dimensional data are shown in an x-y plot. Two-dimensional images are shown in the main window. Three-dimensional data cubes can be displayed in a variety of ways, with the third dimension shown as a x-y plot at the bottom of the image display. QFitsView was written in C++ and uses the Qt widget library, which makes it available for all major platforms: Windows, MAC OS X, and many Unix variants.", 
     "name": "qfitsview", 
     "section": "Image Display Servers", 
     "summary": "FITS file viewer", 
@@ -275,6 +289,7 @@
   }, 
   {
     "ascl_id": "1403.024", 
+    "description": "GAIA is an image and data-cube display and analysis tool for astronomy. It provides the usual facilities of image display tools, plus more astronomically useful ones such as aperture and optimal photometry, contouring, source detection, surface photometry, arbitrary region analysis, celestial coordinate readout, calibration and modification, grid overlays, blink comparison, defect patching and the ability to query on-line catalogues and image servers. It can also display slices from data-cubes, extract and visualize spectra as well as perform full 3D rendering. GAIA uses theStarlinksoftware environment (ascl:1110.012) and is derived from the ESOSkyCat tool(ascl:1109.019).", 
     "name": "gaia", 
     "section": "Image Display Servers", 
     "summary": "Graphical Astronomy and Image Analysis Tool", 
@@ -471,6 +486,7 @@
   {
     "ascl_id": "1207.011", 
     "comment": "Depends on IRAF", 
+    "description": "PyRAF is a command language for running IRAF tasks that is based on the Python scripting language. It gives users the ability to run IRAF tasks in an environment that has all the power and flexibility of Python. PyRAF can be installed along with an existing IRAF installation; users can then choose to run either PyRAF or the IRAF CL.", 
     "name": "python-pyraf", 
     "packageable": false, 
     "section": "Scripting Languages", 
@@ -488,6 +504,7 @@
   }, 
   {
     "ascl_id": "1401.005", 
+    "description": "PyDrizzle provides a semi-automated interface for computing the parameters necessary for runningDrizzle. PyDrizzle performs the task of determining the parameters necessary for aligning images based on the WCS information in the input image headers, as well as any supplemental alignment information provided in shift files, and combines the images onto the same WCS. Though it does not identify cosmic rays, it has the ability to ignore pixels flagged as bad, such as pixels identified by other programs as affected by cosmic rays.", 
     "name": "python-pydrizzle", 
     "section": "Scripting Languages", 
     "summary": "Drizzling software", 
@@ -517,6 +534,7 @@
   {
     "ascl_id": "1303.025", 
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
+    "description": "DPUSER is an interactive language capable of handling numbers (both real and complex), strings, and matrices. Its main aim is to do astronomical image analysis, for which it provides a comprehensive set of functions, but it can also be used for many other applications.", 
     "name": "dpuser", 
     "section": "Scripting Languages", 
     "summary": "Interactive language for handling numbers, strings, and matrices", 
@@ -643,6 +661,7 @@
   }, 
   {
     "ascl_id": "1010.061", 
+    "description": "In EyE (Enhance Your Extraction) an artificial neural network connected to pixels of a moving window (retina) is trained to associate these input stimuli to the corresponding response in one or several output image(s). The resulting filter can be loaded inSExtractorto operate complex, wildly non-linear filters on astronomical images. Typical applications of EyE include adaptive filtering, feature detection and cosmetic corrections.", 
     "name": "astromatic-eye", 
     "section": "Miscellaneous Utilities", 
     "summary": "Enhance Your Extraction", 
@@ -668,6 +687,7 @@
   }, 
   {
     "ascl_id": "1010.067", 
+    "description": "Stuff is a program that simulates \u201cperfect\u201d astronomical catalogues. It generate object lists in ASCII which can read by the SkyMaker program to produce realistic astronomical fields. Stuff is part of theEFIGIdevelopment project.", 
     "name": "astromatic-stuff", 
     "section": "Miscellaneous Utilities", 
     "summary": "Simulate 'perfect' astronomical catalogues", 
@@ -685,6 +705,7 @@
   {
     "ascl_id": "1010.057", 
     "comment": "Unknown, unspecified license", 
+    "description": "Tiny Tim generates simulated Hubble Space Telescope point spread functions (PSFs). It is written in C and distributed as source code and runs on a wide variety of UNIX and VMS systems. Tiny Tim includes mirror zonal errors, time dependent aberrations (for the pre-repair instruments), field dependent obscuration patterns (for WF/PC-1 and WFPC2), and filter passband effects. It can produce a normally sampled or subsampled PSF. Output is a FITS image file.", 
     "name": "tiny tim", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -694,6 +715,7 @@
   {
     "ascl_id": "1112.013", 
     "comment": "Not DFSG-Free.", 
+    "description": "XEphem is a scientific-grade interactive astronomical ephemeris package for UNIX-like systems. Written in C, X11 and Motif, it is easily ported to systems. Among other things, XEphem:computes heliocentric, geocentric and topocentric information for all objects;has built-in support for all planets; the moons of Mars, Jupiter, Saturn, Uranus and Earth; central meridian longitude of Mars and Jupiter; Saturn's rings; and Jupiter's Great Red Spot;allows user-defined objects including stars, deepsky objects, asteroids, comets and Earth satellites;provides special efficient handling of large catalogs including Tycho, Hipparcos, GSC;displays data in configurable tabular formats in conjunction with several interactive graphical views;displays a night-at-a-glance 24 hour graphic showing when any selected objects are up;displays 3-D stereo Solar System views that are particularly well suited for visualizing comet trajectories;quickly finds all close pairs of objects in the sky; andsorts and prints all catalogs with very flexible criteria for creating custom observing lists.Its capabilities are listed more fully in theuser manual introduction.", 
     "name": "xephem", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -711,6 +733,7 @@
   {
     "ascl_id": "1104.011", 
     "comment": "Not DFSG-Free.", 
+    "description": "The DAOPHOT program exploits the capability of photometrically linear image detectors to perform stellar photometry in crowded fields. Raw CCD images are prepared prior to analysis, and following the obtaining of an initial star list with the FIND program, synthetic aperture photometry is performed on the detected objects with the PHOT routine. A local sky brightness and a magnitude are computed for each star in each of the specified stellar apertures, and for crowded fields, the empirical point-spread function must then be obtained for each data frame. The GROUP routine divides the star list for a given frame into optimum subgroups, and then the NSTAR routine is used to obtain photometry for all the stars in the frame by means of least- squares profile fits.", 
     "name": "daophot", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -744,6 +767,7 @@
   }, 
   {
     "ascl_id": "9910.001", 
+    "description": "Cloudy is a large-scale spectral synthesis code designed to simulate fully physical conditions within an astronomical plasma and then predict the emitted spectrum. The code is freely available and is widely used in the analysis and interpretation of emission-line spectra.", 
     "name": "cloudy", 
     "section": "Miscellaneous Utilities", 
     "summary": "Plasma simulation and spectral synthesis code", 
@@ -752,6 +776,7 @@
   {
     "ascl_id": "1108.010", 
     "comment": "Last update: 2000-12-11", 
+    "description": "From a photometric catalogue, hyperz finds the redshift of each object by means of a standard SED fitting procedure, i.e. comparing the observed magnitudes with the expected ones, computed from template Spectral Energy Distributions. The set of templates used in the minimization procedure (age, metallicity, reddening, absorption in the Lyman forest, ...) is studied in detail, through both real and simulated data. The expected accuracy of photometric redshifts, as well as the fraction of catastrophic identifications and wrong detections, is given as a function of the redshift range, the set of filters considered, and the photometric accuracy. Special attention is paid to the results expected from real data.", 
     "name": "hyperz", 
     "section": "Miscellaneous Utilities", 
     "summary": "Photometric Redshift Code", 
@@ -767,6 +792,7 @@
   }, 
   {
     "ascl_id": "1112.019", 
+    "description": "Aladin is an interactive software sky atlas allowing the user to visualize digitized astronomical images, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known sources in the field.Created in 1999, Aladin has become a widely-used VO tool capable of addressing challenges such as locating data of interest, accessing and exploring distributed datasets, visualizing multi-wavelength data. Compliance with existing or emerging VO standards, interconnection with other visualisation or analysis tools, ability to easily compare heterogeneous data are key topics allowing Aladin to be a powerful data exploration and integration tool as well as a science enabler.", 
     "name": "aladin", 
     "section": "Virtual Observatory Tools", 
     "summary": "Aladin Sky Atlas", 
@@ -774,6 +800,7 @@
   }, 
   {
     "ascl_id": "1205.011", 
+    "description": "VOSpec is a multi-wavelength spectral analysis tool with access to spectra, theoretical models and atomic and molecular line databases registered in the VO. The standard tools of VOSpec include line and continuum fitting, redshift and reddening correction, spectral arithmetic and convolution between spectra, equivalent width and flux calculations, and a best fitting algorithm for fitting selected SEDs to a TSAP service. VOSpec offers several display modes (tree vs table) and organising functionalities according to the available metadata for each service, including distance from the observation position.", 
     "name": "vospec", 
     "section": "Virtual Observatory Tools", 
     "summary": "tool for handling Virtual Observatory compliant Spectra", 
@@ -781,6 +808,7 @@
   }, 
   {
     "ascl_id": "1309.006", 
+    "description": "VOPlot is a tool for visualizing astronomical data. It was developed in Java and acts on data available in VOTABLE, ASCII and FITS formats. VOPlot is available as a stand alone version, which is to be installed on the user's machine, or as a web-based version fully integrated with the VizieR database.", 
     "name": "voplot", 
     "section": "Virtual Observatory Tools", 
     "summary": "VOTable plotting tool", 
@@ -794,6 +822,7 @@
   }, 
   {
     "ascl_id": "1210.016", 
+    "description": "Specview is a tool for 1-D spectral visualization and analysis of astronomical spectrograms. Written in Java, it is capable of reading all the Hubble Space Telescope spectral data formats as well as data from several other instruments (such as IUE, FUSE, ISO, FORS and SDSS), preview spectra from MAST, and data from generic FITS and ASCII tables. It can read data from Virtual Observatory servers, and read and write spectrogram data in Virtual Observatory SED format. It can also read files in the SPC Galactic format used in the chemistry field. Once ingested, data can be plotted and examined with a large selection of custom settings. Specview supports instrument-specific data quality handling, flexible spectral units conversions, custom plotting attributes, plot annotations, tiled plots, hardcopy to JPEG files and PostScript file or printer, etc. Specview can be used to build wide-band SEDs, overplotting or combining data from the same astronomical source taken with different instruments and/or spectral bands. Data can be further processed with averaging, splicing, detrending, and Fourier filtering tools. Specview has a spectral model fitting capability that enables the user to work with multi-component models (including user-defined models) and fit models to data.", 
     "name": "specview", 
     "section": "Virtual Observatory Tools", 
     "summary": "1-D spectral visualization and analysis of astronomical spectrograms", 
@@ -801,6 +830,7 @@
   }, 
   {
     "ascl_id": "1402.007", 
+    "description": "SPLAT is a graphical tool for displaying, comparing, modifying and analyzing astronomical spectra stored in NDF, FITS and TEXT files as well as in NDX format. It can read in many spectra at the same time and then display these as line plots. Display windows can show one or several spectra at the same time and can be interactively zoomed and scrolled, centered on specific wavelengths, provide continuous coordinate readout, produce printable hardcopy and be configured in many ways. Analysis facilities include the fitting of a polynomial to selected parts of a spectrum, the fitting of Gaussian, Lorentzian and Voigt profiles to emission and absorption lines and the filtering of spectra using average, median and line-shape window functions as well as wavelet denoising. SPLAT also supports a full range of coordinate systems for spectra, which allows coordinates to be displayed and aligned in many different coordinate systems (wavelength, frequency, energy, velocity) and transformed between these and different standards of rest (topocentric, heliocentric, dynamic and kinematic local standards of rest, etc). SPLAT is distributed as part of theStarlink(ascl:1110.012) software collection.", 
     "name": "splat", 
     "section": "Virtual Observatory Tools", 
     "summary": "Spectral Analysis Tool", 
@@ -808,6 +838,7 @@
   }, 
   {
     "ascl_id": "1105.001", 
+    "description": "The STIL Tool Set is a set of command-line tools based on STIL, the Starlink Tables Infrastructure Library. It deals with the processing of tabular data; the package has been designed for, but is not restricted to, astronomical tables such as object catalogues. Some of the tools are generic and can work with multiple formats (including FITS, VOTable, CSV, SQL and ASCII), and others are specific to the VOTable format. In some ways, STILTS forms the command-line counterpart of the GUI table analysis tool TOPCAT. The package is robust, fully documented, and designed for efficiency, especially with very large datasets.Facilities offered include:format conversioncrossmatchingplottingcolumn calculation and rearrangementrow selectionsdata and metadata manipulation and displaysortingstatistical calculationshistogram calculationdata validationVO service accessA powerful and extensible expression language is used for specifying data calculations. These facilities can be put together in very flexible and efficient ways. For tasks in which the data can be streamed, the size of table STILTS can process is effectively unlimited. For other tasks, million-row tables usually do not present a problem. STILTS is written in pure Java (J2SE1.5 or later), and can be run from the command line or from Jython, or embedded into java applications. It is released under the GPL.", 
     "name": "stilts", 
     "section": "Virtual Observatory Tools", 
     "summary": "Starlink Tables Infrastructure Library Tool Set", 
@@ -815,6 +846,7 @@
   }, 
   {
     "ascl_id": "1101.010", 
+    "description": "TOPCAT is an interactive graphical viewer and editor for tabular data. Its aim is to provide most of the facilities that astronomers need for analysis and manipulation of source catalogues and other tables, though it can be used for non-astronomical data as well. It understands a number of different astronomically important formats (including FITS and VOTable) and more formats can be added.It offers a variety of ways to view and analyse tables, including a browser for the cell data themselves, viewers for information about table and column metadata, and facilities for 1-, 2-, 3- and higher-dimensional visualisation, calculating statistics and joining tables using flexible matching algorithms. Using a powerful and extensible Java-based expression language new columns can be defined and row subsets selected for separate analysis. Table data and metadata can be edited and the resulting modified table can be written out in a wide range of output formats.It is a stand-alone application which works quite happily with no network connection. However, because it uses Virtual Observatory (VO) standards, it can cooperate smoothly with other tools in the VO world and beyond, such as VODesktop, Aladin and ds9. Between 2006 and 2009 TOPCAT was developed within the AstroGrid project, and is offered as part of a standard suite of applications on the AstroGrid web site, where you can find information on several other VO tools.The program is written in pure Java and available under the GNU General Public Licence. It has been developed in the UK within theStarlinkand AstroGrid projects, and under PPARC and STFC grants. Its underlying table processing facilities are provided by STIL.", 
     "name": "topcat", 
     "section": "Virtual Observatory Tools", 
     "summary": "Tool for OPerations on Catalogues And Tables", 
@@ -822,6 +854,7 @@
   }, 
   {
     "ascl_id": "1204.012", 
+    "description": "VirGO is the next generation Visual Browser for the ESO Science Archive Facility developed by the Virtual Observatory (VO) Systems Department. It is a plug-in for the popular open source software Stellarium adding capabilities for browsing professional astronomical data. VirGO gives astronomers the possibility to easily discover and select data from millions of observations in a new visual and intuitive way. Its main feature is to perform real-time access and graphical display of a large number of observations by showing instrumental footprints and image previews, and to allow their selection and filtering for subsequent download from the ESO SAF web interface. It also allows the loading of external FITS files or VOTables, the superimposition of Digitized Sky Survey (DSS) background images, and the visualization of the sky in a `real life' mode as seen from the main ESO sites. All data interfaces are based on Virtual Observatory standards which allow access to images and spectra from external data centers, and interaction with the ESO SAF web interface or any other VO applications supporting the PLASTIC messaging system.", 
     "name": "virgo", 
     "section": "Virtual Observatory Tools", 
     "summary": "Visual Browser for the ESO Science Archive Facility", 
