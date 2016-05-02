@@ -687,7 +687,7 @@
   }, 
   {
     "ascl_id": "1010.067", 
-    "description": "Stuff is a program that simulates \u201cperfect\u201d astronomical catalogues. It generate object lists in ASCII which can read by the SkyMaker program to produce realistic astronomical fields. Stuff is part of theEFIGIdevelopment project.", 
+    "description": "Stuff is a program that simulates 'perfect' astronomical catalogues. It generate object lists in ASCII which can read by the SkyMaker program to produce realistic astronomical fields. Stuff is part of theEFIGIdevelopment project.", 
     "name": "astromatic-stuff", 
     "section": "Miscellaneous Utilities", 
     "summary": "Simulate 'perfect' astronomical catalogues", 
@@ -706,7 +706,7 @@
     "ascl_id": "1010.057", 
     "comment": "Unknown, unspecified license", 
     "description": "Tiny Tim generates simulated Hubble Space Telescope point spread functions (PSFs). It is written in C and distributed as source code and runs on a wide variety of UNIX and VMS systems. Tiny Tim includes mirror zonal errors, time dependent aberrations (for the pre-repair instruments), field dependent obscuration patterns (for WF/PC-1 and WFPC2), and filter passband effects. It can produce a normally sampled or subsampled PSF. Output is a FITS image file.", 
-    "name": "tiny tim", 
+    "name": "tiny_tim", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
     "summary": "HST point-spread function simulation software", 
