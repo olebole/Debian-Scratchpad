@@ -1,574 +1,602 @@
 [
   {
-    "summary": "Python Tools for ACS (Advanced Camera for Surveys) Data", 
     "name": "acstools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Python Tools for ACS (Advanced Camera for Surveys) Data", 
     "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python"
   }, 
   {
-    "summary": "Tools for use with the Wide Field and Planetary Camera 2", 
     "name": "wfpc2tools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for use with the Wide Field and Planetary Camera 2", 
     "url": "http://www.stsci.edu/resources/software_hardware/stsci_python"
   }, 
   {
-    "summary": "Calibration for HST/COS", 
     "name": "calcos", 
     "section": "HST/JWST specific packages", 
+    "summary": "Calibration for HST/COS", 
     "url": "https://github.com/spacetelescope/calcos"
   }, 
   {
-    "summary": "Calibration for HST/WFC3, HST/ACS, and HST/STIS", 
     "name": "hstcal", 
     "section": "HST/JWST specific packages", 
+    "summary": "Calibration for HST/WFC3, HST/ACS, and HST/STIS", 
     "url": "https://github.com/spacetelescope/hstcal"
   }, 
   {
-    "summary": "Tools for HST/NICMOS", 
     "name": "nictools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for HST/NICMOS", 
     "url": "https://github.com/spacetelescope/nictools"
   }, 
   {
+    "name": "jwst-lib", 
+    "section": "HST/JWST specific packages", 
     "summary": "James Webb Space Telescope library", 
-    "name": "jwst_lib", 
-    "section": "HST/JWST specific packages", 
     "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git"
   }, 
   {
+    "name": "jwst-pipeline", 
+    "section": "HST/JWST specific packages", 
     "summary": "James Webb Space Telescope pipeline", 
-    "name": "jwst_pipeline", 
-    "section": "HST/JWST specific packages", 
     "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git"
   }, 
   {
+    "name": "jwst-tools", 
+    "section": "HST/JWST specific packages", 
     "summary": "James Webb Space Telescope tools", 
-    "name": "jwst_tools", 
-    "section": "HST/JWST specific packages", 
     "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git"
   }, 
   {
-    "summary": "Exposure time calculator (ETC) for the JWST", 
     "name": "pandeia-engine", 
     "section": "HST/JWST specific packages", 
+    "summary": "Exposure time calculator (ETC) for the JWST", 
     "url": "https://github.com:stsci-ssb/pandeia"
   }, 
   {
-    "summary": "Pandeia third party tools", 
     "name": "pandeia-thirdparty", 
     "section": "HST/JWST specific packages", 
+    "summary": "Pandeia third party tools", 
     "url": "http://stsci.edu"
   }, 
   {
-    "summary": "Pandeia data", 
-    "name": "pandeia_data", 
+    "name": "pandeia-data", 
     "section": "HST/JWST specific packages", 
+    "summary": "Pandeia data", 
     "url": "https://github.com:stsci-ssb/pandeia_data"
   }, 
   {
-    "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3 ", 
     "name": "wfc3tools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3 ", 
     "url": "http://ssb.stsci.edu/doc/stsci_python_2.15.1/wfc3tools.doc/html/index.html"
   }, 
   {
-    "summary": "Tools for HST reference files", 
     "name": "reftools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for HST reference files", 
     "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python"
   }, 
   {
-    "summary": "Tools for working with STIS data", 
     "name": "stistools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for working with STIS data", 
     "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python"
   }, 
   {
-    "summary": "Tools for working with COS data", 
     "name": "costools", 
     "section": "HST/JWST specific packages", 
+    "summary": "Tools for working with COS data", 
     "url": "http://www.stsci.edu/institute/software_hardware"
   }, 
   {
-    "summary": "Calibration Reference Data System", 
     "name": "crds", 
     "section": "HST/JWST specific packages", 
+    "summary": "Calibration Reference Data System", 
     "url": "http://www.stsci.edu/hst/observatory/crds/"
   }, 
   {
-    "summary": "Hash table in shared memory, with locking", 
-    "name": "ext_shmht", 
+    "name": "ext-shmht", 
     "section": "STSci specific packages", 
+    "summary": "Hash table in shared memory, with locking", 
     "url": "https://github.com/stsci-ssb/ext_shmht"
   }, 
   {
-    "summary": "Python package for handling spherical polygons that represent arbitrary regions of the sky.sphere", 
     "name": "stsci.sphere", 
     "section": "STSci specific packages", 
+    "summary": "Python package for handling spherical polygons that represent arbitrary regions of the sky.sphere", 
     "url": "http://www.stsci.edu/institute/software_hardware"
   }, 
   {
-    "summary": "Sky matching for image mosaic", 
     "name": "stsci.skypac", 
     "section": "STSci specific packages", 
+    "summary": "Sky matching for image mosaic", 
     "url": "https://github.com/spacetelescope/stsci.skypac"
   }, 
   {
-    "summary": "Sphinx extension for STScI", 
     "name": "stsci.sphinxext", 
     "section": "STSci specific packages", 
+    "summary": "Sphinx extension for STScI", 
     "url": "https://github.com/spacetelescope/stsci.sphinxext"
   }, 
   {
-    "summary": "Subset of SciPy functionality for convolving", 
     "name": "stsci.convolve", 
     "section": "STSci specific packages", 
+    "summary": "Subset of SciPy functionality for convolving", 
     "url": "https://github.com/spacetelescope/stsci.convolve"
   }, 
   {
     "debian": "python-stsci.distutils", 
-    "summary": "Python packaging utilities for STScI's packages", 
+    "description": "This package contains utilities used to package some of STScI's Python projects; specifically those projects that comprise stsci_python_ and Astrolib_. It currently consists mostly of some setup_hook scripts meant for use with distutils2 and/or d2to1, and a customized easy_install command meant for use with distribute.\n\nThis is the Python 2 version.", 
     "name": "stsci.distutils", 
     "section": "STSci specific packages", 
+    "summary": "Python packaging utilities for STScI's packages", 
     "url": "https://github.com/spacetelescope/stsci.distutils"
   }, 
   {
-    "summary": "Image array manipulation functions", 
     "name": "stsci.image", 
     "section": "STSci specific packages", 
+    "summary": "Image array manipulation functions", 
     "url": "https://github.com/spacetelescope/stsci.image"
   }, 
   {
-    "summary": "STScI general image manipulation tools", 
     "name": "stsci.imagemanip", 
     "section": "STSci specific packages", 
+    "summary": "STScI general image manipulation tools", 
     "url": "https://github.com/spacetelescope/stsci.imagemanip"
   }, 
   {
-    "summary": "Compute various useful statistical values for array objects", 
     "name": "stsci.imagestats", 
     "section": "STSci specific packages", 
+    "summary": "Compute various useful statistical values for array objects", 
     "url": "https://github.com/spacetelescope/stsci.imagestats"
   }, 
   {
-    "summary": "Fork of scipy.ndimage", 
     "name": "stsci.ndimage", 
     "section": "STSci specific packages", 
+    "summary": "Fork of scipy.ndimage", 
     "url": "https://github.com/spacetelescope/stsci.ndimage"
   }, 
   {
-    "comment": "Latest Release from Dec 2009",
-    "summary": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
+    "comment": "Latest Release from Dec 2009", 
+    "git": "https://github.com/spacetelescope/stsci.numdisplay", 
     "name": "stsci.numdisplay", 
-    "section": "STSci specific packages",
-    "url": "http://stsdas.stsci.edu/numdisplay",
-    "git": "https://github.com/spacetelescope/stsci.numdisplay"
+    "section": "STSci specific packages", 
+    "summary": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
+    "url": "http://stsdas.stsci.edu/numdisplay"
   }, 
   {
-    "summary": "Various functions for performing processing of images", 
     "name": "stsci.stimage", 
     "section": "STSci specific packages", 
+    "summary": "Various functions for performing processing of images", 
     "url": "https://github.com/spacetelescope/stsci.stimage"
   }, 
   {
-    "summary": "STScI utility functions", 
     "name": "stsci.tools", 
     "section": "STSci specific packages", 
+    "summary": "STScI utility functions", 
     "url": "https://github.com/spacetelescope/stsci.tools"
   }, 
   {
-    "summary": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting", 
     "name": "asv", 
     "section": "STSci specific packages", 
+    "summary": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting", 
     "url": "https://github.com/spacetelescope/asv"
   }, 
   {
-    "summary": "Data analysis package for cubes", 
     "name": "cube-tools", 
     "section": "STSci specific packages", 
+    "summary": "Data analysis package for cubes", 
     "url": "https://github.com/spacetelescope/cube-tools"
   }, 
   {
-    "summary": "FITS header merging from multiple images. ", 
     "name": "fitsblender", 
     "section": "STSci specific packages", 
+    "summary": "FITS header merging from multiple images. ", 
     "url": "http://github.com/spacetelescope/fitsblender"
   }, 
   {
-    "summary": "WCS based distortion models and coordinate transformation", 
     "name": "stwcs", 
     "section": "STSci specific packages", 
+    "summary": "WCS based distortion models and coordinate transformation", 
     "url": "https://github.com/spacetelescope/stwcs"
   }, 
   {
     "ascl_id": "1210.016", 
-    "summary": "Java spectrum visualization, manipulation, and fitting", 
     "name": "specview", 
     "section": "STSci specific packages", 
+    "summary": "Java spectrum visualization, manipulation, and fitting", 
     "url": "https://github.com/spacetelescope/specview"
   }, 
   {
-    "summary": "Ginga products specific to STScI data analysis", 
     "name": "stginga", 
     "section": "STSci specific packages", 
+    "summary": "Ginga products specific to STScI data analysis", 
     "url": "https://github.com/spacetelescope/stginga"
   }, 
   {
     "debian": "python-pyregion", 
-    "summary": "Python module to parse ds9 region files", 
+    "description": "Pyregion is a Python module to parse ds9 region files. It also supports ciao region files.\n\nThis is the Python 2 version of the package.", 
     "name": "pyregion", 
     "section": "Astronomy packages", 
+    "summary": "Python module to parse ds9 region files", 
     "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python"
   }, 
   {
     "debian": "python-asdf", 
-    "summary": "Python library for the Advanced Scientific Data Format", 
+    "description": "ASDF (Advanced Scientific Data Format) is a proposed next generation interchange format for scientific data. ASDF aims to exist in the same middle ground that made FITS so successful, by being a hybrid text and binary format: containing human editable metadata for interchange, and raw binary data that is fast to load and use. Unlike FITS, the metadata is highly structured and is designed up-front for extensibility.\n\nThis is the Python 2 package.", 
     "name": "asdf", 
     "section": "Astronomy packages", 
+    "summary": "Python library for the Advanced Scientific Data Format", 
     "url": "https://github.com/spacetelescope/pyasdf"
   }, 
   {
-    "summary": "Advanced Scientific Data Format documentation", 
     "name": "asdf-standard", 
     "section": "Astronomy packages", 
+    "summary": "Advanced Scientific Data Format documentation", 
     "url": "https://github.com/spacetelescope/asdf-standard"
   }, 
   {
-    "summary": "Astronomical coordinates & angular separations", 
     "name": "astrolib.coords", 
     "section": "Astronomy packages", 
+    "summary": "Astronomical coordinates & angular separations", 
     "url": "https://github.com/spacetelescope/astrolib.coords.git"
   }, 
   {
     "debian": "python-photutils", 
-    "summary": "Astropy affiliated package for image photometry", 
+    "description": "Photutils contains functions for:\n\n* estimating the background and background rms in astronomical images\n* detecting sources in astronomical images\n* estimating morphological parameters of those sources (e.g., centroid\n  and shape parameters)\n* performing aperture and PSF photometry\nThis package contains the Python 2 version of the package.", 
     "name": "photutils", 
     "section": "Astronomy packages", 
+    "summary": "Astropy affiliated package for image photometry", 
     "url": "https://github.com/astropy/photutils"
   }, 
   {
     "debian": "python-pyds9", 
-    "summary": "Python connection to SAOimage DS9 via XPA", 
+    "description": "The XPA messaging system provides seamless communication between many kinds of Unix programs, including Tcl/Tk programs such as ds9. The pyds9 module uses a Python interface to XPA to communicate with ds9. It supports communication with all of ds9??s XPA access points.\n\nThis package provides the Python-2 version of the package.", 
     "name": "pyds9", 
     "section": "Astronomy packages", 
+    "summary": "Python connection to SAOimage DS9 via XPA", 
     "url": "https://github.com/ericmandel/pyds9"
   }, 
   {
     "debian": "libxpa-dev", 
-    "summary": "Provides seamless communication between many kinds of Unix programs", 
+    "description": "The XPA messaging system provides seamless communication between many kinds of Unix programs, including X programs and Tcl/Tk programs. It also provides an easy way for users to communicate with these XPA-enabled programs by executing XPA client commands in the shell or by utilizing such commands in scripts. Because XPA works both at the programming level and the shell level, it is a powerful tool for unifying any analysis environment: users and programmers have great flexibility in choosing the best level or levels at which to access XPA services, and client access can be extended or modified easily at any time.\n\nThis package contains the header files and the static library.", 
     "name": "xpa", 
     "section": "Astronomy packages", 
+    "summary": "Provides seamless communication between many kinds of Unix programs", 
     "url": "https://github.com/ericmandel/xpa"
   }, 
   {
     "ascl_id": "1010.001", 
     "debian": "libcfitsio-dev", 
-    "summary": "Library for I/O with FITS format data files", 
+    "description": "FITS (Flexible Image Transport System) is a data format most used in astronomy. cfitsio is a library of ANSI C routines for reading and writing FITS format data files.  A set of Fortran-callable wrapper routines are also included for the convenience of Fortran programmers.\n\nThis package contains what you need for compiling sources that use this library in your own code.", 
     "name": "cfitsio", 
     "section": "Astronomy packages", 
+    "summary": "Library for I/O with FITS format data files", 
     "url": "http://heasarc.gsfc.nasa.gov/fitsio/fitsio.html"
   }, 
   {
     "debian": "saods9", 
-    "summary": "Image display tool for astronomy", 
+    "description": "SAOImage DS9 is an astronomical imaging and data visualization application. DS9 supports FITS images and binary tables, multiple frame buffers, region manipulation, and many scale algorithms and colormaps. It provides for easy communication with external analysis tasks and is highly configurable and extensible via XPA and SAMP.\n\nAll versions and platforms support a consistent set of GUI and functional capabilities.\n\nDS9 supports advanced features such as 2-D, 3-D and RGB frame buffers, mosaic images, tiling, blinking, geometric markers, colormap manipulation, scaling, arbitrary zoom, cropping, rotation, pan, and a variety of coordinate systems.\n\nThe GUI for DS9 is user configurable. GUI elements such as the coordinate display, panner, magnifier, horizontal and vertical graphs, button bar, and color bar can be configured via menus or the command line.", 
     "name": "ds9", 
     "section": "Astronomy packages", 
+    "summary": "Image display tool for astronomy", 
     "url": "http://ds9.si.edu/download/source/"
   }, 
   {
     "ascl_id": "1010.064", 
     "debian": "sextractor", 
-    "summary": "Source extractor for astronomical images", 
+    "description": "Find sources, such as stars and galaxies, in astronomical images. The input data files are in FITS file format, and are analyzed to compute the locations of sources, with the ability to distinguish between galaxies and stars using a neural-network technique.", 
     "name": "sextractor", 
     "section": "Astronomy packages", 
+    "summary": "Source extractor for astronomical images", 
     "url": "http://www.astromatic.net/download/sextractor"
   }, 
   {
     "ascl_id": "1109.015", 
     "debian": "wcstools", 
-    "summary": "For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats", 
+    "description": "WCSTools is a set of software utilities, written in C, which create, display and manipulate the world coordinate system of a FITS or IRAF image, using specific keywords in the image header which relate pixel position within the image to position on the sky.  Auxillary programs search star catalogs and manipulate images.\n\nThis package contains the binary tools.", 
     "name": "wcstools", 
     "section": "Astronomy packages", 
+    "summary": "For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats", 
     "url": "http://tdc-www.harvard.edu/wcstools"
   }, 
   {
     "ascl_id": "1303.023", 
     "debian": "python-pysynphot", 
-    "summary": "Python Synthetic Photometry Utilities", 
+    "description": "pysynphot simulates photometric data and spectra as they are observed with the Hubble Space Telescope (HST). Passbands for standard photometric systems are available, and users can incorporate their own filters, spectra, and data. pysynphot user interface allows you to:\n\n* Construct complicated composite spectra from various grids of model\n  atmosphere spectra, parameterized spectrum models, and atlases of stellar\n  spectrophotometry.\n* Simulate observations.\n* Query the resulting structures for quantities of interest, such as\n  countrate, effective wavelength, effective stimulus, as well as the\n  wavelength and flux arrays.\n* Plot HST sensitivity curves and calibration target spectra.\n* Compute photometric calibration parameters for any HST instrument mode.\npysynphot can help HST observers to perform cross-instrument simulations, to examine the transmission curve of the HST Optical Telescope Assembly (OTA), and spectra of HST calibration targets. Expert users can take advantage of the control and data structures available in Python to easily perform repetitive operations such as simulate the observation of multiple type of sources through multiple observing modes.", 
+    "git": "https://github.com/spacetelescope/pysynphot", 
     "name": "pysynphot", 
     "section": "Astronomy packages", 
-    "url": "http://stsdas.stsci.edu/pysynphot/",
-    "git": "https://github.com/spacetelescope/pysynphot"
+    "summary": "Python Synthetic Photometry Utilities", 
+    "url": "http://stsdas.stsci.edu/pysynphot/"
   }, 
   {
     "debian": "python-pywcs", 
-    "summary": "Set of routines for handling the FITS WCS standard", 
+    "description": "This is a thin wrapper around the high- and mid-level  interfaces of Dr. Mark Calabretta's WCSLIB for handling the World Coordinate System.\n\nIn addition, there are extensions (written in C) to support Spitzer Simple Imaging Polynomial (SIP) convention keywords and Paper IV table lookup distortion.\n\nNote that the development of this package has been stopped in favour of the astropy package. The astropy package offers a fully compatible superset of pywcs as module `astropy.wcs`.", 
     "name": "pywcs", 
     "section": "Astronomy packages", 
+    "summary": "Set of routines for handling the FITS WCS standard", 
     "url": "https://github.com/spacetelescope/pywcs"
   }, 
   {
     "ascl_id": "1207.011", 
-    "summary": "Python replacement for IRAF cl from STScI", 
+    "git": "http://www.stsci.edu/institute/software_hardware/pyraf", 
     "name": "pyraf", 
     "packageable": false, 
     "section": "Astronomy packages", 
-    "url": "https://github.com/spacetelescope/pyraf",
-    "git": "http://www.stsci.edu/institute/software_hardware/pyraf"
+    "summary": "Python replacement for IRAF cl from STScI", 
+    "url": "https://github.com/spacetelescope/pyraf"
   }, 
   {
     "ascl_id": "9911.002", 
-    "summary": "NOAO Image Reduction and Analysis Facility", 
     "name": "iraf", 
     "packageable": false, 
     "section": "Astronomy packages", 
+    "summary": "NOAO Image Reduction and Analysis Facility", 
     "url": "http://iraf.noao.edu"
   }, 
   {
     "ascl_id": "1303.020", 
-    "summary": "The Ginga astronomical FITS file viewer", 
     "name": "ginga", 
     "section": "Astronomy packages", 
+    "summary": "The Ginga astronomical FITS file viewer", 
     "url": "https://github.com/ejeschke/ginga"
   }, 
   {
-    "summary": "Simple image examination, and plotting, with similar functionality to IRAF's imexamine", 
     "name": "imexam", 
     "section": "Astronomy packages", 
+    "summary": "Simple image examination, and plotting, with similar functionality to IRAF's imexamine", 
     "url": "https://github.com/spacetelescope/imexam"
   }, 
   {
-    "summary": "Tools for managing the WCS in a general way", 
     "name": "gwcs", 
     "section": "Astronomy packages", 
+    "summary": "Tools for managing the WCS in a general way", 
     "url": "https://github.com/spacetelescope/gwcs"
   }, 
   {
     "ascl_id": "1304.021", 
-    "summary": "A modern python tool to compute emission line emissivities", 
     "name": "pyneb", 
     "section": "Astronomy packages", 
+    "summary": "A modern python tool to compute emission line emissivities", 
     "url": "http://www.iac.es/proyecto/PyNeb/"
   }, 
   {
-    "summary": "Astronomical Image Convenience Tools", 
     "name": "astroimtools", 
     "section": "Astronomy packages", 
+    "summary": "Astronomical Image Convenience Tools", 
     "url": "https://github.com/spacetelescope/astroimtools"
   }, 
   {
     "ascl_id": "1212.011", 
-    "summary": "Align and combine HST images", 
     "name": "drizzlepac", 
     "section": "Astronomy packages", 
+    "summary": "Align and combine HST images", 
     "url": "http://drizzlepac.stsci.edu/"
   }, 
   {
     "debian": "python-pyfftw", 
-    "summary": "Pythonic wrapper around FFTW", 
+    "description": "Pythonic wrapper around FFTW, the speedy FFT library. The ultimate aim is to present a unified interface for all the possible transforms that FFTW can perform.\n\nBoth the complex DFT and the real DFT are supported, as well as arbitrary axes of abitrary shaped and strided arrays, which makes it almost feature equivalent to standard and real FFT functions of numpy.fft (indeed, it supports the clongdouble dtype which numpy.fft does not).\n\nThis package provides the Python 2 bindings.", 
     "name": "python-pyfftw", 
     "section": "Science packages", 
+    "summary": "Pythonic wrapper around FFTW", 
     "url": "http://hgomersall.github.com/pyFFTW"
   }, 
   {
     "ascl_id": "1602.018", 
-    "summary": "Physical Optics Propagation in Python", 
     "name": "poppy", 
     "section": "Science packages", 
+    "summary": "Physical Optics Propagation in Python", 
     "url": "https://github.com/mperrin/poppy"
   }, 
   {
     "ascl_id": "1504.007", 
-    "summary": "WebbPSF: Simulated PSF for the James Webb Space Telescope", 
     "name": "webbpsf", 
     "section": "Science packages", 
+    "summary": "WebbPSF: Simulated PSF for the James Webb Space Telescope", 
     "url": "http://www.stsci.edu/jwst/software/webbpsf/"
   }, 
   {
-    "summary": "webbpsf-data data files", 
     "name": "webbpsf-data", 
     "section": "Science packages", 
+    "summary": "webbpsf-data data files", 
     "url": "http://www.stsci.edu/~mperrin/software/webbpsf"
   }, 
   {
     "debian": "libatlas-dev", 
-    "summary": "Automatically Tuned Linear Algebra Software", 
+    "description": "ATLAS is an approach for the automatic generation and optimization of numerical software. Currently ATLAS supplies optimized versions for the complete set of linear algebra kernels known as the Basic Linear Algebra Subroutines (BLAS), and a subset of the linear algebra routines in the LAPACK library.\n\nThis package provides the headers needed to compile against the libraries provided by ATLAS.", 
     "name": "atlas-generic", 
     "section": "Science packages", 
+    "summary": "Automatically Tuned Linear Algebra Software", 
     "url": "http://sourceforge.net/projects/math-atlas/files/Stable"
   }, 
   {
     "ascl_id": "1201.015", 
     "debian": "fftw3", 
-    "summary": "Library for computing Fast Fourier Transforms", 
     "name": "fftw", 
     "section": "Science packages", 
+    "summary": "Library for computing Fast Fourier Transforms", 
     "url": "http://www.fftw.org"
   }, 
   {
-    "summary": "Homebrew set of HTCondor wrappers", 
-    "name": "htc_utils", 
+    "name": "htc-utils", 
     "section": "Science packages", 
+    "summary": "Homebrew set of HTCondor wrappers", 
     "url": "http://bitbucket.org/jhunkeler/htc_utils"
   }, 
   {
     "debian": "liblapack-dev", 
-    "summary": "Library of linear algebra routines", 
+    "description": "LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community.\n\nThis package contains a static version of the library.", 
     "name": "lapack", 
     "section": "Science packages", 
+    "summary": "Library of linear algebra routines", 
     "url": "http://www.netlib.org"
   }, 
   {
     "debian": "python-pyqtgraph", 
-    "summary": "Scientific Graphics and GUI Library for Python", 
+    "description": "PyQtGraph is a pure-python graphics and GUI library built on PyQt4 and numpy. It is intended for use in mathematics / scientific / engineering applications. Despite being written entirely in Python, the library is very fast due to its heavy leverage of numpy for number crunching and Qt's GraphicsView framework for fast display.\n\nThis is the Python 2 version of the package.", 
     "name": "pyqtgraph", 
     "section": "Science packages", 
+    "summary": "Scientific Graphics and GUI Library for Python", 
     "url": "http://www.pyqtgraph.org/"
   }, 
   {
-    "summary": "Lightweight test management and reporting system", 
     "name": "pandokia", 
     "section": "Other packages", 
+    "summary": "Lightweight test management and reporting system", 
     "url": "http://ssb.stsci.edu/testing/pandokia"
   }, 
   {
     "debian": "python-appdirs", 
-    "summary": "Determining appropriate platform-specific dirs", 
+    "description": "Depending on your system (Linux, Mac OS X, or Windows), you have to use different directories for storing user data. appdirs will help you choose an appropriate:\n\n* user data directory (user_data_dir function)\n* user config directory (user_config_dir function)\n* user cache directory (user_cache_dir function)\n* site data directory (site_data_dir function)\n* site config directory (site_config_dir function)\n* user log directory (user_log_dir function)\nOn Linux systems, these function return directories based on the XDG Base Directory Specification.\n\nThis is the Python 2 version of the package.", 
     "name": "appdirs", 
     "section": "Other packages", 
+    "summary": "Determining appropriate platform-specific dirs", 
     "url": "http://github.com/ActiveState/appdirs"
   }, 
   {
     "debian": "python-d2to1", 
-    "summary": "Python support for distutils2-like setup.cfg files as package metadata", 
+    "description": "d2to1 (the 'd' is for 'distutils') allows using distutils2-like setup.cfg files for a package's metadata with a distribute/setuptools setup.py script. It works by providing a distutils2-formatted setup.cfg file containing all of a package's metadata, and a very minimal setup.py which will slurp its arguments from the setup.cfg.\n\nThis package provides d2to1 on the Python 2 module path. It is complemented by python3-d2to1.", 
     "name": "d2to1", 
     "section": "Other packages", 
+    "summary": "Python support for distutils2-like setup.cfg files as package metadata", 
     "url": "https://github.com/spacetelescope/d2to1"
   }, 
   {
-    "summary": "Better living through Python with decorators", 
     "name": "decorators", 
     "section": "Other packages", 
+    "summary": "Better living through Python with decorators", 
     "url": "https://github.com/micheles/decorator"
   }, 
   {
-    "summary": "Release control for git", 
     "name": "recon", 
     "section": "Other packages", 
+    "summary": "Release control for git", 
     "url": "http://github.com/jhunkeler/recon"
   }, 
   {
     "debian": "python-linecache2", 
-    "summary": "Backport of linecache to older supported Pythons", 
+    "description": "A backport of linecache to older supported Pythons. Typically, the user of this module would do \"import linecache2 as linecache\" and use the linecache module normally.\n\nThis package contains the Python 2.7 module.", 
     "name": "linecache2", 
     "section": "Other packages", 
+    "summary": "Backport of linecache to older supported Pythons", 
     "url": "https://pypi.python.org/packages/source/l/linecache2"
   }, 
   {
     "debian": "python-mechanize", 
-    "summary": "Stateful programmatic web browsing ", 
+    "description": "A library for browsing the web in Python. Mechanize acts like a browser allowing you to do web scraping, functional testing of web sites and things no one has thought of yet.\n\nAmong other things, mechanize:\n* Follows links\n* Fills in HTML forms\n* Automatically observes robots.txt\n* Has a browser history\nIt was modelled after the Perl module WWW::Mechanize.", 
     "name": "mechanize", 
     "section": "Other packages", 
+    "summary": "Stateful programmatic web browsing ", 
     "url": "https://pypi.python.org/packages/source/m/mechanize"
   }, 
   {
     "debian": "parsley", 
-    "summary": "Pattern-matching language based on OMeta and Python", 
     "name": "parsley", 
     "section": "Other packages", 
+    "summary": "Pattern-matching language based on OMeta and Python", 
     "url": "https://pypi.python.org/packages/source/P/Parsley"
   }, 
   {
-    "summary": "Command-line tool for querying PyPI and Python packages installed on your system.", 
     "name": "yolk", 
     "section": "Other packages", 
+    "summary": "Command-line tool for querying PyPI and Python packages installed on your system.", 
     "url": "https://pypi.python.org/packages/source/y/yolk"
   }, 
   {
     "debian": "python-pytools", 
-    "summary": "A collection of tools for Python", 
+    "description": "Pytools is a big bag of things that are needed by packages created by Andreas Kloeckner. They are used by python-pycuda and python-pyopencl packages. They contain, amongst other:\n* A ton of small tool functions such as len_iterable, argmin, tuple\n  generation, permutation generation, ASCII table pretty printing,\n  GvR's mokeypatch_xxx() hack, the elusive flatten, and much more\n* A time-series logging module, pytools.log\n* Batch job submission, pytools.batchjob\n* A lexer, pytools.lex\n", 
     "name": "pytools", 
     "section": "Other packages", 
+    "summary": "A collection of tools for Python", 
     "url": "https://pypi.python.org/pytools"
   }, 
   {
     "debian": "python-selenium", 
-    "summary": "Python3 bindings for Selenium RC integration", 
+    "description": "Python language bindings for Selenium WebDriver.\n\nThe `selenium` package is used automate web browser interaction from Python. Several browsers/drivers are supported (Firefox, Chrome, Internet Explorer, PhantomJS), as well as the Remote protocol.\n\nThe webdriver parts itself are not included in this package.", 
     "name": "selenium", 
     "section": "Other packages", 
+    "summary": "Python3 bindings for Selenium RC integration", 
     "url": "https://pypi.python.org/packages/source/s/selenium"
   }, 
   {
     "debian": "python-sphinx-rtd-theme", 
-    "summary": "Sphinx theme from readthedocs.org", 
-    "name": "sphinx_rtd_theme", 
+    "description": "This mobile-friendly sphinx theme was initially created for readthedocs.org, but can be incorporated in any project.\n\nAmong other things, it features a left panel with a browseable table of contents, and a search bar.\n\nThis is the Python 2 version of the package.", 
+    "name": "sphinx-rtd-theme", 
     "section": "Other packages", 
+    "summary": "Sphinx theme from readthedocs.org", 
     "url": "https://pypi.python.org/packages/source/s/sphinx_rtd_theme"
   }, 
   {
     "debian": "sphinxcontrib-programoutput", 
-    "summary": "Insert the output of arbitrary commands into documents", 
     "name": "sphinxcontrib-programoutput", 
     "section": "Other packages", 
+    "summary": "Insert the output of arbitrary commands into documents", 
     "url": "https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput"
   }, 
   {
-    "summary": "Drop-in replacement and extension for the default `threading` module", 
     "name": "threading2", 
     "section": "Other packages", 
+    "summary": "Drop-in replacement and extension for the default `threading` module", 
     "url": "https://pypi.python.org/packages/source/t/threading2"
   }, 
   {
     "debian": "python-traceback2", 
-    "summary": "Backports of the traceback module", 
+    "description": "This package offers a backport of the traceback package to older supported Pythons. Users would typically do: \"import traceback2 as traceback\" then use the module as if it was the system traceback.\n\nIn Python 2.x, unlike traceback, traceback2 creates unicode output (because it depends on the linecache2 module).\n\nThis package contains the Python 2.7 module.", 
     "name": "traceback2", 
     "section": "Other packages", 
+    "summary": "Backports of the traceback module", 
     "url": "https://pypi.python.org/packages/source/t/traceback2"
   }, 
   {
     "debian": "python-ws4py", 
-    "summary": "WebSocket library for Python", 
+    "description": "Python library providing an implementation of the WebSocket protocol defined in RFC 6456.\n\nThis is the Python 2 version of the package.", 
     "name": "ws4py", 
     "section": "Other packages", 
+    "summary": "WebSocket library for Python", 
     "url": "https://pypi.python.org/packages/source/w/ws4py"
   }, 
   {
-    "summary": "Automatic renice daemon.", 
     "name": "aprio", 
     "section": "Other packages", 
+    "summary": "Automatic renice daemon.", 
     "url": "http://bitbucket.org/jhunkeler/aprio"
   }, 
   {
     "debian": "gcc", 
-    "summary": "GNU C Compiler", 
+    "description": "This is the GNU C compiler, a fairly portable optimizing compiler for C.\n\nThis is a dependency package providing the default GNU C compiler.", 
     "name": "gcc", 
     "section": "Other packages", 
+    "summary": "GNU C Compiler", 
     "url": "http://www.netgull.com/gcc/releases/gcc-4.6.4"
   }, 
   {
-    "summary": "Small PATH manipulator", 
-    "name": "purge_path", 
+    "name": "purge-path", 
     "section": "Other packages", 
+    "summary": "Small PATH manipulator", 
     "url": "http://bitbucket.org/jhunkeler/purge_path"
   }, 
   {
-    "summary": "Python<->ObjC Interoperability Module", 
     "name": "pyobjc-core", 
     "section": "Other packages", 
+    "summary": "Python<->ObjC Interoperability Module", 
     "url": "http://pyobjc.sourceforge.net/"
   }, 
   {
     "debian": "python-daemon", 
-    "summary": "Library to implement a well-behaved Unix daemon process.", 
+    "description": "??daemon?? is a library that assists a Python program to turn itself into a well-behaved Unix daemon process, as specified in PEP 3143.\n\nThis library provides a ??DaemonContext?? class that manages the following important tasks for becoming a daemon process:\n\n* Detach the process into its own process group.\n* Set process environment appropriate for running inside a chroot.\n* Renounce suid and sgid privileges.\n* Close all open file descriptors.\n* Change the working directory, uid, gid, and umask.\n* Set appropriate signal handlers.\n* Open new file descriptors for stdin, stdout, and stderr.\n* Manage a specified PID lock file.\n* Register cleanup functions for at-exit processing.\nThis package installs the library for Python 2.", 
     "name": "python-daemon", 
     "section": "Other packages", 
+    "summary": "Library to implement a well-behaved Unix daemon process.", 
     "url": "http://bitbucket.org/jhunkeler/python-daemon"
   }, 
   {
     "debian": "shunit2", 
-    "summary": "Unit test framework for Bourne based shell scripts", 
+    "description": "shUnit2 was originally developed to provide a consistent testing solution for log4sh, a shell based logging framework similar to log4j. It is designed to work in a similar manner to JUnit, PyUnit, etc.", 
     "name": "shunit2", 
     "section": "Other packages", 
+    "summary": "Unit test framework for Bourne based shell scripts", 
     "url": "http://sourceforge.net/projects/shunit2"
   }
 ]
