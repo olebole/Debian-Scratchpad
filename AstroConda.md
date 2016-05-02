@@ -63,12 +63,14 @@ may be packaging candidates.
 | [*pyraf*](https://github.com/spacetelescope/pyraf) | Python replacement for IRAF cl from STScI |
 | [*iraf*](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
 | [ginga](https://github.com/ejeschke/ginga) | The Ginga astronomical FITS file viewer |
+| [**astropy**](https://packages.debian.org/sid/python-astropy) | Core functionality for performing astrophysics with Python |
 | [imexam](http://imexam.readthedocs.io) | Simple image examination, and plotting, with similar functionality to IRAF's imexamine |
 | [gwcs](http://gwcs.readthedocs.io/) | Tools for managing the WCS in a general way |
 | [astroimtools](http://astroimtools.readthedocs.io) | Astronomical Image Convenience Tools |
 | [drizzlepac](http://drizzlepac.stsci.edu/) | Align and combine HST images |
 | | |
 | | **Science packages** |
+| [**numpy**](https://packages.debian.org/sid/python-numpy) | Numerical Python adds a fast array facility to the Python language |
 | [**pyfftw**](https://packages.debian.org/sid/python-pyfftw) | Pythonic wrapper around FFTW |
 | [poppy](https://github.com/mperrin/poppy) | Physical Optics Propagation in Python |
 | [webbpsf](http://www.stsci.edu/jwst/software/webbpsf/) | WebbPSF: Simulated PSF for the James Webb Space Telescope |

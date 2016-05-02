@@ -241,6 +241,8 @@ Pkg-Description: The Ginga astronomical FITS file viewer
  Telescope, National Astronomical Observatory of Japan, and is in use at
  that facility.
 
+Depends: python-astropy
+
 Depends: imexam
 Homepage: http://imexam.readthedocs.io
 Pkg-Description: Simple image examination, and plotting, with similar functionality to IRAF's imexamine
@@ -281,6 +283,8 @@ Pkg-Description: Align and combine HST images
  position to its pixel position after distortion correctionsskytopix
  transforms sky coordinates to X,Y pixel positions. A reverse
  transformation can be done using the task pixtosky.
+
+Depends: python-numpy
 
 Depends: python-pyfftw
 

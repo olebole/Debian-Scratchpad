@@ -324,6 +324,15 @@
     "url": "https://github.com/ejeschke/ginga"
   }, 
   {
+    "ascl_id": "1304.002", 
+    "debian": "python-astropy", 
+    "description": "The astropy package contains core functionality and some common tools needed for performing astronomy and astrophysics research with Python. It is expected to be extended by a number of \"affiliated packages\" that are intended to work with the core package.", 
+    "name": "astropy", 
+    "section": "Astronomy packages", 
+    "summary": "Core functionality for performing astrophysics with Python", 
+    "url": "http://www.astropy.org/"
+  }, 
+  {
     "description": "imexam is an AstroPy affiliated package meant for quick image analysis, much\nlike the IRAF imexamine task. Image display is currently supported with\neither DS9 or a Ginga widget from a python session.", 
     "name": "imexam", 
     "section": "Astronomy packages", 
@@ -353,6 +362,14 @@
     "url": "http://drizzlepac.stsci.edu/"
   }, 
   {
+    "debian": "python-numpy", 
+    "description": "Numpy contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities.\n\nNumpy replaces the python-numeric and python-numarray modules which are now deprecated and shouldn't be used except to support older software.", 
+    "name": "numpy", 
+    "section": "Science packages", 
+    "summary": "Numerical Python adds a fast array facility to the Python language", 
+    "url": "http://www.astropy.org/"
+  }, 
+  {
     "debian": "python-pyfftw", 
     "description": "Pythonic wrapper around FFTW, the speedy FFT library. The ultimate aim is to present a unified interface for all the possible transforms that FFTW can perform.\n\nBoth the complex DFT and the real DFT are supported, as well as arbitrary axes of abitrary shaped and strided arrays, which makes it almost feature equivalent to standard and real FFT functions of numpy.fft (indeed, it supports the clongdouble dtype which numpy.fft does not).\n\nThis package provides the Python 2 bindings.", 
     "name": "pyfftw", 
@@ -379,7 +396,7 @@
   {
     "ascl_id": "1201.015", 
     "debian": "libfftw3-dev", 
-    "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST).Benchmarks performed on a\nvariety of platforms show that FFTW's performance is typically superior\nto that of other publicly available FFT software, and is even\ncompetitive with vendor-tuned codes. In contrast to vendor-tuned codes,\nhowever, FFTW's performance is portable: the same program will perform\nwell on most architectures without modification.The FFTW library is\nrequired by other codes such asStarCrashandHammurabi.", 
+    "description": "The FFTW library computes Fast Fourier Transforms (FFT) in one or more dimensions. It is extremely fast. This package contains the statically linked library, header files and test programs.\n\nThis package contains the header files and static libraries. For documentation, see libfftw3-doc.", 
     "name": "fftw", 
     "section": "Science packages", 
     "summary": "Library for computing Fast Fourier Transforms", 
@@ -431,7 +448,7 @@
   }, 
   {
     "debian": "shunit2", 
-    "description": "shUnit2 was originally developed to provide a consistent testing\nsolution for log4sh, a shell based logging framework similar to log4j.\nIt is designed to work in a similar manner to JUnit, PyUnit, etc.", 
+    "description": "shUnit2 was originally developed to provide a consistent testing solution for log4sh, a shell based logging framework similar to log4j. It is designed to work in a similar manner to JUnit, PyUnit, etc.", 
     "name": "shunit2", 
     "section": "Other packages", 
     "summary": "Unit test framework for Bourne based shell scripts", 
