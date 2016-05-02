@@ -203,7 +203,7 @@
   }, 
   {
     "ascl_id": "1210.016", 
-    "description": "Specview is a tool for 1-D spectral visualization and analysis of astronomical spectrograms. Written in Java, it is capable of reading all the Hubble Space Telescope spectral data formats as well as data from several other instruments (such as IUE, FUSE, ISO, FORS and SDSS), preview spectra from MAST, and data from generic FITS and ASCII tables. It can read data from Virtual Observatory servers, and read and write spectrogram data in Virtual Observatory SED format. It can also read files in the SPC Galactic format used in the chemistry field. Once ingested, data can be plotted and examined with a large selection of custom settings. Specview supports instrument-specific data quality handling, flexible spectral units conversions, custom plotting attributes, plot annotations, tiled plots, hardcopy to JPEG files and PostScript file or printer, etc. Specview can be used to build wide-band SEDs, overplotting or combining data from the same astronomical source taken with different instruments and/or spectral bands. Data can be further processed with averaging, splicing, detrending, and Fourier filtering tools. Specview has a spectral model fitting capability that enables the user to work with multi-component models (including user-defined models) and fit models to data.", 
+    "description": "Specview is a tool for 1-D spectral visualization and analysis of\nastronomical spectrograms. Written in Java, it is capable of reading all\nthe Hubble Space Telescope spectral data formats as well as data from\nseveral other instruments (such as IUE, FUSE, ISO, FORS and SDSS),\npreview spectra from MAST, and data from generic FITS and ASCII tables.\nIt can read data from Virtual Observatory servers, and read and write\nspectrogram data in Virtual Observatory SED format. It can also read\nfiles in the SPC Galactic format used in the chemistry field. Once\ningested, data can be plotted and examined with a large selection of\ncustom settings. Specview supports instrument-specific data quality\nhandling, flexible spectral units conversions, custom plotting\nattributes, plot annotations, tiled plots, hardcopy to JPEG files and\nPostScript file or printer, etc. Specview can be used to build wide-band\nSEDs, overplotting or combining data from the same astronomical source\ntaken with different instruments and/or spectral bands. Data can be\nfurther processed with averaging, splicing, detrending, and Fourier\nfiltering tools. Specview has a spectral model fitting capability that\nenables the user to work with multi-component models (including user-\ndefined models) and fit models to data.", 
     "name": "specview", 
     "section": "STSci specific packages", 
     "summary": "Java spectrum visualization, manipulation, and fitting", 
@@ -287,7 +287,7 @@
   {
     "ascl_id": "1010.064", 
     "debian": "sextractor", 
-    "description": "Find sources, such as stars and galaxies, in astronomical images. The input data files are in FITS file format, and are analyzed to compute the locations of sources, with the ability to distinguish between galaxies and stars using a neural-network technique.", 
+    "description": "Find sources, such as stars and galaxies, in astronomical images. The\ninput data files are in FITS file format, and are analyzed to compute\nthe locations of sources, with the ability to distinguish between\ngalaxies and stars using a neural-network technique.", 
     "name": "sextractor", 
     "section": "Astronomy packages", 
     "summary": "Source extractor for astronomical images", 
@@ -322,7 +322,7 @@
   }, 
   {
     "ascl_id": "1207.011", 
-    "description": "PyRAF is a command language for running IRAF tasks that is based on the Python scripting language. It gives users the ability to run IRAF tasks in an environment that has all the power and flexibility of Python. PyRAF can be installed along with an existing IRAF installation; users can then choose to run either PyRAF or the IRAF CL.", 
+    "description": "PyRAF is a command language for running IRAF tasks that is based on the\nPython scripting language. It gives users the ability to run IRAF tasks\nin an environment that has all the power and flexibility of Python.\nPyRAF can be installed along with an existing IRAF installation; users\ncan then choose to run either PyRAF or the IRAF CL.", 
     "git": "http://www.stsci.edu/institute/software_hardware/pyraf", 
     "name": "pyraf", 
     "packageable": false, 
@@ -332,7 +332,7 @@
   }, 
   {
     "ascl_id": "9911.002", 
-    "description": "IRAF includes a broad selection of programs for general image processing and graphics, plus a large number of programs for the reduction and analysis of optical and IR astronomy data. Other external or layered packages are available for applications such as data acquisition or handling data from other observatories and wavelength regimes such as the Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or ROSAT and AXAF (X-ray). These external packages are distributed separately from the main IRAF distribution but can be easily installed. The IRAF system also includes a complete programming environment for scientific applications, which includes a programmable Command Language scripting facility, the IMFORT Fortran/C programming interface, and the full SPP/VOS programming environment in which the portable IRAF system and all applications are written.", 
+    "description": "IRAF includes a broad selection of programs for general image processing\nand graphics, plus a large number of programs for the reduction and\nanalysis of optical and IR astronomy data. Other external or layered\npackages are available for applications such as data acquisition or\nhandling data from other observatories and wavelength regimes such as\nthe Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or\nROSAT and AXAF (X-ray). These external packages are distributed\nseparately from the main IRAF distribution but can be easily installed.\nThe IRAF system also includes a complete programming environment for\nscientific applications, which includes a programmable Command Language\nscripting facility, the IMFORT Fortran/C programming interface, and the\nfull SPP/VOS programming environment in which the portable IRAF system\nand all applications are written.", 
     "name": "iraf", 
     "packageable": false, 
     "section": "Astronomy packages", 
@@ -341,7 +341,7 @@
   }, 
   {
     "ascl_id": "1303.020", 
-    "description": "Ginga is a viewer for astronomical data FITS (Flexible Image Transport System) files; the viewer centers around a FITS display widget which supports zooming and panning, color and intensity mapping, a choice of several automatic cut levels algorithms and canvases for plotting scalable geometric forms. In addition to this widget, the FITS viewer provides a flexible plugin framework for extending the viewer with many different features. A fairly complete set of \"standard\" plugins are provided for expected features of a modern viewer: panning and zooming windows, star catalog access, cuts, star pick/fwhm, thumbnails, and others.  This viewer was written by software engineers at Subaru Telescope, National Astronomical Observatory of Japan, and is in use at that facility.", 
+    "description": "Ginga is a viewer for astronomical data FITS (Flexible Image Transport\nSystem) files; the viewer centers around a FITS display widget which\nsupports zooming and panning, color and intensity mapping, a choice of\nseveral automatic cut levels algorithms and canvases for plotting\nscalable geometric forms. In addition to this widget, the FITS viewer\nprovides a flexible plugin framework for extending the viewer with many\ndifferent features. A fairly complete set of \"standard\" plugins are\nprovided for expected features of a modern viewer: panning and zooming\nwindows, star catalog access, cuts, star pick/fwhm, thumbnails, and\nothers.  This viewer was written by software engineers at Subaru\nTelescope, National Astronomical Observatory of Japan, and is in use at\nthat facility.", 
     "name": "ginga", 
     "section": "Astronomy packages", 
     "summary": "The Ginga astronomical FITS file viewer", 
@@ -361,7 +361,7 @@
   }, 
   {
     "ascl_id": "1304.021", 
-    "description": "PyNeb (previously PyNebular) is an update and expansion of the IRAF package NEBULAR; rewritten in Python, it is designed to be more user-friendly and powerful, increasing the speed, easiness of use, and graphic visualization of emission lines analysis. In PyNeb, the atom is represented as an n-level atom. For given density and temperature, PyNeb solves the equilibrium equations and determines the level populations. PyNeb can compute physical conditions from suitable diagnostic line ratios and level populations, critical densities and line emissivities, and can compute and display emissivity grids as a function of Te and Ne. It can also deredden line intensities, read and manage observational data, and plot and compare atomic data from different publications, and compute ionic abundances from line intensities and physical conditions and elemental abundances from ionic abundances and icfs.", 
+    "description": "PyNeb (previously PyNebular) is an update and expansion of the IRAF\npackage NEBULAR; rewritten in Python, it is designed to be more user-\nfriendly and powerful, increasing the speed, easiness of use, and\ngraphic visualization of emission lines analysis. In PyNeb, the atom is\nrepresented as an n-level atom. For given density and temperature, PyNeb\nsolves the equilibrium equations and determines the level populations.\nPyNeb can compute physical conditions from suitable diagnostic line\nratios and level populations, critical densities and line emissivities,\nand can compute and display emissivity grids as a function of Te and Ne.\nIt can also deredden line intensities, read and manage observational\ndata, and plot and compare atomic data from different publications, and\ncompute ionic abundances from line intensities and physical conditions\nand elemental abundances from ionic abundances and icfs.", 
     "name": "pyneb", 
     "section": "Astronomy packages", 
     "summary": "A modern python tool to compute emission line emissivities", 
@@ -375,7 +375,7 @@
   }, 
   {
     "ascl_id": "1212.011", 
-    "description": "DrizzlePac allows users to easily and accurately align and combine HST images taken at multiple epochs, and even with different instruments. It is a suite of supporting tasks for AstroDrizzle which includes:astrodrizzle to align and combine imagestweakreg and tweakback for aligning images in different visitspixtopix transforms an X,Y pixel position to its pixel position after distortion correctionsskytopix transforms sky coordinates to X,Y pixel positions. A reverse transformation can be done using the task pixtosky.", 
+    "description": "DrizzlePac allows users to easily and accurately align and combine HST\nimages taken at multiple epochs, and even with different instruments. It\nis a suite of supporting tasks for AstroDrizzle which\nincludes:astrodrizzle to align and combine imagestweakreg and tweakback\nfor aligning images in different visitspixtopix transforms an X,Y pixel\nposition to its pixel position after distortion correctionsskytopix\ntransforms sky coordinates to X,Y pixel positions. A reverse\ntransformation can be done using the task pixtosky.", 
     "name": "drizzlepac", 
     "section": "Astronomy packages", 
     "summary": "Align and combine HST images", 
@@ -391,7 +391,7 @@
   }, 
   {
     "ascl_id": "1602.018", 
-    "description": "POPPY (Physical Optics Propagation in PYthon) simulates physical optical propagation including diffraction. It implements a flexible framework for modeling Fraunhofer and Fresnel diffraction and point spread function formation, particularly in the context of astronomical telescopes. POPPY provides the optical modeling framework for WebbPSF (ascl:1504.007) and was developed as part of a simulation package for JWST, but is available separately and is broadly applicable to many kinds of imaging simulations.", 
+    "description": "POPPY (Physical Optics Propagation in PYthon) simulates physical optical\npropagation including diffraction. It implements a flexible framework\nfor modeling Fraunhofer and Fresnel diffraction and point spread\nfunction formation, particularly in the context of astronomical\ntelescopes. POPPY provides the optical modeling framework for WebbPSF\n(ascl:1504.007) and was developed as part of a simulation package for\nJWST, but is available separately and is broadly applicable to many\nkinds of imaging simulations.", 
     "name": "poppy", 
     "section": "Science packages", 
     "summary": "Physical Optics Propagation in Python", 
@@ -399,7 +399,7 @@
   }, 
   {
     "ascl_id": "1504.007", 
-    "description": "WebbPSF provides a PSF simulation tool in a flexible and easy-to-use software package implemented in Python. Functionality includes support for spectroscopic modes of JWST NIRISS, MIRI, and NIRSpec, including modeling of slit losses and diffractive line spread functions.", 
+    "description": "WebbPSF provides a PSF simulation tool in a flexible and easy-to-use\nsoftware package implemented in Python. Functionality includes support\nfor spectroscopic modes of JWST NIRISS, MIRI, and NIRSpec, including\nmodeling of slit losses and diffractive line spread functions.", 
     "name": "webbpsf", 
     "section": "Science packages", 
     "summary": "WebbPSF: Simulated PSF for the James Webb Space Telescope", 
@@ -422,7 +422,7 @@
   {
     "ascl_id": "1201.015", 
     "debian": "fftw3", 
-    "description": "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).Benchmarks performed on a variety of platforms show that FFTW's performance is typically superior to that of other publicly available FFT software, and is even competitive with vendor-tuned codes. In contrast to vendor-tuned codes, however, FFTW's performance is portable: the same program will perform well on most architectures without modification.The FFTW library is required by other codes such asStarCrashandHammurabi.", 
+    "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST).Benchmarks performed on a\nvariety of platforms show that FFTW's performance is typically superior\nto that of other publicly available FFT software, and is even\ncompetitive with vendor-tuned codes. In contrast to vendor-tuned codes,\nhowever, FFTW's performance is portable: the same program will perform\nwell on most architectures without modification.The FFTW library is\nrequired by other codes such asStarCrashandHammurabi.", 
     "name": "fftw", 
     "section": "Science packages", 
     "summary": "Library for computing Fast Fourier Transforms", 
@@ -602,7 +602,7 @@
   }, 
   {
     "debian": "shunit2", 
-    "description": "shUnit2 was originally developed to provide a consistent testing solution for log4sh, a shell based logging framework similar to log4j. It is designed to work in a similar manner to JUnit, PyUnit, etc.", 
+    "description": "shUnit2 was originally developed to provide a consistent testing\nsolution for log4sh, a shell based logging framework similar to log4j.\nIt is designed to work in a similar manner to JUnit, PyUnit, etc.", 
     "name": "shunit2", 
     "section": "Other packages", 
     "summary": "Unit test framework for Bourne based shell scripts", 
