@@ -546,13 +546,6 @@
     "url": "http://numpy.scipy.org/"
   }, 
   {
-    "debian": "openjdk-9-jdk", 
-    "name": "java", 
-    "section": "Scripting Languages", 
-    "summary": "Java runtime environment and JDK", 
-    "url": "http://java.sun.com/"
-  }, 
-  {
     "ascl_id": "1303.025", 
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
     "description": "DPUSER is an interactive language capable of handling numbers (both real\nand complex), strings, and matrices. Its main aim is to do astronomical\nimage analysis, for which it provides a comprehensive set of functions,\nbut it can also be used for many other applications.", 

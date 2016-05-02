@@ -557,8 +557,6 @@ Pkg-Description: Automatic image combination drizzling software
 
 Depends: python-numpy
 
-Depends: openjdk-9-jdk
-
 Depends: dpuser
 Homepage: http://www.mpe.mpg.de/~ott/dpuser/index.html
 Pkg-Description: Interactive language for handling numbers, strings, and matrices

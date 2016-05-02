@@ -449,8 +449,6 @@ Pkg-Description: Automatic renice daemon.
  programs, which often times leads to kernel load averages far exceeding an
  individual server's capabilities.
 
-Depends: gcc
-
 Depends: purge-path
 Homepage: http://bitbucket.org/jhunkeler/purge_path
 Pkg-Description: Small PATH manipulator

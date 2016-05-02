@@ -102,7 +102,6 @@ may be packaging candidates.
 | [**traceback2**](https://packages.debian.org/sid/python-traceback2) | Backports of the traceback module |
 | [**ws4py**](https://packages.debian.org/sid/python-ws4py) | WebSocket library for Python |
 | [aprio](http://bitbucket.org/jhunkeler/aprio) | Automatic renice daemon. |
-| [**gcc**](https://packages.debian.org/sid/gcc) | GNU C Compiler |
 | [purge-path](http://bitbucket.org/jhunkeler/purge_path) | Small PATH manipulator |
 | [pyobjc-core](http://pyobjc.sourceforge.net/) | Python<->ObjC Interoperability Module |
 | [**python-daemon**](https://packages.debian.org/sid/python-daemon) | Library to implement a well-behaved Unix daemon process. |

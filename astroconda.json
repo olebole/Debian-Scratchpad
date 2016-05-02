@@ -587,14 +587,6 @@
     "url": "http://bitbucket.org/jhunkeler/aprio"
   }, 
   {
-    "debian": "gcc", 
-    "description": "This is the GNU C compiler, a fairly portable optimizing compiler for C.\n\nThis is a dependency package providing the default GNU C compiler.", 
-    "name": "gcc", 
-    "section": "Other packages", 
-    "summary": "GNU C Compiler", 
-    "url": "http://www.netgull.com/gcc/releases/gcc-4.6.4"
-  }, 
-  {
     "name": "purge-path", 
     "section": "Other packages", 
     "summary": "Small PATH manipulator", 

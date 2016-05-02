@@ -84,7 +84,6 @@ may be packaging candidates.
 | [python-pydrizzle](http://www.stsci.edu/resources/software_hardware/pydrizzle) | Drizzling software |
 | [python-multidrizzle](http://stsdas.stsci.edu/multidrizzle/) | Automatic image combination drizzling software |
 | [**python-numpy**](https://packages.debian.org/sid/python-numpy) | Python package for scientific computing |
-| [**java**](https://packages.debian.org/sid/openjdk-9-jdk) | Java runtime environment and JDK |
 | [dpuser](http://www.mpe.mpg.de/~ott/dpuser/index.html) | Interactive language for handling numbers, strings, and matrices |
 | | |
 | | **Scientific Libraries** |
