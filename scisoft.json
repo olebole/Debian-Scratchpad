@@ -11,6 +11,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "CTIO is an IRAF external package with some CTIO-specific tools as well\nas some general purpose ones not included in the main IRAF\ndistribution.", 
     "name": "iraf-ctio", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -19,6 +20,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "MXTOOLS is an IRAF package providing tools for image matching and\nimage coordinate manipulation.", 
     "name": "iraf-mxtools", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -27,6 +29,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "GUIAPPS is an IRAF external package providing some prototype GUI\napplications for data reduction and analysis.", 
     "name": "iraf-guiapps", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -35,6 +38,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "XDIMSUM is a package for creating accurate sky subtracted images from sets of\ndithered observations. While the observations need not be in the infrared, the\ndominance of the variable sky background in infrared data requires dithering of\nmany short exposures and recombination with careful sky subtraction to produce\ndeep images. Hence the package is called \"Experimental Deep Infrared Mosaicing\nSoftware\" or XDIMSUM.\n.\nXDIMSUM is a variant of the DIMSUM package developed by P. Eisenhardt, M.\nDickensen, S.A. Stanford, and J. Ward. F. Valdes (IRAF group) modified DIMSUM\nto support FITS format images, added the DIMSUM tutorial demos script, wrote\nthe original version of this document, and repackaged DIMSUM for distribution\nas an IRAF external package.  L. Davis (IRAF group) rewrote the the major\nDIMSUM scripts to improve their clarity, robustness, and efficiency, added\nnew scripts for computing relative offsets, and documented the tasks. The new\npackage uses the same default algorithms as DIMSUM but is sufficiently\ndifferent in format that it has been renamed XDIMSUM.", 
     "name": "iraf-xdimsum", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -42,6 +46,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "A prototype IRAF color image display package, COLOR, is now available.\nCurrently this package provides conversion of 3 bandpass IRAF images to a\nSun 24-bit RGB rasterfile format, a 24-bit to 8-bit compression algorithm\nand Floyd-Steinberg dithering, and an RGB 8-bit pixel dithering algorithm.\nThe Sun rasterfiles are displayed using non-IRAF tools and the others use\nonly IRAF images and SAOimage or IMTOOL.  These tasks are usable with the\ncurrently common 8-bit color workstations and are provided for those users\nwhich don't have more capable hardware such as 24-bit workstations, IIS\ndisplays, and 24-bit addon cards.", 
     "name": "iraf-color", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -50,6 +55,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "FITSUTIL is an IRAF external package providing some extra utilities\nfor manipulating FITS files, including multiextention FITS files.", 
     "name": "iraf-fitsutil", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -58,6 +64,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "MSCRED is the IRAF CCD Mosaic Reduction package and can be used to\nreduce CCD mosaic data that is in the mosaic MEF data format.", 
     "name": "iraf-mscred", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -66,9 +73,11 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "The ESOWFI external package is used to reduce ESO WFI CCD  mosaic  data.\nIt  provides  a  single task for converting the ESO headers to work with\nthe MSCRED package.  It also sets the default instrument  files  and  an\nastrometry  solution.   The  reductions  are  then done using the MSCRED\nMosaic reduction package.", 
     "name": "iraf-esowfi", 
     "packageable": false, 
-    "section": "Data Analysis Systems"
+    "section": "Data Analysis Systems", 
+    "summary": "ESO WFI Mosaic reduction package"
   }, 
   {
     "ascl_id": "9912.003", 
@@ -82,14 +91,16 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "Utilities from ST-ECF, including polarimetry reduction and spectral\nrestoration packages.", 
     "name": "iraf-stecf", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
-    "summary": "Utilities from ST-ECF, including polarimetry reduction and spectral restoration packages", 
+    "summary": "Utilities from ST-ECF", 
     "url": "http://www.stecf.org/software/stecf-iraf/"
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "TABLES provides support for tabular data for STSDAS and other packages. Many\ntypes of data are stored in tabular format, such as catalogs of astronomical\nobjects, spectral data (e.g. columns of wavelength and flux), and\ncoefficients of fit to data. TABLES provides a programming interface for\naccessing tables, and it includes a collection of utility programs for\nworking with tables. FITS tables, STSDAS format, and simple text tables are\nsupported. The programming interface is used for the utility programs in\nTABLES, by tasks in STSDAS, and by other external packages. The utility\nprograms are used for such tasks as plotting, selecting rows based on an\nexpression involving column values, sorting rows in a table, joining tables,\nand performing arithmetic operations on column values.", 
     "name": "iraf-stsdas-tables", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -98,6 +109,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "The primary goals of the ECL project were to \n.\n * add an error-handling capability to the existing IRAF CL, \n * include other functionality which could improve the\n * scripting environment (e.g. pre-defined language constants\n   such as 'PI') and add any other features we found lacking\n   (e.g. missing trig functions and string utilities), and\n * add commonly requested features.", 
     "name": "iraf-ecl", 
     "packageable": false, 
     "section": "Data Analysis Systems", 
@@ -109,7 +121,7 @@
     "description": "Written in ANSI C, eclipse is a library offering numerous services\nrelated to astronomical image processing: FITS data access, various\nimage and cube loading methods, binary image handling and filtering\n(including convolution and morphological filters), 2-D cross-\ncorrelation, connected components, cube and image arithmetic, dead pixel\ndetection and correction, object detection, data extraction, flat-\nfielding with robust fit, image generation, statistics, photometry,\nimage-space resampling, image combination, and cube stacking. It also\ncontains support for mathematical tools like random number generation,\nFFT, curve fitting, matrices, fast median computation, and point-pattern\nmatching. The main feature of this library is its ability to handle\nlarge amounts of input data (up to 2GB in the current version)\nregardless of the amount of memory and swap available on the local\nmachine. Another feature is the very high speed allowed by optimized C,\nmaking it an ideal base tool for programming efficient number-crunching\napplications, e.g., on parallel (Beowulf) systems.", 
     "name": "eclipse", 
     "section": "Data Analysis Systems", 
-    "summary": "C Library for an Image Processing Software Environment. Includes ISAAC, CONICA, WFI, Lua and ADONIS add-ons", 
+    "summary": "C Library for an Image Processing Software Environment", 
     "url": "http://www.eso.org/sci/software/eclipse/"
   }, 
   {
@@ -157,6 +169,7 @@
     "url": "http://www.bo.astro.it/StarFinder/"
   }, 
   {
+    "description": "The JHU/APL/S1R IDL library contains over 600 IDL routines providing a wide\nrange of functionality. These routines have been developed over the years in\nsupport of our group's work. We make them available as an aid to the wider\nIDL community.", 
     "name": "idl-jhuapl", 
     "section": "Data Analysis Systems", 
     "summary": "IDL procedure collection from Johns Hopkins", 
@@ -192,7 +205,7 @@
     "description": "Karma is a toolkit for interprocess communications, authentication,\nencryption, graphics display, user interface and manipulating the Karma\nnetwork data structure. It contains KarmaLib (the structured libraries\nand API) and a large number of modules (applications) to perform many\nstandard tasks. A suite of visualisation tools are distributed with the\nlibrary.", 
     "name": "karma", 
     "section": "Data Analysis Systems", 
-    "summary": "Toolkit for interprocess communications, authentication, encryption, graphics display, user interface and manipulating the Karma network data structure.", 
+    "summary": "Toolkit for IPC, authentication, graphics display etc.", 
     "url": "http://www.atnf.csiro.au/computing/software/karma/"
   }, 
   {
@@ -229,6 +242,7 @@
   }, 
   {
     "comment": "Depends on IRAF", 
+    "description": "XGterm provides a Tek 4012 compatible graphics terminal emulation plus, for\nclients in the know, a datastream driven widget server capability using the\nObject Manager to provide full access to the underlying toolkit and widget\nset. The remote client application downloads a GUI file to the widget server\n(xgterm) which executes the GUI. While the GUI is executing it exchanges\nmessages with the remote client application at runtime via interprocess\ncommunication. In the case of Xgterm, this currently uses a serial (tty\nbased) protocol.\n.\nXImtool is an image display server. This provides an image display capability\nto remote client applications using the standard imtool/iis image display\nprotocol. The image display server allows a number of image frame buffers to\nbe created and displayed. The client can read and write data in these frame\nbuffers. Any frame or combination of frames can be displayed. Various display\noptions are provided, e.g., zoom and pan, flip about either axis, frame\nblink, windowing of the display, and colortable enhancement.\n.\nXTapemon is a conventional Xt/Athena application which allows the status of\nan IRAF tape job to be monitored continuously while the tape is being\naccessed.", 
     "name": "x11iraf", 
     "packageable": false, 
     "section": "Image Display Servers", 
@@ -237,6 +251,7 @@
   }, 
   {
     "comment": "Outdated; use saods9", 
+    "description": "SAOimage (pronounced S-A-0-image) is a utility for displaying astronomical\nimages in the X11 window environment. It was written at the Smithsonian\nAstrophysical Observatory by Mike Van Hilst in 1990 and hass been maintained\nby Doug Mink. Image files can be read directly, or image data may be passed\nthrough a named pipe (Unix) or a mailbox (VMS) from IRAF display\ntasks. SAOimage provides a large selection of options for zooming, panning,\nscaling, coloring, pixel readback, display blinking, and region\nspecification. User interactions are generally performed with the\nmouse. Mouse tracking in an image's world coordinate system, usually sky\ncoordinates, was added in 1994. You can also plot catalogs over images with\nWCS information in their headers.\n.\nThe SAOimage desktop includes, a main image display window, a button menu\npanel, a display magnifier, a pan and zoom reference image, and a color\nbar. A color table graph window can be brought up by clicking on the color\nbar.", 
     "name": "saoimage", 
     "packageable": false, 
     "section": "Image Display Servers", 
@@ -297,6 +312,7 @@
   }, 
   {
     "comment": "Not free.", 
+    "description": "SM is an interactive plotting package for drawing graphs written by Robert\nLupton and Patricia Monger. It has some capability to handle image data, but\nmostly works with vectors. The main features of the package are:\n.\n * one can generate a plot with a minimum number of simple commands,\n * one can view the plot on the screen and then with a simple set of\n   commands send the same plot to a hardcopy device, \n * one can build and save plot subroutines to be invoked with a single\n   user-defined command,\n * the program keeps a history of plot commands which can be edited and\n   defined as a plot subroutine, to be reused,\n * one can define the data to be plotted from within the program, or read\n   them from an ASCII file.", 
     "name": "sm", 
     "packageable": false, 
     "section": "Graphics Software", 
@@ -363,6 +379,7 @@
   }, 
   {
     "comment": "Not maintained anymore, outdated by numpy", 
+    "description": "Numeric is a Python module for high-performance, numeric computing. It\nprovides much of the functionality and performance of commercial numeric\nsoftware such as Matlab; in some cases, it provides more functionality than\ncommercial software.", 
     "name": "python-numeric", 
     "packageable": false, 
     "section": "Scripting Languages", 
@@ -391,6 +408,7 @@
     "summary": "Pmw -- Python MegaWidgets"
   }, 
   {
+    "description": "AstroAsciiData is a Python module to handle ASCII tables. Features:\n.\n * Imports all reasonably well-formed Ascii tables\n * Column-first access\n * Easy creation and manipulation of tables, columns, rows and attached\n   comments \n * Retains formatting of data values\n * Support for SExtractor style headers\n * Column sorting\n * Interchangeable comment character, column delimiter and null value\n * Exports data to Ascii, Numpy/Numarray, FITS table, HTML table, LaTeX table", 
     "name": "python-asciidata", 
     "section": "Scripting Languages", 
     "summary": "Python module to handle ASCII tables", 
@@ -431,6 +449,7 @@
   }, 
   {
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
+    "description": "ppgplot is a python module (extension) providing bindings to the \nPGPLOT graphics library. PGPLOT is a scientific visualization \n(graphics) library written in Fortran by T. J. Pearson. C bindings\nfor PGPLOT are also available. ppgplot makes the library usable by \nPython programs. It uses the numeric / numarray modules (nowadays \nreplaced by Numpy), to efficiently represent and manipulate vectors\nand matrices.", 
     "name": "python-ppgplot", 
     "section": "Scripting Languages", 
     "summary": "Pythonic Interface to PGPLOT", 
@@ -478,6 +497,7 @@
     "url": "http://wxpython.org/"
   }, 
   {
+    "description": "stsci_python is a library of Python routines and C extensions that has been\ndeveloped to provide a general astronomical data analysis infrastructure. It\nincludes the following:\n.\n * PyRAF, an environment for running IRAF tasks without using the IRAF CL\n * DrizzlePac, a task for combining dithered STScI images\n * PyFITS, used to read FITS images and tables into numpy or numarray objects\n   and to manipulate FITS headers \n * pysynphot is a synthetic photometry package (still in development)\n   designed to replace STSDAS.SYNPHOT. It is suitable for library or\n   interactive use. \n * Numdisplay, used to visualize numpy array objects using image display\n   tools like ds9 and ximtool ", 
     "name": "stsci-python", 
     "section": "Scripting Languages", 
     "summary": "STScI Python packages", 
@@ -511,6 +531,7 @@
     "url": "http://www.stsci.edu/resources/software_hardware/pydrizzle"
   }, 
   {
+    "description": "MultiDrizzle automates and simplifies the detection of cosmic-rays and the\ncombination of dithered observations using the Python scripting language and\nPyRAF, the Python-based interface to IRAF. MultiDrizzle was developed by the\nScience Software Branch at the Space Telescope Science Institute.", 
     "name": "python-multidrizzle", 
     "section": "Scripting Languages", 
     "summary": "Automatic image combination drizzling software", 
@@ -550,6 +571,7 @@
   }, 
   {
     "comment": "Not DFSG-free", 
+    "description": "DISLIN is a high-level plotting library for displaying data as curves, polar\nplots, bar graphs, pie charts, 3D-color plots, surfaces, contours and maps.\n.\nDISLIN is intended to be a powerful and easy to use software package for\nscientists and programmers. There are only a few graphics routines with a\nshort parameter list needed to display the desired graphical output. A large\nvariety of parameter setting routines can then be called to create\nindividually customized graphics.", 
     "name": "dislin", 
     "packageable": false, 
     "section": "Scientific Libraries", 
@@ -706,7 +728,7 @@
     "ascl_id": "1010.057", 
     "comment": "Unknown, unspecified license", 
     "description": "Tiny Tim generates simulated Hubble Space Telescope point spread\nfunctions (PSFs). It is written in C and distributed as source code and\nruns on a wide variety of UNIX and VMS systems. Tiny Tim includes mirror\nzonal errors, time dependent aberrations (for the pre-repair\ninstruments), field dependent obscuration patterns (for WF/PC-1 and\nWFPC2), and filter passband effects. It can produce a normally sampled\nor subsampled PSF. Output is a FITS image file.", 
-    "name": "tiny_tim", 
+    "name": "tiny-tim", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
     "summary": "HST point-spread function simulation software", 
@@ -724,6 +746,7 @@
   }, 
   {
     "comment": "Probably not DFSG-Free", 
+    "description": "The ESO/ST-ECF Digitized Sky Survey [DSS] application is a remote client\nprogram that extracts random sky section from the DSS image server installed\nat ESO. The extracted images are delivered in standard FITS format and\ncontain all header keywords needed to visualize proper celestial coordinates\nfor any pixel position. A client to be installed on your local machine can be\ndownloaded here.", 
     "name": "dss-dss2", 
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
@@ -815,6 +838,7 @@
     "url": "http://vo.iucaa.ernet.in/~voi/voplot.htm"
   }, 
   {
+    "description": "PLASTIC is a protocol for communication between client-side astronomy\napplications. It is very simple for application developers to adopt and is\neasily extended. Through PLASTIC applications can do tasks such as instruct\neach other to load VOTables, highlight a subset of rows or load an image of a\nparticular area of sky. Although such operations are quite simple, they\nenable powerful collaborations between tools. The philosophy is that the\nastronomer should have a suite of interoperating tools at his disposal, each\nof which does one thing well and which can be composed according to his\nparticular needs.", 
     "name": "plastic", 
     "section": "Virtual Observatory Tools", 
     "summary": "PLatform for AStronomical Tool InterConnection", 

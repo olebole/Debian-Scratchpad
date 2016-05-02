@@ -68,7 +68,7 @@
   {
     "name": "wfc3tools", 
     "section": "HST/JWST specific packages", 
-    "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3 ", 
+    "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3", 
     "url": "http://ssb.stsci.edu/doc/stsci_python_2.15.1/wfc3tools.doc/html/index.html"
   }, 
   {
@@ -96,15 +96,17 @@
     "url": "http://www.stsci.edu/hst/observatory/crds/"
   }, 
   {
+    "description": "An extended pyshmht - a simple hash table stored in an mmapped file\nThe basic access is vaguely dict like with the core capability being:\n.\n  h = ext_shmht.HashTable( filename, max_entries )\n  h['key'] = 'value'\n  v = h['key']\n.\nThe table only uses strings for keys and values, but there is an\ninterface that uses an object serializer, such as json or some other\nserializer that you provide.\nThere is a max length of key and value that are specified by defines.", 
     "name": "ext-shmht", 
     "section": "STSci specific packages", 
     "summary": "Hash table in shared memory, with locking", 
     "url": "https://github.com/stsci-ssb/ext_shmht"
   }, 
   {
+    "description": "Python package for handling spherical polygons that represent arbitrary\nregions of the sky.sphere", 
     "name": "stsci.sphere", 
     "section": "STSci specific packages", 
-    "summary": "Python package for handling spherical polygons that represent arbitrary regions of the sky.sphere", 
+    "summary": "STScI's spherical geometry astropy package", 
     "url": "http://www.stsci.edu/institute/software_hardware"
   }, 
   {
@@ -114,12 +116,14 @@
     "url": "https://github.com/spacetelescope/stsci.skypac"
   }, 
   {
+    "description": "This project contains extensions to Sphinx to build documentation from\nSTScI.", 
     "name": "stsci.sphinxext", 
     "section": "STSci specific packages", 
     "summary": "Sphinx extension for STScI", 
     "url": "https://github.com/spacetelescope/stsci.sphinxext"
   }, 
   {
+    "description": "Formerly included in SciPy as scipy.stsci.convolve.", 
     "name": "stsci.convolve", 
     "section": "STSci specific packages", 
     "summary": "Subset of SciPy functionality for convolving", 
@@ -159,10 +163,11 @@
   }, 
   {
     "comment": "Latest Release from Dec 2009", 
+    "description": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
     "git": "https://github.com/spacetelescope/stsci.numdisplay", 
     "name": "stsci.numdisplay", 
     "section": "STSci specific packages", 
-    "summary": "Visualize numpy array objects using image display tools like ds9 and ximtool", 
+    "summary": "Visualize numpy array objects", 
     "url": "http://stsdas.stsci.edu/numdisplay"
   }, 
   {
@@ -178,9 +183,10 @@
     "url": "https://github.com/spacetelescope/stsci.tools"
   }, 
   {
+    "description": "airspeed velocity (asv) is a tool for benchmarking Python packages over their\nlifetime. Runtime, memory consumption and even custom-computed values may be\ntracked. The results are displayed in an interactive web frontend that\nrequires only a basic static webserver to host.", 
     "name": "asv", 
     "section": "STSci specific packages", 
-    "summary": "Airspeed Velocity: A simple Python benchmarking tool with web-based reporting", 
+    "summary": "Simple Python benchmarking tool with web-based reporting", 
     "url": "https://github.com/spacetelescope/asv"
   }, 
   {
@@ -190,12 +196,14 @@
     "url": "https://github.com/spacetelescope/cube-tools"
   }, 
   {
+    "description": "Given a list of FITS headers, aggregates values and creates a table made up\nof values from a number of headers, according to the given specification.", 
     "name": "fitsblender", 
     "section": "STSci specific packages", 
-    "summary": "FITS header merging from multiple images. ", 
+    "summary": "FITS header merging from multiple images.", 
     "url": "http://github.com/spacetelescope/fitsblender"
   }, 
   {
+    "description": "Recomputes the WCS of an HST observation and puts all distortion\ncorrections in the headers.", 
     "name": "stwcs", 
     "section": "STSci specific packages", 
     "summary": "WCS based distortion models and coordinate transformation", 
@@ -232,12 +240,14 @@
     "url": "https://github.com/spacetelescope/pyasdf"
   }, 
   {
+    "description": "Advanced Scientific Data Format is a proposed replacement to the FITS\nstandard for astronomical images and other astronomical data. The Metadata is\ncontained in a YAML header followed by binary or ascii data.", 
     "name": "asdf-standard", 
     "section": "Astronomy packages", 
     "summary": "Advanced Scientific Data Format documentation", 
     "url": "https://github.com/spacetelescope/asdf-standard"
   }, 
   {
+    "description": "This package aims to provide much of the IDL \"astron\" functionality that\npertains to coordinate manipulations in an OO framework. Our target user is a\ntypical astronomer who needs to analyze data, work with catalogs, prepare\nobserving proposals, and prepare for observing runs.", 
     "name": "astrolib.coords", 
     "section": "Astronomy packages", 
     "summary": "Astronomical coordinates & angular separations", 
@@ -348,12 +358,14 @@
     "url": "https://github.com/ejeschke/ginga"
   }, 
   {
+    "description": "imexam is an AstroPy affiliated package meant for quick image analysis, much\nlike the IRAF imexamine task. Image display is currently supported with\neither DS9 or a Ginga widget from a python session.", 
     "name": "imexam", 
     "section": "Astronomy packages", 
     "summary": "Simple image examination, and plotting, with similar functionality to IRAF's imexamine", 
     "url": "https://github.com/spacetelescope/imexam"
   }, 
   {
+    "description": "GWCS takes a general approach to WCS. It supports a data model which includes\nthe entire transformation pipeline from input coordinates (detector by\ndefault) to world cooridnates. Transformations can be chained, joined or\ncombined with arithmetic operators using the flexible framework of compound\nmodels in modeling. In the case of a celestial output frame coordinates\nprovides further transformations between standard coordinate frames. Spectral\noutput coordinates are instances of Quantity and are transformed to other\nunits with the tools in that package. The goal is to provide a flexible\ntoolkit which is easily extendable by adding new transforms and frames.", 
     "name": "gwcs", 
     "section": "Astronomy packages", 
     "summary": "Tools for managing the WCS in a general way", 
@@ -368,6 +380,7 @@
     "url": "http://www.iac.es/proyecto/PyNeb/"
   }, 
   {
+    "description": "Astroimtools is an open-source Python package to provide convenience tools\nfor working with astronomical images.\n.\nThis work is driven by the JWST Data Analysis Development Forum at the Space\nTelescope Science Institute.", 
     "name": "astroimtools", 
     "section": "Astronomy packages", 
     "summary": "Astronomical Image Convenience Tools", 
@@ -429,6 +442,7 @@
     "url": "http://www.fftw.org"
   }, 
   {
+    "description": " HTCondor is a specialized workload management system for compute-intensive\n jobs. Like other full-featured batch systems, HTCondor provides a job\n queueing mechanism, scheduling policy, priority scheme, resource monitoring,\n and resource management. Users submit their serial or parallel jobs to\n HTCondor, HTCondor places them into a queue, chooses when and where to run\n the jobs based upon a policy, carefully monitors their progress, and\n ultimately informs the user upon completion.\n .\n This package installs some home-rolled Condor utilities.", 
     "name": "htc-utils", 
     "section": "Science packages", 
     "summary": "Homebrew set of HTCondor wrappers", 
@@ -451,6 +465,7 @@
     "url": "http://www.pyqtgraph.org/"
   }, 
   {
+    "description": "Pandokia is designed as a lightweight test management and reporting\nsystem. It consists of a loosely coupled set of components that:\n.\n * discover test files\n * configure the environment for each test\n * invoke external test runners to run tests (with concurrency possible)\n * gather and import test results to a database\n * identify missing test results\n * display browsable (CGI) test reports from the database \n.\nAny test runner, reporting tool, or analysis tool that complies with the\ninterface between components can participate in the system.", 
     "name": "pandokia", 
     "section": "Other packages", 
     "summary": "Lightweight test management and reporting system", 
@@ -473,7 +488,7 @@
     "url": "https://github.com/spacetelescope/d2to1"
   }, 
   {
-    "debian": "python-decorator",
+    "debian": "python-decorator", 
     "name": "decorator", 
     "section": "Other packages", 
     "summary": "Better living through Python with decorators", 
@@ -509,9 +524,10 @@
     "url": "https://pypi.python.org/packages/source/P/Parsley"
   }, 
   {
+    "description": "Yolk is a Python tool for obtaining information about installed Python\npackages and querying packages avilable on PyPI (Python Package Index).\n.\nYou can see which packages are active, non-active or in development mode and\nshow you which have newer versions available by querying PyPI.", 
     "name": "yolk", 
     "section": "Other packages", 
-    "summary": "Command-line tool for querying PyPI and Python packages installed on your system.", 
+    "summary": "Query PyPI and Python packages installed on your system.", 
     "url": "https://pypi.python.org/packages/source/y/yolk"
   }, 
   {
@@ -546,6 +562,7 @@
     "url": "https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput"
   }, 
   {
+    "description": "Threading2: like the standard threading module, but awesomer.\n.\nThis module is designed as a drop-in replacement and extension for the\ndefault \u201cthreading\u201d module. It has two main objectives:\n.\n * implement primitives using native platform functionality where possible\n * expose more sophisticated functionality where it can be done uniformly", 
     "name": "threading2", 
     "section": "Other packages", 
     "summary": "Drop-in replacement and extension for the default `threading` module", 
@@ -568,6 +585,7 @@
     "url": "https://pypi.python.org/packages/source/w/ws4py"
   }, 
   {
+    "description": "Aprio was developed to enable systems administrators to automatically renice\nabusive, long running, CPU intensive processes. In a shared high-computing\nenvironment, users may feel it is necessary to \"compete\" with each other's\nprograms, which often times leads to kernel load averages far exceeding an\nindividual server's capabilities.", 
     "name": "aprio", 
     "section": "Other packages", 
     "summary": "Automatic renice daemon.", 
@@ -588,6 +606,7 @@
     "url": "http://bitbucket.org/jhunkeler/purge_path"
   }, 
   {
+    "description": "The PyObjC project aims to provide a bridge between the Python and\nObjective-C programming languages. The bridge is intended to be fully\nbidirectional, allowing the Python programmer to take full advantage of the\npower provided by various Objective-C based toolkits and the Objective-C\nprogrammer transparent access to Python based functionality.\n.\nThe most important usage of this is writing Cocoa GUI applications on Mac OS\nX in pure Python. See our tutorial for an example of this.", 
     "name": "pyobjc-core", 
     "section": "Other packages", 
     "summary": "Python<->ObjC Interoperability Module", 
