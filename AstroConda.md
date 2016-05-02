@@ -3,7 +3,7 @@ AstroConda programs for potential inclusion in Debian
 
 
 The list is taken from the
-[AstroConda](http://astroconda.github.io)
+[AstroConda](http://astroconda.readthedocs.io)
 package list. Packages that are already in Debian are in **bold**, packages
 that will (for various reasons) not go into Debian are in *italic*. The other
 may be packaging candidates.

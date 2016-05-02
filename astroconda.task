@@ -4,7 +4,7 @@ Index: false
 Metapackage: false
 Description: AstroConda packages
  Here we list the packages that belong to the 
- [AstroConda](http://astroconda.github.io)
+ [AstroConda](http://astroconda.readthedocs.io)
  distribution.
 
 Depends: acstools

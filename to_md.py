@@ -3,7 +3,7 @@ import json
 projects = [
     {
         'name': 'AstroConda',
-        'url': 'http://astroconda.github.io',
+        'url': 'http://astroconda.readthedocs.io',
     },
     {
         'name': 'SciSoft',
