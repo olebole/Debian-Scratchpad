@@ -1,11 +1,11 @@
 Task: SciSoft
- Install: false
- Index: false
- Metapackage: false
- Description: SciSoft packages
-  Here we list the packages that belong to the 
-     [SciSoft](http://www.eso.org/sci/software/scisoft)
-  distribution.
+Install: false
+Index: false
+Metapackage: false
+Description: SciSoft packages
+ Here we list the packages that belong to the 
+    [SciSoft](http://www.eso.org/sci/software/scisoft)
+ distribution.
 
 Depends: iraf
 Homepage: http://iraf.noao.edu/
@@ -413,19 +413,19 @@ Pkg-Description: Graphical Astronomy and Image Analysis Tool
 Depends: sm
 Homepage: http://www.astro.princeton.edu/~rhl/sm/
 Pkg-Description: SuperMongo.
-  SM is an interactive plotting package for drawing graphs written by Robert
-  Lupton and Patricia Monger. It has some capability to handle image data, but
-  mostly works with vectors. The main features of the package are:
-  .
-   * one can generate a plot with a minimum number of simple commands,
-   * one can view the plot on the screen and then with a simple set of
-     commands send the same plot to a hardcopy device, 
-   * one can build and save plot subroutines to be invoked with a single
-     user-defined command,
-   * the program keeps a history of plot commands which can be edited and
-     defined as a plot subroutine, to be reused,
-   * one can define the data to be plotted from within the program, or read
-     them from an ASCII file.
+ SM is an interactive plotting package for drawing graphs written by Robert
+ Lupton and Patricia Monger. It has some capability to handle image data, but
+ mostly works with vectors. The main features of the package are:
+ .
+  * one can generate a plot with a minimum number of simple commands,
+  * one can view the plot on the screen and then with a simple set of
+    commands send the same plot to a hardcopy device, 
+  * one can build and save plot subroutines to be invoked with a single
+    user-defined command,
+  * the program keeps a history of plot commands which can be edited and
+    defined as a plot subroutine, to be reused,
+  * one can define the data to be plotted from within the program, or read
+    them from an ASCII file.
 Remark:
  Not free.
 

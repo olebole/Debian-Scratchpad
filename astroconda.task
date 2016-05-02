@@ -1,14 +1,14 @@
-Task: {name}
-    Install: false
-    Index: false
-    Metapackage: false
-    Description: [name} packages
-     Here we list the packages that belong to the 
-        [{name}]({url})
-     distribution.
-    
+Task: AstroConda
+Install: false
+Index: false
+Metapackage: false
+Description: AstroConda packages
+ Here we list the packages that belong to the 
+    [AstroConda](https://astroconda.readthedocs.io)
+ distribution.
+
 Depends: acstools
-Homepage: http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python
+Homepage: http://acstools.readthedocs.io/
 Pkg-Description: Python Tools for ACS (Advanced Camera for Surveys) Data
 
 Depends: wfpc2tools
@@ -32,7 +32,7 @@ Homepage: ssh://git@bitbucket.org/stsci_ssb/jwst.git
 Pkg-Description: James Webb Space Telescope library
 
 Depends: jwst-pipeline
-Homepage: ssh://git@bitbucket.org/stsci_ssb/jwst.git
+Homepage: http://ssb.stsci.edu/doc/jwst_dev/jwst_pipeline.pipeline.doc.user_guide.doc/html/index.html
 Pkg-Description: James Webb Space Telescope pipeline
 
 Depends: jwst-tools
@@ -40,15 +40,15 @@ Homepage: ssh://git@bitbucket.org/stsci_ssb/jwst.git
 Pkg-Description: James Webb Space Telescope tools
 
 Depends: pandeia-engine
-Homepage: https://github.com:stsci-ssb/pandeia
+Homepage: http://www.stsci.edu/wfirst/software/Pandeia
 Pkg-Description: Exposure time calculator (ETC) for the JWST
 
 Depends: pandeia-thirdparty
-Homepage: http://stsci.edu
+Homepage: http://www.stsci.edu/wfirst/software/Pandeia
 Pkg-Description: Pandeia third party tools
 
 Depends: pandeia-data
-Homepage: https://github.com:stsci-ssb/pandeia_data
+Homepage: http://www.stsci.edu/wfirst/software/Pandeia
 Pkg-Description: Pandeia data
 
 Depends: wfc3tools
@@ -74,10 +74,23 @@ Pkg-Description: Calibration Reference Data System
 Depends: ext-shmht
 Homepage: https://github.com/stsci-ssb/ext_shmht
 Pkg-Description: Hash table in shared memory, with locking
+ An extended pyshmht - a simple hash table stored in an mmapped file
+ The basic access is vaguely dict like with the core capability being:
+ .
+   h = ext_shmht.HashTable( filename, max_entries )
+   h['key'] = 'value'
+   v = h['key']
+ .
+ The table only uses strings for keys and values, but there is an
+ interface that uses an object serializer, such as json or some other
+ serializer that you provide.
+ There is a max length of key and value that are specified by defines.
 
 Depends: stsci.sphere
-Homepage: http://www.stsci.edu/institute/software_hardware
-Pkg-Description: Python package for handling spherical polygons that represent arbitrary regions of the sky.sphere
+Homepage: http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html
+Pkg-Description: STScI's spherical geometry astropy package
+ Python package for handling spherical polygons that represent arbitrary
+ regions of the sky.sphere
 
 Depends: stsci.skypac
 Homepage: https://github.com/spacetelescope/stsci.skypac
@@ -86,10 +99,13 @@ Pkg-Description: Sky matching for image mosaic
 Depends: stsci.sphinxext
 Homepage: https://github.com/spacetelescope/stsci.sphinxext
 Pkg-Description: Sphinx extension for STScI
+ This project contains extensions to Sphinx to build documentation from
+ STScI.
 
 Depends: stsci.convolve
 Homepage: https://github.com/spacetelescope/stsci.convolve
 Pkg-Description: Subset of SciPy functionality for convolving
+ Formerly included in SciPy as scipy.stsci.convolve.
 
 Depends: python-stsci.distutils
 
@@ -111,7 +127,8 @@ Pkg-Description: Fork of scipy.ndimage
 
 Depends: stsci.numdisplay
 Homepage: http://stsdas.stsci.edu/numdisplay
-Pkg-Description: Visualize numpy array objects using image display tools like ds9 and ximtool
+Pkg-Description: Visualize numpy array objects
+ Visualize numpy array objects using image display tools like ds9 and ximtool
 Remark:
  Latest Release from Dec 2009
 
@@ -124,24 +141,51 @@ Homepage: https://github.com/spacetelescope/stsci.tools
 Pkg-Description: STScI utility functions
 
 Depends: asv
-Homepage: https://github.com/spacetelescope/asv
-Pkg-Description: Airspeed Velocity: A simple Python benchmarking tool with web-based reporting
+Homepage: http://asv.readthedocs.io/
+Pkg-Description: Simple Python benchmarking tool with web-based reporting
+ airspeed velocity (asv) is a tool for benchmarking Python packages over their
+ lifetime. Runtime, memory consumption and even custom-computed values may be
+ tracked. The results are displayed in an interactive web frontend that
+ requires only a basic static webserver to host.
 
 Depends: cube-tools
 Homepage: https://github.com/spacetelescope/cube-tools
 Pkg-Description: Data analysis package for cubes
 
 Depends: fitsblender
-Homepage: http://github.com/spacetelescope/fitsblender
+Homepage: http://ssb.stsci.edu/doc/stsci_python_dev/fitsblender.doc/html/index.html
 Pkg-Description: FITS header merging from multiple images. 
+ Given a list of FITS headers, aggregates values and creates a table made up
+ of values from a number of headers, according to the given specification.
 
 Depends: stwcs
 Homepage: https://github.com/spacetelescope/stwcs
 Pkg-Description: WCS based distortion models and coordinate transformation
+ Recomputes the WCS of an HST observation and puts all distortion
+ corrections in the headers.
 
 Depends: specview
 Homepage: https://github.com/spacetelescope/specview
 Pkg-Description: Java spectrum visualization, manipulation, and fitting
+ Specview is a tool for 1-D spectral visualization and analysis of
+ astronomical spectrograms. Written in Java, it is capable of reading all
+ the Hubble Space Telescope spectral data formats as well as data from
+ several other instruments (such as IUE, FUSE, ISO, FORS and SDSS),
+ preview spectra from MAST, and data from generic FITS and ASCII tables.
+ It can read data from Virtual Observatory servers, and read and write
+ spectrogram data in Virtual Observatory SED format. It can also read
+ files in the SPC Galactic format used in the chemistry field. Once
+ ingested, data can be plotted and examined with a large selection of
+ custom settings. Specview supports instrument-specific data quality
+ handling, flexible spectral units conversions, custom plotting
+ attributes, plot annotations, tiled plots, hardcopy to JPEG files and
+ PostScript file or printer, etc. Specview can be used to build wide-band
+ SEDs, overplotting or combining data from the same astronomical source
+ taken with different instruments and/or spectral bands. Data can be
+ further processed with averaging, splicing, detrending, and Fourier
+ filtering tools. Specview has a spectral model fitting capability that
+ enables the user to work with multi-component models (including user-
+ defined models) and fit models to data.
 
 Depends: stginga
 Homepage: https://github.com/spacetelescope/stginga
@@ -152,12 +196,19 @@ Depends: python-pyregion
 Depends: python-asdf
 
 Depends: asdf-standard
-Homepage: https://github.com/spacetelescope/asdf-standard
+Homepage: http://asdf-standard.readthedocs.io/
 Pkg-Description: Advanced Scientific Data Format documentation
+ Advanced Scientific Data Format is a proposed replacement to the FITS
+ standard for astronomical images and other astronomical data. The Metadata is
+ contained in a YAML header followed by binary or ascii data.
 
 Depends: astrolib.coords
-Homepage: https://github.com/spacetelescope/astrolib.coords.git
+Homepage: http://ssb.stsci.edu/doc/stsci_python_dev/astrolib.coords.doc/html/index.html
 Pkg-Description: Astronomical coordinates & angular separations
+ This package aims to provide much of the IDL "astron" functionality that
+ pertains to coordinate manipulations in an OO framework. Our target user is a
+ typical astronomer who needs to analyze data, work with catalogs, prepare
+ observing proposals, and prepare for observing runs.
 
 Depends: python-photutils
 
@@ -180,56 +231,142 @@ Depends: python-pywcs
 Depends: pyraf
 Homepage: https://github.com/spacetelescope/pyraf
 Pkg-Description: Python replacement for IRAF cl from STScI
+ PyRAF is a command language for running IRAF tasks that is based on the
+ Python scripting language. It gives users the ability to run IRAF tasks
+ in an environment that has all the power and flexibility of Python.
+ PyRAF can be installed along with an existing IRAF installation; users
+ can then choose to run either PyRAF or the IRAF CL.
 
 Depends: iraf
 Homepage: http://iraf.noao.edu
 Pkg-Description: NOAO Image Reduction and Analysis Facility
+ IRAF includes a broad selection of programs for general image processing
+ and graphics, plus a large number of programs for the reduction and
+ analysis of optical and IR astronomy data. Other external or layered
+ packages are available for applications such as data acquisition or
+ handling data from other observatories and wavelength regimes such as
+ the Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or
+ ROSAT and AXAF (X-ray). These external packages are distributed
+ separately from the main IRAF distribution but can be easily installed.
+ The IRAF system also includes a complete programming environment for
+ scientific applications, which includes a programmable Command Language
+ scripting facility, the IMFORT Fortran/C programming interface, and the
+ full SPP/VOS programming environment in which the portable IRAF system
+ and all applications are written.
 
 Depends: ginga
 Homepage: https://github.com/ejeschke/ginga
 Pkg-Description: The Ginga astronomical FITS file viewer
+ Ginga is a viewer for astronomical data FITS (Flexible Image Transport
+ System) files; the viewer centers around a FITS display widget which
+ supports zooming and panning, color and intensity mapping, a choice of
+ several automatic cut levels algorithms and canvases for plotting
+ scalable geometric forms. In addition to this widget, the FITS viewer
+ provides a flexible plugin framework for extending the viewer with many
+ different features. A fairly complete set of "standard" plugins are
+ provided for expected features of a modern viewer: panning and zooming
+ windows, star catalog access, cuts, star pick/fwhm, thumbnails, and
+ others.  This viewer was written by software engineers at Subaru
+ Telescope, National Astronomical Observatory of Japan, and is in use at
+ that facility.
 
 Depends: imexam
-Homepage: https://github.com/spacetelescope/imexam
+Homepage: http://imexam.readthedocs.io
 Pkg-Description: Simple image examination, and plotting, with similar functionality to IRAF's imexamine
+ imexam is an AstroPy affiliated package meant for quick image analysis, much
+ like the IRAF imexamine task. Image display is currently supported with
+ either DS9 or a Ginga widget from a python session.
 
 Depends: gwcs
-Homepage: https://github.com/spacetelescope/gwcs
+Homepage: http://gwcs.readthedocs.io/
 Pkg-Description: Tools for managing the WCS in a general way
+ GWCS takes a general approach to WCS. It supports a data model which includes
+ the entire transformation pipeline from input coordinates (detector by
+ default) to world cooridnates. Transformations can be chained, joined or
+ combined with arithmetic operators using the flexible framework of compound
+ models in modeling. In the case of a celestial output frame coordinates
+ provides further transformations between standard coordinate frames. Spectral
+ output coordinates are instances of Quantity and are transformed to other
+ units with the tools in that package. The goal is to provide a flexible
+ toolkit which is easily extendable by adding new transforms and frames.
 
 Depends: pyneb
 Homepage: http://www.iac.es/proyecto/PyNeb/
 Pkg-Description: A modern python tool to compute emission line emissivities
+ PyNeb (previously PyNebular) is an update and expansion of the IRAF
+ package NEBULAR; rewritten in Python, it is designed to be more user-
+ friendly and powerful, increasing the speed, easiness of use, and
+ graphic visualization of emission lines analysis. In PyNeb, the atom is
+ represented as an n-level atom. For given density and temperature, PyNeb
+ solves the equilibrium equations and determines the level populations.
+ PyNeb can compute physical conditions from suitable diagnostic line
+ ratios and level populations, critical densities and line emissivities,
+ and can compute and display emissivity grids as a function of Te and Ne.
+ It can also deredden line intensities, read and manage observational
+ data, and plot and compare atomic data from different publications, and
+ compute ionic abundances from line intensities and physical conditions
+ and elemental abundances from ionic abundances and icfs.
 
 Depends: astroimtools
-Homepage: https://github.com/spacetelescope/astroimtools
+Homepage: http://astroimtools.readthedocs.io
 Pkg-Description: Astronomical Image Convenience Tools
+ Astroimtools is an open-source Python package to provide convenience tools
+ for working with astronomical images.
+ .
+ This work is driven by the JWST Data Analysis Development Forum at the Space
+ Telescope Science Institute.
 
 Depends: drizzlepac
 Homepage: http://drizzlepac.stsci.edu/
 Pkg-Description: Align and combine HST images
+ DrizzlePac allows users to easily and accurately align and combine HST
+ images taken at multiple epochs, and even with different instruments. It
+ is a suite of supporting tasks for AstroDrizzle which
+ includes:astrodrizzle to align and combine imagestweakreg and tweakback
+ for aligning images in different visitspixtopix transforms an X,Y pixel
+ position to its pixel position after distortion correctionsskytopix
+ transforms sky coordinates to X,Y pixel positions. A reverse
+ transformation can be done using the task pixtosky.
 
 Depends: python-pyfftw
 
 Depends: poppy
 Homepage: https://github.com/mperrin/poppy
 Pkg-Description: Physical Optics Propagation in Python
+ POPPY (Physical Optics Propagation in PYthon) simulates physical optical
+ propagation including diffraction. It implements a flexible framework
+ for modeling Fraunhofer and Fresnel diffraction and point spread
+ function formation, particularly in the context of astronomical
+ telescopes. POPPY provides the optical modeling framework for WebbPSF
+ (ascl:1504.007) and was developed as part of a simulation package for
+ JWST, but is available separately and is broadly applicable to many
+ kinds of imaging simulations.
 
 Depends: webbpsf
 Homepage: http://www.stsci.edu/jwst/software/webbpsf/
 Pkg-Description: WebbPSF: Simulated PSF for the James Webb Space Telescope
-
-Depends: webbpsf-data
-Homepage: http://www.stsci.edu/~mperrin/software/webbpsf
-Pkg-Description: webbpsf-data data files
+ WebbPSF provides a PSF simulation tool in a flexible and easy-to-use
+ software package implemented in Python. Functionality includes support
+ for spectroscopic modes of JWST NIRISS, MIRI, and NIRSpec, including
+ modeling of slit losses and diffractive line spread functions.
 
 Depends: libatlas-dev
 
-Depends: libfftw3-3, libfftw3-bin, libfftw3-dbg, libfftw3-dev, libfftw3-doc, libfftw3-double3, libfftw3-long3, libfftw3-mpi-dev, libfftw3-mpi3, libfftw3-quad3, libfftw3-single3
+Depends: libfftw3-dev
 
 Depends: htc-utils
 Homepage: http://bitbucket.org/jhunkeler/htc_utils
 Pkg-Description: Homebrew set of HTCondor wrappers
+  HTCondor is a specialized workload management system for compute-intensive
+  jobs. Like other full-featured batch systems, HTCondor provides a job
+  queueing mechanism, scheduling policy, priority scheme, resource monitoring,
+  and resource management. Users submit their serial or parallel jobs to
+  HTCondor, HTCondor places them into a queue, chooses when and where to run
+  the jobs based upon a policy, carefully monitors their progress, and
+  ultimately informs the user upon completion.
+  .
+  This package installs some home-rolled Condor utilities.
+
 
 Depends: liblapack-dev
 
@@ -238,18 +375,34 @@ Depends: python-pyqtgraph
 Depends: pandokia
 Homepage: http://ssb.stsci.edu/testing/pandokia
 Pkg-Description: Lightweight test management and reporting system
+ Pandokia is designed as a lightweight test management and reporting
+ system. It consists of a loosely coupled set of components that:
+ .
+  * discover test files
+  * configure the environment for each test
+  * invoke external test runners to run tests (with concurrency possible)
+  * gather and import test results to a database
+  * identify missing test results
+  * display browsable (CGI) test reports from the database 
+ .
+ Any test runner, reporting tool, or analysis tool that complies with the
+ interface between components can participate in the system.
 
 Depends: python-appdirs
 
 Depends: python-d2to1
 
-Depends: decorators
-Homepage: https://github.com/micheles/decorator
-Pkg-Description: Better living through Python with decorators
+Depends: python-decorator
 
-Depends: recon
-Homepage: http://github.com/jhunkeler/recon
+Depends: relic
+Homepage: http://github.com/jhunkeler/relic
 Pkg-Description: Release control for git
+ RELIC stands for "Release I Control". This software attempts to automatically
+ maintain a git project's version information without the need for hardcoded
+ values in the source code. It is designed primarily for hardcore build
+ maintainers, and is best used with continuous integration services (i.e
+ Travis-CI, etc).
+
 
 Depends: python-linecache2
 
@@ -259,7 +412,12 @@ Depends: python-parsley
 
 Depends: yolk
 Homepage: https://pypi.python.org/packages/source/y/yolk
-Pkg-Description: Command-line tool for querying PyPI and Python packages installed on your system.
+Pkg-Description: Query PyPI and Python packages installed on your system.
+ Yolk is a Python tool for obtaining information about installed Python
+ packages and querying packages avilable on PyPI (Python Package Index).
+ .
+ You can see which packages are active, non-active or in development mode and
+ show you which have newer versions available by querying PyPI.
 
 Depends: python-pytools
 
@@ -267,11 +425,18 @@ Depends: python-selenium
 
 Depends: python-sphinx-rtd-theme
 
-Depends: python-sphinxcontrib-programoutput, python-sphinxcontrib.programoutput, python-sphinxcontrib.programoutput-doc, python3-sphinxcontrib.programoutput
+Depends: python-sphinxcontrib-programoutput
 
 Depends: threading2
 Homepage: https://pypi.python.org/packages/source/t/threading2
 Pkg-Description: Drop-in replacement and extension for the default `threading` module
+ Threading2: like the standard threading module, but awesomer.
+ .
+ This module is designed as a drop-in replacement and extension for the
+ default “threading” module. It has two main objectives:
+ .
+  * implement primitives using native platform functionality where possible
+  * expose more sophisticated functionality where it can be done uniformly
 
 Depends: python-traceback2
 
@@ -280,6 +445,11 @@ Depends: python-ws4py
 Depends: aprio
 Homepage: http://bitbucket.org/jhunkeler/aprio
 Pkg-Description: Automatic renice daemon.
+ Aprio was developed to enable systems administrators to automatically renice
+ abusive, long running, CPU intensive processes. In a shared high-computing
+ environment, users may feel it is necessary to "compete" with each other's
+ programs, which often times leads to kernel load averages far exceeding an
+ individual server's capabilities.
 
 Depends: gcc
 
@@ -290,6 +460,14 @@ Pkg-Description: Small PATH manipulator
 Depends: pyobjc-core
 Homepage: http://pyobjc.sourceforge.net/
 Pkg-Description: Python<->ObjC Interoperability Module
+ The PyObjC project aims to provide a bridge between the Python and
+ Objective-C programming languages. The bridge is intended to be fully
+ bidirectional, allowing the Python programmer to take full advantage of the
+ power provided by various Objective-C based toolkits and the Objective-C
+ programmer transparent access to Python based functionality.
+ .
+ The most important usage of this is writing Cocoa GUI applications on Mac OS
+ X in pure Python. See our tutorial for an example of this.
 
 Depends: python-daemon
 
