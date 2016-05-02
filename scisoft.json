@@ -514,7 +514,7 @@
     "name": "python-multidrizzle", 
     "section": "Scripting Languages", 
     "summary": "Automatic image combination drizzling software", 
-    "url": "http://stsdas.stsci.edu/pydrizzle/multidrizzle/"
+    "url": "http://stsdas.stsci.edu/multidrizzle/"
   }, 
   {
     "debian": "python-numpy", 
@@ -554,7 +554,7 @@
     "packageable": false, 
     "section": "Scientific Libraries", 
     "summary": "Scientific Data Plotting software.", 
-    "url": "http://www.linmpi.mpg.de/dislin/"
+    "url": "http://www.mps.mpg.de/1389229/dislin"
   }, 
   {
     "ascl_id": "1010.001", 
@@ -728,7 +728,7 @@
     "packageable": false, 
     "section": "Miscellaneous Utilities", 
     "summary": "Digitized Sky Survey image extraction software", 
-    "url": "http://archive.eso.org/dss/eso-dss.html"
+    "url": "http://archive.eso.org/cms/tools-documentation/the-eso-st-ecf-digitized-sky-survey-application.html"
   }, 
   {
     "ascl_id": "1104.011", 
