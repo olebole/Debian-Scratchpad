@@ -48,24 +48,6 @@
     "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git"
   }, 
   {
-    "name": "pandeia-engine", 
-    "section": "HST/JWST specific packages", 
-    "summary": "Exposure time calculator (ETC) for the JWST", 
-    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
-  }, 
-  {
-    "name": "pandeia-thirdparty", 
-    "section": "HST/JWST specific packages", 
-    "summary": "Pandeia third party tools", 
-    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
-  }, 
-  {
-    "name": "pandeia-data", 
-    "section": "HST/JWST specific packages", 
-    "summary": "Pandeia data", 
-    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
-  }, 
-  {
     "name": "wfc3tools", 
     "section": "HST/JWST specific packages", 
     "summary": "Tools for the Hubble Space Telescope Wide Field Camera 3", 
@@ -94,13 +76,6 @@
     "section": "HST/JWST specific packages", 
     "summary": "Calibration Reference Data System", 
     "url": "http://www.stsci.edu/hst/observatory/crds/"
-  }, 
-  {
-    "description": "An extended pyshmht - a simple hash table stored in an mmapped file\nThe basic access is vaguely dict like with the core capability being:\n.\n  h = ext_shmht.HashTable( filename, max_entries )\n  h['key'] = 'value'\n  v = h['key']\n.\nThe table only uses strings for keys and values, but there is an\ninterface that uses an object serializer, such as json or some other\nserializer that you provide.\nThere is a max length of key and value that are specified by defines.", 
-    "name": "ext-shmht", 
-    "section": "STSci specific packages", 
-    "summary": "Hash table in shared memory, with locking", 
-    "url": "https://github.com/stsci-ssb/ext_shmht"
   }, 
   {
     "description": "Python package for handling spherical polygons that represent arbitrary\nregions of the sky.sphere", 
@@ -295,15 +270,6 @@
     "url": "http://ds9.si.edu/download/source/"
   }, 
   {
-    "ascl_id": "1010.064", 
-    "debian": "sextractor", 
-    "description": "Find sources, such as stars and galaxies, in astronomical images. The\ninput data files are in FITS file format, and are analyzed to compute\nthe locations of sources, with the ability to distinguish between\ngalaxies and stars using a neural-network technique.", 
-    "name": "sextractor", 
-    "section": "Astronomy packages", 
-    "summary": "Source extractor for astronomical images", 
-    "url": "http://www.astromatic.net/download/sextractor"
-  }, 
-  {
     "ascl_id": "1109.015", 
     "debian": "wcstools", 
     "description": "WCSTools is a set of software utilities, written in C, which create, display and manipulate the world coordinate system of a FITS or IRAF image, using specific keywords in the image header which relate pixel position within the image to position on the sky.  Auxillary programs search star catalogs and manipulate images.\n\nThis package contains the binary tools.", 
@@ -372,14 +338,6 @@
     "url": "http://gwcs.readthedocs.io/"
   }, 
   {
-    "ascl_id": "1304.021", 
-    "description": "PyNeb (previously PyNebular) is an update and expansion of the IRAF\npackage NEBULAR; rewritten in Python, it is designed to be more user-\nfriendly and powerful, increasing the speed, easiness of use, and\ngraphic visualization of emission lines analysis. In PyNeb, the atom is\nrepresented as an n-level atom. For given density and temperature, PyNeb\nsolves the equilibrium equations and determines the level populations.\nPyNeb can compute physical conditions from suitable diagnostic line\nratios and level populations, critical densities and line emissivities,\nand can compute and display emissivity grids as a function of Te and Ne.\nIt can also deredden line intensities, read and manage observational\ndata, and plot and compare atomic data from different publications, and\ncompute ionic abundances from line intensities and physical conditions\nand elemental abundances from ionic abundances and icfs.", 
-    "name": "pyneb", 
-    "section": "Astronomy packages", 
-    "summary": "A modern python tool to compute emission line emissivities", 
-    "url": "http://www.iac.es/proyecto/PyNeb/"
-  }, 
-  {
     "description": "Astroimtools is an open-source Python package to provide convenience tools\nfor working with astronomical images.\n.\nThis work is driven by the JWST Data Analysis Development Forum at the Space\nTelescope Science Institute.", 
     "name": "astroimtools", 
     "section": "Astronomy packages", 
@@ -397,7 +355,7 @@
   {
     "debian": "python-pyfftw", 
     "description": "Pythonic wrapper around FFTW, the speedy FFT library. The ultimate aim is to present a unified interface for all the possible transforms that FFTW can perform.\n\nBoth the complex DFT and the real DFT are supported, as well as arbitrary axes of abitrary shaped and strided arrays, which makes it almost feature equivalent to standard and real FFT functions of numpy.fft (indeed, it supports the clongdouble dtype which numpy.fft does not).\n\nThis package provides the Python 2 bindings.", 
-    "name": "python-pyfftw", 
+    "name": "pyfftw", 
     "section": "Science packages", 
     "summary": "Pythonic wrapper around FFTW", 
     "url": "http://hgomersall.github.com/pyFFTW"
@@ -419,14 +377,6 @@
     "url": "http://www.stsci.edu/jwst/software/webbpsf/"
   }, 
   {
-    "debian": "libatlas-dev", 
-    "description": "ATLAS is an approach for the automatic generation and optimization of numerical software. Currently ATLAS supplies optimized versions for the complete set of linear algebra kernels known as the Basic Linear Algebra Subroutines (BLAS), and a subset of the linear algebra routines in the LAPACK library.\n\nThis package provides the headers needed to compile against the libraries provided by ATLAS.", 
-    "name": "atlas-generic", 
-    "section": "Science packages", 
-    "summary": "Automatically Tuned Linear Algebra Software", 
-    "url": "http://sourceforge.net/projects/math-atlas/files/Stable"
-  }, 
-  {
     "ascl_id": "1201.015", 
     "debian": "libfftw3-dev", 
     "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST).Benchmarks performed on a\nvariety of platforms show that FFTW's performance is typically superior\nto that of other publicly available FFT software, and is even\ncompetitive with vendor-tuned codes. In contrast to vendor-tuned codes,\nhowever, FFTW's performance is portable: the same program will perform\nwell on most architectures without modification.The FFTW library is\nrequired by other codes such asStarCrashandHammurabi.", 
@@ -441,29 +391,6 @@
     "section": "Science packages", 
     "summary": "Homebrew set of HTCondor wrappers", 
     "url": "http://bitbucket.org/jhunkeler/htc_utils"
-  }, 
-  {
-    "debian": "liblapack-dev", 
-    "description": "LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community.\n\nThis package contains a static version of the library.", 
-    "name": "lapack", 
-    "section": "Science packages", 
-    "summary": "Library of linear algebra routines", 
-    "url": "http://www.netlib.org"
-  }, 
-  {
-    "debian": "python-pyqtgraph", 
-    "description": "PyQtGraph is a pure-python graphics and GUI library built on PyQt4 and numpy. It is intended for use in mathematics / scientific / engineering applications. Despite being written entirely in Python, the library is very fast due to its heavy leverage of numpy for number crunching and Qt's GraphicsView framework for fast display.\n\nThis is the Python 2 version of the package.", 
-    "name": "pyqtgraph", 
-    "section": "Science packages", 
-    "summary": "Scientific Graphics and GUI Library for Python", 
-    "url": "http://www.pyqtgraph.org/"
-  }, 
-  {
-    "description": "Pandokia is designed as a lightweight test management and reporting\nsystem. It consists of a loosely coupled set of components that:\n.\n * discover test files\n * configure the environment for each test\n * invoke external test runners to run tests (with concurrency possible)\n * gather and import test results to a database\n * identify missing test results\n * display browsable (CGI) test reports from the database \n.\nAny test runner, reporting tool, or analysis tool that complies with the\ninterface between components can participate in the system.", 
-    "name": "pandokia", 
-    "section": "Other packages", 
-    "summary": "Lightweight test management and reporting system", 
-    "url": "http://ssb.stsci.edu/testing/pandokia"
   }, 
   {
     "debian": "python-appdirs", 
@@ -482,48 +409,11 @@
     "url": "https://github.com/spacetelescope/d2to1"
   }, 
   {
-    "debian": "python-decorator", 
-    "name": "decorator", 
-    "section": "Other packages", 
-    "summary": "Better living through Python with decorators", 
-    "url": "https://github.com/micheles/decorator"
-  }, 
-  {
     "description": "RELIC stands for \"Release I Control\". This software attempts to automatically\nmaintain a git project's version information without the need for hardcoded\nvalues in the source code. It is designed primarily for hardcore build\nmaintainers, and is best used with continuous integration services (i.e\nTravis-CI, etc).", 
     "name": "recon", 
     "section": "Other packages", 
     "summary": "Release control for git", 
     "url": "http://github.com/jhunkeler/recon"
-  }, 
-  {
-    "debian": "python-linecache2", 
-    "description": "A backport of linecache to older supported Pythons. Typically, the user of this module would do \"import linecache2 as linecache\" and use the linecache module normally.\n\nThis package contains the Python 2.7 module.", 
-    "name": "linecache2", 
-    "section": "Other packages", 
-    "summary": "Backport of linecache to older supported Pythons", 
-    "url": "https://pypi.python.org/packages/source/l/linecache2"
-  }, 
-  {
-    "debian": "python-mechanize", 
-    "description": "A library for browsing the web in Python. Mechanize acts like a browser allowing you to do web scraping, functional testing of web sites and things no one has thought of yet.\n\nAmong other things, mechanize:\n* Follows links\n* Fills in HTML forms\n* Automatically observes robots.txt\n* Has a browser history\nIt was modelled after the Perl module WWW::Mechanize.", 
-    "name": "mechanize", 
-    "section": "Other packages", 
-    "summary": "Stateful programmatic web browsing ", 
-    "url": "https://pypi.python.org/packages/source/m/mechanize"
-  }, 
-  {
-    "debian": "parsley", 
-    "name": "parsley", 
-    "section": "Other packages", 
-    "summary": "Pattern-matching language based on OMeta and Python", 
-    "url": "https://pypi.python.org/packages/source/P/Parsley"
-  }, 
-  {
-    "description": "Yolk is a Python tool for obtaining information about installed Python\npackages and querying packages avilable on PyPI (Python Package Index).\n.\nYou can see which packages are active, non-active or in development mode and\nshow you which have newer versions available by querying PyPI.", 
-    "name": "yolk", 
-    "section": "Other packages", 
-    "summary": "Query PyPI and Python packages installed on your system.", 
-    "url": "https://pypi.python.org/packages/source/y/yolk"
   }, 
   {
     "debian": "python-pytools", 
@@ -534,78 +424,10 @@
     "url": "https://pypi.python.org/pytools"
   }, 
   {
-    "debian": "python-selenium", 
-    "description": "Python language bindings for Selenium WebDriver.\n\nThe `selenium` package is used automate web browser interaction from Python. Several browsers/drivers are supported (Firefox, Chrome, Internet Explorer, PhantomJS), as well as the Remote protocol.\n\nThe webdriver parts itself are not included in this package.", 
-    "name": "selenium", 
-    "section": "Other packages", 
-    "summary": "Python3 bindings for Selenium RC integration", 
-    "url": "https://pypi.python.org/packages/source/s/selenium"
-  }, 
-  {
-    "debian": "python-sphinx-rtd-theme", 
-    "description": "This mobile-friendly sphinx theme was initially created for readthedocs.org, but can be incorporated in any project.\n\nAmong other things, it features a left panel with a browseable table of contents, and a search bar.\n\nThis is the Python 2 version of the package.", 
-    "name": "sphinx-rtd-theme", 
-    "section": "Other packages", 
-    "summary": "Sphinx theme from readthedocs.org", 
-    "url": "https://pypi.python.org/packages/source/s/sphinx_rtd_theme"
-  }, 
-  {
-    "debian": "python-sphinxcontrib-programoutput", 
-    "name": "sphinxcontrib-programoutput", 
-    "section": "Other packages", 
-    "summary": "Insert the output of arbitrary commands into documents", 
-    "url": "https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput"
-  }, 
-  {
-    "description": "Threading2: like the standard threading module, but awesomer.\n.\nThis module is designed as a drop-in replacement and extension for the\ndefault 'threading' module. It has two main objectives:\n.\n * implement primitives using native platform functionality where possible\n * expose more sophisticated functionality where it can be done uniformly", 
-    "name": "threading2", 
-    "section": "Other packages", 
-    "summary": "Drop-in replacement and extension for the default threading module", 
-    "url": "https://pypi.python.org/packages/source/t/threading2"
-  }, 
-  {
-    "debian": "python-traceback2", 
-    "description": "This package offers a backport of the traceback package to older supported Pythons. Users would typically do: \"import traceback2 as traceback\" then use the module as if it was the system traceback.\n\nIn Python 2.x, unlike traceback, traceback2 creates unicode output (because it depends on the linecache2 module).\n\nThis package contains the Python 2.7 module.", 
-    "name": "traceback2", 
-    "section": "Other packages", 
-    "summary": "Backports of the traceback module", 
-    "url": "https://pypi.python.org/packages/source/t/traceback2"
-  }, 
-  {
-    "debian": "python-ws4py", 
-    "description": "Python library providing an implementation of the WebSocket protocol defined in RFC 6456.\n\nThis is the Python 2 version of the package.", 
-    "name": "ws4py", 
-    "section": "Other packages", 
-    "summary": "WebSocket library for Python", 
-    "url": "https://pypi.python.org/packages/source/w/ws4py"
-  }, 
-  {
-    "description": "Aprio was developed to enable systems administrators to automatically renice\nabusive, long running, CPU intensive processes. In a shared high-computing\nenvironment, users may feel it is necessary to \"compete\" with each other's\nprograms, which often times leads to kernel load averages far exceeding an\nindividual server's capabilities.", 
-    "name": "aprio", 
-    "section": "Other packages", 
-    "summary": "Automatic renice daemon.", 
-    "url": "http://bitbucket.org/jhunkeler/aprio"
-  }, 
-  {
     "name": "purge-path", 
     "section": "Other packages", 
     "summary": "Small PATH manipulator", 
     "url": "http://bitbucket.org/jhunkeler/purge_path"
-  }, 
-  {
-    "description": "The PyObjC project aims to provide a bridge between the Python and\nObjective-C programming languages. The bridge is intended to be fully\nbidirectional, allowing the Python programmer to take full advantage of the\npower provided by various Objective-C based toolkits and the Objective-C\nprogrammer transparent access to Python based functionality.\n.\nThe most important usage of this is writing Cocoa GUI applications on Mac OS\nX in pure Python. See our tutorial for an example of this.", 
-    "name": "pyobjc-core", 
-    "section": "Other packages", 
-    "summary": "Python<->ObjC Interoperability Module", 
-    "url": "http://pyobjc.sourceforge.net/"
-  }, 
-  {
-    "debian": "python-daemon", 
-    "description": "??daemon?? is a library that assists a Python program to turn itself into a well-behaved Unix daemon process, as specified in PEP 3143.\n\nThis library provides a ??DaemonContext?? class that manages the following important tasks for becoming a daemon process:\n\n* Detach the process into its own process group.\n* Set process environment appropriate for running inside a chroot.\n* Renounce suid and sgid privileges.\n* Close all open file descriptors.\n* Change the working directory, uid, gid, and umask.\n* Set appropriate signal handlers.\n* Open new file descriptors for stdin, stdout, and stderr.\n* Manage a specified PID lock file.\n* Register cleanup functions for at-exit processing.\nThis package installs the library for Python 2.", 
-    "name": "python-daemon", 
-    "section": "Other packages", 
-    "summary": "Library to implement a well-behaved Unix daemon process.", 
-    "url": "http://bitbucket.org/jhunkeler/python-daemon"
   }, 
   {
     "debian": "shunit2", 

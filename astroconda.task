@@ -39,18 +39,6 @@ Depends: jwst-tools
 Homepage: ssh://git@bitbucket.org/stsci_ssb/jwst.git
 Pkg-Description: James Webb Space Telescope tools
 
-Depends: pandeia-engine
-Homepage: http://www.stsci.edu/wfirst/software/Pandeia
-Pkg-Description: Exposure time calculator (ETC) for the JWST
-
-Depends: pandeia-thirdparty
-Homepage: http://www.stsci.edu/wfirst/software/Pandeia
-Pkg-Description: Pandeia third party tools
-
-Depends: pandeia-data
-Homepage: http://www.stsci.edu/wfirst/software/Pandeia
-Pkg-Description: Pandeia data
-
 Depends: wfc3tools
 Homepage: http://ssb.stsci.edu/doc/stsci_python_2.15.1/wfc3tools.doc/html/index.html
 Pkg-Description: Tools for the Hubble Space Telescope Wide Field Camera 3
@@ -70,21 +58,6 @@ Pkg-Description: Tools for working with COS data
 Depends: crds
 Homepage: http://www.stsci.edu/hst/observatory/crds/
 Pkg-Description: Calibration Reference Data System
-
-Depends: ext-shmht
-Homepage: https://github.com/stsci-ssb/ext_shmht
-Pkg-Description: Hash table in shared memory, with locking
- An extended pyshmht - a simple hash table stored in an mmapped file
- The basic access is vaguely dict like with the core capability being:
- .
-   h = ext_shmht.HashTable( filename, max_entries )
-   h['key'] = 'value'
-   v = h['key']
- .
- The table only uses strings for keys and values, but there is an
- interface that uses an object serializer, such as json or some other
- serializer that you provide.
- There is a max length of key and value that are specified by defines.
 
 Depends: stsci.sphere
 Homepage: http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html
@@ -220,8 +193,6 @@ Depends: libcfitsio-dev
 
 Depends: saods9
 
-Depends: sextractor
-
 Depends: wcstools
 
 Depends: python-pysynphot
@@ -290,23 +261,6 @@ Pkg-Description: Tools for managing the WCS in a general way
  units with the tools in that package. The goal is to provide a flexible
  toolkit which is easily extendable by adding new transforms and frames.
 
-Depends: pyneb
-Homepage: http://www.iac.es/proyecto/PyNeb/
-Pkg-Description: A modern python tool to compute emission line emissivities
- PyNeb (previously PyNebular) is an update and expansion of the IRAF
- package NEBULAR; rewritten in Python, it is designed to be more user-
- friendly and powerful, increasing the speed, easiness of use, and
- graphic visualization of emission lines analysis. In PyNeb, the atom is
- represented as an n-level atom. For given density and temperature, PyNeb
- solves the equilibrium equations and determines the level populations.
- PyNeb can compute physical conditions from suitable diagnostic line
- ratios and level populations, critical densities and line emissivities,
- and can compute and display emissivity grids as a function of Te and Ne.
- It can also deredden line intensities, read and manage observational
- data, and plot and compare atomic data from different publications, and
- compute ionic abundances from line intensities and physical conditions
- and elemental abundances from ionic abundances and icfs.
-
 Depends: astroimtools
 Homepage: http://astroimtools.readthedocs.io
 Pkg-Description: Astronomical Image Convenience Tools
@@ -350,8 +304,6 @@ Pkg-Description: WebbPSF: Simulated PSF for the James Webb Space Telescope
  for spectroscopic modes of JWST NIRISS, MIRI, and NIRSpec, including
  modeling of slit losses and diffractive line spread functions.
 
-Depends: libatlas-dev
-
 Depends: libfftw3-dev
 
 Depends: htc-utils
@@ -367,31 +319,9 @@ Pkg-Description: Homebrew set of HTCondor wrappers
   .
   This package installs some home-rolled Condor utilities.
 
-Depends: liblapack-dev
-
-Depends: python-pyqtgraph
-
-Depends: pandokia
-Homepage: http://ssb.stsci.edu/testing/pandokia
-Pkg-Description: Lightweight test management and reporting system
- Pandokia is designed as a lightweight test management and reporting
- system. It consists of a loosely coupled set of components that:
- .
-  * discover test files
-  * configure the environment for each test
-  * invoke external test runners to run tests (with concurrency possible)
-  * gather and import test results to a database
-  * identify missing test results
-  * display browsable (CGI) test reports from the database 
- .
- Any test runner, reporting tool, or analysis tool that complies with the
- interface between components can participate in the system.
-
 Depends: python-appdirs
 
 Depends: python-d2to1
-
-Depends: python-decorator
 
 Depends: recon
 Homepage: http://github.com/jhunkeler/recon
@@ -402,69 +332,10 @@ Pkg-Description: Release control for git
  maintainers, and is best used with continuous integration services (i.e
  Travis-CI, etc).
 
-Depends: python-linecache2
-
-Depends: python-mechanize
-
-Depends: python-parsley
-
-Depends: yolk
-Homepage: https://pypi.python.org/packages/source/y/yolk
-Pkg-Description: Query PyPI and Python packages installed on your system.
- Yolk is a Python tool for obtaining information about installed Python
- packages and querying packages avilable on PyPI (Python Package Index).
- .
- You can see which packages are active, non-active or in development mode and
- show you which have newer versions available by querying PyPI.
-
 Depends: python-pytools
-
-Depends: python-selenium
-
-Depends: python-sphinx-rtd-theme
-
-Depends: python-sphinxcontrib-programoutput
-
-Depends: threading2
-Homepage: https://pypi.python.org/packages/source/t/threading2
-Pkg-Description: Drop-in replacement and extension for the default threading module
- Threading2: like the standard threading module, but awesomer.
- .
- This module is designed as a drop-in replacement and extension for the
- default 'threading' module. It has two main objectives:
- .
-  * implement primitives using native platform functionality where possible
-  * expose more sophisticated functionality where it can be done uniformly
-
-Depends: python-traceback2
-
-Depends: python-ws4py
-
-Depends: aprio
-Homepage: http://bitbucket.org/jhunkeler/aprio
-Pkg-Description: Automatic renice daemon.
- Aprio was developed to enable systems administrators to automatically renice
- abusive, long running, CPU intensive processes. In a shared high-computing
- environment, users may feel it is necessary to "compete" with each other's
- programs, which often times leads to kernel load averages far exceeding an
- individual server's capabilities.
 
 Depends: purge-path
 Homepage: http://bitbucket.org/jhunkeler/purge_path
 Pkg-Description: Small PATH manipulator
-
-Depends: pyobjc-core
-Homepage: http://pyobjc.sourceforge.net/
-Pkg-Description: Python<->ObjC Interoperability Module
- The PyObjC project aims to provide a bridge between the Python and
- Objective-C programming languages. The bridge is intended to be fully
- bidirectional, allowing the Python programmer to take full advantage of the
- power provided by various Objective-C based toolkits and the Objective-C
- programmer transparent access to Python based functionality.
- .
- The most important usage of this is writing Cocoa GUI applications on Mac OS
- X in pure Python. See our tutorial for an example of this.
-
-Depends: python-daemon
 
 Depends: shunit2
