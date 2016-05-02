@@ -22,6 +22,9 @@ for project in projects:
         tdesc = t.get(pkg['name'].strip())
         if not tdesc:
             continue
+        url= tdesc.get('Homepage')
+        if url:
+            pkg['url'] = url.strip()
         desc = tdesc.get('Pkg-Description')
         if not desc:
             continue

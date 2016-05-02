@@ -1,7 +1,7 @@
 [
   {
     "ascl_id": "9911.002", 
-    "comment": "IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.", 
+    "comment": "IRAF is hard to package for Debian (in fact for any distribution) because\nof its old architecture. It  also contains various routines from Numerical\nRecipes which are illegal to distribute.", 
     "description": "IRAF includes a broad selection of programs for general image processing\nand graphics, plus a large number of programs for the reduction and\nanalysis of optical and IR astronomy data. Other external or layered\npackages are available for applications such as data acquisition or\nhandling data from other observatories and wavelength regimes such as\nthe Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or\nROSAT and AXAF (X-ray). These external packages are distributed\nseparately from the main IRAF distribution but can be easily installed.\nThe IRAF system also includes a complete programming environment for\nscientific applications, which includes a programmable Command Language\nscripting facility, the IMFORT Fortran/C programming interface, and the\nfull SPP/VOS programming environment in which the portable IRAF system\nand all applications are written.", 
     "name": "iraf", 
     "packageable": false, 

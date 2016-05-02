@@ -3,7 +3,7 @@
     "name": "acstools", 
     "section": "HST/JWST specific packages", 
     "summary": "Python Tools for ACS (Advanced Camera for Surveys) Data", 
-    "url": "http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python"
+    "url": "http://acstools.readthedocs.io/"
   }, 
   {
     "name": "wfpc2tools", 
@@ -39,7 +39,7 @@
     "name": "jwst-pipeline", 
     "section": "HST/JWST specific packages", 
     "summary": "James Webb Space Telescope pipeline", 
-    "url": "ssh://git@bitbucket.org/stsci_ssb/jwst.git"
+    "url": "http://ssb.stsci.edu/doc/jwst_dev/jwst_pipeline.pipeline.doc.user_guide.doc/html/index.html"
   }, 
   {
     "name": "jwst-tools", 
@@ -51,19 +51,19 @@
     "name": "pandeia-engine", 
     "section": "HST/JWST specific packages", 
     "summary": "Exposure time calculator (ETC) for the JWST", 
-    "url": "https://github.com:stsci-ssb/pandeia"
+    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
   }, 
   {
     "name": "pandeia-thirdparty", 
     "section": "HST/JWST specific packages", 
     "summary": "Pandeia third party tools", 
-    "url": "http://stsci.edu"
+    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
   }, 
   {
     "name": "pandeia-data", 
     "section": "HST/JWST specific packages", 
     "summary": "Pandeia data", 
-    "url": "https://github.com:stsci-ssb/pandeia_data"
+    "url": "http://www.stsci.edu/wfirst/software/Pandeia"
   }, 
   {
     "name": "wfc3tools", 
@@ -107,7 +107,7 @@
     "name": "stsci.sphere", 
     "section": "STSci specific packages", 
     "summary": "STScI's spherical geometry astropy package", 
-    "url": "http://www.stsci.edu/institute/software_hardware"
+    "url": "http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html"
   }, 
   {
     "name": "stsci.skypac", 
@@ -187,7 +187,7 @@
     "name": "asv", 
     "section": "STSci specific packages", 
     "summary": "Simple Python benchmarking tool with web-based reporting", 
-    "url": "https://github.com/spacetelescope/asv"
+    "url": "http://asv.readthedocs.io/"
   }, 
   {
     "name": "cube-tools", 
@@ -200,7 +200,7 @@
     "name": "fitsblender", 
     "section": "STSci specific packages", 
     "summary": "FITS header merging from multiple images.", 
-    "url": "http://github.com/spacetelescope/fitsblender"
+    "url": "http://ssb.stsci.edu/doc/stsci_python_dev/fitsblender.doc/html/index.html"
   }, 
   {
     "description": "Recomputes the WCS of an HST observation and puts all distortion\ncorrections in the headers.", 
@@ -244,14 +244,14 @@
     "name": "asdf-standard", 
     "section": "Astronomy packages", 
     "summary": "Advanced Scientific Data Format documentation", 
-    "url": "https://github.com/spacetelescope/asdf-standard"
+    "url": "http://asdf-standard.readthedocs.io/"
   }, 
   {
     "description": "This package aims to provide much of the IDL \"astron\" functionality that\npertains to coordinate manipulations in an OO framework. Our target user is a\ntypical astronomer who needs to analyze data, work with catalogs, prepare\nobserving proposals, and prepare for observing runs.", 
     "name": "astrolib.coords", 
     "section": "Astronomy packages", 
     "summary": "Astronomical coordinates & angular separations", 
-    "url": "https://github.com/spacetelescope/astrolib.coords.git"
+    "url": "http://ssb.stsci.edu/doc/stsci_python_dev/astrolib.coords.doc/html/index.html"
   }, 
   {
     "debian": "python-photutils", 
@@ -362,14 +362,14 @@
     "name": "imexam", 
     "section": "Astronomy packages", 
     "summary": "Simple image examination, and plotting, with similar functionality to IRAF's imexamine", 
-    "url": "https://github.com/spacetelescope/imexam"
+    "url": "http://imexam.readthedocs.io"
   }, 
   {
     "description": "GWCS takes a general approach to WCS. It supports a data model which includes\nthe entire transformation pipeline from input coordinates (detector by\ndefault) to world cooridnates. Transformations can be chained, joined or\ncombined with arithmetic operators using the flexible framework of compound\nmodels in modeling. In the case of a celestial output frame coordinates\nprovides further transformations between standard coordinate frames. Spectral\noutput coordinates are instances of Quantity and are transformed to other\nunits with the tools in that package. The goal is to provide a flexible\ntoolkit which is easily extendable by adding new transforms and frames.", 
     "name": "gwcs", 
     "section": "Astronomy packages", 
     "summary": "Tools for managing the WCS in a general way", 
-    "url": "https://github.com/spacetelescope/gwcs"
+    "url": "http://gwcs.readthedocs.io/"
   }, 
   {
     "ascl_id": "1304.021", 
@@ -384,7 +384,7 @@
     "name": "astroimtools", 
     "section": "Astronomy packages", 
     "summary": "Astronomical Image Convenience Tools", 
-    "url": "https://github.com/spacetelescope/astroimtools"
+    "url": "http://astroimtools.readthedocs.io"
   }, 
   {
     "ascl_id": "1212.011", 
@@ -419,12 +419,6 @@
     "url": "http://www.stsci.edu/jwst/software/webbpsf/"
   }, 
   {
-    "name": "webbpsf-data", 
-    "section": "Science packages", 
-    "summary": "webbpsf-data data files", 
-    "url": "http://www.stsci.edu/~mperrin/software/webbpsf"
-  }, 
-  {
     "debian": "libatlas-dev", 
     "description": "ATLAS is an approach for the automatic generation and optimization of numerical software. Currently ATLAS supplies optimized versions for the complete set of linear algebra kernels known as the Basic Linear Algebra Subroutines (BLAS), and a subset of the linear algebra routines in the LAPACK library.\n\nThis package provides the headers needed to compile against the libraries provided by ATLAS.", 
     "name": "atlas-generic", 
@@ -434,7 +428,7 @@
   }, 
   {
     "ascl_id": "1201.015", 
-    "debian": "fftw3", 
+    "debian": "libfftw3-dev", 
     "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST).Benchmarks performed on a\nvariety of platforms show that FFTW's performance is typically superior\nto that of other publicly available FFT software, and is even\ncompetitive with vendor-tuned codes. In contrast to vendor-tuned codes,\nhowever, FFTW's performance is portable: the same program will perform\nwell on most architectures without modification.The FFTW library is\nrequired by other codes such asStarCrashandHammurabi.", 
     "name": "fftw", 
     "section": "Science packages", 
@@ -495,6 +489,7 @@
     "url": "https://github.com/micheles/decorator"
   }, 
   {
+    "description": "RELIC stands for \"Release I Control\". This software attempts to automatically\nmaintain a git project's version information without the need for hardcoded\nvalues in the source code. It is designed primarily for hardcore build\nmaintainers, and is best used with continuous integration services (i.e\nTravis-CI, etc).", 
     "name": "recon", 
     "section": "Other packages", 
     "summary": "Release control for git", 
@@ -555,17 +550,17 @@
     "url": "https://pypi.python.org/packages/source/s/sphinx_rtd_theme"
   }, 
   {
-    "debian": "sphinxcontrib-programoutput", 
+    "debian": "python-sphinxcontrib-programoutput", 
     "name": "sphinxcontrib-programoutput", 
     "section": "Other packages", 
     "summary": "Insert the output of arbitrary commands into documents", 
     "url": "https://pypi.python.org/packages/source/s/sphinxcontrib-programoutput"
   }, 
   {
-    "description": "Threading2: like the standard threading module, but awesomer.\n.\nThis module is designed as a drop-in replacement and extension for the\ndefault \u201cthreading\u201d module. It has two main objectives:\n.\n * implement primitives using native platform functionality where possible\n * expose more sophisticated functionality where it can be done uniformly", 
+    "description": "Threading2: like the standard threading module, but awesomer.\n.\nThis module is designed as a drop-in replacement and extension for the\ndefault 'threading' module. It has two main objectives:\n.\n * implement primitives using native platform functionality where possible\n * expose more sophisticated functionality where it can be done uniformly", 
     "name": "threading2", 
     "section": "Other packages", 
-    "summary": "Drop-in replacement and extension for the default `threading` module", 
+    "summary": "Drop-in replacement and extension for the default threading module", 
     "url": "https://pypi.python.org/packages/source/t/threading2"
   }, 
   {

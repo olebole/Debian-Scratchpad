@@ -4,7 +4,7 @@ Index: false
 Metapackage: false
 Description: SciSoft packages
  Here we list the packages that belong to the 
-    [SciSoft](http://www.eso.org/sci/software/scisoft)
+ [SciSoft](http://www.eso.org/sci/software/scisoft)
  distribution.
 
 Depends: iraf
@@ -25,8 +25,8 @@ Pkg-Description: Image Reduction and Analysis Facility
  and all applications are written.
 Remark:
  IRAF is hard to package for Debian (in fact for any distribution) because
- of its old architecture. It  also contains various routines from Numerical
- Recipes which are illegal to distribute.
+of its old architecture. It  also contains various routines from Numerical
+Recipes which are illegal to distribute.
 
 Depends: iraf-ctio
 Homepage: http://www.stecf.org/scripts/irafhelp?ctio
@@ -671,7 +671,7 @@ Remark:
  Not DFSG-Free.
 
 Depends: dss-dss2
-Homepage: http://archive.eso.org/dss/dss
+Homepage: http://archive.eso.org/cms/tools-documentation/the-eso-st-ecf-digitized-sky-survey-application.html
 Pkg-Description: Digitized Sky Survey image extraction software
  The ESO/ST-ECF Digitized Sky Survey [DSS] application is a remote client
  program that extracts random sky section from the DSS image server installed
