@@ -8,6 +8,7 @@ Description: SciSoft packages
  distribution.
 
 Depends: iraf
+WNPP: 690531
 Homepage: http://iraf.noao.edu/
 Pkg-Description: Image Reduction and Analysis Facility
  IRAF includes a broad selection of programs for general image processing
@@ -282,6 +283,7 @@ Remark:
  Not maintained any longer.
 
 Depends: crush
+WNPP: 815709
 Homepage: http://www.submm.caltech.edu/~sharc/crush/
 Pkg-Description: Data Reduction and Imaging for Bolometer Array
  CRUSH is an astronomical data reduction/imaging tool for certain imaging
@@ -306,6 +308,7 @@ Pkg-Description: Common Astronomy Software Application
  flexibility and special purpose reduction needs.
 
 Depends: theli
+WNPP: 780303
 Homepage: http://www.astro.uni-bonn.de/theli/
 Pkg-Description: A pipeline for astronomical image data reduction
  THELI is an easy-to-use, end-to-end pipeline for the reduction of any
@@ -382,6 +385,7 @@ Depends: skycat
 Depends: ftools-fv
 
 Depends: qfitsview
+WNPP: 472961
 Homepage: http://www.mpe.mpg.de/~ott/QFitsView/index.html
 Pkg-Description: FITS file viewer
  QFitsView is a FITS file viewer that can display one, two, and three-
@@ -558,6 +562,7 @@ Pkg-Description: Automatic image combination drizzling software
 Depends: python-numpy
 
 Depends: dpuser
+WNPP: 472961
 Homepage: http://www.mpe.mpg.de/~ott/dpuser/index.html
 Pkg-Description: Interactive language for handling numbers, strings, and matrices
  DPUSER is an interactive language capable of handling numbers (both real
@@ -704,6 +709,7 @@ Depends: fitscut
 Depends: libcfitsio-bin
 
 Depends: cloudy
+WNPP: 725891
 Homepage: http://www.nublado.org/
 Pkg-Description: Plasma simulation and spectral synthesis code
  Cloudy is a large-scale spectral synthesis code designed to simulate
@@ -731,6 +737,7 @@ Remark:
 Depends: graphviz
 
 Depends: aladin
+WNPP: 818373
 Homepage: http://aladin.u-strasbg.fr/
 Pkg-Description: Aladin Sky Atlas
  Aladin is an interactive software sky atlas allowing the user to

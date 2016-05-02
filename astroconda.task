@@ -200,6 +200,7 @@ Depends: python-pysynphot
 Depends: python-pywcs
 
 Depends: pyraf
+WNPP: 711038
 Homepage: https://github.com/spacetelescope/pyraf
 Pkg-Description: Python replacement for IRAF cl from STScI
  PyRAF is a command language for running IRAF tasks that is based on the
@@ -209,6 +210,7 @@ Pkg-Description: Python replacement for IRAF cl from STScI
  can then choose to run either PyRAF or the IRAF CL.
 
 Depends: iraf
+WNPP: 690531
 Homepage: http://iraf.noao.edu
 Pkg-Description: NOAO Image Reduction and Analysis Facility
  IRAF includes a broad selection of programs for general image processing

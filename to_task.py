@@ -38,7 +38,7 @@ Description: {name} packages
             if 'description' in pkg:
                 pkg['description'] = '\n '.join(pkg['description'].splitlines())
             s = '\n'
-            if 'debian' in pkg:
+            if 'debian' in pkg and not pkg['debian'].isdigit():
                 if pkg['debian'] in apt_cache:
                     s += "Depends: {debian}\n"
                 else:
@@ -48,6 +48,8 @@ Description: {name} packages
                         s += "Depends: {debian}\n"
             else:
                 s += "Depends: {name}\n"
+                if 'debian' in pkg and pkg['debian'].isdigit():
+                    s += "WNPP: {debian}\n"
                 if 'url' in pkg:
                     s += "Homepage: {url}\n"
                 if 'summary' in pkg:

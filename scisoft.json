@@ -2,6 +2,7 @@
   {
     "ascl_id": "9911.002", 
     "comment": "IRAF is hard to package for Debian (in fact for any distribution) because\nof its old architecture. It  also contains various routines from Numerical\nRecipes which are illegal to distribute.", 
+    "debian": "690531",
     "description": "IRAF includes a broad selection of programs for general image processing\nand graphics, plus a large number of programs for the reduction and\nanalysis of optical and IR astronomy data. Other external or layered\npackages are available for applications such as data acquisition or\nhandling data from other observatories and wavelength regimes such as\nthe Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or\nROSAT and AXAF (X-ray). These external packages are distributed\nseparately from the main IRAF distribution but can be easily installed.\nThe IRAF system also includes a complete programming environment for\nscientific applications, which includes a programmable Command Language\nscripting facility, the IMFORT Fortran/C programming interface, and the\nfull SPP/VOS programming environment in which the portable IRAF system\nand all applications are written.", 
     "name": "iraf", 
     "packageable": false, 
@@ -127,7 +128,7 @@
   {
     "ascl_id": "1302.017", 
     "debian": "eso-midas", 
-    "description": "The ESO-MIDAS system provides general tools for image processing and\ndata reduction with emphasis on astronomical applications including\nimaging and special reduction packages for ESO instrumentation at La\nSilla and the VLT at Paranal. In addition it contains applications\npackages for stellar and surface photometry, image sharpening and\ndecomposition, statistics and various others.", 
+    "description": "The ESO-MIDAS system provides general tools for image processing and data reduction with emphasis on astronomical applications including imaging and special reduction packages for ESO instrumentation at La Silla and the VLT at Paranal. In addition it contains applications packages for stellar and surface photometry, image sharpening and decomposition, statistics and various others.", 
     "name": "eso-midas", 
     "section": "Data Analysis Systems", 
     "summary": "European Southern Observatory Munich Image Data Analysis System", 
@@ -210,6 +211,7 @@
   }, 
   {
     "ascl_id": "1308.011", 
+    "debian": "815709",
     "description": "CRUSH is an astronomical data reduction/imaging tool for certain imaging\ncameras, especially at the millimeter, sub-millimeter, and far-infrared\nwavelengths. It supports the SHARC-2, LABOCA, SABOCA, ASZCA, p-ArTeMiS,\nPolKa, GISMO, MAKO and SCUBA-2 instruments. The code is written entirely\nin Java, allowing it to run on virtually any platform. It is normally\nrun from the command-line with several arguments.", 
     "name": "crush", 
     "section": "Data Analysis Systems", 
@@ -226,6 +228,7 @@
   }, 
   {
     "ascl_id": "1308.013", 
+    "debian": "780303",
     "description": "THELI is an easy-to-use, end-to-end pipeline for the reduction of any\noptical, near-IR and mid-IR imaging data. It combines a variety of\nprocessing algorithms and third party software into a single,\nhomogeneous tool. Over 90 optical and infrared instruments at\nobservatories world-wide are pre-configured; more can be added by the\nuser. The code's online appendix contains three walk-through examples\nusing public data (optical, near-IR and mid-IR) and additional online\ndocumentation is available for training and troubleshooting.", 
     "name": "theli", 
     "section": "Data Analysis Systems", 
@@ -278,7 +281,7 @@
   {
     "ascl_id": "1109.019", 
     "debian": "skycat", 
-    "description": "The ESO/Starlink Skycat tool combines the image display capabilities of\nthe RTD (Real-Time Display) with a set of classes for accessing\nastronomical catalogs locally and over the network using HTTP. The tool\nallows you to view FITS images from files or from the Digitized Sky\nSurvey (DSS).", 
+    "description": "The ESO/Starlink Skycat tool combines the image display capabilities of the RTD (Real-Time Display) with a set of classes for accessing astronomical catalogs locally and over the network using HTTP. The tool allows you to view FITS images from files or from the Digitized Sky Survey (DSS).", 
     "name": "skycat", 
     "section": "Image Display Servers", 
     "summary": "ESO image display tool with catalogue and image server access.", 
@@ -287,7 +290,7 @@
   {
     "ascl_id": "1205.005", 
     "debian": "ftools-fv", 
-    "description": "Fv provides a graphical user interface to data stored in FITS (Flexible\nImage Transport System) files.  Local files can be created, viewed and\nedited, files on the internet can be opened read-only through the http\nand ftp protocols. Through the POWplot program, FITS data can be\nvisualized in a large variety of styles.  An interface to the SkyView\nonline database allows for searching, downloading, and plotting of\nimages and object lists for a region of the sky.", 
+    "description": "Fv provides a graphical user interface to data stored in FITS (Flexible Image Transport System) files.  Local files can be created, viewed and edited, files on the internet can be opened read-only through the http and ftp protocols. Through the POWplot program, FITS data can be visualized in a large variety of styles.  An interface to the SkyView online database allows for searching, downloading, and plotting of images and object lists for a region of the sky.", 
     "name": "fv", 
     "section": "Image Display Servers", 
     "summary": "Tool for viewing and editing FITS format files", 
@@ -296,6 +299,7 @@
   {
     "ascl_id": "1210.019", 
     "comment": "Must go to contrib since it on pgplot (non-free) via dpuser", 
+    "debian": "472961",
     "description": "QFitsView is a FITS file viewer that can display one, two, and three-\ndimensional FITS files. It has three modes of operation, depending of\nwhat kind of data is being displayed. One-dimensional data are shown in\nan x-y plot. Two-dimensional images are shown in the main window. Three-\ndimensional data cubes can be displayed in a variety of ways, with the\nthird dimension shown as a x-y plot at the bottom of the image display.\nQFitsView was written in C++ and uses the Qt widget library, which makes\nit available for all major platforms: Windows, MAC OS X, and many Unix\nvariants.", 
     "name": "qfitsview", 
     "section": "Image Display Servers", 
@@ -322,7 +326,7 @@
   {
     "ascl_id": "1103.002", 
     "debian": "pgplot5", 
-    "description": "This package contains both runtime and development libraries.  Many\nroutines are included in pgplot for viewing scientific data. Many (about\n70) output devices are supported.  2-D , 3-D , contour, image\nmanipulation, etc. are well supported. Interactive routines are\nincluded. Both a C and a FORTRAN library are present. See\nhttp://astro.caltech.edu/~tjp/pgplot/ for documentation.", 
+    "description": "This package contains both runtime and development libraries.  Many routines are included in pgplot for viewing scientific data. Many (about 70) output devices are supported.  2-D , 3-D , contour, image manipulation, etc. are well supported. Interactive routines are included. Both a C and a FORTRAN library are present. See http://astro.caltech.edu/~tjp/pgplot/ for documentation.", 
     "name": "pgplot", 
     "section": "Graphics Software", 
     "summary": "large subroutine library for plotting scientific data", 
@@ -355,6 +359,7 @@
   }, 
   {
     "debian": "python-matplotlib", 
+    "description": "Matplotlib is a pure Python plotting library designed to bring publication quality plotting to Python with a syntax familiar to Matlab users. All of the plotting commands in the pylab interface can be accessed either via a functional interface familiar to Matlab users or an object oriented interface familiar to Python users.", 
     "name": "matplotlib", 
     "section": "Graphics Software", 
     "summary": "Python 2D plotting library.", 
@@ -441,7 +446,7 @@
   }, 
   {
     "debian": "python-gnuplot", 
-    "description": "Gnuplot.py is a Python module that interfaces to gnuplot, the popular\nplotting program. It allows you to use gnuplot from within Python to\nplot arrays of data from memory, data files, or mathematical functions.\nIf you use Python to perform computations or as `glue' for numerical\nprograms, you can use this module to plot data on the fly as they are\ncomputed. And the combination with Python makes it is easy to automate\nthings, including to create crude `animations' by plotting different\ndatasets one after another.", 
+    "description": "Gnuplot.py is a Python module that interfaces to gnuplot, the popular plotting program. It allows you to use gnuplot from within Python to plot arrays of data from memory, data files, or mathematical functions. If you use Python to perform computations or as `glue' for numerical programs, you can use this module to plot data on the fly as they are computed. And the combination with Python makes it is easy to automate things, including to create crude `animations' by plotting different datasets one after another.", 
     "name": "python-gnuplot", 
     "section": "Scripting Languages", 
     "summary": "Python interface to the gnuplot plotting program", 
@@ -457,7 +462,7 @@
   }, 
   {
     "debian": "python-pybiggles", 
-    "description": "Biggles is a Python module for creating publication-quality 2D\nscientific plots. It supports multiple output formats (postscript, x11,\npng, svg, gif), understands simple TeX, and sports a high-level, elegant\ninterface. It's intended for technical users with sophisticated plotting\nneeds.", 
+    "description": "Biggles is a Python module for creating publication-quality 2D scientific plots. It supports multiple output formats (postscript, x11, png, svg, gif), understands simple TeX, and sports a high-level, elegant interface. It's intended for technical users with sophisticated plotting needs.", 
     "name": "python-biggles", 
     "section": "Scripting Languages", 
     "summary": "Scientific plotting package for Python"
@@ -548,6 +553,7 @@
   {
     "ascl_id": "1303.025", 
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
+    "debian": "472961",
     "description": "DPUSER is an interactive language capable of handling numbers (both real\nand complex), strings, and matrices. Its main aim is to do astronomical\nimage analysis, for which it provides a comprehensive set of functions,\nbut it can also be used for many other applications.", 
     "name": "dpuser", 
     "section": "Scripting Languages", 
@@ -607,7 +613,7 @@
   }, 
   {
     "debian": "plotutils", 
-    "description": "The GNU plotting utilities include programs for plotting two-dimensional\nscientific data.  They are built on top of GNU `libplot', a library for\ndevice-independent two-dimensional vector graphics.", 
+    "description": "The GNU plotting utilities include programs for plotting two-dimensional scientific data.  They are built on top of GNU `libplot', a library for device-independent two-dimensional vector graphics.", 
     "name": "plotutils", 
     "section": "Scientific Libraries", 
     "summary": "GNU plotting utilities", 
@@ -650,7 +656,7 @@
   {
     "ascl_id": "1010.064", 
     "debian": "sextractor", 
-    "description": "Find sources, such as stars and galaxies, in astronomical images. The\ninput data files are in FITS file format, and are analyzed to compute\nthe locations of sources, with the ability to distinguish between\ngalaxies and stars using a neural-network technique.", 
+    "description": "Find sources, such as stars and galaxies, in astronomical images. The input data files are in FITS file format, and are analyzed to compute the locations of sources, with the ability to distinguish between galaxies and stars using a neural-network technique.", 
     "name": "astromatic-sextractor", 
     "section": "Miscellaneous Utilities", 
     "summary": "Source extractor for astronomical images", 
@@ -668,7 +674,7 @@
   {
     "ascl_id": "1010.063", 
     "debian": "scamp", 
-    "description": "SCAMP reads SExtractor catalogs and computes astrometric and photometric\nsolutions for any arbitrary sequence of FITS images in a completely\nautomatic way.", 
+    "description": "SCAMP reads SExtractor catalogs and computes astrometric and photometric solutions for any arbitrary sequence of FITS images in a completely automatic way.", 
     "name": "astromatic-scamp", 
     "section": "Miscellaneous Utilities", 
     "summary": "Compute astrometric and photometric solutions", 
@@ -758,7 +764,7 @@
   }, 
   {
     "debian": "fitsverify", 
-    "description": "Fitsverify is a computer program that rigorously checks whether a FITS\n(Flexible Image Transport System) data file conforms to all the\nrequirements defined in Version 3.0 of the FITS Standard document.", 
+    "description": "Fitsverify is a computer program that rigorously checks whether a FITS (Flexible Image Transport System) data file conforms to all the requirements defined in Version 3.0 of the FITS Standard document.", 
     "name": "fitsverify", 
     "section": "Miscellaneous Utilities", 
     "summary": "FITS format checker", 
@@ -766,7 +772,7 @@
   }, 
   {
     "debian": "fitscut", 
-    "description": "fitscut is designed to extract cutouts from FITS image format files.\nFITS, PNG, and JPEG output types are supported. When multiple input\nfiles are specified and the output type is PNG or JPEG the resulting\nimage is an RGB color image.", 
+    "description": "fitscut is designed to extract cutouts from FITS image format files. FITS, PNG, and JPEG output types are supported. When multiple input files are specified and the output type is PNG or JPEG the resulting image is an RGB color image.", 
     "name": "fitscut", 
     "section": "Miscellaneous Utilities", 
     "summary": "Image cutout and conversion utility", 
@@ -783,6 +789,7 @@
   }, 
   {
     "ascl_id": "9910.001", 
+    "debian": "725891",
     "description": "Cloudy is a large-scale spectral synthesis code designed to simulate\nfully physical conditions within an astronomical plasma and then predict\nthe emitted spectrum. The code is freely available and is widely used in\nthe analysis and interpretation of emission-line spectra.", 
     "name": "cloudy", 
     "section": "Miscellaneous Utilities", 
@@ -808,6 +815,7 @@
   }, 
   {
     "ascl_id": "1112.019", 
+    "debian": "818373",
     "description": "Aladin is an interactive software sky atlas allowing the user to\nvisualize digitized astronomical images, superimpose entries from\nastronomical catalogues or databases, and interactively access related\ndata and information from the Simbad database, the VizieR service and\nother archives for all known sources in the field.Created in 1999,\nAladin has become a widely-used VO tool capable of addressing challenges\nsuch as locating data of interest, accessing and exploring distributed\ndatasets, visualizing multi-wavelength data. Compliance with existing or\nemerging VO standards, interconnection with other visualisation or\nanalysis tools, ability to easily compare heterogeneous data are key\ntopics allowing Aladin to be a powerful data exploration and integration\ntool as well as a science enabler.", 
     "name": "aladin", 
     "section": "Virtual Observatory Tools", 

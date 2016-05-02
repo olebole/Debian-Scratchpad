@@ -298,6 +298,7 @@
   }, 
   {
     "ascl_id": "1207.011", 
+    "debian": "711038",
     "description": "PyRAF is a command language for running IRAF tasks that is based on the\nPython scripting language. It gives users the ability to run IRAF tasks\nin an environment that has all the power and flexibility of Python.\nPyRAF can be installed along with an existing IRAF installation; users\ncan then choose to run either PyRAF or the IRAF CL.", 
     "git": "http://www.stsci.edu/institute/software_hardware/pyraf", 
     "name": "pyraf", 
@@ -308,6 +309,7 @@
   }, 
   {
     "ascl_id": "9911.002", 
+    "debian": "690531",
     "description": "IRAF includes a broad selection of programs for general image processing\nand graphics, plus a large number of programs for the reduction and\nanalysis of optical and IR astronomy data. Other external or layered\npackages are available for applications such as data acquisition or\nhandling data from other observatories and wavelength regimes such as\nthe Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or\nROSAT and AXAF (X-ray). These external packages are distributed\nseparately from the main IRAF distribution but can be easily installed.\nThe IRAF system also includes a complete programming environment for\nscientific applications, which includes a programmable Command Language\nscripting facility, the IMFORT Fortran/C programming interface, and the\nfull SPP/VOS programming environment in which the portable IRAF system\nand all applications are written.", 
     "name": "iraf", 
     "packageable": false, 
