@@ -51,6 +51,7 @@ may be packaging candidates.
                 s += ']({url})'
         s += ' | {summary} '
         if not pkg.get('packageable', True) and 'comment' in pkg:
+            pkg['comment'] = pkg['comment'].replace('\n', ' ')
             s += '(*{comment}*) '
         s += '|\n'
         fp.write(s.format(**pkg))

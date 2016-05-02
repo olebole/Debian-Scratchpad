@@ -13,9 +13,7 @@ may be packaging candidates.
 | -------------------- | ----------- |
 | | |
 | | **Data Analysis Systems** |
-| [*iraf*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility (*IRAF is hard to package for Debian (in fact for any distribution) because
-of its old architecture. It  also contains various routines from Numerical
-Recipes which are illegal to distribute.*) |
+| [*iraf*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility (*IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.*) |
 | [*iraf-ctio*](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO (*Depends on IRAF*) |
 | [*iraf-mxtools*](http://www.noao.edu/noao/staff/mighell/mxtools/) | Utilities from NOAO including QDPHOT (*Depends on IRAF*) |
 | [*iraf-guiapps*](http://www.stecf.org/iraf/web/projects/guiapps/) | Graphical applications for IRAF (*Depends on IRAF*) |
