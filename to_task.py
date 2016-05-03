@@ -40,6 +40,8 @@ Description: {name} packages
             s = '\n'
             if 'debian' in pkg and not pkg['debian'].isdigit():
                 if pkg['debian'] in apt_cache:
+                    if pkg['debian'].startswith('python-') and pkg['debian'].replace('python-', 'python3-') in apt_cache:
+                        pkg['debian'] = pkg['debian'].replace('python-', 'python3-') + ' | ' + pkg['debian']
                     s += "Depends: {debian}\n"
                 else:
                     try:

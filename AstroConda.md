@@ -30,14 +30,13 @@ may be packaging candidates.
 | | **STSci specific packages** |
 | [*stsci.sphere*](http://ssb.stsci.edu/doc/stsci_python_x/stsci.sphere.doc/html/user.html) | STScI's spherical geometry astropy package (*Package is outdated and replaced by Scipy*) |
 | [*stsci.skypac*](https://github.com/spacetelescope/stsci.skypac) | Sky matching for image mosaic (*Package is outdated and replaced by Scipy*) |
-| [stsci.sphinxext](https://github.com/spacetelescope/stsci.sphinxext) | Sphinx extension for STScI |
 | [*stsci.convolve*](https://github.com/spacetelescope/stsci.convolve) | Subset of SciPy functionality for convolving (*Package is outdated and replaced by Scipy*) |
 | [**stsci.distutils**](https://packages.debian.org/sid/python-stsci.distutils) | Python packaging utilities for STScI's packages |
 | [*stsci.image*](https://github.com/spacetelescope/stsci.image) | Image array manipulation functions (*Package is outdated and replaced by Scipy*) |
 | [*stsci.imagemanip*](https://github.com/spacetelescope/stsci.imagemanip) | STScI general image manipulation tools (*Package is outdated and replaced by Scipy*) |
 | [*stsci.imagestats*](https://github.com/spacetelescope/stsci.imagestats) | Compute various useful statistical values for array objects (*Package is outdated and replaced by Scipy*) |
 | [*stsci.ndimage*](https://github.com/spacetelescope/stsci.ndimage) | Fork of scipy.ndimage (*Package is outdated and replaced by Scipy*) |
-| [*stsci.numdisplay*](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects (*Package is outdated and replaced by Scipy*) |
+| [*stsci.numdisplay*](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects (*Package is outdated. Use pyds9 instead.*) |
 | [*stsci.stimage*](https://github.com/spacetelescope/stsci.stimage) | Various functions for performing processing of images (*Package is outdated and replaced by Scipy*) |
 | [*stsci.tools*](https://github.com/spacetelescope/stsci.tools) | STScI utility functions (*Package is outdated and replaced by Scipy*) |
 | [asv](http://asv.readthedocs.io/) | Simple Python benchmarking tool with web-based reporting |
@@ -71,6 +70,7 @@ may be packaging candidates.
 | | |
 | | **Science packages** |
 | [**numpy**](https://packages.debian.org/sid/python-numpy) | Numerical Python adds a fast array facility to the Python language |
+| [**scipy**](https://packages.debian.org/sid/python-scipy) | Scientific tools for Python |
 | [**pyfftw**](https://packages.debian.org/sid/python-pyfftw) | Pythonic wrapper around FFTW |
 | [poppy](https://github.com/mperrin/poppy) | Physical Optics Propagation in Python |
 | [webbpsf](http://www.stsci.edu/jwst/software/webbpsf/) | WebbPSF: Simulated PSF for the James Webb Space Telescope |

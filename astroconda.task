@@ -73,12 +73,6 @@ Pkg-Description: Sky matching for image mosaic
 Remark:
  Package is outdated and replaced by Scipy
 
-Depends: stsci.sphinxext
-Homepage: https://github.com/spacetelescope/stsci.sphinxext
-Pkg-Description: Sphinx extension for STScI
- This project contains extensions to Sphinx to build documentation from
- STScI.
-
 Depends: stsci.convolve
 Homepage: https://github.com/spacetelescope/stsci.convolve
 Pkg-Description: Subset of SciPy functionality for convolving
@@ -86,7 +80,7 @@ Pkg-Description: Subset of SciPy functionality for convolving
 Remark:
  Package is outdated and replaced by Scipy
 
-Depends: python-stsci.distutils
+Depends: python3-stsci.distutils | python-stsci.distutils
 
 Depends: stsci.image
 Homepage: https://github.com/spacetelescope/stsci.image
@@ -117,7 +111,7 @@ Homepage: http://stsdas.stsci.edu/numdisplay
 Pkg-Description: Visualize numpy array objects
  Visualize numpy array objects using image display tools like ds9 and ximtool
 Remark:
- Package is outdated and replaced by Scipy
+ Package is outdated. Use pyds9 instead.
 
 Depends: stsci.stimage
 Homepage: https://github.com/spacetelescope/stsci.stimage
@@ -182,9 +176,9 @@ Depends: stginga
 Homepage: https://github.com/spacetelescope/stginga
 Pkg-Description: Ginga products specific to STScI data analysis
 
-Depends: python-pyregion
+Depends: python3-pyregion | python-pyregion
 
-Depends: python-asdf
+Depends: python3-asdf | python-asdf
 
 Depends: asdf-standard
 Homepage: http://asdf-standard.readthedocs.io/
@@ -200,10 +194,12 @@ Pkg-Description: Astronomical coordinates & angular separations
  pertains to coordinate manipulations in an OO framework. Our target user is a
  typical astronomer who needs to analyze data, work with catalogs, prepare
  observing proposals, and prepare for observing runs.
+Remark:
+ This packages is obsolete and replaced by astrolib.coordinates.
 
-Depends: python-photutils
+Depends: python3-photutils | python-photutils
 
-Depends: python-pyds9
+Depends: python3-pyds9 | python-pyds9
 
 Depends: libxpa-dev
 
@@ -261,7 +257,7 @@ Pkg-Description: The Ginga astronomical FITS file viewer
  Telescope, National Astronomical Observatory of Japan, and is in use at
  that facility.
 
-Depends: python-astropy
+Depends: python3-astropy | python-astropy
 
 Depends: imexam
 Homepage: http://imexam.readthedocs.io
@@ -303,10 +299,14 @@ Pkg-Description: Align and combine HST images
  position to its pixel position after distortion correctionsskytopix
  transforms sky coordinates to X,Y pixel positions. A reverse
  transformation can be done using the task pixtosky.
+Remark:
+ Depends on stsci.tools, stsci.convolve, stsci.image, stsci.imagemanip, stsci.imagestats, stsci.ndimage, stsci.stimage, nictools, stwcs, fitsblender, and astrolib.coords.
 
-Depends: python-numpy
+Depends: python3-numpy | python-numpy
 
-Depends: python-pyfftw
+Depends: python3-scipy | python-scipy
+
+Depends: python3-pyfftw | python-pyfftw
 
 Depends: poppy
 Homepage: https://github.com/mperrin/poppy
@@ -343,9 +343,9 @@ Pkg-Description: Homebrew set of HTCondor wrappers
   .
   This package installs some home-rolled Condor utilities.
 
-Depends: python-appdirs
+Depends: python3-appdirs | python-appdirs
 
-Depends: python-d2to1
+Depends: python3-d2to1 | python-d2to1
 
 Depends: recon
 Homepage: http://github.com/jhunkeler/recon
@@ -356,7 +356,7 @@ Pkg-Description: Release control for git
  maintainers, and is best used with continuous integration services (i.e
  Travis-CI, etc).
 
-Depends: python-pytools
+Depends: python3-pytools | python-pytools
 
 Depends: purge-path
 Homepage: http://bitbucket.org/jhunkeler/purge_path

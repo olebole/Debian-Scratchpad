@@ -414,7 +414,7 @@ Pkg-Description: Graphical Astronomy and Image Analysis Tool
  3D rendering. GAIA uses theStarlinksoftware environment (ascl:1110.012)
  and is derived from the ESOSkyCat tool(ascl:1109.019).
 
-Depends: sm
+Depends: supermongo
 Homepage: http://www.astro.princeton.edu/~rhl/sm/
 Pkg-Description: SuperMongo.
  SM is an interactive plotting package for drawing graphs written by Robert
@@ -441,11 +441,9 @@ Depends: grace
 
 Depends: ggobi
 
-Depends: python-matplotlib
+Depends: python3-matplotlib | python-matplotlib
 
 Depends: libplplot-dev
-
-Depends: python
 
 Depends: python-numeric
 Homepage: http://sourceforge.net/projects/numpy/files/Old%20Numeric/
@@ -459,7 +457,7 @@ Remark:
 
 Depends: python-scientific
 
-Depends: python-pil
+Depends: python3-pil | python-pil
 
 Depends: python-pmw
 
@@ -477,12 +475,12 @@ Pkg-Description: Python module to handle ASCII tables
   * Column sorting
   * Interchangeable comment character, column delimiter and null value
   * Exports data to Ascii, Numpy/Numarray, FITS table, HTML table, LaTeX table
-
-Depends: python
+Remark:
+ Package is obsoleted by astropy. Please use astropy.io.ascii instead.
 
 Depends: ipython
 
-Depends: python-scipy
+Depends: python3-scipy | python-scipy
 
 Depends: python-gnuplot
 
@@ -502,10 +500,6 @@ Remark:
 Depends: python-pybiggles
 
 Depends: python-pygame
-
-Depends: python
-
-Depends: python
 
 Depends: python-wxgtk3.0
 
@@ -537,7 +531,7 @@ Pkg-Description: Python replacement for IRAF cl from STScI
 Remark:
  Depends on IRAF
 
-Depends: python-pyfits
+Depends: python3-pyfits | python-pyfits
 
 Depends: python-pydrizzle
 Homepage: http://www.stsci.edu/resources/software_hardware/pydrizzle
@@ -559,7 +553,7 @@ Pkg-Description: Automatic image combination drizzling software
  PyRAF, the Python-based interface to IRAF. MultiDrizzle was developed by the
  Science Software Branch at the Space Telescope Science Institute.
 
-Depends: python-numpy
+Depends: python3-numpy | python-numpy
 
 Depends: dpuser
 WNPP: 472961

@@ -53,7 +53,7 @@ may be packaging candidates.
 | [gaia](http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html) | Graphical Astronomy and Image Analysis Tool |
 | | |
 | | **Graphics Software** |
-| [*sm*](http://www.astro.princeton.edu/~rhl/sm/) | SuperMongo. (*Not free.*) |
+| [*supermongo*](http://www.astro.princeton.edu/~rhl/sm/) | SuperMongo. (*Not free.*) |
 | [**pgplot**](https://packages.debian.org/sid/pgplot5) | large subroutine library for plotting scientific data |
 | [**gnuplot**](https://packages.debian.org/sid/gnuplot) | Command-line driven interactive function plotting utility |
 | [**grace**](https://packages.debian.org/sid/grace) | 2D WYSIWYG plotting tool |
@@ -62,21 +62,17 @@ may be packaging candidates.
 | [**plplot**](https://packages.debian.org/sid/libplplot-dev) | Cross-platform software package for creating scientific plots |
 | | |
 | | **Scripting Languages** |
-| [**python**](https://packages.debian.org/sid/python) | General purpose, object orientated, extensible scripting language. |
 | [*python-numeric*](http://sourceforge.net/projects/numpy/files/Old%20Numeric/) | Python module for high-performance, numeric computing (*Not maintained anymore, outdated by numpy*) |
-| [**python-scientific**](https://packages.debian.org/sid/python-scientific) | Python modules useful for scientific computing |
+| [**python-scientific**](https://packages.debian.org/sid/python-scientific) | Python modules useful for scientific computing (*Not maintained anymore, outdated by scipy*) |
 | [**python-imaging (pil)**](https://packages.debian.org/sid/python-pil) | Python Imaging Library (Pillow fork) |
 | [**python-pmw**](https://packages.debian.org/sid/python-pmw) | Pmw -- Python MegaWidgets |
 | [python-asciidata](http://www.stecf.org/software/PYTHONtools/astroasciidata/) | Python module to handle ASCII tables |
-| [**python-binascii**](https://packages.debian.org/sid/python) | Conversion between binary data and ASCII |
 | [**python-ipython**](https://packages.debian.org/sid/ipython) | enhanced interactive Python shell |
 | [**python-scipy**](https://packages.debian.org/sid/python-scipy) | scientific tools for Python |
 | [**python-gnuplot**](https://packages.debian.org/sid/python-gnuplot) | Python interface to the gnuplot plotting program |
 | [python-ppgplot](https://github.com/npat-efault/ppgplot) | Pythonic Interface to PGPLOT |
 | [**python-biggles**](https://packages.debian.org/sid/python-pybiggles) | Scientific plotting package for Python |
 | [**python-pygame**](https://packages.debian.org/sid/python-pygame) | SDL bindings for games development in Python |
-| [**python-cstringio**](https://packages.debian.org/sid/python) | A simple fast partial StringIO replacement |
-| [**python-cpickle**](https://packages.debian.org/sid/python) | C implementation and optimization of the Python pickle module |
 | [**python-wx**](https://packages.debian.org/sid/python-wxgtk3.0) | Python interface to the wxWidgets Cross-platform C++ GUI toolkit |
 | [stsci-python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python) | STScI Python packages |
 | [*python-pyraf*](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI (*Depends on IRAF*) |

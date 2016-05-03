@@ -317,7 +317,7 @@
   {
     "comment": "Not free.", 
     "description": "SM is an interactive plotting package for drawing graphs written by Robert\nLupton and Patricia Monger. It has some capability to handle image data, but\nmostly works with vectors. The main features of the package are:\n.\n * one can generate a plot with a minimum number of simple commands,\n * one can view the plot on the screen and then with a simple set of\n   commands send the same plot to a hardcopy device, \n * one can build and save plot subroutines to be invoked with a single\n   user-defined command,\n * the program keeps a history of plot commands which can be edited and\n   defined as a plot subroutine, to be reused,\n * one can define the data to be plotted from within the program, or read\n   them from an ASCII file.", 
-    "name": "sm", 
+    "name": "supermongo", 
     "packageable": false, 
     "section": "Graphics Software", 
     "summary": "SuperMongo.", 
@@ -375,14 +375,6 @@
     "url": "http://plplot.sourceforge.net/"
   }, 
   {
-    "debian": "python", 
-    "description": "Python, the high-level, interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.\n\nThis package is a dependency package, which depends on Debian's default Python version (currently v2.7).", 
-    "name": "python", 
-    "section": "Scripting Languages", 
-    "summary": "General purpose, object orientated, extensible scripting language.", 
-    "url": "http://www.python.org/"
-  }, 
-  {
     "comment": "Not maintained anymore, outdated by numpy", 
     "description": "Numeric is a Python module for high-performance, numeric computing. It\nprovides much of the functionality and performance of commercial numeric\nsoftware such as Matlab; in some cases, it provides more functionality than\ncommercial software.", 
     "name": "python-numeric", 
@@ -392,8 +384,10 @@
     "url": "http://sourceforge.net/projects/numpy/files/Old%20Numeric/"
   }, 
   {
+    "comment": "Not maintained anymore, outdated by scipy", 
     "debian": "python-scientific", 
     "name": "python-scientific", 
+    "packageable": false, 
     "section": "Scripting Languages", 
     "summary": "Python modules useful for scientific computing"
   }, 
@@ -413,20 +407,12 @@
     "summary": "Pmw -- Python MegaWidgets"
   }, 
   {
+    "comment": "Package is obsoleted by astropy. Please use astropy.io.ascii instead.", 
     "description": "AstroAsciiData is a Python module to handle ASCII tables. Features:\n.\n * Imports all reasonably well-formed Ascii tables\n * Column-first access\n * Easy creation and manipulation of tables, columns, rows and attached\n   comments \n * Retains formatting of data values\n * Support for SExtractor style headers\n * Column sorting\n * Interchangeable comment character, column delimiter and null value\n * Exports data to Ascii, Numpy/Numarray, FITS table, HTML table, LaTeX table", 
     "name": "python-asciidata", 
     "section": "Scripting Languages", 
     "summary": "Python module to handle ASCII tables", 
     "url": "http://www.stecf.org/software/PYTHONtools/astroasciidata/"
-  }, 
-  {
-    "comment": "Part of Python", 
-    "debian": "python", 
-    "description": "Python, the high-level, interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.\n\nThis package is a dependency package, which depends on Debian's default Python version (currently v2.7).", 
-    "name": "python-binascii", 
-    "section": "Scripting Languages", 
-    "summary": "Conversion between binary data and ASCII", 
-    "url": "http://www.python.org/"
   }, 
   {
     "debian": "ipython", 
@@ -476,24 +462,6 @@
     "url": "http://www.pygame.org/"
   }, 
   {
-    "comment": "Part of Python", 
-    "debian": "python", 
-    "description": "Python, the high-level, interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.\n\nThis package is a dependency package, which depends on Debian's default Python version (currently v2.7).", 
-    "name": "python-cstringio", 
-    "section": "Scripting Languages", 
-    "summary": "A simple fast partial StringIO replacement", 
-    "url": "http://www.python.org/"
-  }, 
-  {
-    "comment": "Part of Python", 
-    "debian": "python", 
-    "description": "Python, the high-level, interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.\n\nThis package is a dependency package, which depends on Debian's default Python version (currently v2.7).", 
-    "name": "python-cpickle", 
-    "section": "Scripting Languages", 
-    "summary": "C implementation and optimization of the Python pickle module", 
-    "url": "http://www.python.org/"
-  }, 
-  {
     "debian": "python-wxgtk3.0", 
     "description": "wxWidgets (formerly known as wxWindows) is a class library for C++ providing GUI components and other facilities on several popular platforms (and some unpopular ones as well).\n\nThis package provides a Python interface to the wxGTK library and the wxPython runtime support libraries.", 
     "name": "python-wx", 
@@ -520,6 +488,7 @@
   }, 
   {
     "ascl_id": "1207.009", 
+    "comment": "This package is obsoleted by python3-astropy. Please use astropy instead.", 
     "debian": "python-pyfits", 
     "description": "FITS (Flexible Image Transport System) is a data format most used in astronomy. PyFITS is a Python module for reading, writing, and manipulating FITS files. The module uses Python's object-oriented features to provide quick, easy, and efficient access to FITS files. The use of Python's array syntax enables immediate access to any FITS extension, header cards, or data items.\n\nNote that the development of PyFITS has been stopped and will not see any new upstream version. It is superseded by the module `astropy.io` which is almost a drop-in replacement. PyFITS should therefore only be used for compatibility reasons, astropy should be used instead for new developments.\n\nThis package provides PyFITS on the Python 2 module path. It is complemented by python3-pyfits.", 
     "name": "python-pyfits", 
