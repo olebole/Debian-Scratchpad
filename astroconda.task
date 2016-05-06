@@ -242,6 +242,7 @@ Pkg-Description: NOAO Image Reduction and Analysis Facility
  and all applications are written.
 
 Depends: ginga
+WNPP: 823598
 Homepage: https://github.com/ejeschke/ginga
 Pkg-Description: The Ginga astronomical FITS file viewer
  Ginga is a viewer for astronomical data FITS (Flexible Image Transport

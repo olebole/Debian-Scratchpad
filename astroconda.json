@@ -332,6 +332,7 @@
   }, 
   {
     "ascl_id": "1303.020", 
+    "debian": "823598",
     "description": "Ginga is a viewer for astronomical data FITS (Flexible Image Transport\nSystem) files; the viewer centers around a FITS display widget which\nsupports zooming and panning, color and intensity mapping, a choice of\nseveral automatic cut levels algorithms and canvases for plotting\nscalable geometric forms. In addition to this widget, the FITS viewer\nprovides a flexible plugin framework for extending the viewer with many\ndifferent features. A fairly complete set of \"standard\" plugins are\nprovided for expected features of a modern viewer: panning and zooming\nwindows, star catalog access, cuts, star pick/fwhm, thumbnails, and\nothers.  This viewer was written by software engineers at Subaru\nTelescope, National Astronomical Observatory of Japan, and is in use at\nthat facility.", 
     "name": "ginga", 
     "section": "Astronomy packages", 
