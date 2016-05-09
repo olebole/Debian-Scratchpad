@@ -1,0 +1,458 @@
+[
+  {
+    "description": "he cdsclient package is a set of C and shell routines which can be built on Unix stations or PCs running Linux, which once compiled allow to query some databases located at CDS or on mirrors over the network.", 
+    "name": "cdsclient", 
+    "section": "astronomical data analysis", 
+    "summary": "Tools to query databases at CDS", 
+    "url": "http://cdsarc.u-strasbg.fr/doc/cdsclient.html"
+  }, 
+  {
+    "debian": "libcfitsio-bin", 
+    "description": "FITS (Flexible Image Transport System) is a data format most used in astronomy. cfitsio is a library of ANSI C routines for reading and writing FITS format data files.  A set of Fortran-callable wrapper routines are also included for the convenience of Fortran programmers.\n\nThis package contains utility programs, based on CFITSIO, namely fitscopy, fpack and funpack.", 
+    "name": "fpack", 
+    "section": "astronomical data analysis", 
+    "summary": "CFITSIO based utilities", 
+    "url": "http://heasarc.gsfc.nasa.gov/fitsio/fitsio.html"
+  }, 
+  {
+    "debian": "gcx", 
+    "description": "Gcx is an astronomical image processing and data reduction tool, with an easy to use graphical user interface. It provides a complete set of data reduction functions for CCD photometry, with frame WCS fitting, automatic star identification, aperture photometry of target and standard stars, single-frame ensemble photometry solution finding, multi-frame color coefficient fitting, extinction coefficient fitting, and all-sky photometry; as well as general-purpose astronomical image processing functions (bias, dark, flat, frame alignment and stacking); It can function as a FITS viewer.\n\nThe program can control CCD cameras and telescopes, and implement automatic observation scripting. Cameras are controlled through a hardware-specific server, to which gcx connects through a TCP socket. It generates FITS files with comprehensive header information.", 
+    "name": "gcx", 
+    "section": "astronomical data analysis", 
+    "summary": "astronomical image processing and photometry gtk+ application", 
+    "url": "http://gcx.sourceforge.net/"
+  }, 
+  {
+    "debian": "psfex", 
+    "description": "Extract models of the Point Spread Function (PSF) from FITS images processed with SExtractor, and measures the quality of images. The generated PSF models can be used for model-fitting photometry or morphological analyses.", 
+    "name": "psfex", 
+    "section": "astronomical data analysis", 
+    "summary": "Point Spread Function model extractor", 
+    "url": "http://www.astromatic.net/software/psfex"
+  }, 
+  {
+    "comment": "Outdated; use saods9", 
+    "description": "SAOimage (pronounced S-A-0-image) is a utility for displaying astronomical\nimages in the X11 window environment. It was written at the Smithsonian\nAstrophysical Observatory by Mike Van Hilst in 1990 and hass been maintained\nby Doug Mink. Image files can be read directly, or image data may be passed\nthrough a named pipe (Unix) or a mailbox (VMS) from IRAF display\ntasks. SAOimage provides a large selection of options for zooming, panning,\nscaling, coloring, pixel readback, display blinking, and region\nspecification. User interactions are generally performed with the\nmouse. Mouse tracking in an image's world coordinate system, usually sky\ncoordinates, was added in 1994. You can also plot catalogs over images with\nWCS information in their headers.\n.\nThe SAOimage desktop includes, a main image display window, a button menu\npanel, a display magnifier, a pan and zoom reference image, and a color\nbar. A color table graph window can be brought up by clicking on the color\nbar.", 
+    "name": "saoimage", 
+    "packageable": false, 
+    "section": "Image Display Servers", 
+    "summary": "The original, needs 8bit Xserver", 
+    "url": "http://tdc-www.harvard.edu/software/saoimage.html"
+  }, 
+  {
+    "debian": "scamp", 
+    "description": "SCAMP reads SExtractor catalogs and computes astrometric and photometric solutions for any arbitrary sequence of FITS images in a completely automatic way.", 
+    "name": "scamp", 
+    "section": "astronomical data analysis", 
+    "summary": "Compute astrometric and photometric solutions", 
+    "url": "http://www.astromatic.net/software/scamp"
+  }, 
+  {
+    "debian": "sextractor", 
+    "description": "Find sources, such as stars and galaxies, in astronomical images. The input data files are in FITS file format, and are analyzed to compute the locations of sources, with the ability to distinguish between galaxies and stars using a neural-network technique.", 
+    "name": "sextractor", 
+    "section": "astronomical data analysis", 
+    "summary": "Source extractor for astronomical images", 
+    "url": "http://www.astromatic.net/software/sextractor"
+  }, 
+  {
+    "debian": "siril", 
+    "description": "Siril is an image processing tool specially tailored for noise reduction and improving the signal/noise ratio of an image from multiple captures, as required in astronomy. Siril can align automatically or manually, stack and enhance pictures from various file formats, even images sequences (movies and SER files).", 
+    "name": "siril", 
+    "section": "astronomical data analysis", 
+    "summary": "astronomical image processing tool", 
+    "url": "https://free-astro.org/index.php/Siril"
+  }, 
+  {
+    "description": "SkyViewer is an OpenGL based program to display HEALPix-based skymaps, saved in FITS format files. The loaded skymaps can be viewed either on a 3D sphere or as a Mollweide projection. In either case, realtime panning and zooming are supported, along with rotations for the 3D sphere view, assuming you have a strong enough graphics card.", 
+    "name": "skyviewer", 
+    "section": "astronomical data analysis", 
+    "summary": "Program to display HEALPix-based skymaps in FITS files", 
+    "url": "http://lambda.gsfc.nasa.gov/toolbox/tb_skyviewer_ov.cfm"
+  }, 
+  {
+    "debian": "swarp", 
+    "description": "Resample and co-add together FITS images using any arbitrary astrometric projection defined in the WCS standard. The main features of SWarp are:\n\n* FITS format (including multi-extensions) in input and output,\n* Full handling of weight-maps in input and output,\n* Ability to work with very large images (up to 500 Mpixels on\n  32-bit machines and 10^6 Tpixels with 64-bits), thanks to customized\n  virtual-memory-mapping and buffering,\n* Works with arrays in up to 9 dimensions (including or not two spherical\n  coordinates),\n* Selectable high-order interpolation method (up to 8-tap filters) in any\n  dimension,\n* Compatible with WCS and TNX (IRAF) astrometric descriptions,\n* Support for equatorial, galactic and equatorial coordinate systems,\n* Astrometric and photometric parameters are read from FITS headers or\n  external ASCIIfiles,\n* Built-in background subtraction,\n* Built-in noise-level measurement for automatic weighting,\n* Automatic centering and sizing functions of the output field,\n* Multi-threaded code with load-balancing to take advantageof multiple\n  processors.\n* XML VOTable-compliant output of meta-data.\n", 
+    "name": "swarp", 
+    "section": "astronomical data analysis", 
+    "summary": "Resample and co-add together FITS images", 
+    "url": "http://www.astromatic.net/software/swarp"
+  }, 
+  {
+    "debian": "indi-plugins", 
+    "description": "INDI (Instrument-Neutral Device Interface) is a distributed XML-based control protocol designed to operate astronomical instrumentation. INDI is small, flexible, easy to parse, scalable, and stateless. It supports common DCS functions such as remote control, data acquisition, monitoring, and a lot more.\n\nThis package contains binary plugins.", 
+    "name": "indi-sx, indi-gphoto, indi-eqmod, indi-apogee, indi-aagcloudwatcher", 
+    "section": "Observatory: KStars + INDI drivers + Skychart", 
+    "url": "http://www.indilib.org/"
+  }, 
+  {
+    "debian": "indi-bin", 
+    "description": "INDI (Instrument-Neutral Device Interface) is a distributed XML-based control protocol designed to operate astronomical instrumentation. INDI is small, flexible, easy to parse, scalable, and stateless. It supports common DCS functions such as remote control, data acquisition, monitoring, and a lot more.\n\nThis package contains the INDI server, the drivers for the supported astronomical instrumentation, and other INDI tools.", 
+    "name": "indistarter", 
+    "section": "Observatory: KStars + INDI drivers + Skychart", 
+    "summary": "INDI server, drivers and tools", 
+    "url": "http://www.indilib.org/"
+  }, 
+  {
+    "debian": "kstars", 
+    "description": "KStars is a desktop planetarium for KDE, depicting an accurate graphical simulation of the night sky, from any location on Earth, at any date and time. The display includes 130,000 stars, 13,000 deep-sky objects, all 8 planets, the Sun and Moon, and thousands of comets and asteroids.  It includes tools for astronomical calculations and can control telescopes and cameras.\n\nThis package is part of the KDE education module.", 
+    "name": "kstars", 
+    "section": "Observatory: KStars + INDI drivers + Skychart", 
+    "summary": "desktop planetarium for KDE", 
+    "url": "http://edu.kde.org/"
+  }, 
+  {
+    "description": "This program enables you to draw sky charts, making use of the data in 16 catalogs of stars and nebulae. In addition the position of planets, asteroids and comets are shown.\nThe purpose of this program is to prepare different sky maps for a particular observation. A large number of parameters help you to choose specifically or automatically which catalogs to use, the colour and the dimension of stars and nebulae, the representation of planets, the display of labels and coordinate grids, the superposition of pictures, the condition of visibility and more. All these features make this celestial atlas more complete than a conventional planetarium.", 
+    "name": "skychart", 
+    "section": "Observatory: KStars + INDI drivers + Skychart", 
+    "summary": "Planetarium software for the advanced amateur astronomer", 
+    "url": "http://www.ap-i.net/skychart"
+  }, 
+  {
+    "debian": "stellarium", 
+    "description": "Stellarium renders 3D photo-realistic skies in real-time. With Stellarium, you really see what you can see with your eyes, binoculars or a small telescope.\n\nSome features:\n- default star catalogue with over 600 thousand stars,\n- information about the brightest stars (spectral type, distance, etc.),\n- downloadable star catalogue extensions, for up to 210 million stars,\n- all New General Catalogue (NGC) objects,\n- images of almost all Messier objects and the Milky Way,\n- real time positions of the planets and their satellites,\n- 13 different cultures with their constellations,\n- artistic illustrations of the 88 Western constellations,\n- very realistic atmosphere, sunrise and sunset,\n- 7 panoramic landscapes (more can be made or downloaded from the website),\n- scripting with ECMAScript,\n- plug-in support: Stellarium comes with 8 plug-ins by default, including:\n- artificial satellites plug-in (updated from an on-line TLE database),\n- ocular simulation plug-in (shows how objects look like in a given ocular),\n- Solar System editor plug-in (imports comet and asteroid data from the MPC),\n- telescope control plug-in (Meade LX200 and Celestron NexStar compatible).\nStellarium should not be used for very high accurate calculation or ephemerids like eclipse predictions. However, it is the ideal program to prepare an observation evening with naked eye, binocular, or small telescope.", 
+    "name": "stellarium", 
+    "section": "Observatory: KStars + INDI drivers + Skychart", 
+    "summary": "real-time photo-realistic sky generator", 
+    "url": "http://www.stellarium.org"
+  }, 
+  {
+    "debian": "celestia", 
+    "description": "Celestia is a free 3D astronomy program. Based on the Hipparcos Catalogue, it allows users to display objects ranging in scale from artificial satellites to entire galaxies in three dimensions using OpenGL. Unlike most planetarium software, the user is free to travel about the Universe.", 
+    "name": "celestia", 
+    "section": "misc. astronomy", 
+    "summary": "OpenGL real-time visual space simulation", 
+    "url": "http://www.shatters.net/celestia"
+  }, 
+  {
+    "debian": "python3", 
+    "description": "Python, the high-level, interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.\n\nThis package is a dependency package, which depends on Debian's default Python 3 version (currently v3.5).", 
+    "name": "python3", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "interactive high-level object-oriented language (default python3 version)", 
+    "url": "http://www.python.org/"
+  }, 
+  {
+    "debian": "idle3", 
+    "description": "IDLE is an Integrated Development Environment for Python. IDLE is written using Tkinter and therefore quite platform-independent.\n\nThis package is a dependency package, which depends on Debian's default Python 3 version (currently v3.5).", 
+    "name": "python3-tools", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "IDE for Python using Tkinter (default version)", 
+    "url": "http://www.python.org/"
+  }, 
+  {
+    "debian": "idle", 
+    "description": "IDLE is an Integrated Development Environment for Python. IDLE is written using Tkinter and therefore quite platform-independent.\n\nThis package is a dependency package, which depends on Debian's default Python version (currently v2.7) of IDLE.", 
+    "name": "python-tools", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "IDE for Python using Tkinter (default version)", 
+    "url": "http://www.python.org/"
+  }, 
+  {
+    "debian": "python-matplotlib", 
+    "description": "Matplotlib is a pure Python plotting library designed to bring publication quality plotting to Python with a syntax familiar to Matlab users. All of the plotting commands in the pylab interface can be accessed either via a functional interface familiar to Matlab users or an object oriented interface familiar to Python users.", 
+    "name": "python3-matplotlib", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "Python based plotting system in a style similar to Matlab (Python 3)", 
+    "url": "http://matplotlib.org/"
+  }, 
+  {
+    "debian": "python-scipy", 
+    "description": "SciPy supplements the popular NumPy module (python-numpy package), gathering a variety of high level science and engineering modules together as a single package.\n\nSciPy is a set of Open Source scientific and numeric tools for Python. It currently supports special functions, integration, ordinary differential equation (ODE) solvers, gradient optimization, genetic algorithms, parallel programming tools, an expression-to-C++ compiler for fast execution, and others.", 
+    "name": "python3-scipy", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "scientific tools for Python 3", 
+    "url": "http://www.scipy.org/"
+  }, 
+  {
+    "debian": "python-numpy", 
+    "description": "Numpy contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities.\n\nNumpy replaces the python-numeric and python-numarray modules which are now deprecated and shouldn't be used except to support older software.", 
+    "name": "python3-numpy", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "Fast array facility to the Python 3 language", 
+    "url": "http://www.numpy.org/"
+  }, 
+  {
+    "debian": "ipython3", 
+    "description": "IPython can be used as a replacement for the standard Python shell, or it can be used as a complete working environment for scientific computing (like Matlab or Mathematica) when paired with the standard Python scientific and numerical tools. It supports dynamic object introspections, numbered input/output prompts, a macro system, session logging, session restoring, complete system shell access, verbose and colored traceback reports, auto-parentheses, auto-quoting, and is embeddable in other Python programs.\n\nThis package contains the Python 3 variant of ipython terminal shell. For the qt console install ipython3-qtconsole and for the html notebook install ipython3-notebook.", 
+    "name": "python3-ipython", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "enhanced interactive Python 3 shell", 
+    "url": "http://ipython.org/"
+  }, 
+  {
+    "debian": "ipython3-qtconsole", 
+    "description": "IPython can be used as a replacement for the standard Python shell, or it can be used as a complete working environment for scientific computing (like Matlab or Mathematica) when paired with the standard Python scientific and numerical tools. It supports dynamic object introspections, numbered input/output prompts, a macro system, session logging, session restoring, complete system shell access, verbose and colored traceback reports, auto-parentheses, auto-quoting, and is embeddable in other Python programs.\n\nThis package contains the Python3 variant of the qt console.", 
+    "name": "python3-ipython-console", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "enhanced interactive Python 3 shell - Qt console", 
+    "url": "http://ipython.org/"
+  }, 
+  {
+    "debian": "ipython3-notebook", 
+    "description": "IPython can be used as a replacement for the standard Python shell, or it can be used as a complete working environment for scientific computing (like Matlab or Mathematica) when paired with the standard Python scientific and numerical tools. It supports dynamic object introspections, numbered input/output prompts, a macro system, session logging, session restoring, complete system shell access, verbose and colored traceback reports, auto-parentheses, auto-quoting, and is embeddable in other Python programs.\n\nThis package contains the html notebook providing a Mathematica-like webinterface to Python 3.", 
+    "name": "python3-ipython-notebook", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "interactive Python 3 html notebook", 
+    "url": "http://ipython.org/"
+  }, 
+  {
+    "debian": "python-sympy", 
+    "description": "SymPy is a Python library for symbolic mathematics (manipulation). It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries, except optionally for plotting support.", 
+    "name": "python3-sympy", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "Computer Algebra System (CAS) in Python (Python3)", 
+    "url": "http://sympy.org/"
+  }, 
+  {
+    "debian": "python-networkx", 
+    "description": "NetworkX is a Python-based package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.\n\nThe structure of a graph or network is encoded in the edges (connections, links, ties, arcs, bonds) between nodes (vertices, sites, actors). If unqualified, by graph it's meant a simple undirected graph, i.e. no self-loops and no multiple edges are allowed. By a network it's usually meant a graph with weights (fields, properties) on nodes and/or edges.\n\nThe potential audience for NetworkX includes: mathematicians, physicists, biologists, computer scientists, social scientists.", 
+    "name": "python3-networkx", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "tool to create, manipulate and study complex networks (Python3)", 
+    "url": "http://networkx.github.io/"
+  }, 
+  {
+    "debian": "python-pandas", 
+    "description": "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with \"relational\" or \"labeled\" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. pandas is well suited for many different kinds of data.", 
+    "name": "python-pandas", 
+    "section": "python and tools/libraries not included from the groups"
+  }, 
+  {
+    "debian": "astropy-utils", 
+    "description": "The astropy package contains core functionality and some common tools needed for performing astronomy and astrophysics research with Python.\n\nThis package contains the tools that come with astropy:\n\n* fitscheck: Detect and fix FITS standards violations\n* fits2bitmap: Create a bitmap file from a FITS image.\n* fitsdiff: Compare two FITS image files and report the differences in\n  header keywords and data.\n* fitsheader: Print the header(s) of one or more FITS file(s) to the\n  standard output in a human-readable format.\n* samp_hub: SAMP Hub Server.\n* volint: Check a VOTable file for compliance to the VOTable specification\n* wcslint: Check the WCS keywords in a FITS file for compliance against\n  the standards\n", 
+    "name": "astropy-tools", 
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "Command line tools from astropy", 
+    "url": "http://astropy.org"
+  }, 
+  {
+    "debian": "python-astropy", 
+    "description": "The astropy package contains core functionality and some common tools needed for performing astronomy and astrophysics research with Python. It is expected to be extended by a number of \"affiliated packages\" that are intended to work with the core package.", 
+    "name": "python3-astropy", 
+    "section": "Python astronomy", 
+    "summary": "Core functionality for performing astrophysics with Python3", 
+    "url": "http://astropy.org"
+  }, 
+  {
+    "debian": "python-astroml", 
+    "description": "AstroML is a Python module for machine learning and data mining built on numpy, scipy, scikit-learn, and matplotlib. It contains a growing library of statistical and machine learning routines for analyzing astronomical data in Python, loaders for several open astronomical datasets, and a large suite of examples of analyzing and visualizing astronomical datasets.", 
+    "name": "python-astroml", 
+    "section": "Python astronomy", 
+    "summary": "Python Machine Learning library for astronomy", 
+    "url": "http://astroml.github.com/"
+  }, 
+  {
+    "debian": "python-astroml-addons", 
+    "description": "AstroML is a Python module for machine learning and data mining built on numpy, scipy, scikit-learn, and matplotlib. It contains a growing library of statistical and machine learning routines for analyzing astronomical data in Python, loaders for several open astronomical datasets, and a large suite of examples of analyzing and visualizing astronomical datasets.\n\nThis package contains the performance add-ons of the Python 2 version of the package.", 
+    "name": "python-astroml-addons", 
+    "section": "Python astronomy", 
+    "summary": "Python Machine Learning library for astronomy (performance addons)", 
+    "url": "http://astroml.github.com/"
+  }, 
+  {
+    "debian": "python-astroquery", 
+    "description": "Astroquery is a set of Python tools for querying astronomical web forms and databases.\n\nThis is the Python 2 version of the package.", 
+    "name": "python3-astroquery", 
+    "section": "Python astronomy", 
+    "summary": "Python online astronomical database querying (Python 3)", 
+    "url": "https://pypi.python.org/pypi/astroquery/"
+  }, 
+  {
+    "debian": "python-aplpy", 
+    "description": "APLpy is a Python module aimed at producing publication-quality plots of astronomical imaging data in FITS format. The module uses Matplotlib, a powerful and interactive plotting package. It is capable of creating output files in several graphical formats, including EPS, PDF, PS, PNG, and SVG.\n\nThis package contains the Python 2 version of the package.", 
+    "name": "python3-aplpy", 
+    "section": "Python astronomy", 
+    "summary": "Astronomical Plotting Library in Python 3", 
+    "url": "http://aplpy.github.io/"
+  }, 
+  {
+    "description": "ATpy is a high-level Python package providing a way to manipulate tables of astronomical data in a uniform way. It provides built-in support for NumPy recarrays and common astronomical file/database formats (FITS, VO, HDF5, and ASCII tables) with a very simple API.", 
+    "name": "python-atpy", 
+    "section": "Python astronomy", 
+    "summary": "Astronomical Tables in Python", 
+    "url": "http://atpy.readthedocs.org/"
+  }, 
+  {
+    "debian": "python-ccdproc", 
+    "description": "The ccdproc package provides many of the necessary tools for processing of ccd images built on a framework to provide error propagation and bad pixel tracking throughout the reduction process.\n\nThis package contains the Python 2 version of the package.", 
+    "name": "python3-ccdproc", 
+    "section": "Python astronomy", 
+    "summary": "Basic data reductions of astronomy CCD images (Python 3)", 
+    "url": "http://ccdproc.readthedocs.org"
+  }, 
+  {
+    "description": "Gatspy contains efficient, well-documented implementations of several common routines for Astronomical time series analysis, including the Lomb-Scargle periodogram, the Supersmoother method, and others.", 
+    "name": "python-gatspy", 
+    "section": "Python astronomy", 
+    "summary": "General tools for Astronomical Time Series in Python", 
+    "url": "http://www.astroml.org/gatspy/"
+  }, 
+  {
+    "debian": "python-photutils", 
+    "description": "Photutils contains functions for:\n\n* estimating the background and background rms in astronomical images\n* detecting sources in astronomical images\n* estimating morphological parameters of those sources (e.g., centroid\n  and shape parameters)\n* performing aperture and PSF photometry\nThis package contains the Python 2 version of the package.", 
+    "name": "python3-photutils", 
+    "section": "Python astronomy", 
+    "summary": "Astropy affiliated package for image photometry (Python 3)", 
+    "url": "https://github.com/astropy/photutils"
+  }, 
+  {
+    "description": "SEP makes available some of the astronomical source extraction and photometry algorithms in Source Extractor as stand-alone functions and classes. These operate directly on in-memory numpy arrays (no FITS files, configuration files, etc). It\u2019s derived directly from (and tested against) the Source Extractor code base.", 
+    "name": "python3-sep", 
+    "section": "Python astronomy", 
+    "summary": "Astronomical source extraction and photometry in Python", 
+    "url": "http://sep.readthedocs.org/"
+  }, 
+  {
+    "debian": "spyder3", 
+    "description": "Spyder (previously known as Pydee) is a free open-source Python development environment providing MATLAB-like features in a simple and light-weighted software\n\nThis is the Python 3 version of the package.", 
+    "name": "python3-spyder", 
+    "section": "Python IDE very useful for scientific use", 
+    "summary": "Python IDE for scientists (Python 3)", 
+    "url": "https://github.com/spyder-ide/spyder"
+  }, 
+  {
+    "debian": "spyder", 
+    "description": "Spyder (previously known as Pydee) is a free open-source Python development environment providing MATLAB-like features in a simple and light-weighted software\n\nThis is the Python 2 version of the package.", 
+    "name": "python3-spyder", 
+    "section": "Python IDE very useful for scientific use", 
+    "summary": "Python IDE for scientists (Python 2)", 
+    "url": "https://github.com/spyder-ide/spyder"
+  }, 
+  {
+    "debian": "rapidsvn", 
+    "description": "Rapidsvn is a graphical client for the Subversion revision control system (svn) providing an easy to use interface for Subversion features. It aims to be simple for beginners but flexible enough to increase productivity for experienced Subversion users.", 
+    "name": "rapidsvn", 
+    "section": "Version control", 
+    "summary": "GUI client for Subversion", 
+    "url": "http://rapidsvn.tigris.org/"
+  }, 
+  {
+    "debian": "subversion", 
+    "description": "Apache Subversion, also known as svn, is a centralised version control system.  Version control systems allow many individuals (who may be distributed geographically) to collaborate on a set of files (source code, websites, etc).  Subversion began with a CVS paradigm and supports all the major features of CVS, but has evolved to support many features that CVS users often wish they had.\n\nThis package includes the Subversion client (svn), repository administration tools (svnadmin, svnlook) and a network server (svnserve).", 
+    "name": "svn", 
+    "section": "Version control", 
+    "summary": "Advanced version control system", 
+    "url": "http://subversion.apache.org/"
+  }, 
+  {
+    "debian": "git", 
+    "description": "Git is popular version control system designed to handle very large projects with speed and efficiency; it is used for many high profile open source projects, most notably the Linux kernel.\n\nGit falls in the category of distributed source code management tools. Every Git working directory is a full-fledged repository with full revision tracking capabilities, not dependent on network access or a central server.\n\nThis package provides the git main components with minimal dependencies. Additional functionality, e.g. a graphical user interface and revision tree visualizer, tools for interoperating with other VCS's, or a web interface, is provided as separate git* packages.", 
+    "name": "git", 
+    "section": "Version control", 
+    "summary": "fast, scalable, distributed revision control system", 
+    "url": "https://git-scm.com/"
+  }, 
+  {
+    "debian": "git-gui", 
+    "description": "Git is popular version control system designed to handle very large projects with speed and efficiency; it is used for many high profile open source projects, most notably the Linux kernel.\n\nGit falls in the category of distributed source code management tools. Every Git working directory is a full-fledged repository with full revision tracking capabilities, not dependent on network access or a central server.\n\nThis package provides the git graphical user interface.\n\nIf aspell is installed, it can check the spelling of commit messages as the user types.", 
+    "name": "git-gui", 
+    "section": "Version control", 
+    "summary": "fast, scalable, distributed revision control system (GUI)", 
+    "url": "https://git-scm.com/"
+  }, 
+  {
+    "debian": "mercurial", 
+    "description": "Mercurial is a fast, lightweight Source Control Management system designed for efficient handling of very large distributed projects.\n\nIts features include:\n* O(1) delta-compressed file storage and retrieval scheme\n* Complete cross-indexing of files and changesets for efficient exploration\n  of project history\n* Robust SHA1-based integrity checking and append-only storage model\n* Decentralized development model with arbitrary merging between trees\n* High-speed HTTP-based network merge protocol\n* Easy-to-use command-line interface\n* Integrated stand-alone web interface\n* Small Python codebase\nThis package contains the architecture dependent files.", 
+    "name": "mercurial", 
+    "section": "Version control", 
+    "summary": "easy-to-use, scalable distributed version control system", 
+    "url": "https://www.mercurial-scm.org/"
+  }, 
+  {
+    "debian": "dia", 
+    "description": "Dia is an editor for diagrams, graphs, charts etc. There is support for UML static structure diagrams (class diagrams), Entity-Relationship diagrams, network diagrams and much more. Diagrams can be exported to postscript and many other formats.", 
+    "name": "dia", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "Diagram editor", 
+    "url": "http://live.gnome.org/Dia"
+  }, 
+  {
+    "debian": "gimp", 
+    "description": "GIMP is an advanced picture editor. You can use it to edit, enhance, and retouch photos and scans, create drawings, and make your own images. It has a large collection of professional-level editing tools and filters, similar to the ones you might find in Photoshop. Numerous fine-control settings and features like layers, paths, masks, and scripting give you total control over your images.\n\nMany image file formats are supported, including JPEG, Photoshop (.psd), and Paint Shop Pro (.psp) files. It can also be used to scan and print photos.\n\nTo open files remotely (like over HTTP), install the gvfs-backends package.\n\nTo use a MIDI device (like a musical keyboard) as an input controller in GIMP, install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI", 
+    "name": "gimp", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "The GNU Image Manipulation Program", 
+    "url": "http://www.gimp.org/"
+  }, 
+  {
+    "debian": "inkscape", 
+    "description": "Inkscape is an illustration editor which has everything needed to create professional-quality computer art. You can use it to make diagrams and illustrations, technical drawings, web graphics, clip art, icons and logos. A collection of hands-on tutorials show you how to combine lines, shapes and text of different types and styles to build up a picture.\n\nA selection of powerful vector graphics editing tools comes as standard. There is excellent support for paths, gradients, layers, alpha transparency and text flow control. An extensive library of filters allow you to apply realistic effects and extensions allow you to work with bitmaps, barcodes and printing marks, amongst other things.\n\nMost of the common vector formats are supported, including PDF, Adobe Illustrator and AutoCAD files, and it has unrivalled support for the SVG web graphics standard.\n\nBetween the suggested packages:\n* dia: to export Dia shapes;\n* libsvg-perl: to import .txt files (txt2svg extension);\n* libxml-xql-perl: to use the shadow effect;\n* python-uniconvertor: enables several import/export extensions;\n* pstoedit: to work with eps files;\n* ruby: there are several extensions written in ruby;\n", 
+    "name": "inkscape", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "vector-based drawing program", 
+    "url": "http://www.inkscape.org/"
+  }, 
+  {
+    "comment": "The Debian package contains the FITS reader", 
+    "debian": "kst", 
+    "description": "Kst is a fast real-time large-dataset viewing and plotting tool. It has basic data analysis functionality, contains many powerful built-in features and is expandable with plugins and extensions.", 
+    "name": "kst", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "scientific data plotting tool", 
+    "url": "http://kst.kde.org"
+  }, 
+  {
+    "debian": "kst-doc", 
+    "description": "Kst is a fast real-time large-dataset viewing and plotting tool. It has basic data analysis functionality, contains many powerful built-in features and is expandable with plugins and extensions.\n\nThis package contains documentation files for kst.", 
+    "name": "kst-docs", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "set of tutorials for kst", 
+    "url": "http://kst.kde.org"
+  }, 
+  {
+    "description": "LabPlot is for scientific 2D and 3D data and function plotting. The various display and analysis functions are explained in the handbook (KDE help center). LabPlot also provides a component for easily viewing the project files in Konqueror.", 
+    "name": "labplot", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "Data Analysis and Visualization", 
+    "url": "http://labplot.sourceforge.net/"
+  }, 
+  {
+    "debian": "veusz", 
+    "description": "Veusz is a 2D scientific plotting and graphing package, designed to produce publication-ready Postscript or PDF output. Veusz provides a GUI, command line and scripting interface (based on Python) to its plotting facilities. The plots are built using an object-based system to provide a consistent interface. Veusz supports reading data from CSV, text, HDF5 and FITS formats.", 
+    "name": "veusz", 
+    "section": "Drawing, Picture viewing tools, Visualization tools", 
+    "summary": "2D scientific plotting application with graphical interface", 
+    "url": "http://home.gna.org/veusz/"
+  }, 
+  {
+    "debian": "icedtea-plugin", 
+    "description": "IcedTeaPlugin is a web browser plugin to execute Java applets, supporting LiveConnect/JavaScript. It is targeted for xulrunner-1.9 and compatible browsers that support the NPAPI.\n\nThis is a dependency package, it can be safely removed after upgrade.", 
+    "name": "icedtea-web", 
+    "section": "Misc. Utils", 
+    "summary": "web browser plugin to execute Java applets (dependency package)", 
+    "url": "http://icedtea.classpath.org/wiki/IcedTea-Web"
+  }, 
+  {
+    "debian": "imagemagick", 
+    "description": "ImageMagick is a software suite to create, edit, and compose bitmap images. It can read, convert and write images in a variety of formats (over 100) including DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG, and TIFF. Use ImageMagick to translate, flip, mirror, rotate, scale, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and B?zier curves. All manipulations can be achieved through shell commands as well as through an X11 graphical interface (display).\n\nThis package include links to quantum depth specific binaries and manual pages.", 
+    "name": "imagemagick", 
+    "section": "Misc. Utils", 
+    "summary": "image manipulation programs -- binaries", 
+    "url": "http://www.imagemagick.org/"
+  }, 
+  {
+    "debian": "kate", 
+    "description": "Kate is a powerful text editor that can open multiple files simultaneously.\n\nWith a built-in terminal, syntax highlighting, and tabbed sidebar, it performs as a lightweight but capable development environment.  Kate's many tools, plugins, and scripts make it highly customizable.\n\nKate's features include:\n\n* Multiple saved sessions, each with numerous files\n* Scriptable syntax highlighting, indentation, and code-folding\n* Configurable templates and text snippets\n* Symbol viewers for C, C++, and Python\n* XML completion and validation\n", 
+    "name": "kate", 
+    "section": "Misc. Utils", 
+    "summary": "powerful text editor", 
+    "url": "http://kate-editor.org/"
+  }, 
+  {
+    "debian": "rlwrap", 
+    "description": "This package provides a small utility that uses the GNU readline library to allow the editing of keyboard input for any other command.  Input history is remembered across invocations, separately for each command; history completion and search work as in bash and completion word lists can be specified on the command line.", 
+    "name": "rlwrap", 
+    "section": "Misc. Utils", 
+    "summary": "readline feature command line wrapper", 
+    "url": "http://utopia.knoware.nl/~hlub/uck/rlwrap/"
+  }, 
+  {
+    "debian": "screen", 
+    "description": "GNU Screen is a terminal multiplexer that runs several separate \"screens\" on a single physical character-based terminal. Each virtual terminal emulates a DEC VT100 plus several ANSI X3.64 and ISO 2022 functions. Screen sessions can be detached and resumed later on a different terminal.\n\nScreen also supports a whole slew of other features, including configurable input and output translation, serial port support, configurable logging, and multi-user support.", 
+    "name": "screen", 
+    "section": "Misc. Utils", 
+    "summary": "terminal multiplexer with VT100/ANSI terminal emulation", 
+    "url": "https://savannah.gnu.org/projects/screen"
+  }
+]

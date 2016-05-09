@@ -1,0 +1,189 @@
+Task: FedoraAstro
+Install: false
+Index: false
+Metapackage: false
+Description: Fedora Astronomy Spin
+ Here we list the packages that belong to the 
+ [Fedora Astronomy Spin](https://fedoraproject.org/wiki/Astronomy_Spin).
+
+Depends: cdsclient
+Homepage: http://cdsarc.u-strasbg.fr/doc/cdsclient.html
+Pkg-Description: Tools to query databases at CDS
+ The cdsclient package is a set of C and shell routines which can be built on
+ Unix stations or PCs running Linux, which once compiled allow to query some
+ databases located at CDS or on mirrors over the network. 
+
+Depends: libcfitsio-bin
+
+Depends: gcx
+
+Depends: psfex
+
+Depends: saoimage
+Homepage: http://tdc-www.harvard.edu/software/saoimage.html
+Pkg-Description: The original, needs 8bit Xserver
+ SAOimage (pronounced S-A-0-image) is a utility for displaying astronomical
+ images in the X11 window environment. It was written at the Smithsonian
+ Astrophysical Observatory by Mike Van Hilst in 1990 and hass been maintained
+ by Doug Mink. Image files can be read directly, or image data may be passed
+ through a named pipe (Unix) or a mailbox (VMS) from IRAF display
+ tasks. SAOimage provides a large selection of options for zooming, panning,
+ scaling, coloring, pixel readback, display blinking, and region
+ specification. User interactions are generally performed with the
+ mouse. Mouse tracking in an image's world coordinate system, usually sky
+ coordinates, was added in 1994. You can also plot catalogs over images with
+ WCS information in their headers.
+ .
+ The SAOimage desktop includes, a main image display window, a button menu
+ panel, a display magnifier, a pan and zoom reference image, and a color
+ bar. A color table graph window can be brought up by clicking on the color
+ bar.
+Remark:
+ Outdated; use saods9
+
+Depends: scamp
+
+Depends: sextractor
+
+Depends: siril
+
+Depends: skyviewer
+Homepage: http://lambda.gsfc.nasa.gov/toolbox/tb_skyviewer_ov.cfm
+Pkg-Description: Program to display HEALPix-based skymaps in FITS files
+ SkyViewer is an OpenGL based program to display HEALPix-based skymaps, saved
+ in FITS format files. The loaded skymaps can be viewed either on a 3D sphere
+ or as a Mollweide projection. In either case, realtime panning and zooming
+ are supported, along with rotations for the 3D sphere view, assuming you have
+ a strong enough graphics card.
+
+Depends: swarp
+
+Depends: indi-plugins
+Remark:
+ The Debian package includes the plugins that are separate packages on Fedora:
+ indi-sx, indi-gphoto, indi-eqmod, indi-apogee, indi-aagcloudwatcher
+
+Depends: indi-bin
+
+Depends: kstars
+
+Depends: skychart
+Homepage: http://www.ap-i.net/skychart
+Pkg-Description: Planetarium software for the advanced amateur astronomer
+ This program enables you to draw sky charts, making use of the data in 16
+ catalogs of stars and nebulae. In addition the position of planets, asteroids
+ and comets are shown.
+ .
+ The purpose of this program is to prepare different sky maps for a particular
+ observation. A large number of parameters help you to choose specifically or
+ automatically which catalogs to use, the colour and the dimension of stars
+ and nebulae, the representation of planets, the display of labels and
+ coordinate grids, the superposition of pictures, the condition of visibility
+ and more. All these features make this celestial atlas more complete than a
+ conventional planetarium.
+
+Depends: stellarium
+
+Depends: celestia
+
+Depends: python3 | python
+
+Depends: idle3 | idle
+
+Depends: python3-matplotlib | python-matplotlib
+
+Depends: python3-scipy | python-scipy
+
+Depends: python3-numpy | python-numpy
+
+Depends: ipython3 | ipython
+
+Depends: ipython3-qtconsole | ipython-qtconsole
+
+Depends: ipython3-notebook | ipython3-qtconsole
+
+Depends: python3-sympy | python-sympy
+
+Depends: python3-networkx | python-networkx
+
+Depends: python3-pandas | python-pandas
+
+Depends: astropy-utils
+
+Depends: python3-astropy | python-astropy
+
+Suggests: python-astroml
+
+Suggests: python-astroml-addons
+
+Depends: python3-astroquery | python-astroquery
+
+Depends: python3-aplpy | python-aplpy
+
+Depends: python3-atpy | python-atpy
+Homepage: http://atpy.readthedocs.org/
+Pkg-Description: Astronomical Tables in Python
+ ATpy is a high-level Python package providing a way to manipulate tables of
+ astronomical data in a uniform way. It provides built-in support for NumPy
+ recarrays and common astronomical file/database formats (FITS, VO, HDF5, and
+ ASCII tables) with a very simple API.
+
+Depends: python3-ccdproc | python-ccdproc
+
+Depends: python3-gatspy | python-gatspy
+Homepage: http://www.astroml.org/gatspy/
+Pkg-Description: General tools for Astronomical Time Series in Python
+ Gatspy contains efficient, well-documented implementations of several common
+ routines for Astronomical time series analysis, including the Lomb-Scargle
+ periodogram, the Supersmoother method, and others.
+
+Depends: python3-photutils | python-photutils
+
+Depends: python3-sep | python-sep
+Homepage: http://sep.readthedocs.org/
+Pkg-Description: Astronomical source extraction and photometry in Python
+ SEP makes available some of the astronomical source extraction and photometry
+ algorithms in Source Extractor as stand-alone functions and classes. These
+ operate directly on in-memory numpy arrays (no FITS files, configuration
+ files, etc). It’s derived directly from (and tested against) the Source
+ Extractor code base.
+
+Depends: spyder3 | spyder
+
+Depends: rapidsvn, subversion
+
+Depends: git, git-gui
+
+Depends: mercurial
+
+Depends: dia
+
+Depends: gimp
+
+Depends: inkscape
+
+Depends: kst
+Remark:
+ The Debian package includes the FITS reader.
+
+Depends: kst-doc
+
+Depends: labplot
+Homepage: http://labplot.sourceforge.net/
+Pkg-Description: Data Analysis and Visualization
+ LabPlot is for scientific 2D and 3D data and function plotting. The various
+ display and analysis functions are explained in the handbook (KDE help
+ center). LabPlot also provides a component for easily viewing the project
+ files in Konqueror.
+
+Depends: veusz
+
+Depends: icedtea-plugin
+
+Depends: imagemagick
+
+Depends: kate
+
+Depends: rlwrap
+
+Depends: screen

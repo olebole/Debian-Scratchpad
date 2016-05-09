@@ -2,6 +2,10 @@ import json
 
 projects = [
     {
+        'name': 'FedoraAstro',
+        'url': 'https://fedoraproject.org/wiki/Astronomy_Spin',
+    },
+    {
         'name': 'AstroConda',
         'url': 'http://astroconda.readthedocs.io',
     },
