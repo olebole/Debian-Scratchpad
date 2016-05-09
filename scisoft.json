@@ -2,7 +2,7 @@
   {
     "ascl_id": "9911.002", 
     "comment": "IRAF is hard to package for Debian (in fact for any distribution) because\nof its old architecture. It  also contains various routines from Numerical\nRecipes which are illegal to distribute.", 
-    "debian": "690531",
+    "debian": "690531", 
     "description": "IRAF includes a broad selection of programs for general image processing\nand graphics, plus a large number of programs for the reduction and\nanalysis of optical and IR astronomy data. Other external or layered\npackages are available for applications such as data acquisition or\nhandling data from other observatories and wavelength regimes such as\nthe Hubble Space Telescope (optical), EUVE (extreme ultra-violet), or\nROSAT and AXAF (X-ray). These external packages are distributed\nseparately from the main IRAF distribution but can be easily installed.\nThe IRAF system also includes a complete programming environment for\nscientific applications, which includes a programmable Command Language\nscripting facility, the IMFORT Fortran/C programming interface, and the\nfull SPP/VOS programming environment in which the portable IRAF system\nand all applications are written.", 
     "name": "iraf", 
     "packageable": false, 
@@ -211,7 +211,7 @@
   }, 
   {
     "ascl_id": "1308.011", 
-    "debian": "815709",
+    "debian": "815709", 
     "description": "CRUSH is an astronomical data reduction/imaging tool for certain imaging\ncameras, especially at the millimeter, sub-millimeter, and far-infrared\nwavelengths. It supports the SHARC-2, LABOCA, SABOCA, ASZCA, p-ArTeMiS,\nPolKa, GISMO, MAKO and SCUBA-2 instruments. The code is written entirely\nin Java, allowing it to run on virtually any platform. It is normally\nrun from the command-line with several arguments.", 
     "name": "crush", 
     "section": "Data Analysis Systems", 
@@ -228,7 +228,7 @@
   }, 
   {
     "ascl_id": "1308.013", 
-    "debian": "780303",
+    "debian": "780303", 
     "description": "THELI is an easy-to-use, end-to-end pipeline for the reduction of any\noptical, near-IR and mid-IR imaging data. It combines a variety of\nprocessing algorithms and third party software into a single,\nhomogeneous tool. Over 90 optical and infrared instruments at\nobservatories world-wide are pre-configured; more can be added by the\nuser. The code's online appendix contains three walk-through examples\nusing public data (optical, near-IR and mid-IR) and additional online\ndocumentation is available for training and troubleshooting.", 
     "name": "theli", 
     "section": "Data Analysis Systems", 
@@ -299,7 +299,7 @@
   {
     "ascl_id": "1210.019", 
     "comment": "Must go to contrib since it on pgplot (non-free) via dpuser", 
-    "debian": "472961",
+    "debian": "472961", 
     "description": "QFitsView is a FITS file viewer that can display one, two, and three-\ndimensional FITS files. It has three modes of operation, depending of\nwhat kind of data is being displayed. One-dimensional data are shown in\nan x-y plot. Two-dimensional images are shown in the main window. Three-\ndimensional data cubes can be displayed in a variety of ways, with the\nthird dimension shown as a x-y plot at the bottom of the image display.\nQFitsView was written in C++ and uses the Qt widget library, which makes\nit available for all major platforms: Windows, MAC OS X, and many Unix\nvariants.", 
     "name": "qfitsview", 
     "section": "Image Display Servers", 
@@ -522,7 +522,7 @@
   {
     "ascl_id": "1303.025", 
     "comment": "Must go to contrib since it depends on pgplot (non-free)", 
-    "debian": "472961",
+    "debian": "472961", 
     "description": "DPUSER is an interactive language capable of handling numbers (both real\nand complex), strings, and matrices. Its main aim is to do astronomical\nimage analysis, for which it provides a comprehensive set of functions,\nbut it can also be used for many other applications.", 
     "name": "dpuser", 
     "section": "Scripting Languages", 
@@ -758,7 +758,7 @@
   }, 
   {
     "ascl_id": "9910.001", 
-    "debian": "725891",
+    "debian": "725891", 
     "description": "Cloudy is a large-scale spectral synthesis code designed to simulate\nfully physical conditions within an astronomical plasma and then predict\nthe emitted spectrum. The code is freely available and is widely used in\nthe analysis and interpretation of emission-line spectra.", 
     "name": "cloudy", 
     "section": "Miscellaneous Utilities", 
@@ -784,7 +784,7 @@
   }, 
   {
     "ascl_id": "1112.019", 
-    "debian": "818373",
+    "debian": "818373", 
     "description": "Aladin is an interactive software sky atlas allowing the user to\nvisualize digitized astronomical images, superimpose entries from\nastronomical catalogues or databases, and interactively access related\ndata and information from the Simbad database, the VizieR service and\nother archives for all known sources in the field.Created in 1999,\nAladin has become a widely-used VO tool capable of addressing challenges\nsuch as locating data of interest, accessing and exploring distributed\ndatasets, visualizing multi-wavelength data. Compliance with existing or\nemerging VO standards, interconnection with other visualisation or\nanalysis tools, ability to easily compare heterogeneous data are key\ntopics allowing Aladin to be a powerful data exploration and integration\ntool as well as a science enabler.", 
     "name": "aladin", 
     "section": "Virtual Observatory Tools", 
