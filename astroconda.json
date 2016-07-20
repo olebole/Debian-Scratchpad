@@ -388,7 +388,7 @@
   }, 
   {
     "debian": "python-scipy", 
-    "description": "SciPy supplements the popular NumPy module (python-numpy package), gathering a variety of high level science and engineering modules together as a single package.\nSciPy is a set of Open Source scientific and numeric tools for Python. It currently supports special functions, integration, ordinary differential equation (ODE) solvers, gradient optimization, genetic algorithms, parallel programming tools, an expression-to-C++ compiler for fast execution, and others.", 
+    "description": "SciPy supplements the popular NumPy module (python-numpy package), gathering a variety of high level science and engineering modules together as a single package.\n\nSciPy is a set of Open Source scientific and numeric tools for Python. It currently supports special functions, integration, ordinary differential equation (ODE) solvers, gradient optimization, genetic algorithms, parallel programming tools, an expression-to-C++ compiler for fast execution, and others.", 
     "name": "scipy", 
     "section": "Science packages", 
     "summary": "Scientific tools for Python", 

@@ -180,7 +180,7 @@ Pkg-Description: Enhanced CL
 Remark:
  Depends on IRAF
 
-Depends: eclipse
+Depends: eso-eclipse
 Homepage: http://www.eso.org/sci/software/eclipse/
 Pkg-Description: C Library for an Image Processing Software Environment
  Written in ANSI C, eclipse is a library offering numerous services
@@ -385,20 +385,6 @@ Depends: skycat
 Depends: ftools-fv
 
 Depends: qfitsview
-WNPP: 472961
-Homepage: http://www.mpe.mpg.de/~ott/QFitsView/index.html
-Pkg-Description: FITS file viewer
- QFitsView is a FITS file viewer that can display one, two, and three-
- dimensional FITS files. It has three modes of operation, depending of
- what kind of data is being displayed. One-dimensional data are shown in
- an x-y plot. Two-dimensional images are shown in the main window. Three-
- dimensional data cubes can be displayed in a variety of ways, with the
- third dimension shown as a x-y plot at the bottom of the image display.
- QFitsView was written in C++ and uses the Qt widget library, which makes
- it available for all major platforms: Windows, MAC OS X, and many Unix
- variants.
-Remark:
- Must go to contrib since it on pgplot (non-free) via dpuser
 
 Depends: gaia
 Homepage: http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html
@@ -556,15 +542,6 @@ Pkg-Description: Automatic image combination drizzling software
 Depends: python3-numpy | python-numpy
 
 Depends: dpuser
-WNPP: 472961
-Homepage: http://www.mpe.mpg.de/~ott/dpuser/index.html
-Pkg-Description: Interactive language for handling numbers, strings, and matrices
- DPUSER is an interactive language capable of handling numbers (both real
- and complex), strings, and matrices. Its main aim is to do astronomical
- image analysis, for which it provides a comprehensive set of functions,
- but it can also be used for many other applications.
-Remark:
- Must go to contrib since it depends on pgplot (non-free)
 
 Depends: libgsl-dev
 
@@ -806,26 +783,6 @@ Pkg-Description: 1-D spectral visualization and analysis of astronomical spectro
  defined models) and fit models to data.
 
 Depends: splat
-Homepage: http://star-www.dur.ac.uk/~pdraper/splat/splat-vo/
-Pkg-Description: Spectral Analysis Tool
- SPLAT is a graphical tool for displaying, comparing, modifying and
- analyzing astronomical spectra stored in NDF, FITS and TEXT files as
- well as in NDX format. It can read in many spectra at the same time and
- then display these as line plots. Display windows can show one or
- several spectra at the same time and can be interactively zoomed and
- scrolled, centered on specific wavelengths, provide continuous
- coordinate readout, produce printable hardcopy and be configured in many
- ways. Analysis facilities include the fitting of a polynomial to
- selected parts of a spectrum, the fitting of Gaussian, Lorentzian and
- Voigt profiles to emission and absorption lines and the filtering of
- spectra using average, median and line-shape window functions as well as
- wavelet denoising. SPLAT also supports a full range of coordinate
- systems for spectra, which allows coordinates to be displayed and
- aligned in many different coordinate systems (wavelength, frequency,
- energy, velocity) and transformed between these and different standards
- of rest (topocentric, heliocentric, dynamic and kinematic local
- standards of rest, etc). SPLAT is distributed as part of
- theStarlink(ascl:1110.012) software collection.
 
 Depends: stilts
 Homepage: http://www.star.bris.ac.uk/~mbt/stilts/

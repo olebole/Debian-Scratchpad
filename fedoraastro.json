@@ -214,9 +214,11 @@
   }, 
   {
     "debian": "python-pandas", 
-    "description": "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with \"relational\" or \"labeled\" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. pandas is well suited for many different kinds of data.", 
+    "description": "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with \"relational\" or \"labeled\" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. pandas is well suited for many different kinds of data:\n\n- Tabular data with heterogeneously-typed columns, as in an SQL\n  table or Excel spreadsheet\n- Ordered and unordered (not necessarily fixed-frequency) time\n  series data.\n- Arbitrary matrix data (homogeneously typed or heterogeneous) with\n  row and column labels\n- Any other form of observational / statistical data sets. The data\n  actually need not be labeled at all to be placed into a pandas\n  data structure\nThis package contains the Python 2 version.", 
     "name": "python-pandas", 
-    "section": "python and tools/libraries not included from the groups"
+    "section": "python and tools/libraries not included from the groups", 
+    "summary": "data structures for \"relational\" or \"labeled\" data", 
+    "url": "http://pandas.sourceforge.net"
   }, 
   {
     "debian": "astropy-utils", 
@@ -267,6 +269,7 @@
     "url": "http://aplpy.github.io/"
   }, 
   {
+    "comment": " Much of ATpy's functionality has now been incorporated into Astropy, and there is no longer active development of new features in ATpy, instead focusing efforts on Astropy.", 
     "description": "ATpy is a high-level Python package providing a way to manipulate tables of astronomical data in a uniform way. It provides built-in support for NumPy recarrays and common astronomical file/database formats (FITS, VO, HDF5, and ASCII tables) with a very simple API.", 
     "name": "python-atpy", 
     "section": "Python astronomy", 
@@ -297,7 +300,7 @@
     "url": "https://github.com/astropy/photutils"
   }, 
   {
-    "description": "SEP makes available some of the astronomical source extraction and photometry algorithms in Source Extractor as stand-alone functions and classes. These operate directly on in-memory numpy arrays (no FITS files, configuration files, etc). It\u2019s derived directly from (and tested against) the Source Extractor code base.", 
+    "description": "SEP makes available some of the astronomical source extraction and photometry algorithms in Source Extractor as stand-alone functions and classes. These operate directly on in-memory numpy arrays (no FITS files, configuration files, etc). It's derived directly from (and tested against) the Source Extractor code base.", 
     "name": "python3-sep", 
     "section": "Python astronomy", 
     "summary": "Astronomical source extraction and photometry in Python", 
@@ -401,7 +404,8 @@
     "url": "http://kst.kde.org"
   }, 
   {
-    "description": "LabPlot is for scientific 2D and 3D data and function plotting. The various display and analysis functions are explained in the handbook (KDE help center). LabPlot also provides a component for easily viewing the project files in Konqueror.", 
+    "debian": "labplot", 
+    "description": "LabPlot provides an easy way to create, manage and edit plots.  It allows you to produce plots based on data from a spreadsheet or on data imported from external files.  Plots can be exported to several pixmap and vector graphic formats.\n\nFeatures include:\n- project-based management of data\n- project explorer for management and organization of created objects in\n  different folders and sub-folders\n- spreadsheet with basic functionality for manual data entry or for\n  generation of uniform and non-uniform random numbers\n- import of external ASCII data into the project for further editing and\n  visualization\n- export of spreadsheet to an ASCII file\n- worksheet as the main parent object for plots, labels, etc; supports\n  different layouts and zooming functions\n- export of worksheet to different formats (PDF, EPS, PNG, and SVG)\n- great variety of editing capabilities for properties of worksheet and its\n  objects\n- cartesian plots, created either from imported or manually created data\n  sets or via mathematical equation\n- definition of mathematical formulas is supported by syntax highlighting\n  and completion and by the list of thematically grouped mathematical and\n  physical constants and functions\n- analysis of plotted data is supported by many zooming and navigation\n  features\n- linear and non-linear fits to data, several fit-models are predefined and\n  custom models with arbitrary number of parameters can be provided\n", 
     "name": "labplot", 
     "section": "Drawing, Picture viewing tools, Visualization tools", 
     "summary": "Data Analysis and Visualization", 

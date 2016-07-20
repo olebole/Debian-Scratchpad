@@ -307,7 +307,7 @@ Depends: python3-numpy | python-numpy
 
 Depends: python3-scipy | python-scipy
 
-Depends: python3-pyfftw | python-pyfftw
+Depends: python-pyfftw
 
 Depends: poppy
 Homepage: https://github.com/mperrin/poppy

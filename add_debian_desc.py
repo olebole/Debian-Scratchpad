@@ -21,7 +21,7 @@ projects = [
     }
 ]
 
-for project in projects[:1]:
+for project in projects:
     l = json.load(open('{0}.json'.format(project['name'].lower())))
     for pkg in l:
         pkg['name'] = pkg['name'].replace('/', '-').replace('_','-').lower()

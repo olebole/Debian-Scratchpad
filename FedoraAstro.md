@@ -1,9 +1,9 @@
-FedoraAstroSpin programs for potential inclusion in Debian
+FedoraAstro programs for potential inclusion in Debian
 ===================================================
 
 
 The list is taken from the
-[FedoraAstroSpin](https://fedoraproject.org/wiki/Astronomy_Spin)
+[FedoraAstro](https://fedoraproject.org/wiki/Astronomy_Spin)
 package list. Packages that are already in Debian are in **bold**, packages
 that will (for various reasons) not go into Debian are in *italic*. The other
 may be packaging candidates.
@@ -50,7 +50,7 @@ may be packaging candidates.
 | [**python3-ipython-notebook**](https://packages.debian.org/sid/ipython3-notebook) | interactive Python 3 html notebook |
 | [**python3-sympy**](https://packages.debian.org/sid/python-sympy) | Computer Algebra System (CAS) in Python (Python3) |
 | [**python3-networkx**](https://packages.debian.org/sid/python-networkx) | tool to create, manipulate and study complex networks (Python3) |
-| [**python-pandas**](https://packages.debian.org/sid/python-pandas) |  |
+| [**python-pandas**](https://packages.debian.org/sid/python-pandas) | data structures for "relational" or "labeled" data |
 | [**astropy-tools**](https://packages.debian.org/sid/astropy-utils) | Command line tools from astropy |
 | | |
 | | **Python astronomy** |
@@ -82,7 +82,7 @@ may be packaging candidates.
 | [**inkscape**](https://packages.debian.org/sid/inkscape) | vector-based drawing program |
 | [**kst**](https://packages.debian.org/sid/kst) | scientific data plotting tool |
 | [**kst-docs**](https://packages.debian.org/sid/kst-doc) | set of tutorials for kst |
-| [labplot](http://labplot.sourceforge.net/) | Data Analysis and Visualization |
+| [**labplot**](https://packages.debian.org/sid/labplot) | Data Analysis and Visualization |
 | [**veusz**](https://packages.debian.org/sid/veusz) | 2D scientific plotting application with graphical interface |
 | | |
 | | **Misc. Utils** |

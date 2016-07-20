@@ -120,7 +120,7 @@
   {
     "ascl_id": "1112.001", 
     "description": "Written in ANSI C, eclipse is a library offering numerous services\nrelated to astronomical image processing: FITS data access, various\nimage and cube loading methods, binary image handling and filtering\n(including convolution and morphological filters), 2-D cross-\ncorrelation, connected components, cube and image arithmetic, dead pixel\ndetection and correction, object detection, data extraction, flat-\nfielding with robust fit, image generation, statistics, photometry,\nimage-space resampling, image combination, and cube stacking. It also\ncontains support for mathematical tools like random number generation,\nFFT, curve fitting, matrices, fast median computation, and point-pattern\nmatching. The main feature of this library is its ability to handle\nlarge amounts of input data (up to 2GB in the current version)\nregardless of the amount of memory and swap available on the local\nmachine. Another feature is the very high speed allowed by optimized C,\nmaking it an ideal base tool for programming efficient number-crunching\napplications, e.g., on parallel (Beowulf) systems.", 
-    "name": "eclipse", 
+    "name": "eso-eclipse", 
     "section": "Data Analysis Systems", 
     "summary": "C Library for an Image Processing Software Environment", 
     "url": "http://www.eso.org/sci/software/eclipse/"
@@ -298,9 +298,8 @@
   }, 
   {
     "ascl_id": "1210.019", 
-    "comment": "Must go to contrib since it on pgplot (non-free) via dpuser", 
-    "debian": "472961", 
-    "description": "QFitsView is a FITS file viewer that can display one, two, and three-\ndimensional FITS files. It has three modes of operation, depending of\nwhat kind of data is being displayed. One-dimensional data are shown in\nan x-y plot. Two-dimensional images are shown in the main window. Three-\ndimensional data cubes can be displayed in a variety of ways, with the\nthird dimension shown as a x-y plot at the bottom of the image display.\nQFitsView was written in C++ and uses the Qt widget library, which makes\nit available for all major platforms: Windows, MAC OS X, and many Unix\nvariants.", 
+    "debian": "qfitsview", 
+    "description": "QFitsView is a FITS file viewer based on DPUSER. In addition to displaying two-dimensional images, it also provides means to explore three-dimensional data cubes. It integrates the functionality of DPUSER which can be accessed directly out of QFitsView.\n\nNote that this package was compiled with the giza library instead of PGPLOT, since the latter is non-free software.", 
     "name": "qfitsview", 
     "section": "Image Display Servers", 
     "summary": "FITS file viewer", 
@@ -404,7 +403,8 @@
     "description": "Pmw is a framework for building high-level compound widgets in Python using the Tkinter interface to the Tk graphics library.  It consists of a set of base classes and a library of flexible and extensible megawidgets built on these base classes.\n\nThis package provides the pmw modules", 
     "name": "python-pmw", 
     "section": "Scripting Languages", 
-    "summary": "Pmw -- Python MegaWidgets"
+    "summary": "Pmw -- Python MegaWidgets", 
+    "url": ""
   }, 
   {
     "comment": "Package is obsoleted by astropy. Please use astropy.io.ascii instead.", 
@@ -451,7 +451,8 @@
     "description": "Biggles is a Python module for creating publication-quality 2D scientific plots. It supports multiple output formats (postscript, x11, png, svg, gif), understands simple TeX, and sports a high-level, elegant interface. It's intended for technical users with sophisticated plotting needs.", 
     "name": "python-biggles", 
     "section": "Scripting Languages", 
-    "summary": "Scientific plotting package for Python"
+    "summary": "Scientific plotting package for Python", 
+    "url": "http://biggles.sourceforge.net/"
   }, 
   {
     "debian": "python-pygame", 
@@ -521,9 +522,8 @@
   }, 
   {
     "ascl_id": "1303.025", 
-    "comment": "Must go to contrib since it depends on pgplot (non-free)", 
-    "debian": "472961", 
-    "description": "DPUSER is an interactive language capable of handling numbers (both real\nand complex), strings, and matrices. Its main aim is to do astronomical\nimage analysis, for which it provides a comprehensive set of functions,\nbut it can also be used for many other applications.", 
+    "debian": "dpuser", 
+    "description": "DPUSER is an interactive language capable of handling numbers (both real and complex), strings, and matrices. Its main aim is to do astronomical image analysis, for which it provides a comprehensive set of functions, but it can also be used for many other applications.\n\nNote that this package was compiled with the giza library instead of PGPLOT, since the latter is non-free software.", 
     "name": "dpuser", 
     "section": "Scripting Languages", 
     "summary": "Interactive language for handling numbers, strings, and matrices", 
@@ -824,7 +824,8 @@
   }, 
   {
     "ascl_id": "1402.007", 
-    "description": "SPLAT is a graphical tool for displaying, comparing, modifying and\nanalyzing astronomical spectra stored in NDF, FITS and TEXT files as\nwell as in NDX format. It can read in many spectra at the same time and\nthen display these as line plots. Display windows can show one or\nseveral spectra at the same time and can be interactively zoomed and\nscrolled, centered on specific wavelengths, provide continuous\ncoordinate readout, produce printable hardcopy and be configured in many\nways. Analysis facilities include the fitting of a polynomial to\nselected parts of a spectrum, the fitting of Gaussian, Lorentzian and\nVoigt profiles to emission and absorption lines and the filtering of\nspectra using average, median and line-shape window functions as well as\nwavelet denoising. SPLAT also supports a full range of coordinate\nsystems for spectra, which allows coordinates to be displayed and\naligned in many different coordinate systems (wavelength, frequency,\nenergy, velocity) and transformed between these and different standards\nof rest (topocentric, heliocentric, dynamic and kinematic local\nstandards of rest, etc). SPLAT is distributed as part of\ntheStarlink(ascl:1110.012) software collection.", 
+    "debian": "splat", 
+    "description": "SPLAT! is a Surface Path Length And Terrain analysis application written for Linux and Unix workstations.  SPLAT! analyzes point-to-point terrestrial RF communication links, and provides information useful to communication system designers and site engineers.", 
     "name": "splat", 
     "section": "Virtual Observatory Tools", 
     "summary": "Spectral Analysis Tool", 

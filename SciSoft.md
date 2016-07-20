@@ -26,7 +26,7 @@ may be packaging candidates.
 | [*iraf-stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF (*Depends on IRAF*) |
 | [*iraf-stsdas-tables*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Depends on IRAF*) |
 | [*iraf-ecl*](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL (*Depends on IRAF*) |
-| [eclipse](http://www.eso.org/sci/software/eclipse/) | C Library for an Image Processing Software Environment |
+| [eso-eclipse](http://www.eso.org/sci/software/eclipse/) | C Library for an Image Processing Software Environment |
 | [**eso-midas**](https://packages.debian.org/sid/eso-midas) | European Southern Observatory Munich Image Data Analysis System |
 | [*pymidas*](http://www.eso.org/sampo/pymidas) | Python interface for ESO-MIDAS (*PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.*) |
 | [**idl**](https://packages.debian.org/sid/gnudatalanguage) | Interactive Data Language from RSI. |
@@ -49,7 +49,7 @@ may be packaging candidates.
 | [**xpa**](https://packages.debian.org/sid/xpa-tools) | Messaging system from SAO. Used by DS9. |
 | [**skycat**](https://packages.debian.org/sid/skycat) | ESO image display tool with catalogue and image server access. |
 | [**fv**](https://packages.debian.org/sid/ftools-fv) | Tool for viewing and editing FITS format files |
-| [qfitsview](http://www.mpe.mpg.de/~ott/QFitsView/index.html) | FITS file viewer |
+| [**qfitsview**](https://packages.debian.org/sid/qfitsview) | FITS file viewer |
 | [gaia](http://star-www.dur.ac.uk/~pdraper/gaia/gaia.html) | Graphical Astronomy and Image Analysis Tool |
 | | |
 | | **Graphics Software** |
@@ -80,7 +80,7 @@ may be packaging candidates.
 | [python-pydrizzle](http://www.stsci.edu/resources/software_hardware/pydrizzle) | Drizzling software |
 | [python-multidrizzle](http://stsdas.stsci.edu/multidrizzle/) | Automatic image combination drizzling software |
 | [**python-numpy**](https://packages.debian.org/sid/python-numpy) | Python package for scientific computing |
-| [dpuser](http://www.mpe.mpg.de/~ott/dpuser/index.html) | Interactive language for handling numbers, strings, and matrices |
+| [**dpuser**](https://packages.debian.org/sid/dpuser) | Interactive language for handling numbers, strings, and matrices |
 | | |
 | | **Scientific Libraries** |
 | [**gsl**](https://packages.debian.org/sid/libgsl-dev) | The GNU Scientific Library |
@@ -121,7 +121,7 @@ may be packaging candidates.
 | [voplot](http://vo.iucaa.ernet.in/~voi/voplot.htm) | VOTable plotting tool |
 | [plastic](http://plastic.sourceforge.net/) | PLatform for AStronomical Tool InterConnection |
 | [specview](http://www.stsci.edu/resources/software_hardware/specview) | 1-D spectral visualization and analysis of astronomical spectrograms |
-| [splat](http://star-www.dur.ac.uk/~pdraper/splat/splat-vo/) | Spectral Analysis Tool |
+| [**splat**](https://packages.debian.org/sid/splat) | Spectral Analysis Tool |
 | [stilts](http://www.star.bris.ac.uk/~mbt/stilts/) | Starlink Tables Infrastructure Library Tool Set |
 | [topcat](http://www.star.bristol.ac.uk/~mbt/topcat/) | Tool for OPerations on Catalogues And Tables |
 | [virgo](http://archive.eso.org/cms/tools-documentation/visual-archive-browser) | Visual Browser for the ESO Science Archive Facility |

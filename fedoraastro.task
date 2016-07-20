@@ -2,16 +2,15 @@ Task: FedoraAstro
 Install: false
 Index: false
 Metapackage: false
-Description: Fedora Astronomy Spin
+Description: FedoraAstro packages
  Here we list the packages that belong to the 
- [Fedora Astronomy Spin](https://fedoraproject.org/wiki/Astronomy_Spin).
+ [FedoraAstro](https://fedoraproject.org/wiki/Astronomy_Spin)
+ distribution.
 
 Depends: cdsclient
 Homepage: http://cdsarc.u-strasbg.fr/doc/cdsclient.html
 Pkg-Description: Tools to query databases at CDS
- The cdsclient package is a set of C and shell routines which can be built on
- Unix stations or PCs running Linux, which once compiled allow to query some
- databases located at CDS or on mirrors over the network. 
+ he cdsclient package is a set of C and shell routines which can be built on Unix stations or PCs running Linux, which once compiled allow to query some databases located at CDS or on mirrors over the network.
 
 Depends: libcfitsio-bin
 
@@ -50,18 +49,11 @@ Depends: siril
 Depends: skyviewer
 Homepage: http://lambda.gsfc.nasa.gov/toolbox/tb_skyviewer_ov.cfm
 Pkg-Description: Program to display HEALPix-based skymaps in FITS files
- SkyViewer is an OpenGL based program to display HEALPix-based skymaps, saved
- in FITS format files. The loaded skymaps can be viewed either on a 3D sphere
- or as a Mollweide projection. In either case, realtime panning and zooming
- are supported, along with rotations for the 3D sphere view, assuming you have
- a strong enough graphics card.
+ SkyViewer is an OpenGL based program to display HEALPix-based skymaps, saved in FITS format files. The loaded skymaps can be viewed either on a 3D sphere or as a Mollweide projection. In either case, realtime panning and zooming are supported, along with rotations for the 3D sphere view, assuming you have a strong enough graphics card.
 
 Depends: swarp
 
 Depends: indi-plugins
-Remark:
- The Debian package includes the plugins that are separate packages on Fedora:
- indi-sx, indi-gphoto, indi-eqmod, indi-apogee, indi-aagcloudwatcher
 
 Depends: indi-bin
 
@@ -70,25 +62,18 @@ Depends: kstars
 Depends: skychart
 Homepage: http://www.ap-i.net/skychart
 Pkg-Description: Planetarium software for the advanced amateur astronomer
- This program enables you to draw sky charts, making use of the data in 16
- catalogs of stars and nebulae. In addition the position of planets, asteroids
- and comets are shown.
- .
- The purpose of this program is to prepare different sky maps for a particular
- observation. A large number of parameters help you to choose specifically or
- automatically which catalogs to use, the colour and the dimension of stars
- and nebulae, the representation of planets, the display of labels and
- coordinate grids, the superposition of pictures, the condition of visibility
- and more. All these features make this celestial atlas more complete than a
- conventional planetarium.
+ This program enables you to draw sky charts, making use of the data in 16 catalogs of stars and nebulae. In addition the position of planets, asteroids and comets are shown.
+ The purpose of this program is to prepare different sky maps for a particular observation. A large number of parameters help you to choose specifically or automatically which catalogs to use, the colour and the dimension of stars and nebulae, the representation of planets, the display of labels and coordinate grids, the superposition of pictures, the condition of visibility and more. All these features make this celestial atlas more complete than a conventional planetarium.
 
 Depends: stellarium
 
 Depends: celestia
 
-Depends: python3 | python
+Depends: python3
 
-Depends: idle3 | idle
+Depends: idle3
+
+Depends: idle
 
 Depends: python3-matplotlib | python-matplotlib
 
@@ -96,11 +81,11 @@ Depends: python3-scipy | python-scipy
 
 Depends: python3-numpy | python-numpy
 
-Depends: ipython3 | ipython
+Depends: ipython3
 
-Depends: ipython3-qtconsole | ipython-qtconsole
+Depends: ipython3-qtconsole
 
-Depends: ipython3-notebook | ipython3-qtconsole
+Depends: ipython3-notebook
 
 Depends: python3-sympy | python-sympy
 
@@ -112,47 +97,46 @@ Depends: astropy-utils
 
 Depends: python3-astropy | python-astropy
 
-Suggests: python-astroml
+Depends: python3-astroml | python-astroml
 
-Suggests: python-astroml-addons
+Depends: python3-astroml-addons | python-astroml-addons
 
 Depends: python3-astroquery | python-astroquery
 
 Depends: python3-aplpy | python-aplpy
 
-Depends: python3-atpy | python-atpy
+Depends: python-atpy
 Homepage: http://atpy.readthedocs.org/
 Pkg-Description: Astronomical Tables in Python
- ATpy is a high-level Python package providing a way to manipulate tables of
- astronomical data in a uniform way. It provides built-in support for NumPy
- recarrays and common astronomical file/database formats (FITS, VO, HDF5, and
- ASCII tables) with a very simple API.
+ ATpy is a high-level Python package providing a way to manipulate tables of astronomical data in a uniform way. It provides built-in support for NumPy recarrays and common astronomical file/database formats (FITS, VO, HDF5, and ASCII tables) with a very simple API.
+Remark:
+  Much of ATpy's functionality has now been incorporated into Astropy, and there is no longer active development of new features in ATpy, instead focusing efforts on Astropy.
 
 Depends: python3-ccdproc | python-ccdproc
 
-Depends: python3-gatspy | python-gatspy
+Depends: python-gatspy
 Homepage: http://www.astroml.org/gatspy/
 Pkg-Description: General tools for Astronomical Time Series in Python
- Gatspy contains efficient, well-documented implementations of several common
- routines for Astronomical time series analysis, including the Lomb-Scargle
- periodogram, the Supersmoother method, and others.
+ Gatspy contains efficient, well-documented implementations of several common routines for Astronomical time series analysis, including the Lomb-Scargle periodogram, the Supersmoother method, and others.
 
 Depends: python3-photutils | python-photutils
 
-Depends: python3-sep | python-sep
+Depends: python3-sep
 Homepage: http://sep.readthedocs.org/
 Pkg-Description: Astronomical source extraction and photometry in Python
- SEP makes available some of the astronomical source extraction and photometry
- algorithms in Source Extractor as stand-alone functions and classes. These
- operate directly on in-memory numpy arrays (no FITS files, configuration
- files, etc). It’s derived directly from (and tested against) the Source
- Extractor code base.
+ SEP makes available some of the astronomical source extraction and photometry algorithms in Source Extractor as stand-alone functions and classes. These operate directly on in-memory numpy arrays (no FITS files, configuration files, etc). It's derived directly from (and tested against) the Source Extractor code base.
 
-Depends: spyder3 | spyder
+Depends: spyder3
 
-Depends: rapidsvn, subversion
+Depends: spyder
 
-Depends: git, git-gui
+Depends: rapidsvn
+
+Depends: subversion
+
+Depends: git
+
+Depends: git-gui
 
 Depends: mercurial
 
@@ -163,18 +147,10 @@ Depends: gimp
 Depends: inkscape
 
 Depends: kst
-Remark:
- The Debian package includes the FITS reader.
 
 Depends: kst-doc
 
 Depends: labplot
-Homepage: http://labplot.sourceforge.net/
-Pkg-Description: Data Analysis and Visualization
- LabPlot is for scientific 2D and 3D data and function plotting. The various
- display and analysis functions are explained in the handbook (KDE help
- center). LabPlot also provides a component for easily viewing the project
- files in Konqueror.
 
 Depends: veusz
 
