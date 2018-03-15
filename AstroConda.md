@@ -38,7 +38,7 @@ may be packaging candidates.
 | [*stsci.ndimage*](https://github.com/spacetelescope/stsci.ndimage) | Fork of scipy.ndimage (*Package is outdated and replaced by Scipy*) |
 | [*stsci.numdisplay*](http://stsdas.stsci.edu/numdisplay) | Visualize numpy array objects (*Package is outdated. Use pyds9 instead.*) |
 | [*stsci.stimage*](https://github.com/spacetelescope/stsci.stimage) | Various functions for performing processing of images (*Package is outdated and replaced by Scipy*) |
-| [*stsci.tools*](https://github.com/spacetelescope/stsci.tools) | STScI utility functions (*Package is outdated and replaced by Scipy*) |
+| [**stsci.tools**](https://github.com/spacetelescope/stsci.tools) | STScI utility functions |
 | [asv](http://asv.readthedocs.io/) | Simple Python benchmarking tool with web-based reporting |
 | [cube-tools](https://github.com/spacetelescope/cube-tools) | Data analysis package for cubes |
 | [fitsblender](http://ssb.stsci.edu/doc/stsci_python_dev/fitsblender.doc/html/index.html) | FITS header merging from multiple images. |
