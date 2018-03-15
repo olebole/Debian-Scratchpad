@@ -59,12 +59,12 @@ may be packaging candidates.
 | [**wcstools**](https://packages.debian.org/sid/wcstools) | For setting and using the world coordinate systems (WCS) in the headers of the most common astronomical image formats |
 | [**pysynphot**](https://packages.debian.org/sid/python-pysynphot) | Python Synthetic Photometry Utilities |
 | [**pywcs**](https://packages.debian.org/sid/python-pywcs) | Set of routines for handling the FITS WCS standard |
-| [*pyraf*](https://github.com/spacetelescope/pyraf) | Python replacement for IRAF cl from STScI |
-| [*iraf*](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
-| [ginga](https://github.com/ejeschke/ginga) | The Ginga astronomical FITS file viewer |
+| [**pyraf**](https://github.com/spacetelescope/pyraf) | Python replacement for IRAF cl from STScI |
+| [**iraf**](http://iraf.noao.edu) | NOAO Image Reduction and Analysis Facility |
+| [**ginga**](https://github.com/ejeschke/ginga) | The Ginga astronomical FITS file viewer |
 | [**astropy**](https://packages.debian.org/sid/python-astropy) | Core functionality for performing astrophysics with Python |
-| [imexam](http://imexam.readthedocs.io) | Simple image examination, and plotting, with similar functionality to IRAF's imexamine |
-| [gwcs](http://gwcs.readthedocs.io/) | Tools for managing the WCS in a general way |
+| [**imexam**](http://imexam.readthedocs.io) | Simple image examination, and plotting, with similar functionality to IRAF's imexamine |
+| [**gwcs**](http://gwcs.readthedocs.io/) | Tools for managing the WCS in a general way |
 | [astroimtools](http://astroimtools.readthedocs.io) | Astronomical Image Convenience Tools |
 | [drizzlepac](http://drizzlepac.stsci.edu/) | Align and combine HST images |
 | | |
