@@ -13,19 +13,19 @@ may be packaging candidates.
 | -------------------- | ----------- |
 | | |
 | | **Data Analysis Systems** |
-| [*iraf*](http://iraf.noao.edu/) | Image Reduction and Analysis Facility (*IRAF is hard to package for Debian (in fact for any distribution) because of its old architecture. It  also contains various routines from Numerical Recipes which are illegal to distribute.*) |
-| [*iraf-ctio*](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO (*Depends on IRAF*) |
-| [*iraf-mxtools*](http://www.noao.edu/noao/staff/mighell/mxtools/) | Utilities from NOAO including QDPHOT (*Depends on IRAF*) |
-| [*iraf-guiapps*](http://www.stecf.org/iraf/web/projects/guiapps/) | Graphical applications for IRAF (*Depends on IRAF*) |
-| *iraf-xdimsum* | Enhanced IR data reduction and mosaicing software (*Depends on IRAF*) |
-| [*iraf-color*](http://www.stecf.org/scripts/irafhelp?color) | Utilities for creating colour images (*Depends on IRAF*) |
-| [*iraf-fitsutil*](http://www.stecf.org/scripts/irafhelp?fitsutil) | FITS utilities (*Depends on IRAF*) |
-| [*iraf-mscred*](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO (*Depends on IRAF*) |
-| *iraf-esowfi* | ESO WFI Mosaic reduction package (*Depends on IRAF*) |
-| [*iraf-rvsao*](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi (*Depends on IRAF*) |
-| [*iraf-stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF (*Depends on IRAF*) |
-| [*iraf-stsdas-tables*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Depends on IRAF*) |
-| [*iraf-ecl*](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL (*Depends on IRAF*) |
+| [**iraf**](http://iraf.noao.edu/) | Image Reduction and Analysis Facility |
+| [iraf-ctio](http://www.stecf.org/scripts/irafhelp?ctio) | Utilities from CTIO  |
+| [iraf-mxtools](http://www.noao.edu/noao/staff/mighell/mxtools/) | Utilities from NOAO including QDPHOT |
+| [iraf-guiapps](http://www.stecf.org/iraf/web/projects/guiapps/) | Graphical applications for IRAF |
+| iraf-xdimsum | Enhanced IR data reduction and mosaicing software |
+| [iraf-color](http://www.stecf.org/scripts/irafhelp?color) | Utilities for creating colour images |
+| [iraf-fitsutil](http://www.stecf.org/scripts/irafhelp?fitsutil) | FITS utilities |
+| [iraf-mscred](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO |
+| *iraf-esowfi* | ESO WFI Mosaic reduction package |
+| [**iraf-rvsao**](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi |
+| [*iraf-stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF |
+| [*iraf-stsdas-tables*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Not DFSG free*) |
+| [**iraf-ecl**](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL |
 | [eso-eclipse](http://www.eso.org/sci/software/eclipse/) | C Library for an Image Processing Software Environment |
 | [**eso-midas**](https://packages.debian.org/sid/eso-midas) | European Southern Observatory Munich Image Data Analysis System |
 | [*pymidas*](http://www.eso.org/sampo/pymidas) | Python interface for ESO-MIDAS (*PyMidas is outdated and no longer maintained. Does not support Python 2.7 or 3.x.*) |
