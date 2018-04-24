@@ -75,7 +75,7 @@ may be packaging candidates.
 | [**python-pygame**](https://packages.debian.org/sid/python-pygame) | SDL bindings for games development in Python |
 | [**python-wx**](https://packages.debian.org/sid/python-wxgtk3.0) | Python interface to the wxWidgets Cross-platform C++ GUI toolkit |
 | [stsci-python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python) | STScI Python packages |
-| [*python-pyraf*](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI (*Depends on IRAF*) |
+| [**python-pyraf**](http://www.stsci.edu/resources/software_hardware/pyraf) | Python replacement for IRAF cl from STScI (*Depends on IRAF*) |
 | [**python-pyfits**](https://packages.debian.org/sid/python-pyfits) | Python FITS package from STScI |
 | [python-pydrizzle](http://www.stsci.edu/resources/software_hardware/pydrizzle) | Drizzling software |
 | [python-multidrizzle](http://stsdas.stsci.edu/multidrizzle/) | Automatic image combination drizzling software |
