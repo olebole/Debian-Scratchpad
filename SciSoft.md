@@ -21,7 +21,7 @@ may be packaging candidates.
 | [iraf-color](http://www.stecf.org/scripts/irafhelp?color) | Utilities for creating colour images |
 | [iraf-fitsutil](http://www.stecf.org/scripts/irafhelp?fitsutil) | FITS utilities |
 | [iraf-mscred](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO |
-| *iraf-esowfi* | ESO WFI Mosaic reduction package |
+| iraf-esowfi | ESO WFI Mosaic reduction package |
 | [**iraf-rvsao**](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi |
 | [iraf-stecf](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF |
 | [*iraf-stsdas-tables*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Not DFSG free*) |
@@ -116,12 +116,12 @@ may be packaging candidates.
 | [**graphviz**](https://packages.debian.org/sid/graphviz) | Graphical Visualisation Software |
 | | |
 | | **Virtual Observatory Tools** |
-| [aladin](http://aladin.u-strasbg.fr/) | Aladin Sky Atlas |
+| [**aladin**](http://aladin.u-strasbg.fr/) | Aladin Sky Atlas |
 | [vospec](http://esavo.esa.int/vospec/) | tool for handling Virtual Observatory compliant Spectra |
 | [voplot](http://vo.iucaa.ernet.in/~voi/voplot.htm) | VOTable plotting tool |
-| [plastic](http://plastic.sourceforge.net/) | PLatform for AStronomical Tool InterConnection |
+| [*plastic*](http://plastic.sourceforge.net/) | PLatform for AStronomical Tool InterConnection (superceded by SAMP) |
 | [specview](http://www.stsci.edu/resources/software_hardware/specview) | 1-D spectral visualization and analysis of astronomical spectrograms |
-| [**splat**](https://packages.debian.org/sid/splat) | Spectral Analysis Tool |
-| [stilts](http://www.star.bris.ac.uk/~mbt/stilts/) | Starlink Tables Infrastructure Library Tool Set |
-| [topcat](http://www.star.bristol.ac.uk/~mbt/topcat/) | Tool for OPerations on Catalogues And Tables |
+| [splat](https://packages.debian.org/sid/splat) | Spectral Analysis Tool |
+| [**stilts**](http://www.star.bris.ac.uk/~mbt/stilts/) | Starlink Tables Infrastructure Library Tool Set |
+| [**topcat**](http://www.star.bristol.ac.uk/~mbt/topcat/) | Tool for OPerations on Catalogues And Tables |
 | [virgo](http://archive.eso.org/cms/tools-documentation/visual-archive-browser) | Visual Browser for the ESO Science Archive Facility |
