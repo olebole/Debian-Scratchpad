@@ -23,7 +23,7 @@ may be packaging candidates.
 | [iraf-mscred](http://www.stecf.org/scripts/irafref?mscred) | Mosaic camera CCD reduction tasks from NOAO |
 | *iraf-esowfi* | ESO WFI Mosaic reduction package |
 | [**iraf-rvsao**](http://tdc-www.harvard.edu/iraf/rvsao/rvsao.html) | Spectral Radial Velocity package from CfAi |
-| [*iraf-stecf*](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF |
+| [iraf-stecf](http://www.stecf.org/software/stecf-iraf/) | Utilities from ST-ECF |
 | [*iraf-stsdas-tables*](http://www.stsci.edu/resources/software_hardware/stsdas) | HST data analysis and tables systems (*Not DFSG free*) |
 | [**iraf-ecl**](http://iraf.noao.edu/iraf/web/new_stuff/ecl_beta.html) | Enhanced CL |
 | [eso-eclipse](http://www.eso.org/sci/software/eclipse/) | C Library for an Image Processing Software Environment |
